@@ -15,10 +15,55 @@
 # 127.0.0.1  localhost
 # ::1  localhost
 
-# [mi WiFi]
-||api.miwifi.com
-||ot.io.mi.com
+## mi WiFi
+||api.miwifi.com^
+||ot.io.mi.com^
 ||mz.loelx.cn^
 
-# bilibili
-||data.bilibili.com
+## bilibili
+||data.bilibili.com^
+
+## qq
+||btrace.qq.com^
+||sdkconfig.video.qq.com^
+||i.mail.qq.com^
+||qumas.mail.qq.com^
+||cdnimg.3g.qq.com^
+||casestudy.html5.qq.com^
+||bsrv.qq.com^
+||report.qqweb.qq.com^
+||rqd.uu.qq.com^
+||rqd.qq.com^
+||monitor.uu.qq.com^
+# 前端性能监控
+||aegis.qq.com^
+||sqdd.myapp.com^
+# 封禁存疑
+||wxconf.video.qq.com^
+||loggly.com^
+||report.idqqimg.com^
+||wspeed.qq.com^
+||pub.idqqimg.com^
+||data.ab.qq.com^
+||mdt.qq.com^
+||api-report.q.qq.com^
+||rpt.gdt.qq.com^
+
+## weixin
+||log.aldwx.com^
+
+## sohu
+# 获取客户端 ip 以及城市信息【搜狐】
+||pv.sohu.com^
+
+## 字节
+# 穿山甲 SDK
+||pangolin-sdk-toutiao.com^
+
+## 其他
+# https://www.right.com.cn/forum/thread-2268502-1-1.html
+||sdk.open.talk.gepush.com^
+||sdk.open.talk.getui.net^
+||sdk.open.talk.igexin.com^
+! 将阿里系 app 关闭网络权限且从移动网络切换到 Wi-Fi 时，有概率出现
+||jtrn.is.autonavi.com.gds.alibabadns.com^

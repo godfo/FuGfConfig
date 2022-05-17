@@ -24,11 +24,20 @@ var baseFilePath = [...]string{
 	"./DataFile/base.txt",
 	"../ConfigFile/Loon/LoonRemoteRule/Advertising/AdRules.conf"}
 
+// var outFilePath = [...]string{
+// 	"",
+// 	""}
+
 var policysMap = make(map[string]string)
+
+// type void struct{}
+
+// var member void
+// var doaminsSet = make(map[string]void)
 
 func main() {
 	println("开始")
-	fmt.Println("是否要更新or下载远程数据(y or n)")
+	fmt.Println("是否要更新 or 下载远程数据 (y or n)")
 	var input string
 	// fmt.Scanln(&input)
 	input = "y"
@@ -74,7 +83,7 @@ func policyProcessing(policyName string) {
 		}
 	}
 
-	fmt.Println("基础数据库构建完成,共", len(policysMap), "条数据")
+	fmt.Println("基础数据库构建完成，共", len(policysMap), "条数据")
 
 	// 循环读取待处理的数据文件
 	var data []string
@@ -104,7 +113,7 @@ func policyProcessing(policyName string) {
 					policysMap[a[1]] = a[0]
 				}
 			} else {
-				// 仅域名或IP
+				// 仅域名或 IP
 				if _, ok := policysMap[v]; !ok {
 					// if isIPV4(v) || isIPV6(v) {
 					if isIPV4(v) {
@@ -141,7 +150,8 @@ func policyProcessing(policyName string) {
 	FileOperations.WriteFile(data, baseFilePath[1])
 	FileOperations.WriteClashFile(data, "./DataFile/ans1.txt")
 	FileOperations.WriteClashFile(data, "../ConfigFile/Clash/AdRules.txt")
-	//清除 bataAd 规则
+	// FileOperations.WriteClashFile(data, "../ConfigFile/AdGuardHome/FuGfBlokList.txt")
+	//清除 betaAd 规则
 	var ans1 []string
 	ans1 = append(ans1, data[0])
 	FileOperations.WriteFile(ans1, "./DataFile/inbox.txt")
@@ -182,7 +192,7 @@ func isNote(s string) bool {
 }
 
 func isIPV4(s string) bool {
-	// 判断是否为IPV4
+	// 判断是否为 IPV4
 	partIp := "(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])"
 	grammer := partIp + "\\." + partIp + "\\." + partIp + "\\." + partIp
 	matchMe := regexp.MustCompile(grammer)
@@ -192,10 +202,16 @@ func isIPV4(s string) bool {
 
 func isIPV6(s string) bool {
 	//不可用
-	// 判断是否为IPV6
+	// 判断是否为 IPV6
 	partIp := "(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])"
 	grammer := partIp + "\\." + partIp + "\\." + partIp + "\\." + partIp
 	matchMe := regexp.MustCompile(grammer)
 
 	return matchMe.MatchString(s)
 }
+
+// func getDomain(s string) string {
+// 	s = s[1:2]
+
+// 	return s
+// }
