@@ -6,11 +6,11 @@
 
 ## 支持
 
-本项目对 Quan X、Loon、AdGuardHome 提供完全支持
+本项目对 Quan X、Loon、AdGuard Home 提供完全支持
 
 对小火箭提供能用的支持（仅仅是能用
 
-优先级： AdGuardHome = Loon > Quan X > 小火箭
+优先级： AdGuard Home = Loon > Quan X > 小火箭
 
 ## 使用方法
 
@@ -164,7 +164,7 @@ https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/LoonPl
 
 #### 抖音屏蔽
 
-部分规则来自 https://gist.github.com/JamesHopbourn/b5cf9219bdacfa8b6dbb3414276c149b
+部分规则来自 <https://gist.github.com/JamesHopbourn/b5cf9219bdacfa8b6dbb3414276c149b>
 
 在此表示感谢
 
