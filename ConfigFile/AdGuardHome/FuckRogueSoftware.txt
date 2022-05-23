@@ -15,10 +15,19 @@
 # 127.0.0.1  localhost
 # ::1  localhost
 
-## mi WiFi
+## xiao mi
 ||api.miwifi.com^
 ||ot.io.mi.com^
 ||mz.loelx.cn^
+||sa.api.intl.miui.com^
+||data.mistat.xiaomi.com^
+||data.mistat.intl.xiaomi.com^
+||data.mistat.india.xiaomi.com^
+||data.mistat.rus.xiaomi.com^
+||tracking.miui.com^
+||tracking.intl.miui.com^
+||tracking.india.miui.com^
+||tracking.rus.miui.com^
 
 ## bilibili
 ||data.bilibili.com^
@@ -59,6 +68,13 @@
 ## 字节
 # 穿山甲 SDK
 ||pangolin-sdk-toutiao.com^
+
+## 微软
+||self.events.data.microsoft.com^
+
+## vivo
+# https://raw.githubusercontent.com/anudeepND/blacklist/master/CoinMiner.txt
+||onrt-stsdk.vivo.com.cn^
 
 ## 其他
 # https://www.right.com.cn/forum/thread-2268502-1-1.html
