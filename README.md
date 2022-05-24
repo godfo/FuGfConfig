@@ -196,3 +196,11 @@ https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/LoonPl
 [SS-Rule-Snippet](https://github.com/Hackl0us/SS-Rule-Snippet#%E5%85%B3%E4%BA%8E%E9%A1%B9%E7%9B%AE)
 
 [ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master)
+
+[anudeepND-blacklist](https://github.com/anudeepND/blacklist)
+
+[neodevhost](https://github.com/neodevpro/neodevhost)
+
+[BlueSkyXN-AdGuardHomeRules](https://github.com/BlueSkyXN/AdGuardHomeRules)
+
+[WindowsSpyBlocker](https://github.com/crazy-max/WindowsSpyBlocker)

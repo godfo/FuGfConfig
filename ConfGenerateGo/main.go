@@ -20,6 +20,8 @@ var inboxFilePath = [...]string{
 	"../ConfigFile/Loon/LoonRemoteRule/Advertising/AdRulesBeta.conf",
 	"./DataFile/inbox1.txt"}
 
+// var adInboxFile
+
 var baseFilePath = [...]string{
 	"./DataFile/base.txt",
 	"../ConfigFile/Loon/LoonRemoteRule/Advertising/AdRules.conf"}
