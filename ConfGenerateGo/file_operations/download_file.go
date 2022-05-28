@@ -1,4 +1,4 @@
-package FileOperations
+package file_operations
 
 import (
 	"io"
@@ -13,7 +13,7 @@ const (
 	SocksProxy = "http://127.0.0.1:7891"
 )
 
-func DownloadFile(Url string, filePath string) {
+func ProxyDownloadFile(Url string, filePath string) {
 	proxy := func(_ *http.Request) (*url.URL, error) {
 		return url.Parse(HttpProxy)
 	}
@@ -36,6 +36,26 @@ func DownloadFile(Url string, filePath string) {
 		panic(err)
 	}
 
+	out, err := os.Create(filePath)
+	if err != nil {
+		panic(err)
+	}
+
+	// 然后将响应流和文件流对接起来
+	_, err = io.Copy(out, resp.Body)
+	if err != nil {
+		panic(err)
+	}
+}
+
+func DownloadFile(Url string, filePath string) {
+	//获取数据
+	resp, err := http.Get(Url)
+	if err != nil {
+		panic(err)
+	}
+
+	//创建一个文件来保存
 	out, err := os.Create(filePath)
 	if err != nil {
 		panic(err)

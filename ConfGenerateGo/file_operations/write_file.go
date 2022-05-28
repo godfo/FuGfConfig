@@ -1,4 +1,4 @@
-package FileOperations
+package file_operations
 
 import (
 	"bufio"
