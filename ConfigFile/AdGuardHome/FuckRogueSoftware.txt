@@ -75,6 +75,12 @@
 ## vivo
 # https://raw.githubusercontent.com/anudeepND/blacklist/master/CoinMiner.txt
 ||onrt-stsdk.vivo.com.cn^
+||msch.f.360.cn^
+||avlstatic.vivo.com.cn^
+||stinmmtn.vivo.com.cn^
+||az.appstore.vivo.com.cn^
+||gsearch.vivo.com.cn^
+||err-up.vivo.com.cn^
 
 ## 其他
 # https://www.right.com.cn/forum/thread-2268502-1-1.html
