@@ -6,11 +6,11 @@
 
 ## 支持
 
-本项目对 Quan X、Loon、AdGuard Home 提供完全支持
+本项目对 Loon、AdGuard Home 提供完全支持
 
 对小火箭提供能用的支持（仅仅是能用
 
-优先级： AdGuard Home = Loon > Quan X > 小火箭
+优先级：AdGuard Home = Loon > Quan X > 小火箭
 
 ## 使用方法
 
@@ -144,7 +144,7 @@ AppleAPIRules 代理
 
 #### DNSMap
 
-对常用的国内域名进行 DNS 解析分流 ，国内走国内的各大 Doh
+对常用的国内域名进行 DNS 解析分流，国内走国内的各大 Doh
 
 ```
 # DNS 映射
