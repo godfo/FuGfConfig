@@ -47,6 +47,12 @@ pingmid.qq.com = 127.0.0.1
 pingma.qq.com = 127.0.0.1
 api-report.q.qq.com = 127.0.0.1
 rpt.gdt.qq.com = 127.0.0.1
+## 阿里系
+loggw.alipay.com = 0.0.0.0
+loggw-ex.alipay.com = 0.0.0.0
+gm.mmstat.com = 0.0.0.0
+log.mmstat.com = 0.0.0.0
+applog.uc.cn = 0.0.0.0
 ## 友盟
 errlog.umeng.com = 127.0.0.1
 aaid.umeng.com = 127.0.0.1
