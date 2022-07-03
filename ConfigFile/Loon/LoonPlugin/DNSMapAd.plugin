@@ -1,4 +1,8 @@
 [Host]
+## 极光推送
+*.jpush.cn = 0.0.0.0
+## 热云
+*.trackingio.com = 0.0.0.0
 ## 腾讯
 btrace.qq.com = 127.0.0.1
 sdkconfig.video.qq.com = 127.0.0.1
@@ -9,11 +13,11 @@ casestudy.html5.qq.com = 127.0.0.1
 bsrv.qq.com = 127.0.0.1
 report.qqweb.qq.com = 127.0.0.1
 rqd.uu.qq.com = 127.0.0.1
-rqd.qq.com = 127.0.0.1
+*.rqd.qq.com = 127.0.0.1
 monitor.uu.qq.com = 127.0.0.1
 aegis.qq.com = 127.0.0.1
 sqdd.myapp.com = 127.0.0.1
-bugly.qq.com = 127.0.0.1
+*.bugly.qq.com = 127.0.0.1
 wxconf.video.qq.com = 127.0.0.1
 loggly.com = 127.0.0.1
 report.idqqimg.com = 127.0.0.1
@@ -47,11 +51,14 @@ pingmid.qq.com = 127.0.0.1
 pingma.qq.com = 127.0.0.1
 api-report.q.qq.com = 127.0.0.1
 rpt.gdt.qq.com = 127.0.0.1
+cs.mbgame.gamesafe.qq.com = 0.0.0.0
+intldlgs.qq.com = 0.0.0.0
 ## 阿里系
 loggw.alipay.com = 0.0.0.0
 loggw-ex.alipay.com = 0.0.0.0
 gm.mmstat.com = 0.0.0.0
 log.mmstat.com = 0.0.0.0
+cnzz.mmstat.com = 0.0.0.0
 applog.uc.cn = 0.0.0.0
 ## 友盟
 errlog.umeng.com = 127.0.0.1
