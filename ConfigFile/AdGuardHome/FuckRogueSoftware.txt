@@ -15,7 +15,7 @@
 # 127.0.0.1  localhost
 # ::1  localhost
 
-## xiao mi
+## 小米 xiaomi
 ||api.miwifi.com^
 ||ot.io.mi.com^
 ||mz.loelx.cn^
@@ -29,10 +29,10 @@
 ||tracking.india.miui.com^
 ||tracking.rus.miui.com^
 
-## bilibili
+## 哔哩哔哩 bilibili
 ||data.bilibili.com^
 
-## qq
+## 腾讯系
 ||btrace.qq.com^
 ||sdkconfig.video.qq.com^
 ||i.mail.qq.com^
@@ -57,8 +57,7 @@
 ||mdt.qq.com^
 ||api-report.q.qq.com^
 ||rpt.gdt.qq.com^
-
-## weixin
+# weixin
 ||log.aldwx.com^
 
 ## sohu
@@ -67,7 +66,31 @@
 
 ## 字节
 # 穿山甲 SDK
-||pangolin-sdk-toutiao.com^
+#||pangolin-sdk-toutiao.com^
+||api-access.pangolin-sdk-toutiao.com^
+||api-access.pangolin-sdk-toutiao-b.com^
+||sf1-fe-tos.pglstatp-toutiao.com^
+||sf1-be-pack.pglstatp-toutiao.com^
+||sf1-ttcdn-tos.pstatp.com^
+||sf3-fe-tos.pglstatp-toutiao.com^
+||sf6-fe-tos.pglstatp-toutiao.com^
+||log-api.pangolin-sdk-toutiao.com^
+||log-api.pangolin-sdk-toutiao-b.com^
+||s3-fe-scm.pglstatp-toutiao.com^
+||s3a.pstatp.com^
+||dm.pstatp.com^
+||toblog.ctobsnssdk.com^
+||sdfp.snssdk.com^
+||tosv.byted.org^
+||log.snssdk.com^
+||tosv.boe.byted.org^
+||i.snssdk.com^
+||is.snssdk.com^
+||pangolin.snssdk.com^
+||extlog.snssdk.com^
+||sf3-ttcdn-tos.pstatp.com^
+||bds.snssdk.com^
+||dig.bdurl.net^
 
 ## 微软
 ||self.events.data.microsoft.com^
