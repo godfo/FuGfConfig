@@ -1,0 +1,74 @@
+# 说明： “#”为注释，一般为一个域名一行，域名以“.”开头则请子域名一并屏蔽
+# 域名屏蔽理由及注释在此文件中说明，其余文件删掉以精简文件大小
+# 本文件规则致力做到精准，如不能，以保证最基础功能可用为底线，确保最大限度屏蔽跟踪或广告域名为准则
+# （即，或有误杀，但基本功能不会误伤
+# 但是，毕竟这个规则叫 FuckRogueSoftware，且包含一些个人偏好，即可能您认为的基本功能在我这儿并不是。放心，会注明，也请您使用前注意
+
+## 腾讯系
+# qq
+# wechat 微信
+
+# 地图 api，但被用于收集用户位置信息，是否影响腾讯地图未知，待检测
+lbs.map.qq.com
+cc.map.qq.com
+
+## 阿里系
+
+## bilibili 哔哩哔哩
+data.bilibili.com
+cm.bilibili.com
+dataflow.biliapi.com
+.biligame.com
+.biligame.net
+.web-player-tracker.biliapi.net
+
+## 字节系
+api-access.pangolin-sdk-toutiao.com
+api-access.pangolin-sdk-toutiao-b.com
+sf1-fe-tos.pglstatp-toutiao.com
+sf1-be-pack.pglstatp-toutiao.com
+sf1-ttcdn-tos.pstatp.com
+sf3-fe-tos.pglstatp-toutiao.com
+sf6-fe-tos.pglstatp-toutiao.com
+log-api.pangolin-sdk-toutiao.com
+log-api.pangolin-sdk-toutiao-b.com
+s3-fe-scm.pglstatp-toutiao.com
+s3a.pstatp.com
+dm.pstatp.com
+toblog.ctobsnssdk.com
+sdfp.snssdk.com
+tosv.byted.org
+log.snssdk.com
+tosv.boe.byted.org
+i.snssdk.com
+is.snssdk.com
+pangolin.snssdk.com
+extlog.snssdk.com
+sf3-ttcdn-tos.pstatp.com
+bds.snssdk.com
+dig.bdurl.net
+
+## 小米
+api.miwifi.com
+
+## 其他推送平台
+
+## 极光推送
+.jpush.cn
+
+## 热云
+#.trackingio.com
+log.trackingio.com
+slog.trackingio.com
+
+## 友盟
+errlog.umeng.com
+aaid.umeng.com
+ulogs.umeng.com
+
+## AppsFlyer
+lunches.appsflyer.com
+inapps.appsflyer.com
+
+## Facebook
+graph.facebook.com
