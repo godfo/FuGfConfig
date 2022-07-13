@@ -95,6 +95,9 @@ dig.bdurl.net = 127.0.0.1
 errlog.umeng.com = 127.0.0.1
 aaid.umeng.com = 127.0.0.1
 ulogs.umeng.com = 127.0.0.1
+## AppsFlyer
+lunches.appsflyer.com = 127.0.0.1
+inapps.appsflyer.com = 127.0.0.1
 ## 其他
 adsmind.gdtimg.com = 127.0.0.1
 fzapp.chanct.cn = 127.0.0.1
