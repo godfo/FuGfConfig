@@ -5,3 +5,4 @@ cm.bilibili.com = 0.0.0.0
 data.bilibili.com = 0.0.0.0
 dataflow.biliapi.com = 0.0.0.0
 *.web-player-tracker.biliapi.net = 0.0.0.0
+*.miwifi.com = 0.0.0.0
