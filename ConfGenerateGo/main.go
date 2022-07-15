@@ -36,22 +36,36 @@ var aghRulesSet = make(map[string]void)
 
 func main() {
 	println("开始")
-	fmt.Println("是否要更新 or 下载远程数据 (y or n)")
-	var input string
-	// fmt.Scanln(&input)
-	input = "y"
-	// input = "n"
-	if input == "y" || input == "Y" {
-		downloadFiles()
-	}
+	fuckRogueSoftware()
 
-	// 处理文件
-	//规则分为三个部分
-	//匹配类型 ，匹配关键字，策略名称
-	//MatchType MatchingKeywords PolicyName
-	policyProcessing("REJECT")
+	// fmt.Println("是否要更新 or 下载远程数据 (y or n)")
+	// var input string
+	// // fmt.Scanln(&input)
+	// input = "y"
+	// // input = "n"
+	// if input == "y" || input == "Y" {
+	// 	downloadFiles()
+	// }
+
+	// // 处理文件
+	// //规则分为三个部分
+	// //匹配类型，匹配关键字，策略名称
+	// //MatchType MatchingKeywords PolicyName
+	// policyProcessing("REJECT")
 	println("处理完成")
 	println("结束")
+}
+
+func fuckRogueSoftware() {
+	// 读取
+	var file_url = "/workspaces/FuGfConfig/ConfigFile/DataFile/RulesFile/RejectRulesFile/FuckRogueSoftware.txt"
+	var data = file_operations.ReadFile(file_url)
+	for i := 0; i < len(data); i++ {
+		if !isNote(data[i]) {
+		}
+	}
+	// 处理
+	// 写入
 }
 
 // policy processing
@@ -216,11 +230,12 @@ func isIPV4(s string) bool {
 }
 
 func isIPV6(s string) bool {
-	//不可用
+	// 不确定是否可用
 	// 判断是否为 IPV6
 	partIp := "(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])"
-	grammer := partIp + "\\." + partIp + "\\." + partIp + "\\." + partIp
-	matchMe := regexp.MustCompile(grammer)
+	partIp6 := "(?:[0-9a-fA-F]{1,4}:){7}" + partIp + "(?::[0-9a-fA-F]{1,4}){0,1}"
+	grammer6 := partIp6 + "\\/" + partIp
+	matchMe := regexp.MustCompile(grammer6)
 
 	return matchMe.MatchString(s)
 }
