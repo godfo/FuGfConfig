@@ -153,9 +153,6 @@ wxsnsdy.video.qq.com
 lbs.map.qq.com
 cc.map.qq.com
 analytics.map.qq.com
-# 应用宝
-# 存疑
-pp.myapp.com
 # 其他
 .mazu.m.qq.com
 .qzs.qq.com
@@ -182,8 +179,12 @@ gm.mmstat.com
 log.mmstat.com
 cnzz.mmstat.com
 applog.uc.cn
-amdcopen.m.taobao.com
 tui.taobao.com
+.fourier.taobao.com
+.tunion-api.m.taobao.com
+.amdcopen.m.taobao.com
+.tns.simba.taobao.com
+.retcode.taobao.com
 amos.alicdn.com
 .tce.alicdn.com
 .acs4baichuan.m.taobao.com
@@ -312,6 +313,7 @@ tnc3-bjlgy.zijieapi.com
 api.miwifi.com
 .ad.xiaomi.com
 .sec.miui.com
+tracking.miui.com
 ot.io.mi.com
 stat.pandora.xiaomi.com
 upgrade.mishop.pandora.xiaomi.com
@@ -465,6 +467,28 @@ fzapph5.gifzpt.cn
 ## 360
 c.sayhi.360.cn
 
+## 微软 Microsoft
+nexus.officeapps.live.com
+nexusrules.officeapps.live.com
+oca.telemetry.microsoft.us
+onecollector.cloudapp.aria.akadns.net
+par02p.wns.windows.com
+presence.teams.live.com
+sg2p.wns.windows.com
+spyneteurope.microsoft.akadns.net
+presence.teams.live.com
+preview.msn.com
+rad.live.com
+schemas.microsoft.akadns.net
+# Visual Studio App Center
+in.appcenter.ms
+
+## Facebook
+graph.facebook.com
+
+## Google
+.gvt2.com
+
 ## 其他推送平台
 
 ## 极光推送
@@ -492,7 +516,6 @@ graph.facebook.com
 ## 阳光宽频网
 v9-default.365yg.com
 v3-default.365yg.com
-
 
 
 ## 其他

@@ -77,6 +77,7 @@ func fuckRogueSoftware() {
 			ans = append(ans, data[i])
 		}
 	}
+	sort.Strings(ans)
 	// 写入
 	file.WriteLoonHostFile(ans, loonFuckRogueSoftwareHost)
 	file.WriteLoonRuleFile(ans, loonFuckRogueSoftwareRule)
