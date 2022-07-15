@@ -1,7 +1,7 @@
 package main
 
 import (
-	"ConfGenerateGo/file_operations"
+	"ConfGenerateGo/file"
 	"fmt"
 	"regexp"
 	"sort"
@@ -19,6 +19,14 @@ var loonInboxRulesFilePath = [...]string{
 var loonBaseRulesFilePath = [...]string{
 	"../ConfigFile/Loon/LoonRemoteRule/Advertising/AdRules.conf",
 	"./DataFile/loon_base.txt"}
+
+const loonFuckRogueSoftwareHost = "../ConfigFile/Loon/LoonPlugin/FuckRogueSoftware.plugin"
+
+const loonFuckRogueSoftwareRule = "../ConfigFile/Loon/LoonRemoteRule/FuckRogueSoftware.conf"
+
+const surfboardFuckRogueSoftware = "../ConfigFile/Surfboard/FuckRogueSoftware.conf"
+
+const fuckRogueSoftwareHost = "../ConfigFile/Hosts/FuckRogueSoftware.txt"
 
 const aghInboxRulesUrls = "../ConfigFile/AdGuardHome/待整合的规则.txt"
 
@@ -58,21 +66,29 @@ func main() {
 
 func fuckRogueSoftware() {
 	// 读取
-	var file_url = "/workspaces/FuGfConfig/ConfigFile/DataFile/RulesFile/RejectRulesFile/FuckRogueSoftware.txt"
-	var data = file_operations.ReadFile(file_url)
+	var file_url = "../ConfigFile/DataFile/RulesFile/RejectRulesFile/FuckRogueSoftware.txt"
+	var data = file.ReadFile(file_url)
+	// 处理
+	var ans []string
 	for i := 0; i < len(data); i++ {
-		if !isNote(data[i]) {
+		data[i] = strings.Replace(data[i], "\r", "", -1)
+		data[i] = strings.Replace(data[i], "\n", "", -1)
+		if !isNote(data[i]) && data[i] != "" {
+			ans = append(ans, data[i])
 		}
 	}
-	// 处理
 	// 写入
+	file.WriteLoonHostFile(ans, loonFuckRogueSoftwareHost)
+	file.WriteLoonRuleFile(ans, loonFuckRogueSoftwareRule)
+	file.WriteDomainSetRuleFile(ans, surfboardFuckRogueSoftware)
+	file.WriteHostFile(ans, fuckRogueSoftwareHost)
 }
 
 // policy processing
 func policyProcessing(policyName string) {
 	// 循环读取文件 构建 base map
 	for i := 0; i < len(loonBaseRulesFilePath); i++ {
-		var ans = file_operations.ReadFile(loonBaseRulesFilePath[i])
+		var ans = file.ReadFile(loonBaseRulesFilePath[i])
 		fmt.Println("base map", i, "共", len(ans), "条数据")
 		// 遍历得到的数据
 		for _, v := range ans {
@@ -104,7 +120,7 @@ func policyProcessing(policyName string) {
 	// 循环读取待处理的数据文件
 	var data []string
 	for i := 0; i < len(loonInboxRulesFilePath); i++ {
-		var ans = file_operations.ReadFile(loonInboxRulesFilePath[i])
+		var ans = file.ReadFile(loonInboxRulesFilePath[i])
 		fmt.Println("读取待处理数据", i, ",共", len(ans), "条数据")
 		for _, v := range ans {
 			if isNote(v) {
@@ -155,7 +171,7 @@ func policyProcessing(policyName string) {
 	fmt.Println("处理后共有 ", len(data), " 条 new 数据")
 
 	// 新数据与老数据合并
-	var ans = file_operations.ReadFile(loonBaseRulesFilePath[1])
+	var ans = file.ReadFile(loonBaseRulesFilePath[1])
 	data = append(data, ans...)
 
 	// 数据结果排序
@@ -163,25 +179,25 @@ func policyProcessing(policyName string) {
 
 	fmt.Println("更新后去广告规则共有 ", len(data))
 	// 写入文件
-	file_operations.WriteFile(data, "./DataFile/ans.txt")
-	file_operations.WriteFile(data, loonBaseRulesFilePath[1])
-	file_operations.WriteClashFile(data, "./DataFile/ans1.txt")
-	file_operations.WriteClashFile(data, "../ConfigFile/Clash/AdRules.txt")
-	// file_operations.WriteClashFile(data, "../ConfigFile/AdGuardHome/FuGfBlokList.txt")
+	file.WriteFile(data, "./DataFile/ans.txt")
+	file.WriteFile(data, loonBaseRulesFilePath[1])
+	file.WriteClashFile(data, "./DataFile/ans1.txt")
+	file.WriteClashFile(data, "../ConfigFile/Clash/AdRules.txt")
+	// file.WriteClashFile(data, "../ConfigFile/AdGuardHome/FuGfBlokList.txt")
 	//清除 betaAd 规则
 	var ans1 []string
 	ans1 = append(ans1, data[0])
-	file_operations.WriteFile(ans1, "./DataFile/inbox.txt")
-	file_operations.WriteFile(ans1, loonInboxRulesFilePath[0])
+	file.WriteFile(ans1, "./DataFile/inbox.txt")
+	file.WriteFile(ans1, loonInboxRulesFilePath[0])
 }
 
 func downloadFiles() {
-	file_operations.DownloadFile(loonInboxRulesUrl[0], loonBaseRulesFilePath[1])
-	file_operations.DownloadFile(loonInboxRulesUrl[1], loonInboxRulesFilePath[1])
+	file.DownloadFile(loonInboxRulesUrl[0], loonBaseRulesFilePath[1])
+	file.DownloadFile(loonInboxRulesUrl[1], loonInboxRulesFilePath[1])
 
-	var ans = file_operations.ReadFile(aghInboxRulesUrls)
+	var ans = file.ReadFile(aghInboxRulesUrls)
 	for i := 0; i < len(ans); i++ {
-		file_operations.DownloadFile(ans[i], fmt.Sprint("%s%d.txt", aghInboxRulesFilePath, i))
+		file.DownloadFile(ans[i], fmt.Sprint("%s%d.txt", aghInboxRulesFilePath, i))
 	}
 	println("更新远程数据完成")
 }
