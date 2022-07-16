@@ -6,6 +6,8 @@
 # 本文参考链接如下，在此表示感谢
 # 硬核屏蔽优酷 + 爱奇艺 + 腾讯 + 小米 + 芒果 TV 的广告，来源于 https://bbs.ikuai8.com/thread-73739-1-1.html
 # https://ruleset.skk.moe/List/domainset/reject.conf
+# https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts
+# https://github.com/MisakaMikoto-35c5/generate-rule/blob/master/adblock/custom-block-domains.txt
 
 ## 腾讯系
 # qq
@@ -241,11 +243,10 @@ osupdate.aliyun.com
 pindao.huoban.taobao.com
 push.wandoujia.com
 re.m.taobao.com
-re.taobao.com
+.re.taobao.com
 redirect.simba.taobao.com
 rj.m.taobao.com
 sdkinit.taobao.com
-show.re.taobao.com
 simaba.taobao.com
 simba.m.taobao.com
 srd.simba.taobao.com
@@ -257,6 +258,57 @@ tvupgrade.yunos.com
 tyh.taobao.com
 userimg.qunar.com
 w.m.taobao.com
+# 存疑
+hybrid.miniapp.taobao.com
+feedback-api.aliyuncs.com
+a.tanx.com
+cdn.tanx.com
+cms.tanx.com
+df.tanx.com
+ecpm.tanx.com
+ef-dongfeng.tanx.com
+opehs.tanx.com
+p.tanx.com
+pcookie.tanx.com
+phs.tanx.com
+ade.tanx.com
+adx.tanx.com
+click.gds.tanx.com
+na61-na62-eu95.wagbridge.advertisement.tanx.com
+na61-na62-st3.wagbridge.advertisement.tanx.com
+na61-na62.wagbridge.advertisement.tanx.com
+ot7.wagbridge.advertisement.tanx.com
+secgw-na61-na62.wagbridge.advertisement.tanx.com
+st3.wagbridge.advertisement.tanx.com
+itemifs.tanx.com
+kgb-ifs.tanx.com
+ifsk2.tanx.com
+xifs.tanx.com
+toruk.gds.tanx.com
+live-ifs.tanx.com
+ssp.tanx.com
+ai.m.taobao.com
+ai.taobao.com
+temai.taobao.com
+adn.insight.ucweb.com
+adtrack.ucweb.com
+hk.napi.ucweb.com
+kwurl.ucweb.com
+puds.ucweb.com
+rescn.u3.ucweb.com
+sea.napi.ucweb.com
+uc9.ucweb.com
+ucus.ucweb.com
+up1.tj.u2.ucweb.com
+up4.ucweb.com
+utp-dmp.ucweb.com
+vs2.gzcu.u3.ucweb.com
+api.mp.uc.cn
+puds.test.uae.uc.cn
+track.uc.cn
+wmedia-track.uc.cn
+woodpecker.uc.cn
+p4psearch.china.alibaba.com
 
 ## bilibili 哔哩哔哩
 data.bilibili.com
@@ -271,6 +323,9 @@ dataflow.biliapi.com
 .biligame.com
 .biligame.net
 .bigfunapp.cn
+# 会员购屏蔽 注意 ⚠
+mall.bilibili.com
+show.bilibili.com
 
 ## 字节系
 api-access.pangolin-sdk-toutiao.com
@@ -532,7 +587,11 @@ at-img3.tdimg.com
 397c0.admaster.com.cn
 tyaqy.m.cn.miaozhen.com
 
-
+log.cs.pp.cn
+patriot.cs.pp.cn
+huichuan.sm.cn
+u.ucfly.com
+cntv.wrating.com
 
 71.am
 msg.71.am
