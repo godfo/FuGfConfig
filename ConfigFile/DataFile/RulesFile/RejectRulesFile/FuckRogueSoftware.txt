@@ -258,6 +258,7 @@ tvupgrade.yunos.com
 tyh.taobao.com
 userimg.qunar.com
 w.m.taobao.com
+umengacs.m.taobao.com
 # 存疑
 hybrid.miniapp.taobao.com
 feedback-api.aliyuncs.com
@@ -378,21 +379,15 @@ api.io.mi.com
 mishop.pandora.xiaomi.com
 dvb.pandora.xiaomi.com
 de.pandora.xiaomi.com
-data.mistat.xiaomi.com
 jellyfish.pandora.xiaomi.com
 gallery.pandora.xiaomi.com
-o2o.api.xiaomi.com
 bss.pandora.xiaomi.com
 gvod.aiseejapp.atianqi.com
 ad.mi.com
 ad1.xiaomi.com
 staging.ai.api.xiaomi.com
 b.netcheck.gallery.pandora.xiaomi.com
-f1.market.xiaomi.com
-f2.market.xiaomi.com
-f3.market.xiaomi.com
-f4.market.xiaomi.com
-f5.market.xiaomi.com
+.market.xiaomi.com
 ad.doubleclick.net
 v.admaster.com.cn
 f1.market.mi-img.com
@@ -405,7 +400,16 @@ ad.xiaomi.com
 ad1.xiaomi.com
 new.api.ad.xiaomi.com
 api.ad.xiaomi.com
-o2o.api.xiaomi.com
+.register.xmpush.xiaomi.com
+.storeconfig.mistat.intl.xiaomi.com
+.api.miui.security.xiaomi.com
+.shenghuo.xiaomi.com
+.resolver.msg.xiaomi.net
+.o2o.api.xiaomi.com
+.app.chat.xiaomi.net
+.mistat.xiaomi.com
+.tracker.ai.xiaomi.com
+.ad.intl.xiaomi.com
 
 ## jd 京东
 .wl.jd.com
@@ -511,6 +515,17 @@ vcode-od.vivo.com.cn
 .client-report.bh3.com
 log-upload.mihoyo.com
 
+## zhihu 知乎
+.zhihu-web-analytics.zhihu.com
+mqtt.zhihu.com
+.zhihu.xmcimg.com
+.sugar.zhihu.com
+# 强制跳转 app 下载页面
+.oia.zhihu.com
+
+## douban 豆瓣
+.erebor.douban.com
+
 ## 某诈骗 app 全屏蔽警告⚠
 fzapp.chanct.cn
 fzapp.gifzpt.cn
@@ -560,6 +575,7 @@ errlog.umeng.com
 aaid.umeng.com
 ulogs.umeng.com
 ulogs.umengcloud.com
+.ads.umeng.com
 
 ## AppsFlyer
 launches.appsflyer.com
@@ -571,6 +587,14 @@ graph.facebook.com
 ## 阳光宽频网
 v9-default.365yg.com
 v3-default.365yg.com
+
+## 个推
+dnms.getui.com
+c-gtc.getui.net
+b-gtc.gepush.com
+
+## 数字联盟
+aads.shuzilm.cn
 
 
 ## 其他
