@@ -8,6 +8,7 @@
 # https://ruleset.skk.moe/List/domainset/reject.conf
 # https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts
 # https://github.com/MisakaMikoto-35c5/generate-rule/blob/master/adblock/custom-block-domains.txt
+# https://github.com/jdlingyu/ad-wars/blob/master/hosts
 
 ## 腾讯系
 # qq
@@ -61,6 +62,7 @@ api-report.q.qq.com
 cs.mbgame.gamesafe.qq.com
 intldlgs.qq.com
 tdid.m.qq.com
+mobilelog.upqzfile.com
 # bugly
 .bugly.qq.com
 .rqd.qq.com
@@ -171,6 +173,10 @@ beacon.gtimg.com
 adcdn.tencentmusic.com
 adexpo.tencentmusic.com
 adclick.tencentmusic.com
+# 存疑
+.dlied1.cdntips.net
+miniapp.gtimg.cn
+qappcenterv6.3g.qq.com
 
 ## 阿里系
 # 将阿里系 app 关闭网络权限且从移动网络切换到 Wi-Fi 时，有概率出现
@@ -387,7 +393,11 @@ ad.mi.com
 ad1.xiaomi.com
 staging.ai.api.xiaomi.com
 b.netcheck.gallery.pandora.xiaomi.com
-.market.xiaomi.com
+f1.market.xiaomi.com
+f2.market.xiaomi.com
+f3.market.xiaomi.com
+f4.market.xiaomi.com
+f5.market.xiaomi.com
 ad.doubleclick.net
 v.admaster.com.cn
 f1.market.mi-img.com
@@ -413,6 +423,7 @@ api.ad.xiaomi.com
 
 ## jd 京东
 .wl.jd.com
+skdisplay.jd.com
 
 ## 优酷 youku
 atm.youku.com
@@ -558,6 +569,11 @@ graph.facebook.com
 
 ## Google
 .gvt2.com
+google-analytics.com
+googletagmanager.com
+
+## 快手
+open.kuaishouzt.com
 
 ## 其他推送平台
 
@@ -592,6 +608,7 @@ v3-default.365yg.com
 dnms.getui.com
 c-gtc.getui.net
 b-gtc.gepush.com
+cm-10-139.getui.com
 
 ## 数字联盟
 aads.shuzilm.cn
