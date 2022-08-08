@@ -105,6 +105,7 @@
 0.0.0.0 adplay.tudou.com
 0.0.0.0 adpm.app.qq.com
 0.0.0.0 adrdir.qq.com
+0.0.0.0 ads.95516.com
 0.0.0.0 adsclick.qq.com
 0.0.0.0 adsense.html5.qq.com
 0.0.0.0 adsfile.qq.com
@@ -138,6 +139,7 @@
 0.0.0.0 amdc.alipay.com
 0.0.0.0 amos.alicdn.com
 0.0.0.0 analy.qq.com
+0.0.0.0 analytics.95516.com
 0.0.0.0 analytics.map.qq.com
 0.0.0.0 androidrqd.iot.wechatpay.cn
 0.0.0.0 api-access.pangolin-sdk-toutiao-b.com
@@ -263,6 +265,7 @@
 0.0.0.0 gtms03.alicdn.com
 0.0.0.0 gtms04.alicdn.com
 0.0.0.0 guanjia.qq.com
+0.0.0.0 guide-acs.m.taobao.com
 0.0.0.0 gvod.aiseejapp.atianqi.com
 0.0.0.0 h.trace.qq.com
 0.0.0.0 hk.napi.ucweb.com
@@ -330,6 +333,7 @@
 0.0.0.0 loggly.com
 0.0.0.0 loggw-ex.alipay.com
 0.0.0.0 loggw.alipay.com
+0.0.0.0 loggw.alipay.com.cn
 0.0.0.0 logonext.tv.kuyun.com
 0.0.0.0 lstat.youku.com
 0.0.0.0 m.atm.youku.com
@@ -525,6 +529,7 @@
 0.0.0.0 tvupgrade.yunos.com
 0.0.0.0 tyaqy.m.cn.miaozhen.com
 0.0.0.0 tyh.taobao.com
+0.0.0.0 tysdk.95516.com
 0.0.0.0 u.ucfly.com
 0.0.0.0 uc9.ucweb.com
 0.0.0.0 ucus.ucweb.com

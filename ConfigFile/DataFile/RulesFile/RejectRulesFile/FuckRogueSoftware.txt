@@ -316,6 +316,8 @@ track.uc.cn
 wmedia-track.uc.cn
 woodpecker.uc.cn
 p4psearch.china.alibaba.com
+loggw.alipay.com.cn
+guide-acs.m.taobao.com
 
 ## bilibili 哔哩哔哩
 data.bilibili.com
@@ -574,6 +576,12 @@ googletagmanager.com
 
 ## 快手
 open.kuaishouzt.com
+
+## 银联
+ads.95516.com
+analytics.95516.com
+# 存疑
+tysdk.95516.com
 
 ## 其他推送平台
 
