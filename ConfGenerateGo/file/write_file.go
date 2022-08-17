@@ -188,3 +188,30 @@ func WriteLoonRuleFile(data []string, filePath string) error {
 
 	return write.Flush()
 }
+
+func WriteQuantumultXDNS(data []string, filePath string) error {
+	file, err := os.OpenFile(filePath, os.O_WRONLY|os.O_TRUNC|os.O_CREATE|os.O_APPEND, 0666)
+	if err != nil {
+		fmt.Println("open file error !")
+		fmt.Println(err)
+		return err
+	}
+	defer file.Close()
+
+	write := bufio.NewWriter(file)
+
+	for _, v := range data {
+		if !strings.Contains(v, "USER-AGENT") && !strings.Contains(v, "IP-CIDR") && !strings.Contains(v, "IP-CIDR6") && v != "" {
+			v = strings.Replace(v, "\r", "", -1)
+			v = strings.Replace(v, "\n", "", -1)
+			fmt.Fprint(write, "server=/")
+			if strings.HasPrefix(v, ".") {
+				fmt.Fprint(write, "*")
+			}
+			fmt.Fprint(write, v)
+			fmt.Fprintln(write, "/0.0.0.0")
+		}
+	}
+
+	return write.Flush()
+}

@@ -83,6 +83,7 @@ func fuckRogueSoftware() {
 	file.WriteLoonRuleFile(ans, loonFuckRogueSoftwareRule)
 	file.WriteDomainSetRuleFile(ans, surfboardFuckRogueSoftware)
 	file.WriteHostFile(ans, fuckRogueSoftwareHost)
+	file.WriteQuantumultXDNS(ans, "DataFile/ans/QuanXDNS.txt")
 }
 
 // policy processing
