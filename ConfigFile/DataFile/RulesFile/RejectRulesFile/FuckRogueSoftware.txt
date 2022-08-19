@@ -177,6 +177,8 @@ adclick.tencentmusic.com
 .dlied1.cdntips.net
 miniapp.gtimg.cn
 qappcenterv6.3g.qq.com
+wup.imtt.qq.com
+.zhizi.qq.com
 
 ## 阿里系
 # 将阿里系 app 关闭网络权限且从移动网络切换到 Wi-Fi 时，有概率出现
@@ -527,6 +529,9 @@ vcode-od.vivo.com.cn
 ## mihoyo 米哈游
 .client-report.bh3.com
 log-upload.mihoyo.com
+log.upload.os.mihoyo.com
+log-upload-os.mihoyo.com
+firebaselogging-pa.mihoyo.com
 
 ## zhihu 知乎
 .zhihu-web-analytics.zhihu.com
@@ -573,6 +578,7 @@ graph.facebook.com
 .gvt2.com
 google-analytics.com
 googletagmanager.com
+firebaselogging-pa.googleapis.com
 
 ## 快手
 open.kuaishouzt.com

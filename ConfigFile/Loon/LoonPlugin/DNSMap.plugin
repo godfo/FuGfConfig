@@ -43,7 +43,6 @@ weibo.com = server:https://doh.pub/dns-query
 ## zhihu
 *.zhihu.com = server:https://doh.pub/dns-query
 *.zhimg.com = server:https://doh.pub/dns-query
-*.csdn.com = server:https://doh.pub/dns-query
 ## sspai
 *.sspai.com = server:https://doh.pub/dns-query
 ## 喜马拉雅
@@ -90,5 +89,6 @@ weibo.com = server:https://doh.pub/dns-query
 *.10010.cn = server:https://doh.pub/dns-query
 *.gov.cn = server:https://doh.pub/dns-query
 *.sohu.com = server:https://doh.pub/dns-query
+*.csdn.com = server:https://doh.pub/dns-query
 ## 全局
 *.cn = server:https://i.passcloud.xyz/dns-query
