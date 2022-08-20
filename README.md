@@ -37,8 +37,6 @@ BasicRules
 优先级从高到低：
 
 ```
-NoAdProxy
-NoAdDirect
 AdRules
 FuckRogueSoftware
 ProxyRules
@@ -52,15 +50,10 @@ DirectRules
 BaseRules
 ```
 
-若有精准去广告的需求，请在未来使用 `PreciseNoAd`，此规则集会尽可能克制，确保对正常功能的影响到最低
+若有精准去广告的需求，请在未来使用 xxx，此规则集会尽可能克制，确保对正常功能的影响到最低
 (现阶段并不完善，规则不完整，先鸽着
 
 ```
-# 对疑似误杀的广告分流规则的修正
-https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/Advertising/NoAdProxyRules.conf, policy=PROXY, tag=NoAdProxy, enabled=true
-
-https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/Advertising/NoAdDirectRules.conf, policy=DIRECT, tag=NoAdDirect, enabled=true
-
 # 去广告
 https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/Advertising/AdRules.conf, policy=Advertising, tag=CustomAd, enabled=true
 
@@ -92,7 +85,7 @@ https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/LoonRe
 此规则极其激进，对某些国内软件强屏蔽，包括但不限于广告，跟踪，数据分析，仅保证软件最低程度功能的正常使用，使用需谨慎
 
 ```
-https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/FuckRogueSoftware.conf, policy=Advertising, tag=FuckRogueSoftware, enabled=true
+https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/FuckRogueSoftware.conf, policy=Advertising, tag=FuckRogueSoftware, enabled=true
 ```
 
 ### 对于 Apple 解锁功能
@@ -153,7 +146,7 @@ https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/LoonPl
 
 #### DNSMapAd
 
-对一些广告域名 DNS 解析重定向至 `127.0.0.1`
+对一些广告域名 DNS 解析重定向至 `127.0.0.1` 或 `0.0.0.0`
 
 有用没用的诸君自己看着用吧
 

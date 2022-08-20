@@ -1,4 +1,4 @@
-# 说明： “#”为注释，一般为一个域名一行，域名以“.”开头则请子域名一并屏蔽
+# 说明： "#"和";"为注释，一般为一个域名一行，域名以"."开头则请子域名一并屏蔽
 # 域名屏蔽理由及注释在此文件中说明，其余文件删掉以精简文件大小
 # 本文件规则致力做到精准，如不能，以保证最基础功能可用为底线，确保最大限度屏蔽跟踪或广告域名为准则
 # （即，或有误杀，但基本功能不会误伤
@@ -9,27 +9,27 @@
 # https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts
 # https://github.com/MisakaMikoto-35c5/generate-rule/blob/master/adblock/custom-block-domains.txt
 # https://github.com/jdlingyu/ad-wars/blob/master/hosts
+# https://raw.githubusercontent.com/Code-Dramatist/Rule_Actions/main/Reject_Rule/Reject_Rule.rule
 
 ## 腾讯系
 # qq
 cgi.connect.qq.com
 dns.qq.com
-btrace.qq.com
-sdkconfig.video.qq.com
+.btrace.qq.com
+.sdkconfig.video.qq.com
 i.mail.qq.com
 qumas.mail.qq.com
 cdnimg.3g.qq.com
 casestudy.html5.qq.com
-bsrv.qq.com
+.bsrv.qq.com
 report.qqweb.qq.com
-rqd.uu.qq.com
-monitor.uu.qq.com
+.uu.qq.com
 aegis.qq.com
 sqdd.myapp.com
 wxconf.video.qq.com
 loggly.com
 report.idqqimg.com
-wspeed.qq.com
+.wspeed.qq.com
 pub.idqqimg.com
 data.ab.qq.com
 3gimg.qq.com
@@ -37,31 +37,28 @@ cmshow.qq.com
 dl_dir.qq.com
 dl_dir2.qq.com
 dlied6.qq.com
-guanjia.qq.com
-h.trace.qq.com
-mdt.qq.com
+.guanjia.qq.com
+.trace.qq.com
 pacaio.match.qq.com
 qring-tms.qq.com
 show-msgch.qq.com
-tbs.imtt.qq.com
+.tbs.imtt.qq.com
 upage.imtt.qq.com
 upload_data.qq.com
 vv.video.qq.com
-wxsnsdy.wxs.qq.com
-wxsnsdythumb.wxs.qq.com
+.wxs.qq.com
 2052.flash2-http.qq.com
-a.ac.qq.com
-act.qq.com
-activeqq.3g.qq.com
-log.tbs.qq.com
+.a.ac.qq.com
+.act.qq.com
+.activeqq.3g.qq.com
+.log.tbs.qq.com
 app-measurement.com
 pingmid.qq.com
-pingma.qq.com
 api-report.q.qq.com
 .gdt.qq.com
 cs.mbgame.gamesafe.qq.com
 intldlgs.qq.com
-tdid.m.qq.com
+.tdid.m.qq.com
 mobilelog.upqzfile.com
 # bugly
 .bugly.qq.com
@@ -73,25 +70,22 @@ iosrqd.iot.wechatpay.cn
 .ad.weixin.qq.com
 log.aldwx.com
 # 腾讯视频
+.rlog.video.qq.com
 adslvfile.qq.com
-adsfile.qq.com
-rcgi.video.qq.com
+.adsfile.qq.com
+.rcgi.video.qq.com
 aid.video.qq.com
-pinghot.qq.com
+.pinghot.qq.com
 vhotlxp.video.qq.com
 .beacon.qq.com
-monitor.uu.qq.com
 omgmta.qq.com
 omgmta1.qq.com
-oth.eve.mdt.qq.com
-oth.str.mdt.qq.com
-oth.update.mdt.qq.com
-pingma.qq.com
+.pingma.qq.com
 sngmta.qq.com
-dp3.qq.com
+.dp3.qq.com
 .ad.qq.com
 ad.qun.qq.com
-adping.qq.com
+.adping.qq.com
 adpm.app.qq.com
 adrdir.qq.com
 adsclick.qq.com
@@ -103,70 +97,69 @@ adsqqclick.qq.com
 adstextview.qq.com
 adsview.qq.com
 adsview2.qq.com
-adv.app.qq.com
+.adv.app.qq.com
 adver.qq.com
 analy.qq.com
-d3g.qq.com
-j.wit.qq.com
-jqmt.qq.com
-jsqmt.qq.com
-mini2015.qq.com
-op.ssp.qq.com
+.d3g.qq.com
+.wit.qq.com
+.jqmt.qq.com
+.jsqmt.qq.com
+.mini2015.qq.com
+.ssp.qq.com
 pacaio.match.qq.com
-qqshow2-item.qq.com
-setting.snswin.qq.com
-tdc.qq.com
-tj.video.qq.com
-updatecenter.qq.com
+.qqshow2-item.qq.com
+.setting.snswin.qq.com
+.tdc.qq.com
+.tj.video.qq.com
+.updatecenter.qq.com
 .push.qq.com
 .mpush.qq.com
-ta.qq.com
-tajs.qq.com
+.ta.qq.com
+.tajs.qq.com
 tcss.qq.com
 p.tencentmind.com
 .e.qq.com
 .l.qq.com
-scdown.qq.com
-download.sj.qq.com
-c.gj.qq.com
-t.sj.qq.com
-ws.sj.qq.com
+.scdown.qq.com
+.download.sj.qq.com
+.c.gj.qq.com
+.t.sj.qq.com
+.ws.sj.qq.com
 adsense.html5.qq.com
-game.html5.qq.com
-jpush.html5.qq.com
-mqqad.cs0309.html5.qq.com
-mqqad.html5.qq.com
-novelsns.html5.qq.com
-pvstat.html5.qq.com
-tpush.html5.qq.com
-adsolution.imtt.qq.com
-mqqadr.reader.qq.com
-livep.l.ott.video.qq.com
-lives.l.ott.video.qq.com
-news-l.play.ott.video.qq.com
-omgmta.play.ott.video.qq.com
+.game.html5.qq.com
+.jpush.html5.qq.com
+.mqqad.cs0309.html5.qq.com
+.mqqad.html5.qq.com
+.novelsns.html5.qq.com
+.pvstat.html5.qq.com
+.tpush.html5.qq.com
+.adsolution.imtt.qq.com
+.mqqadr.reader.qq.com
+.livep.l.ott.video.qq.com
+.lives.l.ott.video.qq.com
+.news-l.play.ott.video.qq.com
+.omgmta.play.ott.video.qq.com
 imtt.dd.qq.com
-activeqq.3g.qq.com
-masdk.3g.qq.com
-pmir.3g.qq.com
+.masdk.3g.qq.com
+.pmir.3g.qq.com
 cmshow.gtimg.cn
-wxsnsdy.tc.qq.com
-vlive.qqvideo.tc.qq.com
-wxsnsdy.video.qq.com
+.wxsnsdy.tc.qq.com
+.vlive.qqvideo.tc.qq.com
+.wxsnsdy.video.qq.com
 # 地图 api，但被用于收集用户位置信息，是否影响腾讯地图未知，待检测
 lbs.map.qq.com
-cc.map.qq.com
+.cc.map.qq.com
 analytics.map.qq.com
 # 其他
 .mazu.m.qq.com
 .qzs.qq.com
-adfilter.imtt.qq.com
-adsmind.apdcdn.tc.qq.com
+.adfilter.imtt.qq.com
+.adsmind.apdcdn.tc.qq.com
 adstestview.qq.com
 pgdt.gtimg.cn
 union.gdtimg.com
 .adnet.qq.com
-pingtcss.qq.com
+.pingtcss.qq.com
 splashqqlive.gtimg.com
 access-sngapm.qcloud.com
 beacon.gtimg.com
@@ -176,9 +169,110 @@ adclick.tencentmusic.com
 # 存疑
 .dlied1.cdntips.net
 miniapp.gtimg.cn
-qappcenterv6.3g.qq.com
+.qappcenterv6.3g.qq.com
 wup.imtt.qq.com
+cfg.imtt.qq.com
 .zhizi.qq.com
+.adsrich.qq.com
+.adss.video.qq.com
+.ag.qq.com
+.agstat.html5.qq.com
+.api.youtu.qq.com
+.appchannel.html5.qq.com
+.applog.reader.qq.com
+.as.weixin.qq.com
+.bkcommdata.v.qq.com
+.bksoup.v.qq.com
+.commdata.v.qq.com
+.data.qq.com
+.detect.mb.qq.com
+.event.toggle.qq.com
+.fusion.qq.com
+.growthpic.weishi.qq.com
+.hd2.3g.qq.com
+.huatuo.qq.com
+.iask.qq.com
+.isdspeed.qq.com
+.jsapi.html5.qq.com
+.life.html5.qq.com
+.lmbsy.qq.com
+.log6.reader.qq.com
+.market.m.qq.com
+.masdkv6.3g.qq.com
+.mdevstat.qqlive.qq.com
+.mdt.qq.com
+.monitor.music.qq.com
+.mta.qq.com
+.mtrace.qq.com
+.newlog.reader.qq.com
+.omgid.qq.com
+.buluo.qq.com
+.pingfore.qq.com
+.pingjs.qq.com
+.pingtas.qq.com
+.qbreport.html5.qq.com
+.qqdata.ab.qq.com
+.qzpb.qq.com
+.reader.sh.vip.qq.com
+.recmd.html5.qq.com
+.report.cms.qq.com
+.rmpad.imtt.qq.com
+.sdksp.video.qq.com
+.sec.video.qq.com
+.sngapm.qq.com
+.stat.y.qq.com
+.statistic.qzone.qq.com
+.taobao.qq.com
+.tbsone.imtt.qq.com
+.tmead.y.qq.com
+.tools.3g.qq.com
+.unitelogreport.reader.qq.com
+.uploadlog.p2p.qq.com
+.variety.tc.qq.com
+.video.dispatch.tc.qq.com
+.vmindhls.tc.qq.com
+.vp.html5.qq.com
+.vpic.video.qq.com
+.w.inews.qq.com
+.xmaterial.tu.qq.com
+.activeqq.3g.qq.com
+.ads.privacy.qq.com
+.appsupport.qq.com
+.btrace.video.qq.com
+.bugreportv2.qq.com
+.client.show.qq.com
+.dir.minigame.qq.com
+.etg.qq.com
+.fm.qzone.qq.com
+.fodder.qq.com
+.fodder.tc.qq.com
+.fw.qq.com
+.httpring.qq.com
+.if.mingxing.qq.com
+.info.3g.qq.com
+.jingjia.qq.com
+.mapp.qzone.qq.com
+.mcgi.v.qq.com
+.misc.wcd.qq.com
+.monitor.qq.com
+.p.store.qq.com
+.report.qq.com
+.pcbrowser.dd.qq.com
+.pms.mb.qq.com
+.push.pgl.qq.com
+.qss-client.qq.com
+.report.vip.qq.com
+.rh.qq.com
+.rich.qq.com
+.rs1.qq.com
+.rs2.qq.com
+.showwxml.qq.com
+.tj.b.qq.com
+.tmeadcomm.y.qq.com
+.union.discuz.qq.com
+.user1.game.qq.com
+.wxsnsad.tc.qq.com
+.openmsf.3g.qq.com
 
 ## 阿里系
 # 将阿里系 app 关闭网络权限且从移动网络切换到 Wi-Fi 时，有概率出现
@@ -320,6 +414,9 @@ woodpecker.uc.cn
 p4psearch.china.alibaba.com
 loggw.alipay.com.cn
 guide-acs.m.taobao.com
+# 阿里系存疑
+# 一休数据平台
+yixiu-abtest.alicdn.com
 
 ## bilibili 哔哩哔哩
 data.bilibili.com
@@ -554,6 +651,9 @@ fzapph5.gifzpt.cn
 
 ## 360
 c.sayhi.360.cn
+
+## 高德地图
+dualstack-logs.amap.com
 
 ## 微软 Microsoft
 nexus.officeapps.live.com
