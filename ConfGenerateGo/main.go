@@ -8,6 +8,7 @@ import (
 	"strings"
 )
 
+// loon data file path
 var loonInboxRulesUrl = [...]string{
 	"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising.list",
 	"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list"}
@@ -26,8 +27,12 @@ const loonFuckRogueSoftwareRule = "../ConfigFile/Loon/LoonRemoteRule/FuckRogueSo
 
 const surfboardFuckRogueSoftware = "../ConfigFile/Surfboard/FuckRogueSoftware.conf"
 
+// qx data file path
+const qxFuckRogueSoftware = "../ConfigFile/QuantumultX/FuckRogueSoftware.conf"
+
 const fuckRogueSoftwareHost = "../ConfigFile/Hosts/FuckRogueSoftware.txt"
 
+// agh data file path
 const aghInboxRulesUrls = "../ConfigFile/AdGuardHome/待整合的规则.txt"
 
 const aghInboxRulesFilePath = "./DataFile/inbox/agh/"
@@ -84,6 +89,7 @@ func fuckRogueSoftware() {
 	file.WriteDomainSetRuleFile(ans, surfboardFuckRogueSoftware)
 	file.WriteHostFile(ans, fuckRogueSoftwareHost)
 	file.WriteQuantumultXDNS(ans, "DataFile/ans/QuanXDNS.txt")
+	file.WriteQuantumultXRulesFile("FuckRogueSoftware", ans, qxFuckRogueSoftware)
 }
 
 // policy processing
@@ -237,6 +243,15 @@ func isNote(s string) bool {
 	}
 	return false
 }
+
+// func isDomainRules(s string) int {
+// 	if strings.HasPrefix(s,".")
+// 	 return 0 //Domain-suff
+// 	else if strings.Contains(s,".")
+// 	  return 1 //Domain
+// 	else
+// 	  return 2 //Domain-keyword
+// }
 
 func isIPV4(s string) bool {
 	// 判断是否为 IPV4

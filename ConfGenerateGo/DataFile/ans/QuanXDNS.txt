@@ -409,6 +409,7 @@ server=/google-analytics.com/0.0.0.0
 server=/googletagmanager.com/0.0.0.0
 server=/graph.facebook.com/0.0.0.0
 server=/graph.facebook.com/0.0.0.0
+server=/grpc.biliapi.net/0.0.0.0
 server=/gsearch.vivo.com.cn/0.0.0.0
 server=/gtms01.alicdn.com/0.0.0.0
 server=/gtms02.alicdn.com/0.0.0.0

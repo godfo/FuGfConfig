@@ -215,3 +215,34 @@ func WriteQuantumultXDNS(data []string, filePath string) error {
 
 	return write.Flush()
 }
+
+// todo 方法内需修改
+func WriteQuantumultXRulesFile(policy string, data []string, filePath string) error {
+	file, err := os.OpenFile(filePath, os.O_WRONLY|os.O_TRUNC|os.O_CREATE|os.O_APPEND, 0666)
+	if err != nil {
+		fmt.Println("open file error !")
+		fmt.Println(err)
+		return err
+	}
+	defer file.Close()
+
+	write := bufio.NewWriter(file)
+
+	for _, v := range data {
+		if !strings.Contains(v, "USER-AGENT") && !strings.Contains(v, "IP-CIDR") && !strings.Contains(v, "IP-CIDR6") && v != "" {
+			v = strings.Replace(v, "\r", "", -1)
+			v = strings.Replace(v, "\n", "", -1)
+			if strings.HasPrefix(v, ".") {
+				v = strings.TrimPrefix(v, ".")
+				fmt.Fprint(write, "HOST-SUFFIX,")
+			} else {
+				fmt.Fprint(write, "HOST,")
+			}
+			fmt.Fprint(write, v)
+			fmt.Fprint(write, ",")
+			fmt.Fprintln(write, policy)
+		}
+	}
+
+	return write.Flush()
+}

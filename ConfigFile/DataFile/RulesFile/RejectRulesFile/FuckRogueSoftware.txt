@@ -427,6 +427,7 @@ dataflow.biliapi.com
 .v.smtcdns.net
 # 通过成熟的共享云计算技术，筹集用户闲置的带宽资源，为企业提供优质低成本的云计算服务
 .szbdyd.com
+grpc.biliapi.net
 # b 站游戏屏蔽 注意 ⚠
 .biligame.com
 .biligame.net
