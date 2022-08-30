@@ -89,11 +89,11 @@ func WriteAGHomeFile(data []string, filePath string) error {
 	defer file.Close()
 
 	write := bufio.NewWriter(file)
-	fmt.Fprintln(write, "#"+"hello")
-	fmt.Fprintln(write, "payload:")
 
 	for _, v := range data {
 		if !strings.Contains(v, "USER-AGENT") && !strings.Contains(v, "IP-CIDR") && !strings.Contains(v, "IP-CIDR6") && v != "" {
+			v = strings.Replace(v, "\r", "", -1)
+			v = strings.Replace(v, "\n", "", -1)
 			fmt.Fprint(write, "||")
 			fmt.Fprint(write, v)
 			// if strings.Contains(v, "\n") {

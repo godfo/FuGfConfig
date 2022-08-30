@@ -33,6 +33,8 @@ const qxFuckRogueSoftware = "../ConfigFile/QuantumultX/FuckRogueSoftware.conf"
 const fuckRogueSoftwareHost = "../ConfigFile/Hosts/FuckRogueSoftware.txt"
 
 // agh data file path
+const aghFuckRogueSoftware = "../ConfigFile/AdGuardHome/FuckRogueSoftware.txt"
+
 const aghInboxRulesUrls = "../ConfigFile/AdGuardHome/待整合的规则.txt"
 
 const aghInboxRulesFilePath = "./DataFile/inbox/agh/"
@@ -86,6 +88,7 @@ func fuckRogueSoftware() {
 	// 写入
 	file.WriteLoonHostFile(ans, loonFuckRogueSoftwareHost)
 	file.WriteLoonRuleFile(ans, loonFuckRogueSoftwareRule)
+	file.WriteAGHomeFile(ans, aghFuckRogueSoftware)
 	file.WriteDomainSetRuleFile(ans, surfboardFuckRogueSoftware)
 	file.WriteHostFile(ans, fuckRogueSoftwareHost)
 	file.WriteQuantumultXDNS(ans, "DataFile/ans/QuanXDNS.txt")

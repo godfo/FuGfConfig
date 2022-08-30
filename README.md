@@ -10,13 +10,13 @@
 
 对小火箭提供能用的支持（仅仅是能用
 
-优先级：AdGuard Home = Loon > Quan X > 小火箭
+优先级：AdGuard Home = Loon > QuantumultX > 小火箭
 
 ## 使用方法
 
-### Quan X
+### QuantumultX
 
-建议配合 ios_rule_script 项目中的 [Quan X 去广告](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising) 一起使用（已去重
+建议配合 ios_rule_script 项目中的 [QuantumultX 去广告](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising) 一起使用（已去重
 
 优先级从高到低：
 
@@ -50,8 +50,7 @@ DirectRules
 BaseRules
 ```
 
-若有精准去广告的需求，请在未来使用 xxx，此规则集会尽可能克制，确保对正常功能的影响到最低
-(现阶段并不完善，规则不完整，先鸽着
+若有精准去广告的需求，请在未来使用 FuckRogueSoftware，现在大概有误杀
 
 ```
 # 去广告

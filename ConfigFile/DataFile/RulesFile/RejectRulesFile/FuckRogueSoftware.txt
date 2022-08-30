@@ -2,7 +2,6 @@
 # 域名屏蔽理由及注释在此文件中说明，其余文件删掉以精简文件大小
 # 本文件规则致力做到精准，如不能，以保证最基础功能可用为底线，确保最大限度屏蔽跟踪或广告域名为准则
 # （即，或有误杀，但基本功能不会误伤
-# 但是，毕竟这个规则叫 FuckRogueSoftware，且包含一些个人偏好，即可能您认为的基本功能在我这儿并不是。放心，会注明，也请您使用前注意
 # 本文参考链接如下，在此表示感谢
 # 硬核屏蔽优酷 + 爱奇艺 + 腾讯 + 小米 + 芒果 TV 的广告，来源于 https://bbs.ikuai8.com/thread-73739-1-1.html
 # https://ruleset.skk.moe/List/domainset/reject.conf
@@ -428,13 +427,6 @@ dataflow.biliapi.com
 # 通过成熟的共享云计算技术，筹集用户闲置的带宽资源，为企业提供优质低成本的云计算服务
 .szbdyd.com
 grpc.biliapi.net
-# b 站游戏屏蔽 注意 ⚠
-.biligame.com
-.biligame.net
-.bigfunapp.cn
-# 会员购屏蔽 注意 ⚠
-mall.bilibili.com
-show.bilibili.com
 
 ## 字节系
 api-access.pangolin-sdk-toutiao.com
@@ -474,11 +466,11 @@ mssdk-bu.bytedance.com
 tnc3-bjlgy.zijieapi.com
 
 ## 小米
-api.miwifi.com
+.api.miwifi.com
 .ad.xiaomi.com
 .sec.miui.com
 tracking.miui.com
-ot.io.mi.com
+.ot.io.mi.com
 stat.pandora.xiaomi.com
 upgrade.mishop.pandora.xiaomi.com
 logonext.tv.kuyun.com
@@ -659,18 +651,88 @@ dualstack-logs.amap.com
 ## 微软 Microsoft
 nexus.officeapps.live.com
 nexusrules.officeapps.live.com
-oca.telemetry.microsoft.us
-onecollector.cloudapp.aria.akadns.net
+.oca.telemetry.microsoft.us
+.onecollector.cloudapp.aria.akadns.net
 par02p.wns.windows.com
 presence.teams.live.com
 sg2p.wns.windows.com
-spyneteurope.microsoft.akadns.net
+.spyneteurope.microsoft.akadns.net
 presence.teams.live.com
 preview.msn.com
 rad.live.com
 schemas.microsoft.akadns.net
 # Visual Studio App Center
 in.appcenter.ms
+# others
+settings-win.data.microsoft.com
+.vortex.data.microsoft.com
+.asimov-win.settings.data.microsoft.com.akadns.net
+.cy2.vortex.data.microsoft.com.akadns.net
+.db5.settings.data.microsoft.com.akadns.net
+.db5.vortex.data.microsoft.com.akadns.net
+.geo.settings.data.microsoft.com.akadns.net
+.geo.vortex.data.microsoft.com.akadns.net
+.hk2.settings.data.microsoft.com.akadns.net
+.lb1.www.ms.akadns.net
+.modern.watson.data.microsoft.com.akadns.net
+.v10-win.vortex.data.microsft.com.akadns.net
+.v10-win.vortex.data.microsoft.com.akadns.net
+.alpha.telemetry.microsft.com
+.oca.telemetry.microsft.com
+.vortex-win.data.microsft.com
+.crl.microsoft.com
+.fpt.microsoft.com
+.watson.microsoft.com
+.telemetry.microsoft.com
+.api.edgeoffer.microsoft.com
+.bingads.microsoft.com
+.choice.microsoft.com
+.corp.sts.microsoft.com
+.corpext.msitadfs.glbdns2.microsoft.com
+.diagnostics.support.microsoft.com
+.vortex-win.data.microsoft.com
+.i1.services.social.microsoft.com
+.ieonline.microsoft.com
+.ieonlinews.microsoft.com
+.kmwatson.events.data.microsoft.com
+.kmwatsonc.events.data.microsoft.com
+.nw-umwatson.events.data.microsoft.com
+.rad.microsoft.com
+.redir.metaservices.microsoft.com
+.romeccs.microsoft.com
+.settings-sandbox.data.microsoft.com
+.settings-win-ppe.data.microsoft.com
+.settings.data.glbdns2.microsoft.com
+.spynet2.microsoft.com
+.spynetalt.microsoft.com
+.statsfe1.ws.microsoft.com
+.statsfe2.ws.microsoft.com
+.telemetry.urs.microsoft.com
+.teredo.ipv6.microsoft.com
+.umwatson.events.data.microsoft.com
+.umwatsonc.events.data.microsoft.com
+.vortex-sandbox.data.microsoft.com
+.vortex-win-sandbox.data.microsoft.com
+.vortex.data.glbdns2.microsoft.com
+.win10.ipv6.microsoft.com
+.win1710.ipv6.microsoft.com
+.win8.ipv6.microsoft.com
+.ztd.dds.microsoft.com
+.umwatsonc.telemetry.microsoft.us
+.choice.microsoft.com.nsatc.net
+.i1.services.social.microsoft.com.nsatc.net
+.oca.telemetry.microsoft.com.nsatc.net
+.sqm.telemetry.microsoft.com.nsatc.net
+.telecommand.telemetry.microsoft.com.nsatc.net
+.watson.telemetry.microsoft.com.nsatc.net
+.browser.events.data.microsoft.com
+.browser.events.data.msn.com
+c.live.com
+c.microsoft.com
+c.msn.com
+.pipe.aria.microsoft.com
+.vortex.data.microsoft.com
+vortex.data.msn.com
 
 ## Facebook
 graph.facebook.com
@@ -728,6 +790,8 @@ cm-10-139.getui.com
 ## 数字联盟
 aads.shuzilm.cn
 
+## 数据收集，详见 https://tech.sina.com.cn/i/2019-03-25/doc-ihsxncvh5289363.shtml
+.zzhc.vnet.cn
 
 ## 其他
 adsmind.gdtimg.com

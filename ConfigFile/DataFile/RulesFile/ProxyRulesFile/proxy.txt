@@ -71,6 +71,7 @@
 .half.plus
 .halfs.me
 .sm.ms
+.nsloon.com
 DOMAIN-KEYWORD,toggl
 DOMAIN-KEYWORD,joplin
 DOMAIN-KEYWORD,craft
