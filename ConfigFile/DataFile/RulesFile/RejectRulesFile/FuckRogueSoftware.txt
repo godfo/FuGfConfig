@@ -622,6 +622,7 @@ log-upload.mihoyo.com
 log.upload.os.mihoyo.com
 log-upload-os.mihoyo.com
 firebaselogging-pa.mihoyo.com
+.exam-ios-jp.bh3.com
 
 ## zhihu 知乎
 .zhihu-web-analytics.zhihu.com
