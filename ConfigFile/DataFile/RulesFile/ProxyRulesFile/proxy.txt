@@ -41,8 +41,15 @@
 .gitter.im
 
 ## vscode
+.vscode-unpkg.net
+.vscode-cdn.net
+.visualstudio.com
+.vscodeexperiments.azureedge.net
+.vo.msecnd.net
 
 ## 维基百科
+.wikipedia.org
+.wikimedia.org
 
 ## Pixiv
 .pximg.net
@@ -59,38 +66,8 @@
 .bitwarden.com
 .1password.com
 
-
-## 其他
-.jsdelivr.net
-.jquery.com
-.adguard.com
-.typlod.io
-.fireside.fm
-.pwalist.app
-.moon.fm
-.half.plus
-.halfs.me
-.sm.ms
-.nsloon.com
-DOMAIN-KEYWORD,toggl
-DOMAIN-KEYWORD,joplin
-DOMAIN-KEYWORD,craft
-# DOMAIN-KEYWORD,joplinapp
-DOMAIN-KEYWORD,instagram
-DOMAIN-KEYWORD,notion
-DOMAIN-KEYWORD,calibre
-DOMAIN-KEYWORD,vivaldi
-DOMAIN,bilibili.tv
-
-.sharepoint.com
-.office.net
-
-.xiaomi.eu
-.minamigo.moe
-
 # Win 检测是否可以联网域名
 .msftconnecttest.com
-
 
 ## apksure
 .apkpure.com
@@ -123,7 +100,6 @@ DOMAIN,bilibili.tv
 
 ## lastfm
 .last.fm
-DOMAIN,lastfm-img2.akamaized.net
 
 # Onedrive
 .storage.live.com
@@ -138,6 +114,42 @@ DOMAIN,lastfm-img2.akamaized.net
 ## 长毛象
 .o3o.ca
 .cmx.im
+
+## 笔记软件
+# notion
+.notion.so
+
+## vivaldi
+.vivaldi.com
+.vivaldi.net
+
+## 其他
+.jsdelivr.net
+.jquery.com
+.adguard.com
+.typlod.io
+.fireside.fm
+.pwalist.app
+.moon.fm
+.half.plus
+.halfs.me
+.sm.ms
+.nsloon.com
+.vercel.app
+.v2ex.com
+.appsco.pe
+.decohack.com
+.campaign-archive.com
+calibre-ebook.com
+.sharepoint.com
+.office.net
+.xiaomi.eu
+.minamigo.moe
+## DOMAIN-KEYWORD,toggl
+## DOMAIN-KEYWORD,joplin
+## DOMAIN-KEYWORD,craft
+## DOMAIN-KEYWORD,instagram
+## DOMAIN,bilibili.tv
 
 ## 存疑
 .vscode-sync.trafficmanager.net
