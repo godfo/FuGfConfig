@@ -1,4 +1,4 @@
-# 此规则存放对 IP 频繁变化不敏感的需要走代理的服务
+# 此规则存放对代理 IP 频繁变化不敏感的需要走代理的服务
 
 ## Github
 .atom.io
@@ -32,6 +32,13 @@
 .gitbook.io
 .gitbook.zendesk.com
 
+## vscode
+.vscode-unpkg.net
+.vscode-cdn.net
+.visualstudio.com
+.vscodeexperiments.azureedge.net
+.vo.msecnd.net
+
 ## Gitlab
 .gitlab-static.net
 .gitlab.com
@@ -39,13 +46,6 @@
 .gitlab-assets.oss-cn-hongkong.aliyuncs.com
 .gitter-static.net
 .gitter.im
-
-## vscode
-.vscode-unpkg.net
-.vscode-cdn.net
-.visualstudio.com
-.vscodeexperiments.azureedge.net
-.vo.msecnd.net
 
 ## 维基百科
 .wikipedia.org

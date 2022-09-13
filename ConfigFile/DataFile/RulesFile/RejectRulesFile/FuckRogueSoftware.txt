@@ -293,6 +293,7 @@ amos.alicdn.com
 .acs4baichuan.m.taobao.com
 .adash.m.taobao.com
 .adash.man.aliyuncs.com
+.beacon-api.aliyuncs.com
 .adashbc.ut.taobao.com
 .adash-c.ut.taobao.com
 .adashxgc.ut.taobao.com
@@ -740,9 +741,12 @@ graph.facebook.com
 
 ## Google
 .gvt2.com
-google-analytics.com
+.google-analytics.com
 googletagmanager.com
 firebaselogging-pa.googleapis.com
+
+## crashlytics
+settings.crashlytics.com
 
 ## 快手
 open.kuaishouzt.com
@@ -777,6 +781,12 @@ inapps.appsflyer.com
 
 ## Facebook
 graph.facebook.com
+
+## branch
+api2.branch.io
+
+## adjust
+app.adjust.com
 
 ## 阳光宽频网
 v9-default.365yg.com
