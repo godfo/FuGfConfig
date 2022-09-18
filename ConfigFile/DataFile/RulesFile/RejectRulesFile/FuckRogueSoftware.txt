@@ -17,14 +17,14 @@ dns.qq.com
 .btrace.qq.com
 .sdkconfig.video.qq.com
 i.mail.qq.com
-qumas.mail.qq.com
+.qumas.mail.qq.com
 cdnimg.3g.qq.com
 casestudy.html5.qq.com
 .bsrv.qq.com
 report.qqweb.qq.com
 .uu.qq.com
 aegis.qq.com
-sqdd.myapp.com
+.sqdd.myapp.com
 wxconf.video.qq.com
 loggly.com
 report.idqqimg.com
@@ -272,6 +272,9 @@ cfg.imtt.qq.com
 .user1.game.qq.com
 .wxsnsad.tc.qq.com
 .openmsf.3g.qq.com
+.ts.qq.com
+# GCloudSDK
+idcconfig.gcloudsdk.com
 
 ## 阿里系
 # 将阿里系 app 关闭网络权限且从移动网络切换到 Wi-Fi 时，有概率出现
@@ -623,6 +626,7 @@ log-upload.mihoyo.com
 log.upload.os.mihoyo.com
 log-upload-os.mihoyo.com
 firebaselogging-pa.mihoyo.com
+firebaseremoteconfig.mihoyo.com
 .exam-ios-jp.bh3.com
 
 ## zhihu 知乎
@@ -649,6 +653,13 @@ c.sayhi.360.cn
 
 ## 高德地图
 dualstack-logs.amap.com
+
+## 各种银行
+log.cmbchina.com
+
+## 移动认证
+log.cmpassport.com
+log2.cmpassport.com
 
 ## 微软 Microsoft
 nexus.officeapps.live.com
@@ -778,6 +789,9 @@ ulogs.umengcloud.com
 ## AppsFlyer
 launches.appsflyer.com
 inapps.appsflyer.com
+
+## flurry
+.data.flurry.com
 
 ## Facebook
 graph.facebook.com

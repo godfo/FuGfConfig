@@ -94,6 +94,9 @@ func WriteAGHomeFile(data []string, filePath string) error {
 		if !strings.Contains(v, "USER-AGENT") && !strings.Contains(v, "IP-CIDR") && !strings.Contains(v, "IP-CIDR6") && v != "" {
 			v = strings.Replace(v, "\r", "", -1)
 			v = strings.Replace(v, "\n", "", -1)
+			if strings.HasPrefix(v, ".") {
+				v = strings.TrimPrefix(v, ".")
+			}
 			fmt.Fprint(write, "||")
 			fmt.Fprint(write, v)
 			// if strings.Contains(v, "\n") {

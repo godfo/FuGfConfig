@@ -118,6 +118,7 @@
 ## 笔记软件
 # notion
 .notion.so
+http-inputs-notion.splunkcloud.com
 
 ## vivaldi
 .vivaldi.com
@@ -150,6 +151,18 @@ calibre-ebook.com
 ## DOMAIN-KEYWORD,craft
 ## DOMAIN-KEYWORD,instagram
 ## DOMAIN,bilibili.tv
+
+## stripe
+.stripe.com
+.stripe.network
+
+## facebook
+.facebook.com
+.fbcdn.net
+
+## discord
+.discord.com
+.discordapp.com
 
 ## 存疑
 .vscode-sync.trafficmanager.net
