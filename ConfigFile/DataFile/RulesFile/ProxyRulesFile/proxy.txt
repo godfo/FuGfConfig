@@ -160,9 +160,29 @@ calibre-ebook.com
 .facebook.com
 .fbcdn.net
 
+## mega
+.mega.co.nz
+
 ## discord
 .discord.com
 .discordapp.com
+
+## emby
+.emby.media
+.embydata.com
+
+.kodi.tv
+
+## 影音网站
+.adtidy.org
+.mb3admin.com
+.themoviedb.org
+.thetvdb.com
+.omdbapi.com
+.fanart.tv
+
+## 其他
+.fontawesome.com
 
 ## 存疑
 .vscode-sync.trafficmanager.net
