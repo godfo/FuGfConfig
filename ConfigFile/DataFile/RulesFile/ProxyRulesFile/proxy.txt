@@ -38,6 +38,7 @@
 .visualstudio.com
 .vscodeexperiments.azureedge.net
 .vo.msecnd.net
+.vsassets.io
 
 ## Gitlab
 .gitlab-static.net
@@ -124,6 +125,9 @@ http-inputs-notion.splunkcloud.com
 .vivaldi.com
 .vivaldi.net
 
+## matrix
+.matrix.org
+
 ## 其他
 .jsdelivr.net
 .jquery.com
@@ -146,6 +150,7 @@ calibre-ebook.com
 .office.net
 .xiaomi.eu
 .minamigo.moe
+.relingo.net
 ## DOMAIN-KEYWORD,toggl
 ## DOMAIN-KEYWORD,joplin
 ## DOMAIN-KEYWORD,craft
