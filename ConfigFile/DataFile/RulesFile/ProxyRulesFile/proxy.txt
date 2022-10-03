@@ -161,6 +161,13 @@ calibre-ebook.com
 .stripe.com
 .stripe.network
 
+## typlog
+.typlog.com
+.typlog.io
+
+## anchor
+.anchor.fm
+
 ## facebook
 .facebook.com
 .fbcdn.net
@@ -188,8 +195,19 @@ calibre-ebook.com
 
 ## 其他
 .fontawesome.com
+.polyfill.io
+
+## SSL 相关
+.lencr.org
+.letsencrypt.org
+.comodoca.com
+
+## cdn
+.cloudfront.net
+.cloudfront.com
 
 ## 存疑
 .vscode-sync.trafficmanager.net
 .monitor.firefox.com
 .vortex.data.microsoft.com
+.vchv.ltd

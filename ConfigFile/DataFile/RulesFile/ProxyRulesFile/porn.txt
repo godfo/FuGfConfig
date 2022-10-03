@@ -11,3 +11,4 @@
 .book18.org
 .pow18.tw
 .alhs.xyz
+.stripchat.com

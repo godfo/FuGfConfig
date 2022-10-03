@@ -82,7 +82,6 @@
 ||erebor.douban.com^
 ||etg.qq.com^
 ||event.toggle.qq.com^
-||exam-ios-jp.bh3.com^
 ||firefoxchina.cn^
 ||fm.qzone.qq.com^
 ||fodder.qq.com^
@@ -471,8 +470,6 @@
 ||feedback-api.aliyuncs.com^
 ||ff.win.taobao.com^
 ||firebaselogging-pa.googleapis.com^
-||firebaselogging-pa.mihoyo.com^
-||firebaseremoteconfig.mihoyo.com^
 ||focusbaiduafp.allyes.com^
 ||fvid.atm.youku.com^
 ||fvid.atm.youku.com^
@@ -567,6 +564,7 @@
 ||m2.da.mgtv.com^
 ||match.p4p.1688.com^
 ||material.istreamsche.com^
+||mdap.alipaylog.com^
 ||mf.atm.youku.com^
 ||miniapp.gtimg.cn^
 ||mishop.pandora.xiaomi.com^
