@@ -626,6 +626,7 @@ vcode-od.vivo.com.cn
 log-upload.mihoyo.com
 log.upload.os.mihoyo.com
 log-upload-os.mihoyo.com
+log-upload-os.hoyoverse.com
 # firebaselogging-pa.mihoyo.com
 # firebaseremoteconfig.mihoyo.com
 # .exam-ios-jp.bh3.com
