@@ -196,6 +196,7 @@ calibre-ebook.com
 ## 其他
 .fontawesome.com
 .polyfill.io
+.gpgtools.org
 
 ## SSL 相关
 .lencr.org
