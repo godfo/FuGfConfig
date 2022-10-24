@@ -212,10 +212,15 @@
 0.0.0.0 *.sdksp.video.qq.com
 0.0.0.0 *.sec.miui.com
 0.0.0.0 *.sec.video.qq.com
+0.0.0.0 *.self.events.data.microsoft.com
+0.0.0.0 *.server6.pipe.aria.microsoft.com
+0.0.0.0 *.server7.pipe.aria.microsoft.com
+0.0.0.0 *.service.weather.microsoft.com
 0.0.0.0 *.setting.snswin.qq.com
 0.0.0.0 *.settings-sandbox.data.microsoft.com
 0.0.0.0 *.settings-win-ppe.data.microsoft.com
 0.0.0.0 *.settings.data.glbdns2.microsoft.com
+0.0.0.0 *.settings.data.microsoft.com
 0.0.0.0 *.shenghuo.xiaomi.com
 0.0.0.0 *.showwxml.qq.com
 0.0.0.0 *.sngapm.qq.com
@@ -536,6 +541,7 @@
 0.0.0.0 live-ifs.tanx.com
 0.0.0.0 log-api.pangolin-sdk-toutiao-b.com
 0.0.0.0 log-api.pangolin-sdk-toutiao.com
+0.0.0.0 log-upload-os.hoyoverse.com
 0.0.0.0 log-upload-os.mihoyo.com
 0.0.0.0 log-upload.mihoyo.com
 0.0.0.0 log.aldwx.com

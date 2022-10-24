@@ -748,6 +748,11 @@ c.msn.com
 .pipe.aria.microsoft.com
 .vortex.data.microsoft.com
 vortex.data.msn.com
+.self.events.data.microsoft.com
+.service.weather.microsoft.com
+.server6.pipe.aria.microsoft.com
+.server7.pipe.aria.microsoft.com
+.settings.data.microsoft.com
 
 ## Facebook
 graph.facebook.com
