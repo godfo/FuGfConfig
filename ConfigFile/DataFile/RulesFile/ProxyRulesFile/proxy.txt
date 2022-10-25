@@ -151,6 +151,7 @@ calibre-ebook.com
 .xiaomi.eu
 .minamigo.moe
 .relingo.net
+.fig.io
 ## DOMAIN-KEYWORD,toggl
 ## DOMAIN-KEYWORD,joplin
 ## DOMAIN-KEYWORD,craft
