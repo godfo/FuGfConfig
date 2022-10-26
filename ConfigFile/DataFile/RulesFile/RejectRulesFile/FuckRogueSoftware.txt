@@ -275,6 +275,12 @@ cfg.imtt.qq.com
 .ts.qq.com
 # GCloudSDK
 idcconfig.gcloudsdk.com
+## 请求 IP 为 本地地址（可能会用于追踪）
+.groupclient.qq.com
+.antibot.qq.com
+## 屏蔽 qq 浏览器
+.wup.browser.qq.com
+
 
 ## 阿里系
 # 将阿里系 app 关闭网络权限且从移动网络切换到 Wi-Fi 时，有概率出现

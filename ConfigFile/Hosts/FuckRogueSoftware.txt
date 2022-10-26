@@ -32,6 +32,7 @@
 0.0.0.0 *.alpha.telemetry.microsft.com
 0.0.0.0 *.amdc.m.taobao.com
 0.0.0.0 *.amdcopen.m.taobao.com
+0.0.0.0 *.antibot.qq.com
 0.0.0.0 *.api.edgeoffer.microsoft.com
 0.0.0.0 *.api.miui.security.xiaomi.com
 0.0.0.0 *.api.miwifi.com
@@ -95,6 +96,7 @@
 0.0.0.0 *.geo.settings.data.microsoft.com.akadns.net
 0.0.0.0 *.geo.vortex.data.microsoft.com.akadns.net
 0.0.0.0 *.google-analytics.com
+0.0.0.0 *.groupclient.qq.com
 0.0.0.0 *.growthpic.weishi.qq.com
 0.0.0.0 *.guanjia.qq.com
 0.0.0.0 *.gvt2.com
@@ -297,6 +299,7 @@
 0.0.0.0 *.wl.jd.com
 0.0.0.0 *.ws.sj.qq.com
 0.0.0.0 *.wspeed.qq.com
+0.0.0.0 *.wup.browser.qq.com
 0.0.0.0 *.wxs.qq.com
 0.0.0.0 *.wxsnsad.tc.qq.com
 0.0.0.0 *.wxsnsdy.tc.qq.com
