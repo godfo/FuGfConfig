@@ -833,6 +833,7 @@ aads.shuzilm.cn
 
 ## 其他
 adsmind.gdtimg.com
+.ntb.lanjie100.com
 
 oss.chanct.cn
 sdk.open.talk.gepush.com

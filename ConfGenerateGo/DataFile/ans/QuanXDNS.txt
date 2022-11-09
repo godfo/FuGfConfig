@@ -154,6 +154,7 @@ server=/*.mtrace.qq.com/0.0.0.0
 server=/*.newlog.reader.qq.com/0.0.0.0
 server=/*.news-l.play.ott.video.qq.com/0.0.0.0
 server=/*.novelsns.html5.qq.com/0.0.0.0
+server=/*.ntb.lanjie100.com/0.0.0.0
 server=/*.nw-umwatson.events.data.microsoft.com/0.0.0.0
 server=/*.o2o.api.xiaomi.com/0.0.0.0
 server=/*.oca.telemetry.microsft.com/0.0.0.0
