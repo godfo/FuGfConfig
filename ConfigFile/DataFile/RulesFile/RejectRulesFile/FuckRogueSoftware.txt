@@ -669,6 +669,10 @@ log.cmbchina.com
 log.cmpassport.com
 log2.cmpassport.com
 
+## baidu 百度
+hm.baidu.com
+zz.bdstatic.com
+
 ## 微软 Microsoft
 nexus.officeapps.live.com
 nexusrules.officeapps.live.com
@@ -766,11 +770,14 @@ graph.facebook.com
 ## Google
 .gvt2.com
 .google-analytics.com
-googletagmanager.com
+.googletagmanager.com
 firebaselogging-pa.googleapis.com
 
 ## crashlytics
 settings.crashlytics.com
+
+## cloudflare
+.cloudflareinsights.com
 
 ## 快手
 open.kuaishouzt.com
@@ -832,6 +839,8 @@ aads.shuzilm.cn
 .zzhc.vnet.cn
 
 ## 其他
+.webpushr.com
+.sentry.io
 adsmind.gdtimg.com
 .ntb.lanjie100.com
 

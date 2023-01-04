@@ -6,11 +6,32 @@
 
 ## 支持
 
-本项目对 Loon、AdGuard Home 提供完全支持
+本项目对 Loon、QuantumultX、AdGuard Home 提供完全支持
 
-对小火箭提供能用的支持（仅仅是能用
+优先级：Loon = QuantumultX > AdGuard Home > 小火箭
+> 因为我的一些个人原因 AdGuard Home 的支持被迫延期。但 QuantumultX 优先级得到了提高（最近的几个月里面 qx 规则集得到了完善和补充
 
-优先级：AdGuard Home = Loon > QuantumultX > 小火箭
+> 如果您发现了不知道为什么存在的部分小火箭规则或者 Surfboard 规则，请忽略它们 (
+
+经过我个人的测试 FuckRogueSoftware 规则集误杀应该 ~~（大概 可能）~~ 没有那么严重了~~吧~~
+
+> 仅个人测试，请添加时准备好 direct 规则 (
+
+### Apple 系统更新
+
+另外，若有屏蔽 Apple 系统更新的需求，可以引用 `AppleUpdateRules` 规则集
+
+```
+# loon
+AppleUpdate = select,REJECT-DROP,AppleAll,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_Update.png
+
+https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/Apple/AppleUpdateRules.conf, policy=REJECT ,tag=AppleUpdate, enable=true
+
+# qx
+static= AppleUpdate, reject, AppleAll, img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_Update.png
+
+https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/QuantumultX/Apple/AppleUpdateRules.conf, force-policy=AppleUpdate, tag=AppleUpdateRules, enabled=true
+```
 
 ## 使用方法
 
@@ -20,14 +41,35 @@
 
 优先级从高到低：
 
-```
-CustomAdRules
-AdRules
-CustomRules
+```txt
+FuckRogueSoftware
+
 AppleRules
-GFWRules
-TelegramRules
+
+自定义的策略组，走代理的或者不走代理的
+
+ChinaASN
+DirectRules
 BasicRules
+```
+
+```
+# 隐私保护
+https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/QuantumultX/FuckRogueSoftware.conf, force-policy=FuckRogueSoftware, tag=FuckRogueSoftware, enabled=true
+
+# 去广告
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list, force-policy=Advertising, tag=CustomAd, enabled=true
+
+# Telegram 代理
+https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/QuantumultX/TelegramRules.conf, force-policy=Telegram, tag=TelegramRules, enabled=true
+
+# Youtube
+https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/QuantumultX/YouTubeRules.conf, force-policy=YouTube, tag=YouTubeRules, enabled=true
+
+https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/QuantumultX/ChinaASN.conf, force-policy=direct, tag=ChinaASN, enabled=true
+
+# 自定义的直连
+https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/QuantumultX/DirectRules.conf, force-policy=direct, tag=CustomDirect, enabled=true
 ```
 
 ### Loon
@@ -50,7 +92,7 @@ DirectRules
 BaseRules
 ```
 
-若有精准去广告的需求，请在未来使用 FuckRogueSoftware，现在大概有误杀
+若有精准去广告的需求，请~~在未来~~使用 FuckRogueSoftware，现在大概依然有误杀
 
 ```
 # 去广告
@@ -83,7 +125,13 @@ https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/LoonRe
 
 此规则极其激进，对某些国内软件强屏蔽，包括但不限于广告，跟踪，数据分析，仅保证软件最低程度功能的正常使用，使用需谨慎
 
+在 [FuckRogueSoftware.txt](https://github.com/dunlanl/FuGfConfig/blob/main/ConfigFile/DataFile/RulesFile/RejectRulesFile/FuckRogueSoftware.txt) 中可以看到部分屏蔽说明
+
 ```
+# qx
+https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/QuantumultX/FuckRogueSoftware.conf, force-policy=FuckRogueSoftware, tag=FuckRogueSoftware, enabled=true
+
+# loon
 https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/FuckRogueSoftware.conf, policy=Advertising, tag=FuckRogueSoftware, enabled=true
 ```
 
