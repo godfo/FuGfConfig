@@ -13,25 +13,9 @@
 
 > 如果您发现了不知道为什么存在的部分小火箭规则或者 Surfboard 规则，请忽略它们 (
 
-经过我个人的测试 FuckRogueSoftware 规则集误杀应该 ~~（大概 可能）~~ 没有那么严重了~~吧~~
+经过我个人的测试，FuckRogueSoftware 规则集误杀应该 ~~（大概 可能）~~ 没有那么严重了~~吧~~
 
 > 仅个人测试，请添加时准备好 direct 规则 (
-
-### Apple 系统更新
-
-另外，若有屏蔽 Apple 系统更新的需求，可以引用 `AppleUpdateRules` 规则集
-
-```
-# loon
-AppleUpdate = select,REJECT-DROP,AppleAll,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_Update.png
-
-https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/Apple/AppleUpdateRules.conf, policy=REJECT ,tag=AppleUpdate, enable=true
-
-# qx
-static= AppleUpdate, reject, AppleAll, img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_Update.png
-
-https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/QuantumultX/Apple/AppleUpdateRules.conf, force-policy=AppleUpdate, tag=AppleUpdateRules, enabled=true
-```
 
 ## 使用方法
 
@@ -133,6 +117,22 @@ https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/QuantumultX
 
 # loon
 https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/FuckRogueSoftware.conf, policy=Advertising, tag=FuckRogueSoftware, enabled=true
+```
+
+### Apple 系统更新
+
+另外，若有屏蔽 Apple 系统更新的需求，可以引用 `AppleUpdateRules` 规则集
+
+```
+# loon
+AppleUpdate = select,REJECT-DROP,AppleAll,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_Update.png
+
+https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/Apple/AppleUpdateRules.conf, policy=REJECT ,tag=AppleUpdate, enable=true
+
+# qx
+static= AppleUpdate, reject, AppleAll, img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_Update.png
+
+https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/QuantumultX/Apple/AppleUpdateRules.conf, force-policy=AppleUpdate, tag=AppleUpdateRules, enabled=true
 ```
 
 ### 对于 Apple 解锁功能

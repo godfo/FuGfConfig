@@ -280,6 +280,8 @@ idcconfig.gcloudsdk.com
 .antibot.qq.com
 ## 屏蔽 qq 浏览器
 .wup.browser.qq.com
+## 存疑
+res.wx.qq.com
 
 
 ## 阿里系
@@ -289,6 +291,8 @@ mdap.alipaylog.com
 loggw.alipay.com
 loggw-ex.alipay.com
 gm.mmstat.com
+d-gm.mmstat.com
+s-gm.mmstat.com
 log.mmstat.com
 cnzz.mmstat.com
 applog.uc.cn
@@ -672,6 +676,9 @@ log2.cmpassport.com
 ## baidu 百度
 hm.baidu.com
 zz.bdstatic.com
+dup.baidustatic.com
+cpro.baidustatic.com
+zz.bdstatic.com
 
 ## 微软 Microsoft
 nexus.officeapps.live.com
@@ -788,6 +795,15 @@ analytics.95516.com
 # 存疑
 tysdk.95516.com
 
+## CSDN
+event.csdn.net
+
+## Oracle
+tms.oracle.com
+
+## truste
+consent.truste.com
+
 ## 其他推送平台
 
 ## 极光推送
@@ -839,6 +855,7 @@ aads.shuzilm.cn
 .zzhc.vnet.cn
 
 ## 其他
+.go-mpulse.net
 .webpushr.com
 .sentry.io
 adsmind.gdtimg.com

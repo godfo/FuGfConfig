@@ -96,6 +96,7 @@
 ||gdt.qq.com^
 ||geo.settings.data.microsoft.com.akadns.net^
 ||geo.vortex.data.microsoft.com.akadns.net^
+||go-mpulse.net^
 ||google-analytics.com^
 ||googletagmanager.com^
 ||groupclient.qq.com^
@@ -436,10 +437,13 @@
 ||cntv.wrating.com^
 ||cnzz.mmstat.com^
 ||config.kuyun.com^
+||consent.truste.com^
 ||coocaatv.com^
 ||count.atm.youku.com^
 ||count.taobao.com^
+||cpro.baidustatic.com^
 ||cs.mbgame.gamesafe.qq.com^
+||d-gm.mmstat.com^
 ||da.mgtv.com^
 ||data.ab.qq.com^
 ||data.bilibili.com^
@@ -460,6 +464,7 @@
 ||dns.weixin.qq.com.cn^
 ||dsp.simba.taobao.com^
 ||dualstack-logs.amap.com^
+||dup.baidustatic.com^
 ||dvb.pandora.xiaomi.com^
 ||e.stat.youku.com^
 ||ecpm.tanx.com^
@@ -467,6 +472,7 @@
 ||err-up.vivo.com.cn^
 ||err.taobao.com^
 ||errlog.umeng.com^
+||event.csdn.net^
 ||extlog.snssdk.com^
 ||f.youku.com^
 ||f1.market.mi-img.com^
@@ -659,8 +665,10 @@
 ||report.idqqimg.com^
 ||report.qqweb.qq.com^
 ||res.mgtv.com^
+||res.wx.qq.com^
 ||rescn.u3.ucweb.com^
 ||rj.m.taobao.com^
+||s-gm.mmstat.com^
 ||s3-fe-scm.pglstatp-toutiao.com^
 ||s3a.pstatp.com^
 ||schemas.microsoft.akadns.net^
@@ -711,6 +719,7 @@
 ||tcss.qq.com^
 ||td.atm.youku.com^
 ||temai.taobao.com^
+||tms.oracle.com^
 ||tnc3-bjlgy.zijieapi.com^
 ||tobapplog.ctobsnssdk.com^
 ||toblog.ctobsnssdk.com^
@@ -790,4 +799,5 @@
 ||youku-dtv.m.cn.miaozhen.com^
 ||youkuad.com^
 ||ys.da.mgtv.com^
+||zz.bdstatic.com^
 ||zz.bdstatic.com^
