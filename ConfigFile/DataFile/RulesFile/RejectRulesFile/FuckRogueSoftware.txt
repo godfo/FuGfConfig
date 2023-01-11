@@ -9,6 +9,7 @@
 # https://github.com/MisakaMikoto-35c5/generate-rule/blob/master/adblock/custom-block-domains.txt
 # https://github.com/jdlingyu/ad-wars/blob/master/hosts
 # https://raw.githubusercontent.com/Code-Dramatist/Rule_Actions/main/Reject_Rule/Reject_Rule.rule
+# https://github.com/ftpmorph/ftprivacy
 
 ## 腾讯系
 # qq
@@ -166,6 +167,8 @@ adcdn.tencentmusic.com
 adexpo.tencentmusic.com
 adclick.tencentmusic.com
 # 存疑
+.iot.qq.com
+c.isdspeed.qq.com
 .dlied1.cdntips.net
 miniapp.gtimg.cn
 .qappcenterv6.3g.qq.com
@@ -376,6 +379,13 @@ userimg.qunar.com
 w.m.taobao.com
 umengacs.m.taobao.com
 # 存疑
+.h-adashx.ut.taobao.com
+.audid-api.taobao.com
+.optimus-ads.amap.com
+.nbsdk-baichuan.alicdn.com
+.umengjmacs.m.taobao.com
+.suggest.taobao.com
+.uaction.alicdn.com
 hybrid.miniapp.taobao.com
 feedback-api.aliyuncs.com
 a.tanx.com
@@ -428,6 +438,7 @@ woodpecker.uc.cn
 p4psearch.china.alibaba.com
 loggw.alipay.com.cn
 guide-acs.m.taobao.com
+.log.aliyuncs.com
 # 阿里系存疑
 # 一休数据平台
 yixiu-abtest.alicdn.com
@@ -442,6 +453,8 @@ dataflow.biliapi.com
 # 通过成熟的共享云计算技术，筹集用户闲置的带宽资源，为企业提供优质低成本的云计算服务
 .szbdyd.com
 grpc.biliapi.net
+# 观看直播时 b 站拿用户的电脑去 p2p 上传，所谓的 webRtc
+.stun.chat.bilibili.com
 
 ## 字节系
 api-access.pangolin-sdk-toutiao.com
@@ -484,7 +497,7 @@ tnc3-bjlgy.zijieapi.com
 .api.miwifi.com
 .ad.xiaomi.com
 .sec.miui.com
-tracking.miui.com
+.tracking.miui.com
 .ot.io.mi.com
 stat.pandora.xiaomi.com
 upgrade.mishop.pandora.xiaomi.com
@@ -515,10 +528,9 @@ f3.market.mi-img.com
 f4.market.mi-img.com
 f5.market.mi-img.com
 g.dtv.cn.miaozhan.com
-ad.xiaomi.com
+.ad.xiaomi.com
 ad1.xiaomi.com
-new.api.ad.xiaomi.com
-api.ad.xiaomi.com
+
 .register.xmpush.xiaomi.com
 .storeconfig.mistat.intl.xiaomi.com
 .api.miui.security.xiaomi.com
@@ -529,6 +541,58 @@ api.ad.xiaomi.com
 .mistat.xiaomi.com
 .tracker.ai.xiaomi.com
 .ad.intl.xiaomi.com
+# 存疑
+.abtest.mistat.xiaomi.com
+abtest.mistat.intl.xiaomi.com
+adinfo.ra1.xlmc.sec.miui.com
+.analytics.ff.avast.sec.miui.com
+api.admob.xiaomi.com
+api.activity.browser.miui.com
+api.activity.browser.intl.miui.com
+cdn.ad.xiaomi.com
+contactapi.micloud.xiaomi.net
+connect.rom.miui.com
+cc.sys.intl.xiaomi.com
+cc.sys.miui.com
+cc2.sys.intl.xiaomi.com
+cc2.sys.miui.com
+ccc.sys.intl.xiaomi.com
+ccc.sys.miui.com
+chat.global.xiaomi.net
+data.mistat.xiaomi.com
+data.mistat.intl.xiaomi.com
+data.sec.intl.miui.com
+e.ad.xiaomi.com
+feedback.intl.miui.com
+feedback.miui.com
+file.market.xiaomi.com
+find.api.micloud.xiaomi.net
+flash.sec.intl.miui.com
+idmb.register.xmpush.global.xiaomi.com
+imgg.traffic-media.co
+imgg.traffic-media.co.uk
+info.analysis.kp.sec.miui.com
+jupiter.intl.sys.miui.com
+log.avlyun.sec.miui.com
+log.avlyun.sec.intl.miui.com
+logupdate.avlyun.sec.miui.com
+log.ad.xiaomi.com
+new.api.ad.xiaomi.com
+resolver.msg.xiaomi.net
+resolver.msg.global.xiaomi.net
+sa.api.miui.com
+sa.api.intl.miui.com
+ssp.ad.xiaomi.com
+sec-cdn.static.xiaomi.net
+sdkconfig.ad.xiaomi.com
+sdkconfig.ad.intl.xiaomi.com
+track.ad.xiaomi.com
+tracking.rus.miui.com
+tracking.india.miui.com
+tracking.intl.miui.com
+zeus.ad.intl.xiaomi.com
+.zeus.ad.xiaomi.com
+.zhuti.xiaomi.com
 
 ## jd 京东
 .wl.jd.com
@@ -821,6 +885,8 @@ aaid.umeng.com
 ulogs.umeng.com
 ulogs.umengcloud.com
 .ads.umeng.com
+.oc.umeng.com
+.oc.umeng.co
 
 ## AppsFlyer
 launches.appsflyer.com
@@ -932,3 +998,8 @@ hoisin.coocaatv.com
 api.hoisin.hw.coocaatv.com
 active.tc.skysrt.com
 skyworth-cloud.com
+
+
+bugtags.com
+cgi.qplus.com
+paopaotuan.org
