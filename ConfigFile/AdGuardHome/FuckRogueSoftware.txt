@@ -4,6 +4,7 @@
 ||act.qq.com^
 ||activeqq.3g.qq.com^
 ||activeqq.3g.qq.com^
+||activity.windows.com^
 ||ad.intl.xiaomi.com^
 ||ad.qq.com^
 ||ad.weixin.qq.com^
@@ -50,6 +51,7 @@
 ||audid-api.taobao.com^
 ||beacon-api.aliyuncs.com^
 ||beacon.qq.com^
+||beacon.tingyun.com^
 ||bingads.microsoft.com^
 ||bkcommdata.v.qq.com^
 ||bksoup.v.qq.com^
@@ -71,6 +73,7 @@
 ||commdata.v.qq.com^
 ||corp.sts.microsoft.com^
 ||corpext.msitadfs.glbdns2.microsoft.com^
+||cpro.baidustatic.com^
 ||crl.microsoft.com^
 ||cy2.vortex.data.microsoft.com.akadns.net^
 ||d3g.qq.com^
@@ -84,9 +87,11 @@
 ||dlied1.cdntips.net^
 ||download.sj.qq.com^
 ||dp3.qq.com^
+||dup.baidustatic.com^
 ||e.qq.com^
 ||erebor.douban.com^
 ||etg.qq.com^
+||event.csdn.net^
 ||event.toggle.qq.com^
 ||firefoxchina.cn^
 ||fm.qzone.qq.com^
@@ -102,6 +107,7 @@
 ||geo.vortex.data.microsoft.com.akadns.net^
 ||go-mpulse.net^
 ||google-analytics.com^
+||googleadservices.com^
 ||googletagmanager.com^
 ||groupclient.qq.com^
 ||growthpic.weishi.qq.com^
@@ -135,9 +141,13 @@
 ||livep.l.ott.video.qq.com^
 ||lives.l.ott.video.qq.com^
 ||lmbsy.qq.com^
+||log-upload-os.hoyoverse.com^
+||log-upload-os.mihoyo.com^
+||log-upload.mihoyo.com^
 ||log.aliyuncs.com^
 ||log.tbs.qq.com^
 ||log.umtrack.com^
+||log.upload.os.mihoyo.com^
 ||log6.reader.qq.com^
 ||mapp.qzone.qq.com^
 ||market.m.qq.com^
@@ -475,7 +485,6 @@
 ||coocaatv.com^
 ||count.atm.youku.com^
 ||count.taobao.com^
-||cpro.baidustatic.com^
 ||cs.mbgame.gamesafe.qq.com^
 ||d-gm.mmstat.com^
 ||da.mgtv.com^
@@ -501,7 +510,6 @@
 ||dns.weixin.qq.com.cn^
 ||dsp.simba.taobao.com^
 ||dualstack-logs.amap.com^
-||dup.baidustatic.com^
 ||dvb.pandora.xiaomi.com^
 ||e.ad.xiaomi.com^
 ||e.stat.youku.com^
@@ -510,7 +518,6 @@
 ||err-up.vivo.com.cn^
 ||err.taobao.com^
 ||errlog.umeng.com^
-||event.csdn.net^
 ||extlog.snssdk.com^
 ||f.youku.com^
 ||f1.market.mi-img.com^
@@ -603,9 +610,6 @@
 ||live-ifs.tanx.com^
 ||log-api.pangolin-sdk-toutiao-b.com^
 ||log-api.pangolin-sdk-toutiao.com^
-||log-upload-os.hoyoverse.com^
-||log-upload-os.mihoyo.com^
-||log-upload.mihoyo.com^
 ||log.ad.xiaomi.com^
 ||log.aldwx.com^
 ||log.avlyun.sec.intl.miui.com^
@@ -621,7 +625,6 @@
 ||log.snssdk.com^
 ||log.so.hunantv.com^
 ||log.trackingio.com^
-||log.upload.os.mihoyo.com^
 ||log.v2.hunantv.com^
 ||log2.cmpassport.com^
 ||loggly.com^

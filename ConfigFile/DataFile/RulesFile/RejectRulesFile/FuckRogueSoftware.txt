@@ -697,10 +697,10 @@ vcode-od.vivo.com.cn
 
 ## mihoyo 米哈游
 .client-report.bh3.com
-log-upload.mihoyo.com
-log.upload.os.mihoyo.com
-log-upload-os.mihoyo.com
-log-upload-os.hoyoverse.com
+.log-upload.mihoyo.com
+.log.upload.os.mihoyo.com
+.log-upload-os.mihoyo.com
+.log-upload-os.hoyoverse.com
 # firebaselogging-pa.mihoyo.com
 # firebaseremoteconfig.mihoyo.com
 # .exam-ios-jp.bh3.com
@@ -740,8 +740,8 @@ log2.cmpassport.com
 ## baidu 百度
 hm.baidu.com
 zz.bdstatic.com
-dup.baidustatic.com
-cpro.baidustatic.com
+.dup.baidustatic.com
+.cpro.baidustatic.com
 zz.bdstatic.com
 
 ## 微软 Microsoft
@@ -834,6 +834,7 @@ vortex.data.msn.com
 .server6.pipe.aria.microsoft.com
 .server7.pipe.aria.microsoft.com
 .settings.data.microsoft.com
+.activity.windows.com
 
 ## Facebook
 graph.facebook.com
@@ -843,6 +844,7 @@ graph.facebook.com
 .google-analytics.com
 .googletagmanager.com
 firebaselogging-pa.googleapis.com
+.googleadservices.com
 
 ## crashlytics
 settings.crashlytics.com
@@ -860,7 +862,7 @@ analytics.95516.com
 tysdk.95516.com
 
 ## CSDN
-event.csdn.net
+.event.csdn.net
 
 ## Oracle
 tms.oracle.com
@@ -916,7 +918,6 @@ cm-10-139.getui.com
 
 ## 数字联盟
 aads.shuzilm.cn
-
 ## 数据收集，详见 https://tech.sina.com.cn/i/2019-03-25/doc-ihsxncvh5289363.shtml
 .zzhc.vnet.cn
 
@@ -1003,3 +1004,5 @@ skyworth-cloud.com
 bugtags.com
 cgi.qplus.com
 paopaotuan.org
+
+.beacon.tingyun.com
