@@ -870,6 +870,9 @@ tms.oracle.com
 ## truste
 consent.truste.com
 
+## 奶牛快传 厦门稿定股份有限公司
+.log-v2.hlgdata.com
+
 ## 其他推送平台
 
 ## 极光推送

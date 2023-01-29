@@ -145,6 +145,7 @@
 *.log-upload-os.hoyoverse.com = 0.0.0.0
 *.log-upload-os.mihoyo.com = 0.0.0.0
 *.log-upload.mihoyo.com = 0.0.0.0
+*.log-v2.hlgdata.com = 0.0.0.0
 *.log.aliyuncs.com = 0.0.0.0
 *.log.tbs.qq.com = 0.0.0.0
 *.log.umtrack.com = 0.0.0.0
