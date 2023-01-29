@@ -745,17 +745,16 @@ zz.bdstatic.com
 zz.bdstatic.com
 
 ## 微软 Microsoft
-nexus.officeapps.live.com
-nexusrules.officeapps.live.com
+## 主要来自 https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt ，在此表示感谢
+.nexus.officeapps.live.com
+.nexusrules.officeapps.live.com
 .oca.telemetry.microsoft.us
 .onecollector.cloudapp.aria.akadns.net
-par02p.wns.windows.com
-presence.teams.live.com
-sg2p.wns.windows.com
+.par02p.wns.windows.com
+.sg2p.wns.windows.com
 .spyneteurope.microsoft.akadns.net
-presence.teams.live.com
-preview.msn.com
-rad.live.com
+.preview.msn.com
+.rad.live.com
 schemas.microsoft.akadns.net
 # Visual Studio App Center
 in.appcenter.ms
@@ -817,10 +816,6 @@ settings-win.data.microsoft.com
 .umwatsonc.telemetry.microsoft.us
 .choice.microsoft.com.nsatc.net
 .i1.services.social.microsoft.com.nsatc.net
-.oca.telemetry.microsoft.com.nsatc.net
-.sqm.telemetry.microsoft.com.nsatc.net
-.telecommand.telemetry.microsoft.com.nsatc.net
-.watson.telemetry.microsoft.com.nsatc.net
 .browser.events.data.microsoft.com
 .browser.events.data.msn.com
 c.live.com
@@ -835,6 +830,65 @@ vortex.data.msn.com
 .server7.pipe.aria.microsoft.com
 .settings.data.microsoft.com
 .activity.windows.com
+.a.ads2.msads.net
+.a.ads2.msn.com
+.ac3.msn.com
+.adnexus.net
+.adnxs.com
+.ads.msn.com
+.ads1.msads.net
+.ads1.msn.com
+.aidps.atdmt.com
+.aka-cdn-ns.adtech.de
+.api.cortana.ai
+.azwancan.trafficmanager.net
+.b.ads2.msads.net
+.blobcollector.events.data.trafficmanager.net
+.bn2-ris-ap-prod-atm.trafficmanager.net
+.bn2-ris-prod-atm.trafficmanager.net
+.browser.pipe.aria.microsoft.com
+.bs.serving-sys.com
+.c.atdmt.com
+.c.msn.com
+.cache.datamart.windows.com
+.cdn.atdmt.com
+.compatexchange1.trafficmanager.net
+.cs1.wpc.v0cdn.net
+.cy2.vortex.data.microsoft.com.akadns.net
+.db3aqu.atdmt.com
+.db5.settings.data.microsoft.com.akadns.net
+.db5.settings-win.data.microsoft.com.akadns.net
+.db5.vortex.data.microsoft.com.akadns.net
+.db5-eap.settings-win.data.microsoft.com.akadns.net
+.ec.atdmt.com
+.flex.msn.com
+.g.msn.com
+.geo.settings-win.data.microsoft.com.akadns.net
+.h1.msn.com
+.h2.msn.com
+.hk2.wns.windows.com
+.hk2wns1.wns.windows.com
+.hk2wns1b.wns.windows.com
+.ieonlinews.trafficmanager.net
+.insideruser.trafficmanager.net
+.live.rads.msn.com
+.mobile.pipe.aria.microsoft.com
+.msedge.net
+.msntest.serving-sys.com
+.pre.footprintpredict.com
+.presence.teams.live.com
+.rad.msn.com
+.schemas.microsoft.akadns.net
+.secure.flashtalking.com
+.settingsfd-geo.trafficmanager.net
+.ssw.live.com
+.tele.trafficmanager.net
+.telemetry.appex.bing.net
+.telemetry.remoteapp.windowsazure.com
+.test.activity.windows.com
+.uks.b.prd.ags.trafficmanager.net
+.view.atdmt.com
+.watson.live.com
 
 ## Facebook
 graph.facebook.com
@@ -846,6 +900,27 @@ graph.facebook.com
 firebaselogging-pa.googleapis.com
 .googleadservices.com
 
+## Apple
+acfeedbackws.icloud.com
+api-adservices.apple.com
+books-analytics-events.apple.com
+books-analytics-events.news.apple-dns.net
+dzc-metrics.mzstatic.com
+feedbackws.icloud.com
+iadsdk.apple.com
+metrics.apple.com
+metrics.icloud.com
+metrics.mzstatic.com
+notes-analytics-events.apple.com
+notes-analytics-events.news.apple-dns.net
+securemetrics.apple.com
+securemvt.apple.com
+stocks-analytics-events.apple.com
+stocks-analytics-events.news.apple-dns.net
+supportmetrics.apple.com
+weather-analytics-events.apple.com
+weather-analytics-events.news.apple-dns.net
+
 ## crashlytics
 settings.crashlytics.com
 
@@ -854,6 +929,45 @@ settings.crashlytics.com
 
 ## 快手
 open.kuaishouzt.com
+
+## huawei
+datacollector-dra.dt.dbankcloud.cn
+datacollector-dra.dt.hicloud.com
+datacollector-drcn.dt.dbankcloud.cn
+datacollector-drcn.dt.hicloud.com
+datacollector-dre.dt.dbankcloud.cn
+datacollector-dre.dt.hicloud.com
+datacollector-drru.dt.dbankcloud.ru
+datacollector-drru.dt.hicloud.com
+grs.dbankcloud.asia
+grs.dbankcloud.cn
+grs.dbankcloud.com
+grs.dbankcloud.eu
+grs.hicloud.com
+grs.platform.dbankcloud.ru
+metrics-dra.dt.dbankcloud.cn
+metrics-dra.dt.hicloud.com
+metrics-drcn.dt.hicloud.com
+metrics-dre.data.dbankcloud.cn
+metrics-dre.dt.dbankcloud.cn
+metrics.data.hicloud.com
+metrics.dt.dbankcloud.cn
+metrics.dt.hicloud.com
+metrics1-drcn.dt.dbankcloud.cn
+metrics1.data.dbankcloud.cn
+metrics1.data.hicloud.com
+metrics2.data.hicloud.com
+metrics3.data.hicloud.com
+metrics4.data.hicloud.com
+metrics5.data.hicloud.com
+metrics5.dt.dbankcloud.ru
+metrics6.dt.hicloud.com
+logservice-dra.platform.hicloud.com
+logservice-dre.platform.dbankcloud.cn
+logservice-dre.platform.hicloud.com
+logservice-drru.dt.hicloud.com
+logservice.hicloud.com
+logservice1.hicloud.com
 
 ## 银联
 ads.95516.com
