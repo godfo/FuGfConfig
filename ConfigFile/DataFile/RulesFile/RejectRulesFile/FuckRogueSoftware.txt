@@ -173,7 +173,7 @@ c.isdspeed.qq.com
 miniapp.gtimg.cn
 .qappcenterv6.3g.qq.com
 wup.imtt.qq.com
-cfg.imtt.qq.com
+.cfg.imtt.qq.com
 .zhizi.qq.com
 .adsrich.qq.com
 .adss.video.qq.com
@@ -285,7 +285,14 @@ idcconfig.gcloudsdk.com
 .wup.browser.qq.com
 ## 存疑
 res.wx.qq.com
-
+.tmfsdktcpv4.m.qq.com
+.tangram.e.qq.com
+.us.l.qq.com
+.api.yky.qq.com
+.sdk.e.qq.com
+.tmfsdk4.m.qq.com
+.tbm.snssdk.com
+.tmfsdktcp.m.qq.com
 
 ## 阿里系
 # 将阿里系 app 关闭网络权限且从移动网络切换到 Wi-Fi 时，有概率出现
@@ -476,8 +483,8 @@ s3a.pstatp.com
 dm.pstatp.com
 dm.toutiao.com
 dm.bytedance.com
-toblog.ctobsnssdk.com
-tobapplog.ctobsnssdk.com
+.toblog.ctobsnssdk.com
+.tobapplog.ctobsnssdk.com
 sdfp.snssdk.com
 tosv.byted.org
 log.snssdk.com
@@ -488,7 +495,7 @@ pangolin.snssdk.com
 extlog.snssdk.com
 sf3-ttcdn-tos.pstatp.com
 bds.snssdk.com
-ug.snssdk.com
+.ug.snssdk.com
 dig.bdurl.net
 mssdk-bu.bytedance.com
 tnc3-bjlgy.zijieapi.com
@@ -497,7 +504,6 @@ tnc3-bjlgy.zijieapi.com
 .api.miwifi.com
 .ad.xiaomi.com
 .sec.miui.com
-.tracking.miui.com
 .ot.io.mi.com
 stat.pandora.xiaomi.com
 upgrade.mishop.pandora.xiaomi.com
@@ -530,21 +536,17 @@ f5.market.mi-img.com
 g.dtv.cn.miaozhan.com
 .ad.xiaomi.com
 ad1.xiaomi.com
-
 .register.xmpush.xiaomi.com
 .storeconfig.mistat.intl.xiaomi.com
 .api.miui.security.xiaomi.com
 .shenghuo.xiaomi.com
 .resolver.msg.xiaomi.net
-.o2o.api.xiaomi.com
 .app.chat.xiaomi.net
 .mistat.xiaomi.com
-.tracker.ai.xiaomi.com
 .ad.intl.xiaomi.com
 # 存疑
 .abtest.mistat.xiaomi.com
 abtest.mistat.intl.xiaomi.com
-adinfo.ra1.xlmc.sec.miui.com
 .analytics.ff.avast.sec.miui.com
 api.admob.xiaomi.com
 api.activity.browser.miui.com
@@ -557,9 +559,7 @@ cc.sys.miui.com
 cc2.sys.intl.xiaomi.com
 cc2.sys.miui.com
 ccc.sys.intl.xiaomi.com
-ccc.sys.miui.com
 chat.global.xiaomi.net
-data.mistat.xiaomi.com
 data.mistat.intl.xiaomi.com
 data.sec.intl.miui.com
 e.ad.xiaomi.com
@@ -574,9 +574,6 @@ imgg.traffic-media.co.uk
 info.analysis.kp.sec.miui.com
 jupiter.intl.sys.miui.com
 log.avlyun.sec.miui.com
-log.avlyun.sec.intl.miui.com
-logupdate.avlyun.sec.miui.com
-log.ad.xiaomi.com
 new.api.ad.xiaomi.com
 resolver.msg.xiaomi.net
 resolver.msg.global.xiaomi.net
@@ -584,15 +581,106 @@ sa.api.miui.com
 sa.api.intl.miui.com
 ssp.ad.xiaomi.com
 sec-cdn.static.xiaomi.net
-sdkconfig.ad.xiaomi.com
 sdkconfig.ad.intl.xiaomi.com
-track.ad.xiaomi.com
 tracking.rus.miui.com
 tracking.india.miui.com
 tracking.intl.miui.com
 zeus.ad.intl.xiaomi.com
 .zeus.ad.xiaomi.com
 .zhuti.xiaomi.com
+## 来自 https://raw.githubusercontent.com/LoopDns/Fuck-you-MIUI/main/MIhosts
+#此处主要屏蔽小米云扫描组件
+.log.avlyun.sec.intl.miui.com
+.update.avlyun.sec.miui.com
+.ixav-cse.avlyun.com
+.logupdate.avlyun.sec.miui.com
+.miui-fxcse.avlyun.com
+.sdkconf.avlyun.com
+.miav-cse.avlyun.com
+.api.installer.xiaomi.com
+.tmfsdk.m.qq.com
+.a0.app.xiaomi.com
+#屏蔽后无法矫正流量，但是也用来下载白名单
+.api.sec.miui.com
+.adv.sec.miui.com
+.xlmc.sec.miui.com
+#禁用后将无法云扫描病毒
+.etl-xlmc-ssl.sandai.net
+.cn.app.chat.xiaomi.net
+#疑似云盘，自行决定
+.pdc.micloud.xiaomi.net
+.a.hl.mi.com
+#禁用后可能会导致小米浏览器无法下载APK，因为有垃圾推广安装
+.idm.api.io.mi.com
+.api.jr.mi.com
+.ssl-cdn.static.browser.mi-img.com
+## 来自 https://raw.githubusercontent.com/LoopDns/Fuck-you-MIUI/main/Fhosts
+#OneTrack & Analytics & Ad
+.tracking.miui.com
+.data.mistat.xiaomi.com
+.diagnosis.ad.xiaomi.com
+.log.ad.xiaomi.com
+.track.ad.xiaomi.com
+.sdkconfig.ad.xiaomi.com
+# 小爱同学
+.tracker.ai.xiaomi.com
+# 好像是小米自己的引擎 还在内测
+.mazu.sec.miui.com
+# 禁用后无法开启部分权限
+#.srv.sec.miui.com
+#权限云控 好像只针对部分机型？
+.auth.be.sec.miui.com
+#反诈
+.flash.sec.miui.com
+#浏览器 热点下滑等
+.o2o.api.xiaomi.com
+.api.browser.miui.com
+.security.browser.miui.com
+.hot.browser.miui.com
+.r.browser.miui.com
+.hd.browser.miui.com
+.c3-cache.browser.miui.com
+.api-ipv4.browser.miui.com
+# 系统应用检查更新 e.g 下载管理
+.api.developer.xiaomi.com
+# 禁用后无法加载手机管家App内的图标
+#.keybag.id.mi.com
+# others
+.data.sec.miui.com
+.adinfo.ra1.xlmc.sec.miui.com
+.test.ad.xiaomi.com
+.hybrid.xiaomi.com
+.hybrid.miui.com
+#??? 云控?
+.qsb.browser.miui.srv
+.rom.pt.miui.srv
+.ccc.sys.miui.com
+.jupiter.sys.miui.com
+.metok.sys.miui.com
+# 其他系统应用的垃圾sdk
+# qq扫描 bugly 阅读 快应用等api
+# 可能会影响部分功能
+.hub5pn.wap.sandai.net
+.tpstelemetry.tencent.com
+.pssn.alicdn.com
+.statres.quickapp.cn
+.qr.quickapp.cn
+.s1.irs03.com
+.up.cm.ksmobile.com
+.dl.cm.ksmobile.com
+.dw-online.ksosoft.com
+.mpush-api.aliyun.com
+.worldwide.sogou.com
+.www.pangolin-dsp-toutiao.com
+.master.wap.dphub.sandai.net
+.hub5u.wap.sandai.net
+.idx.m.hub.sandai.net
+.tw13b093.sandai.net
+.uploadlog.xlmc.sandai.net
+.t03-api.xlmc.xunlei.com
+.pre.api.tw06.xlmc.sandai.net
+.guid-xldw-ssl.n0808.com
+
 
 ## jd 京东
 .wl.jd.com
@@ -654,7 +742,7 @@ p2v.tudou.com
 ad.api.3g.tudou.com
 
 ## 爱奇艺
-t7z.cupid.iqiyi.com
+.t7z.cupid.iqiyi.com
 l.rcd.iqiyi.com
 nl.rcd.iqiyi.com
 a.ckm.iqiyi.com
