@@ -155,7 +155,7 @@ func WriteHostFile(data []string, filePath string) error {
 			v = strings.Replace(v, "\n", "", -1)
 			fmt.Fprint(write, "0.0.0.0 ")
 			if strings.HasPrefix(v, ".") {
-				fmt.Fprint(write, "*")
+				v = strings.TrimLeft(v, ".")
 			}
 			fmt.Fprintln(write, v)
 		}
