@@ -276,6 +276,7 @@ wup.imtt.qq.com
 .wxsnsad.tc.qq.com
 .openmsf.3g.qq.com
 .ts.qq.com
+.capi.voice.gcloud.qq.com
 # GCloudSDK
 idcconfig.gcloudsdk.com
 ## 请求 IP 为 本地地址（可能会用于追踪）
@@ -789,6 +790,7 @@ vcode-od.vivo.com.cn
 .log.upload.os.mihoyo.com
 .log-upload-os.mihoyo.com
 .log-upload-os.hoyoverse.com
+.uspider.yuanshen.com
 # firebaselogging-pa.mihoyo.com
 # firebaseremoteconfig.mihoyo.com
 # .exam-ios-jp.bh3.com
@@ -1077,9 +1079,57 @@ consent.truste.com
 
 ## 其他推送平台
 
+## 数美
+# https://help.ishumei.com
+# 风险ip识别
+.api-tianxiang-bj.fengkongcloud.com
+.api-tianxiang-xjp.fengkongcloud.com
+.api-tianxiang-eur.fengkongcloud.com
+.api-tianxiang-fjny.fengkongcloud.com
+# 智能网页过滤服务
+.api-article-bj.fengkongcloud.com
+# 智能音频文件识别
+.api-audio-sh.fengkongcloud.com
+.api-audio-sh.fengkongcloud.com
+.api-audio-gg.fengkongcloud.com
+.api-audio-xjp.fengkongcloud.com
+# 智能音频流识别
+.api-audiostream-xjp.fengkongcloud.com
+.api-audiostream-gg.fengkongcloud.com
+.api-audiostream-sh.fengkongcloud.com
+# 数美-设备指纹
+.api-tianxiang-bj.fengkongcloud.com
+.api-tianxiang-xjp.fengkongcloud.com
+.api-tianxiang-eur.fengkongcloud.com
+.api-tianxiang-fjny.fengkongcloud.com
+# 设备指纹请求
+.fp-proxy.fengkongcloud.com
+.fp-sa-proxy.fengkongcloud.com
+.fp-na-proxy.fengkongcloud.com
+# 云配请求
+.fp-proxy.fengkongcloud.com
+.fp-sa-proxy.fengkongcloud.com
+.fp-na-proxy.fengkongcloud.com
+# 数据防盗爬
+.api-skynet-bj.fengkongcloud.com
+.api-skynet-fjny.fengkongcloud.com
+.api-skynet-xjp.fengkongcloud.com
+.api-skynet-eur.fengkongcloud.com
+# 营销风控
+.api-skynet-bj.fengkongcloud.com
+.api-skynet-fjny.fengkongcloud.com
+.api-skynet-xjp.fengkongcloud.com
+.api-skynet-eur.fengkongcloud.com
+
 ## 极光推送
-.jpush.cn
+# .jpush.cn
+.ali-stats.jpush.cn
+.gd-stats.jpush.cn
+.stats.jpush.cn
 sdkapi-smartop.jiguang.cn
+
+## 基调听云
+# https://doc.tingyun.com/index.html
 
 ## 热云
 #.trackingio.com
