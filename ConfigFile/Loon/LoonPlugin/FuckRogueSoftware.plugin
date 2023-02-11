@@ -35,6 +35,7 @@
 *.ads.umeng.com = 0.0.0.0
 *.ads1.msads.net = 0.0.0.0
 *.ads1.msn.com = 0.0.0.0
+*.adse.ximalaya.com = 0.0.0.0
 *.adsfile.qq.com = 0.0.0.0
 *.adsmind.apdcdn.tc.qq.com = 0.0.0.0
 *.adsolution.imtt.qq.com = 0.0.0.0
@@ -45,6 +46,7 @@
 *.ag.qq.com = 0.0.0.0
 *.agstat.html5.qq.com = 0.0.0.0
 *.aidps.atdmt.com = 0.0.0.0
+*.aip.baidubce.com = 0.0.0.0
 *.aka-cdn-ns.adtech.de = 0.0.0.0
 *.ali-stats.jpush.cn = 0.0.0.0
 *.allyes.com = 0.0.0.0
@@ -133,6 +135,7 @@
 *.choice.microsoft.com.nsatc.net = 0.0.0.0
 *.client-report.bh3.com = 0.0.0.0
 *.client.show.qq.com = 0.0.0.0
+*.cloud.sensorsdata.cn = 0.0.0.0
 *.cloudflareinsights.com = 0.0.0.0
 *.cn.app.chat.xiaomi.net = 0.0.0.0
 *.commdata.v.qq.com = 0.0.0.0
@@ -250,6 +253,7 @@
 *.livep.l.ott.video.qq.com = 0.0.0.0
 *.lives.l.ott.video.qq.com = 0.0.0.0
 *.lmbsy.qq.com = 0.0.0.0
+*.location.ximalaya.com = 0.0.0.0
 *.log-upload-os.hoyoverse.com = 0.0.0.0
 *.log-upload-os.mihoyo.com = 0.0.0.0
 *.log-upload.mihoyo.com = 0.0.0.0
@@ -358,6 +362,7 @@
 *.register.xmpush.xiaomi.com = 0.0.0.0
 *.report.cms.qq.com = 0.0.0.0
 *.report.qq.com = 0.0.0.0
+*.report.tingyun.com = 0.0.0.0
 *.report.vip.qq.com = 0.0.0.0
 *.resolver.msg.xiaomi.net = 0.0.0.0
 *.retcode.taobao.com = 0.0.0.0
@@ -455,6 +460,7 @@
 *.tracker.ai.xiaomi.com = 0.0.0.0
 *.tracking.miui.com = 0.0.0.0
 *.ts.qq.com = 0.0.0.0
+*.tsn.baidu.com = 0.0.0.0
 *.tunion-api.m.taobao.com = 0.0.0.0
 *.tw13b093.sandai.net = 0.0.0.0
 *.uaction.alicdn.com = 0.0.0.0
@@ -483,6 +489,7 @@
 *.view.atdmt.com = 0.0.0.0
 *.vlive.qqvideo.tc.qq.com = 0.0.0.0
 *.vmindhls.tc.qq.com = 0.0.0.0
+*.vop.baidu.com = 0.0.0.0
 *.vortex-sandbox.data.microsoft.com = 0.0.0.0
 *.vortex-win-sandbox.data.microsoft.com = 0.0.0.0
 *.vortex-win.data.microsft.com = 0.0.0.0
@@ -511,6 +518,9 @@
 *.wxsnsad.tc.qq.com = 0.0.0.0
 *.wxsnsdy.tc.qq.com = 0.0.0.0
 *.wxsnsdy.video.qq.com = 0.0.0.0
+*.xdcs-collector.ximalaya.com = 0.0.0.0
+*.xdcs-collector.ximalaya.com = 0.0.0.0
+*.xdcs-collector.ximalaya.com = 0.0.0.0
 *.xlmc.sec.miui.com = 0.0.0.0
 *.xmaterial.tu.qq.com = 0.0.0.0
 *.zeus.ad.xiaomi.com = 0.0.0.0

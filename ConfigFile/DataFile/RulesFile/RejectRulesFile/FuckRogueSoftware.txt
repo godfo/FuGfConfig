@@ -833,6 +833,11 @@ zz.bdstatic.com
 .dup.baidustatic.com
 .cpro.baidustatic.com
 zz.bdstatic.com
+# 语音识别
+.vop.baidu.com
+# 文本在线合成
+.tsn.baidu.com
+.aip.baidubce.com
 
 ## 微软 Microsoft
 ## 主要来自 https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt ，在此表示感谢
@@ -1077,6 +1082,13 @@ consent.truste.com
 ## 奶牛快传 厦门稿定股份有限公司
 .log-v2.hlgdata.com
 
+## 喜马拉雅
+.location.ximalaya.com
+.adse.ximalaya.com
+.xdcs-collector.ximalaya.com
+.xdcs-collector.ximalaya.com
+.xdcs-collector.ximalaya.com
+
 ## 其他推送平台
 
 ## 数美
@@ -1130,11 +1142,16 @@ sdkapi-smartop.jiguang.cn
 
 ## 基调听云
 # https://doc.tingyun.com/index.html
+# 听云小程序
+.report.tingyun.com
 
 ## 热云
 #.trackingio.com
 log.trackingio.com
 slog.trackingio.com
+
+## 神策数据分析
+.cloud.sensorsdata.cn
 
 ## 友盟
 errlog.umeng.com
@@ -1261,3 +1278,7 @@ cgi.qplus.com
 paopaotuan.org
 
 .beacon.tingyun.com
+
+# DOMAIN-SUFFIX,taboola.com,REJECT
+# DOMAIN-SUFFIX,trc.taboola.com,REJECT
+# DOMAIN-SUFFIX,union.bokecc.com,REJECT
