@@ -3,6 +3,7 @@
 0.0.0.0 a.ads2.msn.com
 0.0.0.0 a.hl.mi.com
 0.0.0.0 a0.app.xiaomi.com
+0.0.0.0 aaid.umeng.com
 0.0.0.0 abtest.mistat.xiaomi.com
 0.0.0.0 ac3.msn.com
 0.0.0.0 acs4baichuan.m.taobao.com
@@ -49,6 +50,7 @@
 0.0.0.0 aka-cdn-ns.adtech.de
 0.0.0.0 ali-stats.jpush.cn
 0.0.0.0 allyes.com
+0.0.0.0 alogs.umeng.com
 0.0.0.0 alpha.telemetry.microsft.com
 0.0.0.0 amdc.m.taobao.com
 0.0.0.0 amdcopen.m.taobao.com
@@ -171,6 +173,7 @@
 0.0.0.0 e.qq.com
 0.0.0.0 ec.atdmt.com
 0.0.0.0 erebor.douban.com
+0.0.0.0 errlog.umeng.com
 0.0.0.0 etg.qq.com
 0.0.0.0 etl-xlmc-ssl.sandai.net
 0.0.0.0 event.csdn.net
@@ -465,12 +468,15 @@
 0.0.0.0 uaction.alicdn.com
 0.0.0.0 ug.snssdk.com
 0.0.0.0 uks.b.prd.ags.trafficmanager.net
+0.0.0.0 ulogs.umeng.com
+0.0.0.0 ulogs.umengcloud.com
 0.0.0.0 umengjmacs.m.taobao.com
 0.0.0.0 umwatson.events.data.microsoft.com
 0.0.0.0 umwatsonc.events.data.microsoft.com
 0.0.0.0 umwatsonc.telemetry.microsoft.us
 0.0.0.0 union.discuz.qq.com
 0.0.0.0 unitelogreport.reader.qq.com
+0.0.0.0 uop.umeng.com
 0.0.0.0 up.cm.ksmobile.com
 0.0.0.0 update.avlyun.sec.miui.com
 0.0.0.0 updatecenter.qq.com
@@ -537,7 +543,6 @@
 0.0.0.0 a.ckm.iqiyi.com
 0.0.0.0 a.tanx.com
 0.0.0.0 aads.shuzilm.cn
-0.0.0.0 aaid.umeng.com
 0.0.0.0 abtest.mistat.intl.xiaomi.com
 0.0.0.0 access-sngapm.qcloud.com
 0.0.0.0 acfeedbackws.icloud.com
@@ -711,7 +716,6 @@
 0.0.0.0 ef-dongfeng.tanx.com
 0.0.0.0 err-up.vivo.com.cn
 0.0.0.0 err.taobao.com
-0.0.0.0 errlog.umeng.com
 0.0.0.0 extlog.snssdk.com
 0.0.0.0 f.youku.com
 0.0.0.0 f1.market.mi-img.com
@@ -1025,8 +1029,6 @@
 0.0.0.0 u.ucfly.com
 0.0.0.0 uc9.ucweb.com
 0.0.0.0 ucus.ucweb.com
-0.0.0.0 ulogs.umeng.com
-0.0.0.0 ulogs.umengcloud.com
 0.0.0.0 umengacs.m.taobao.com
 0.0.0.0 union.gdtimg.com
 0.0.0.0 up1.tj.u2.ucweb.com

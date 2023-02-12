@@ -1154,13 +1154,15 @@ slog.trackingio.com
 .cloud.sensorsdata.cn
 
 ## 友盟
-errlog.umeng.com
-aaid.umeng.com
-ulogs.umeng.com
-ulogs.umengcloud.com
+.errlog.umeng.com
+.aaid.umeng.com
+.ulogs.umeng.com
+.alogs.umeng.com
+.ulogs.umengcloud.com
 .ads.umeng.com
 .oc.umeng.com
 .oc.umeng.co
+.uop.umeng.com
 
 ## AppsFlyer
 launches.appsflyer.com
