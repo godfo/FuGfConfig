@@ -686,6 +686,16 @@ zeus.ad.intl.xiaomi.com
 ## jd 京东
 .wl.jd.com
 skdisplay.jd.com
+.ads.union.jd.com
+.click.jr.jd.com
+.c-nfa.jd.com
+.cps.360buy.com
+.du.jd.com
+.jrclick.jd.com
+.jzt.jd.com
+.policy.jd.com
+.stat.m.jd.com
+.img-x.jd.com
 
 ## 优酷 youku
 atm.youku.com
@@ -815,7 +825,55 @@ fzapph5.gifzpt.cn
 .firefoxchina.cn
 
 ## 360
-c.sayhi.360.cn
+.c.sayhi.360.cn
+.dd.browser.360.cn
+.cdn.weathwe.hao.360.cn
+.mini.browser.360.cn
+.cloud.browser.360.cn
+.3600.com
+.ad.dev.360.cn
+.ad.huajiao.com
+.appjiagu.com
+.cpull.360.cn
+.dev.tg.wan.360.cn
+.display.360totalsecurity.com
+.down.360safe.com
+.gamebox.360.cn
+.hot.m.shouji.360tpcdn.com
+.hs.qhupdate.com
+.huid.ad.360.cn
+.jiagu.360.cn
+.kuaikan.netmon.360safe.com
+.leak.360.cn
+.mbrowser.news.haosou.com
+.mbrowser.news.so.com
+.mbs.hao.360.cn
+.msoftdl.360.cn
+.openbox.mobilem.360.cn
+.ps.dev.360.cn
+.pub.se.360.cn
+.rd.wan.360.cn
+.s.360.cn
+.s.qhupdate.com
+.s.union.360.cn
+.sh.qihoo.com
+.shouji.360.cn
+.soft.data.weather.360.cn
+.stat.360safe.com
+.stat.m.360.cn
+.stat.sd.360.cn
+.static.ts.360.com
+.tf.360.cn
+.top.h.qhimg.com
+.update.360safe.com
+.360game.360.cn
+.t.wg.360-api.cn
+.skin.se.360.cn
+.mp.360.cn
+
+## 2345
+.2345.com
+.2345.cn
 
 ## 高德地图
 dualstack-logs.amap.com
@@ -826,6 +884,9 @@ log.cmbchina.com
 ## 移动认证
 log.cmpassport.com
 log2.cmpassport.com
+
+## 彩云
+.ad.caiyunapp.com
 
 ## baidu 百度
 hm.baidu.com
@@ -1195,6 +1256,9 @@ aads.shuzilm.cn
 ## 数据收集，详见 https://tech.sina.com.cn/i/2019-03-25/doc-ihsxncvh5289363.shtml
 .zzhc.vnet.cn
 
+## astyanax
+.astyanax.io
+
 ## 其他
 .go-mpulse.net
 .webpushr.com
@@ -1280,7 +1344,7 @@ cgi.qplus.com
 paopaotuan.org
 
 .beacon.tingyun.com
-
-# DOMAIN-SUFFIX,taboola.com,REJECT
-# DOMAIN-SUFFIX,trc.taboola.com,REJECT
-# DOMAIN-SUFFIX,union.bokecc.com,REJECT
+.taboola.com
+.union.bokecc.com
+.best-practice.se
+.kaleido.art
