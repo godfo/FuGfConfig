@@ -67,6 +67,9 @@ func main() {
 	// //匹配类型，匹配关键字，策略名称
 	// //MatchType MatchingKeywords PolicyName
 	// policyProcessing("REJECT")
+
+	// 思路 给一个基础list，要合并的list，给策略名称，扔给输出到文件的函数，输出就好了
+	// 要有三个list ip 两个 domain
 	println("处理完成")
 	println("结束")
 }
@@ -93,6 +96,79 @@ func fuckRogueSoftware() {
 	file.WriteHostFile(ans, fuckRogueSoftwareHost)
 	file.WriteQuantumultXDNS(ans, "DataFile/ans/QuanXDNS.txt")
 	file.WriteQuantumultXRulesFile("FuckRogueSoftware", ans, qxFuckRogueSoftware)
+}
+
+func newPolicyProcessing(base []string, inbox []string) []string {
+	// map 来存取数据 key 是唯一的 放置域名或者ip，value放置规则
+	// 有个问题，当一个域名被包括了，怎么办 如 a.b.c.com 和 .c.com
+
+	// 构建 base map
+	var baseMap = make(map[string](string))
+	for _, v := range base {
+		v = formatCorrection(v)
+		a := ""
+		if strings.Count(v, ",") >= 1 {
+			a, v = splitRule(v)
+			baseMap[v] = a
+		} else if strings.HasPrefix(v, ".") {
+			v = strings.TrimPrefix(v, ".")
+			baseMap[v] = "DOMAIN-SUFFIX"
+		} else {
+			baseMap[v] = "DOMAIN"
+		}
+	}
+
+	fmt.Println("规则基础库构建完成，共: ", len(baseMap), " 条规则")
+
+	// 遍历 inbox
+	for _, v := range inbox {
+		v = formatCorrection(v)
+		a := ""
+		flag_is_suffix := false
+		if strings.Count(v, ",") >= 1 {
+			a, v = splitRule(v)
+		} else if strings.HasPrefix(v, ".") {
+			flag_is_suffix = true
+			v = strings.TrimPrefix(v, ".")
+		}
+		if _, ok := baseMap[v]; !ok {
+			// 如果不存在
+			if isDomainRule(v) {
+				// 如果是 domain 规则
+				count := strings.Count(v, ".") - 1
+				flag := false
+				for i := 0; i < count; i++ {
+					// TODO: 把 url 按 "." 从头截断
+					s := v
+					if _, ok := baseMap[s]; ok {
+						// 如果命中，直接 break
+						flag = true
+						break
+					}
+				}
+				if !flag {
+					if flag_is_suffix {
+						baseMap[v] = "DOMAIN-SUFFIX"
+					} else {
+						baseMap[v] = "DOMAIN"
+					}
+				}
+			} else {
+				baseMap[v] = a
+			}
+		}
+
+	}
+
+	// var data []Pair
+	// for k, v := range baseMap {
+	// 	data = append(data, Pair{k, v})
+	// }
+	// sort.Slice(data, func(i, j int) bool { return data[i].key < data[j].key })
+
+	// fmt.Println("处理完后的规则共: ", len(data), " 条")
+
+	return nil
 }
 
 // policy processing
@@ -215,7 +291,7 @@ func downloadFiles() {
 
 // 规则格式统一
 func formatCorrection(s string) string {
-	s = strings.TrimPrefix(s, ".")
+	// s = strings.TrimPrefix(s, ".")
 	s = strings.Replace(s, "\r", "", -1)
 	s = strings.Replace(s, "\n", "", -1)
 	s = strings.Replace(s, " ", "", -1)
@@ -230,6 +306,7 @@ func formatCorrection(s string) string {
 	s = strings.Replace(s, "USER-agent,", "USER-AGENT", 1)
 	s = strings.Replace(s, "user-agent,", "USER-AGENT", 1)
 	s = strings.Replace(s, "user-AGENT,", "USER-AGENT", 1)
+	s = strings.Replace(s, "ip-asn,", "IP-ASN", 1)
 
 	return s
 }
@@ -240,44 +317,34 @@ func isNote(s string) bool {
 		strings.HasPrefix(s, ";") ||
 		strings.HasPrefix(s, "\n") ||
 		strings.HasPrefix(s, "//") ||
-		strings.HasPrefix(s, "!") ||
-		strings.Contains(s, "URL-REGEX") {
+		strings.HasPrefix(s, "!") {
 		return true
 	}
 	return false
 }
 
-// func isDomainRules(s string) int {
-// 	if strings.HasPrefix(s,".")
-// 	 return 0 //Domain-suff
-// 	else if strings.Contains(s,".")
-// 	  return 1 //Domain
-// 	else
-// 	  return 2 //Domain-keyword
-// }
+func splitRule(s string) (string, string) {
+	// 对 规则进行切片，返回中间
+	ss := strings.Split(s, ",")
+	if len(ss) >= 2 {
+		return ss[0], ss[1]
+	}
+	return "", ""
+}
 
 func isIPV4(s string) bool {
 	// 判断是否为 IPV4
-	partIp := "(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])"
-	grammer := partIp + "\\." + partIp + "\\." + partIp + "\\." + partIp
-	matchMe := regexp.MustCompile(grammer)
-
-	return matchMe.MatchString(s)
+	ipv4Pattern := regexp.MustCompile(`^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$`)
+	return ipv4Pattern.MatchString(s)
 }
 
 func isIPV6(s string) bool {
-	// 不确定是否可用
 	// 判断是否为 IPV6
-	partIp := "(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])"
-	partIp6 := "(?:[0-9a-fA-F]{1,4}:){7}" + partIp + "(?::[0-9a-fA-F]{1,4}){0,1}"
-	grammer6 := partIp6 + "\\/" + partIp
-	matchMe := regexp.MustCompile(grammer6)
-
-	return matchMe.MatchString(s)
+	ipv6Pattern := regexp.MustCompile(`^([0-9a-fA-F]{1,4}:){7}[0-9a-fA-F]{1,4}$`)
+	return ipv6Pattern.MatchString(s)
 }
 
-// func getDomain(s string) string {
-// 	s = s[1:2]
-
-// 	return s
-// }
+func isDomainRule(s string) bool {
+	domainPattern := regexp.MustCompile(`^[a-zA-Z0-9\-\.]+(\.[a-zA-Z]{2,3}){1,2}(/\S*)?$`)
+	return domainPattern.MatchString(s)
+}

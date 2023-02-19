@@ -945,7 +945,6 @@ server=/redirect.simba.taobao.com/0.0.0.0
 server=/report.idqqimg.com/0.0.0.0
 server=/report.qqweb.qq.com/0.0.0.0
 server=/res.mgtv.com/0.0.0.0
-server=/res.wx.qq.com/0.0.0.0
 server=/rescn.u3.ucweb.com/0.0.0.0
 server=/resolver.msg.global.xiaomi.net/0.0.0.0
 server=/resolver.msg.xiaomi.net/0.0.0.0

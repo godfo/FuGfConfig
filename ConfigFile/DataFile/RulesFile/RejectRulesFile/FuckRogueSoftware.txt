@@ -285,7 +285,7 @@ idcconfig.gcloudsdk.com
 ## 屏蔽 qq 浏览器
 .wup.browser.qq.com
 ## 存疑
-res.wx.qq.com
+# res.wx.qq.com
 .tmfsdktcpv4.m.qq.com
 .tangram.e.qq.com
 .us.l.qq.com

@@ -945,7 +945,6 @@
 0.0.0.0 report.idqqimg.com
 0.0.0.0 report.qqweb.qq.com
 0.0.0.0 res.mgtv.com
-0.0.0.0 res.wx.qq.com
 0.0.0.0 rescn.u3.ucweb.com
 0.0.0.0 resolver.msg.global.xiaomi.net
 0.0.0.0 resolver.msg.xiaomi.net
