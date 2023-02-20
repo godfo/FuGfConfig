@@ -1,13 +1,14 @@
 package util
 
 import (
+	"ConfGenerateGo/pkg/model"
 	"bufio"
 	"fmt"
 	"os"
 	"strings"
 )
 
-func WriteFile(matchType string, data []string, policyName string, filePath string, writeType bool) error {
+func WriteFile(matchType string, data model.Pairs, policyName string, filePath string, writeType bool) error {
 	var flag int
 	if writeType {
 		//	如果 为 true 就覆盖写入
@@ -29,115 +30,107 @@ func WriteFile(matchType string, data []string, policyName string, filePath stri
 	case strings.Contains(matchType, "LoonRule"):
 		fmt.Println("LoonRule")
 		for _, v := range data {
-			if !strings.Contains(v, "USER-AGENT") && !strings.Contains(v, "IP-CIDR") && !strings.Contains(v, "IP-CIDR6") && v != "" {
-				v = strings.Replace(v, "\r", "", -1)
-				v = strings.Replace(v, "\n", "", -1)
-				if strings.HasPrefix(v, ".") {
-					v = strings.TrimPrefix(v, ".")
-					fmt.Fprint(write, "DOMAIN-SUFFIX,")
-				} else {
-					fmt.Fprint(write, "DOMAIN,")
-				}
-				fmt.Fprintln(write, v)
-			}
+			v.Key = strings.Replace(v.Key, "\r", "", -1)
+			v.Key = strings.Replace(v.Key, "\n", "", -1)
+
+			fmt.Fprint(write, v.Value)
+			fmt.Fprint(write, ",")
+			fmt.Fprintln(write, v.Key)
+
 		}
 	case strings.Contains(matchType, "LoonHost"):
 		fmt.Println("LoonHost")
 		for _, v := range data {
-			if !strings.Contains(v, "USER-AGENT") && !strings.Contains(v, "IP-CIDR") && !strings.Contains(v, "IP-CIDR6") && v != "" {
-				v = strings.Replace(v, "\r", "", -1)
-				v = strings.Replace(v, "\n", "", -1)
-				if strings.HasPrefix(v, ".") {
+			if strings.Contains(v.Value, "DOMAIN-SUFFIX") || strings.Contains(v.Value, "DOMAIN") {
+				v.Key = strings.Replace(v.Key, "\r", "", -1)
+				v.Key = strings.Replace(v.Key, "\n", "", -1)
+				if strings.Contains(v.Value, "DOMAIN-SUFFIX") {
 					fmt.Fprint(write, "*")
 				}
-				fmt.Fprint(write, v)
+				fmt.Fprint(write, v.Key)
 				fmt.Fprintln(write, " = 0.0.0.0")
 			}
 		}
 	case strings.Contains(matchType, "QuantumultXHost"):
 		fmt.Println("QuantumultXHost")
 		for _, v := range data {
-			if !strings.Contains(v, "USER-AGENT") && !strings.Contains(v, "IP-CIDR") && !strings.Contains(v, "IP-CIDR6") && v != "" {
-				v = strings.Replace(v, "\r", "", -1)
-				v = strings.Replace(v, "\n", "", -1)
+			if strings.Contains(v.Value, "DOMAIN-SUFFIX") || strings.Contains(v.Value, "DOMAIN") {
+				v.Key = strings.Replace(v.Key, "\r", "", -1)
+				v.Key = strings.Replace(v.Key, "\n", "", -1)
 				fmt.Fprint(write, "server=/")
-				if strings.HasPrefix(v, ".") {
+				if strings.Contains(v.Value, "DOMAIN-SUFFIX") {
 					fmt.Fprint(write, "*")
 				}
-				fmt.Fprint(write, v)
+				fmt.Fprint(write, v.Key)
 				fmt.Fprintln(write, "/0.0.0.0")
 			}
 		}
 	case strings.Contains(matchType, "QuantumultXRules"):
 		fmt.Println("QuantumultXRules")
 		for _, v := range data {
-			if !strings.Contains(v, "USER-AGENT") && !strings.Contains(v, "IP-CIDR") && !strings.Contains(v, "IP-CIDR6") && v != "" {
-				v = strings.Replace(v, "\r", "", -1)
-				v = strings.Replace(v, "\n", "", -1)
-				if strings.HasPrefix(v, ".") {
-					v = strings.TrimPrefix(v, ".")
-					fmt.Fprint(write, "HOST-SUFFIX,")
-				} else {
-					fmt.Fprint(write, "HOST,")
-				}
-				fmt.Fprint(write, v)
-				fmt.Fprint(write, ",")
-				fmt.Fprintln(write, policy)
+			// TODO: 什么时候添加 no-resolve
+			v.Key = strings.Replace(v.Key, "\n", "", -1)
+			v.Key = strings.Replace(v.Key, "\r", "", -1)
+
+			switch {
+			case strings.Contains(v.Value, "IP-CIDR6"):
+				fmt.Fprint(write, "IP6-CIDR,")
+			case strings.Contains(v.Value, "IP-CIDR"):
+				fmt.Fprint(write, "IP-CIDR,")
+				fmt.Fprintln(write, v.Key+"/32"+","+policyName+",no-resolve")
+				continue
+			case strings.Contains(v.Value, "DOMAIN-SUFFIX"):
+				fmt.Fprint(write, "HOST-SUFFIX,")
+			case strings.Contains(v.Value, "DOMAIN"):
+				fmt.Fprint(write, "HOST,")
 			}
+
+			fmt.Fprintln(write, v.Key+","+policyName)
 		}
 	case strings.Contains(matchType, "Host"):
 		fmt.Println("Host")
 		for _, v := range data {
-			if !strings.Contains(v, "USER-AGENT") && !strings.Contains(v, "IP-CIDR") && !strings.Contains(v, "IP-CIDR6") && v != "" {
-				v = strings.Replace(v, "\r", "", -1)
-				v = strings.Replace(v, "\n", "", -1)
+			if strings.Contains(v.Value, "DOMAIN-SUFFIX") || strings.Contains(v.Value, "DOMAIN") {
+				v.Key = strings.Replace(v.Key, "\r", "", -1)
+				v.Key = strings.Replace(v.Key, "\n", "", -1)
 				fmt.Fprint(write, "0.0.0.0 ")
-				if strings.HasPrefix(v, ".") {
-					v = strings.TrimLeft(v, ".")
-				}
-				fmt.Fprintln(write, v)
+				fmt.Fprintln(write, v.Key)
 			}
 		}
 	case strings.Contains(matchType, "DomainSetRule"):
 		fmt.Println("DomainSetRule")
 		for _, v := range data {
-			if !strings.Contains(v, "USER-AGENT") && !strings.Contains(v, "IP-CIDR") && !strings.Contains(v, "IP-CIDR6") && v != "" {
-				v = strings.Replace(v, "\r", "", -1)
-				v = strings.Replace(v, "\n", "", -1)
-				fmt.Fprintln(write, v)
+			if strings.Contains(v.Value, "DOMAIN-SUFFIX") || strings.Contains(v.Value, "DOMAIN") {
+				v.Key = strings.Replace(v.Key, "\r", "", -1)
+				v.Key = strings.Replace(v.Key, "\n", "", -1)
+				if strings.Contains(v.Value, "DOMAIN-SUFFIX") {
+					fmt.Fprint(write, ".")
+				}
+				fmt.Fprintln(write, v.Key)
 			}
 		}
 	case strings.Contains(matchType, "AdGuardHome"):
 		fmt.Println("AdGuardHome")
 		for _, v := range data {
-			if !strings.Contains(v, "USER-AGENT") && !strings.Contains(v, "IP-CIDR") && !strings.Contains(v, "IP-CIDR6") && v != "" {
-				v = strings.Replace(v, "\r", "", -1)
-				v = strings.Replace(v, "\n", "", -1)
-				if strings.HasPrefix(v, ".") {
-					v = strings.TrimPrefix(v, ".")
-				}
+			if strings.Contains(v.Value, "DOMAIN-SUFFIX") || strings.Contains(v.Value, "DOMAIN") {
+				v.Key = strings.Replace(v.Key, "\r", "", -1)
+				v.Key = strings.Replace(v.Key, "\n", "", -1)
 				fmt.Fprint(write, "||")
-				fmt.Fprint(write, v)
-				// if strings.Contains(v, "\n") {
-				// 	fmt.Fprint(write, v)
-				// } else {
-				// 	fmt.Fprintln(write, v)
-				// }
+				fmt.Fprint(write, v.Key)
 				fmt.Fprintln(write, "^")
 			}
 		}
 	case strings.Contains(matchType, "Clash"):
-		fmt.Println("Clash")
-		fmt.Fprintln(write, "#"+"hello")
+		// todo clash 是否支持 USER-AGENT
 		fmt.Fprintln(write, "payload:")
-
 		for _, v := range data {
-			if !strings.Contains(v, "USER-AGENT") {
+			if !strings.Contains(v.Value, "USER-AGENT") {
 				fmt.Fprint(write, "  - ")
-				if strings.Contains(v, "\n") {
-					fmt.Fprint(write, v)
+				fmt.Fprint(write, v.Value+",")
+				if strings.Contains(v.Key, "\n") {
+					fmt.Fprint(write, v.Key)
 				} else {
-					fmt.Fprintln(write, v)
+					fmt.Fprintln(write, v.Key)
 				}
 			}
 		}

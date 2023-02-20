@@ -1,4 +1,4 @@
-package file
+package util
 
 import (
 	"bufio"
@@ -21,7 +21,10 @@ func ReadFile(filePath string) []string {
 		if err != nil || io.EOF == err {
 			break
 		}
-		ans = append(ans, str)
+		if !IsNote(str) {
+			str = FormatCorrection(str)
+			ans = append(ans, str)
+		}
 	}
 	return ans
 }
