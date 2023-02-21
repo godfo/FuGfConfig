@@ -1212,7 +1212,31 @@ consent.truste.com
 .gd-stats.jpush.cn
 .stats.jpush.cn
 sdkapi-smartop.jiguang.cn
+.ad.jiguang.cn
+api-extra.hzjizhun.com
+# 存疑
+.easytomessage.com
+.s.jpush.cn
+.sis.jpush.io
+.ce3e75d5.jpush.cn
+._im64._tcp.jpush.cn
+._psis._udp.jpush.cn
+.api.analytics.jpush.cn
+.user.jpush.cn
+.mini-stats.jpush.cn
+.report.jpush.cn
 183.232.25.151
+121.36.6.165
+139.9.141.89
+
+## MobTech 袤博
+api.push.mob.com
+api.applink.mob.com
+api.share.mob.com
+.devs.data.mob.com
+.api.fd.mob.com
+.c.data.mob.com
+.api.fc.mob.com
 
 ## 基调听云
 # https://doc.tingyun.com/index.html
@@ -1237,6 +1261,7 @@ slog.trackingio.com
 .oc.umeng.com
 .oc.umeng.co
 .uop.umeng.com
+.alogs.umengcloud.com
 
 ## AppsFlyer
 launches.appsflyer.com
@@ -1263,6 +1288,12 @@ dnms.getui.com
 c-gtc.getui.net
 b-gtc.gepush.com
 cm-10-139.getui.com
+# 存疑
+.sdk.open.extension.getui.com
+.restapi.getui.com
+.sdk.open.talk.getui.net
+.sdk.open.talk.igexin.com
+.sdk.open.talk.gepush.com
 
 ## 数字联盟
 aads.shuzilm.cn
@@ -1300,16 +1331,12 @@ cntv.wrating.com
 msg.71.am
 
 focusbaiduafp.allyes.com
-
-
-res.mgtv.com
+.res.mgtv.com
 x.da.hunantv.com
 as.mgtv.com
 audit.aaa.mgtv.com
 cdn.cmop.mgtv.com
 cmop.mgtv.com
-imgaliyun.res.mgtv.com
-mobaliyun.res.mgtv.com
 pcweb-v1.log.mgtv.com
 pcweb.v1.mgtv.com
 v1-play.log.mgtv.com
@@ -1351,7 +1378,6 @@ api.hoisin.hw.coocaatv.com
 active.tc.skysrt.com
 skyworth-cloud.com
 
-
 bugtags.com
 cgi.qplus.com
 paopaotuan.org
@@ -1361,3 +1387,4 @@ paopaotuan.org
 .union.bokecc.com
 .best-practice.se
 .kaleido.art
+dzrsapp.darewayhealth.com

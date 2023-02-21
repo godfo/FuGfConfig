@@ -43,16 +43,13 @@ const aghInboxRulesFilePath = "./DataFile/inbox/agh/"
 
 func main() {
 	println("开始")
-	//fuckRogueSoftware()
 
-	var fileUrl = "../ConfigFile/DataFile/RulesFile/RejectRulesFile/FuckRogueSoftware.txt"
-
-	base, inbox := readRule(fileUrl)
+	base, inbox := readRule("../ConfigFile/DataFile/RulesFile/RejectRulesFile/FuckRogueSoftware.txt")
 	ans := policyProcessing(base, inbox)
 	// loon FuckRogueSoftware.plugin
-	//util.WriteFile("LoonHost", ans, "FuckRogueSoftware", "../ConfigFile/Loon/LoonPlugin/FuckRogueSoftware.plugin", true)
+	// util.WriteFile("LoonHost", ans, "FuckRogueSoftware", "../ConfigFile/Loon/LoonPlugin/FuckRogueSoftware.plugin", true)
 	// domain set
-	//util.WriteFile("DomainSetRule", ans, "FuckRogueSoftware", "../ConfigFile/DataFile/RulesFile/RejectRulesFile/DomainSet.txt", true)
+	// util.WriteFile("DomainSetRule", ans, "FuckRogueSoftware", "../ConfigFile/DataFile/RulesFile/RejectRulesFile/DomainSet.txt", true)
 	// QuantumultX Rules
 	util.WriteFile("QuantumultXRules", ans, "FuckRogueSoftware", "../ConfigFile/QuantumultX/FuckRogueSoftware.conf", true)
 
@@ -65,40 +62,8 @@ func main() {
 	// 	downloadFiles()
 	// }
 
-	// // 处理文件
-	// //规则分为三个部分
-	// //匹配类型，匹配关键字，策略名称
-	// //MatchType MatchingKeywords PolicyName
-	// policyProcessing("REJECT")
-
-	// 思路 给一个基础list，要合并的list，给策略名称，扔给输出到文件的函数，输出就好了
-	// 要有三个list ip 两个 domain
 	println("处理完成")
 	println("结束")
-}
-
-func fuckRogueSoftware() {
-	// 读取
-	var fileUrl = "../ConfigFile/DataFile/RulesFile/RejectRulesFile/FuckRogueSoftware.txt"
-	var data = file.ReadFile(fileUrl)
-	// 处理
-	var ans []string
-	for i := 0; i < len(data); i++ {
-		data[i] = strings.Replace(data[i], "\r", "", -1)
-		data[i] = strings.Replace(data[i], "\n", "", -1)
-		if !util.IsNote(data[i]) && data[i] != "" {
-			ans = append(ans, data[i])
-		}
-	}
-	sort.Strings(ans)
-	// 写入
-	file.WriteLoonHostFile(ans, loonFuckRogueSoftwareHost)
-	file.WriteLoonRuleFile(ans, loonFuckRogueSoftwareRule)
-	file.WriteAGHomeFile(ans, aghFuckRogueSoftware)
-	file.WriteDomainSetRuleFile(ans, surfboardFuckRogueSoftware)
-	file.WriteHostFile(ans, fuckRogueSoftwareHost)
-	file.WriteQuantumultXDNS(ans, "DataFile/ans/QuanXDNS.txt")
-	file.WriteQuantumultXRulesFile("FuckRogueSoftware", ans, qxFuckRogueSoftware)
 }
 
 func readRule(baseFilePath string) ([]string, []string) {
@@ -111,7 +76,6 @@ func readRule(baseFilePath string) ([]string, []string) {
 
 func policyProcessing(base []string, inbox []string) []model.Pair {
 	// map 来存取数据 key 是唯一的 放置域名或者ip，value放置规则
-	// 有个问题，当一个域名被包括了，怎么办 如 a.b.c.com 和 .c.com
 
 	// 构建 base map
 	var ansMap = make(map[string](string))
