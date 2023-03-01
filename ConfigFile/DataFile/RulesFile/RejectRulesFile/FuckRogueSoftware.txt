@@ -166,6 +166,8 @@ beacon.gtimg.com
 adcdn.tencentmusic.com
 adexpo.tencentmusic.com
 adclick.tencentmusic.com
+.yun-hl.3g.qq.com
+.up-hi.3g.qq.com
 # 存疑
 .iot.qq.com
 c.isdspeed.qq.com
@@ -1388,3 +1390,4 @@ paopaotuan.org
 .best-practice.se
 .kaleido.art
 dzrsapp.darewayhealth.com
+ad.cyapi.cn

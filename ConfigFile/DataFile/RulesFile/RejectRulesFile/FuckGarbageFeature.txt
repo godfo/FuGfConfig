@@ -1,13 +1,15 @@
 # 本文件致力于屏蔽一些流氓软件中的垃圾功能
 # 注意可能您认为的不是垃圾的功能在我这儿是垃圾。使用前请注意
 
-# b 站游戏屏蔽 注意 ⚠
+## b 站游戏屏蔽 注意 ⚠
 .biligame.com
 .biligame.net
 .bigfunapp.cn
 # 会员购屏蔽 注意 ⚠
 mall.bilibili.com
 show.bilibili.com
+# 视频在线人
+broadcast.chat.bilibili.com
 
 aaid.umeng.com
 abtest-ch.snssdk.com
