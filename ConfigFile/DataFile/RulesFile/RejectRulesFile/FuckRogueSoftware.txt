@@ -151,6 +151,9 @@ lbs.map.qq.com
 .cc.map.qq.com
 analytics.map.qq.com
 # 其他
+.debugtbs.qq.com
+.debugx5.qq.com
+.ie.icoa.cn
 .mazu.m.qq.com
 .qzs.qq.com
 .adfilter.imtt.qq.com
@@ -286,8 +289,13 @@ idcconfig.gcloudsdk.com
 .antibot.qq.com
 ## 屏蔽 qq 浏览器
 .wup.browser.qq.com
+## qq 物联
+.configsvr.msf.3g.qq.com
+.devicemsf.3g.qq.com
 ## 存疑
 # res.wx.qq.com
+.dl.url.cn
+.hbd.url.cn
 .tmfsdktcpv4.m.qq.com
 .tangram.e.qq.com
 .us.l.qq.com
@@ -306,6 +314,7 @@ idcconfig.gcloudsdk.com
 203.205.138.240
 203.205.138.242
 203.205.179.215
+59.36.121.252
 
 ## 阿里系
 # 将阿里系 app 关闭网络权限且从移动网络切换到 Wi-Fi 时，有概率出现
@@ -1266,8 +1275,10 @@ slog.trackingio.com
 .alogs.umengcloud.com
 
 ## AppsFlyer
-launches.appsflyer.com
-inapps.appsflyer.com
+.launches.appsflyer.com
+.inapps.appsflyer.com
+.conversions.appsflyer.com
+.skadsdk.appsflyer.com
 
 ## flurry
 .data.flurry.com

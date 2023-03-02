@@ -44,6 +44,7 @@ const aghInboxRulesFilePath = "./DataFile/inbox/agh/"
 func main() {
 	println("开始")
 
+	// FuckRogueSoftware
 	base, inbox := readRule("../ConfigFile/DataFile/RulesFile/RejectRulesFile/FuckRogueSoftware.txt")
 	ans := policyProcessing(base, inbox)
 	// loon FuckRogueSoftware.plugin
@@ -52,6 +53,11 @@ func main() {
 	// util.WriteFile("DomainSetRule", ans, "FuckRogueSoftware", "../ConfigFile/DataFile/RulesFile/RejectRulesFile/DomainSet.txt", true)
 	// QuantumultX Rules
 	util.WriteFile("QuantumultXRules", ans, "FuckRogueSoftware", "../ConfigFile/QuantumultX/FuckRogueSoftware.conf", true)
+
+	// FuckGarbageFeature
+	base, inbox = readRule("../ConfigFile/DataFile/RulesFile/RejectRulesFile/FuckGarbageFeature.txt")
+	ans = policyProcessing(base, inbox)
+	util.WriteFile("QuantumultXRules", ans, "FuckGarbageFeature", "../ConfigFile/QuantumultX/FuckGarbageFeature.conf", true)
 
 	// fmt.Println("是否要更新 or 下载远程数据 (y or n)")
 	// var input string
