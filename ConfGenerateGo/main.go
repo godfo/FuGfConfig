@@ -48,7 +48,8 @@ func main() {
 	base, inbox := readRule("../ConfigFile/DataFile/RulesFile/RejectRulesFile/FuckRogueSoftware.txt")
 	ans := policyProcessing(base, inbox)
 	// loon FuckRogueSoftware.plugin
-	// util.WriteFile("LoonHost", ans, "FuckRogueSoftware", "../ConfigFile/Loon/LoonPlugin/FuckRogueSoftware.plugin", true)
+	util.WriteFile("LoonHost", ans, "FuckRogueSoftware", "../ConfigFile/Loon/LoonPlugin/FuckRogueSoftware.plugin", true)
+	util.WriteFile("LoonRule", ans, "FuckRogueSoftware", "../ConfigFile/Loon/LoonRemoteRule/FuckRogueSoftware.conf", true)
 	// domain set
 	// util.WriteFile("DomainSetRule", ans, "FuckRogueSoftware", "../ConfigFile/DataFile/RulesFile/RejectRulesFile/DomainSet.txt", true)
 	// QuantumultX Rules

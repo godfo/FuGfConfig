@@ -147,11 +147,13 @@ cmshow.gtimg.cn
 .wxsnsdy.tc.qq.com
 .vlive.qqvideo.tc.qq.com
 .wxsnsdy.video.qq.com
+.routertips.video.qq.com
 # 地图 api，但被用于收集用户位置信息，是否影响腾讯地图未知，待检测
 lbs.map.qq.com
 .cc.map.qq.com
 analytics.map.qq.com
 # 其他
+.iacc.qq.com
 .debugtbs.qq.com
 .debugx5.qq.com
 .ie.icoa.cn
@@ -160,7 +162,7 @@ analytics.map.qq.com
 .adfilter.imtt.qq.com
 .adsmind.apdcdn.tc.qq.com
 adstestview.qq.com
-pgdt.gtimg.cn
+.pgdt.gtimg.cn
 union.gdtimg.com
 .adnet.qq.com
 .pingtcss.qq.com
@@ -172,7 +174,39 @@ adexpo.tencentmusic.com
 adclick.tencentmusic.com
 .yun-hl.3g.qq.com
 .up-hi.3g.qq.com
+.up-hl.3g.qq.com
+# GCloudSDK
+idcconfig.gcloudsdk.com
+## 请求 IP 为 本地地址（可能会用于追踪）
+.groupclient.qq.com
+.antibot.qq.com
+## 屏蔽 qq 浏览器
+.wup.browser.qq.com
+## qq 物联
+.configsvr.msf.3g.qq.com
+.devicemsf.3g.qq.com
+# IP 屏蔽
+107.155.58.101
+119.28.147.30
+119.28.164.220
+128.1.102.20
+182.254.116.117
+203.205.128.159
+203.205.138.240
+203.205.138.242
+203.205.179.215
+59.36.121.252
 # 存疑
+.dl.url.cn
+.hbd.url.cn
+.tmfsdktcpv4.m.qq.com
+.api.yky.qq.com
+.tmfsdk4.m.qq.com
+.tmfsdktcp.m.qq.com
+.access.toggle.qq.com
+.soup.v.qg.com
+.ltsdl.qq.com
+.monitor.uu.qq.com
 .iot.qq.com
 c.isdspeed.qq.com
 .dlied1.cdntips.net
@@ -283,45 +317,11 @@ wup.imtt.qq.com
 .openmsf.3g.qq.com
 .ts.qq.com
 .capi.voice.gcloud.qq.com
-# GCloudSDK
-idcconfig.gcloudsdk.com
-## 请求 IP 为 本地地址（可能会用于追踪）
-.groupclient.qq.com
-.antibot.qq.com
-## 屏蔽 qq 浏览器
-.wup.browser.qq.com
-## qq 物联
-.configsvr.msf.3g.qq.com
-.devicemsf.3g.qq.com
-## 存疑
-# res.wx.qq.com
-.dl.url.cn
-.hbd.url.cn
-.tmfsdktcpv4.m.qq.com
-.tangram.e.qq.com
-.us.l.qq.com
-.api.yky.qq.com
-.sdk.e.qq.com
-.tmfsdk4.m.qq.com
-.tbm.snssdk.com
-.tmfsdktcp.m.qq.com
-.access.toggle.qq.com
-# IP 屏蔽
-107.155.58.101
-119.28.147.30
-119.28.164.220
-128.1.102.20
-182.254.116.117
-203.205.128.159
-203.205.138.240
-203.205.138.242
-203.205.179.215
-59.36.121.252
 
 ## 阿里系
 # 将阿里系 app 关闭网络权限且从移动网络切换到 Wi-Fi 时，有概率出现
 jtrn.is.autonavi.com.gds.alibabadns.com
-mdap.alipaylog.com
+.alipaylog.com
 loggw.alipay.com
 loggw-ex.alipay.com
 gm.mmstat.com
@@ -351,7 +351,7 @@ amos.alicdn.com
 .apoll.m.taobao.com
 .allyes.com
 a.alimama.cn
-acjs.aliyun.com
+.acjs.aliyun.com
 adashbc.m.taobao.com
 adashx.m.taobao.com
 adsh.m.taobao.com
@@ -359,11 +359,11 @@ adsh.m.taobao.com
 afp.alicdn.com
 agoodm.m.taobao.com
 agoodm.wapa.taobao.com
-amdc.alipay.com
+.amdc.alipay.com
 api.wapa.taobao.com
 api.waptest.taobao.com
 atanx2.alicdn.com
-click.aliyun.com
+.click.aliyun.com
 click.mz.simba.taobao.com
 dsp.simba.taobao.com
 err.taobao.com
@@ -375,7 +375,7 @@ gtms01.alicdn.com
 gtms02.alicdn.com
 gtms03.alicdn.com
 gtms04.alicdn.com
-hydra.alibaba.com
+.hydra.alibaba.com
 count.taobao.com
 hz.pre.tbusergw.taobao.net
 hz.tbusergw.taobao.net
@@ -396,6 +396,7 @@ re.m.taobao.com
 .re.taobao.com
 redirect.simba.taobao.com
 rj.m.taobao.com
+rj.m.taobao.co
 sdkinit.taobao.com
 simaba.taobao.com
 simba.m.taobao.com
@@ -409,11 +410,13 @@ tyh.taobao.com
 userimg.qunar.com
 w.m.taobao.com
 umengacs.m.taobao.com
+m.intl.taobao.com
 # 存疑
 .h-adashx.ut.taobao.com
 .audid-api.taobao.com
 .optimus-ads.amap.com
 .nbsdk-baichuan.alicdn.com
+.nbsdk-baichuan.taobao.com
 .umengjmacs.m.taobao.com
 .suggest.taobao.com
 .uaction.alicdn.com
@@ -470,7 +473,27 @@ p4psearch.china.alibaba.com
 loggw.alipay.com.cn
 guide-acs.m.taobao.com
 .log.aliyuncs.com
-# 阿里系存疑
+# .dorangesource.alicdn.com
+m-adash.m.taobao.com
+m.simaba.taobao.com
+tejia.taobao.com
+.appdownload.alicdn.com
+.atanx.alicdn.com
+.pics.taobaocdn.com
+.g.click.taobao.com
+yiliao.hupan.com
+tongji.linezing.com
+stats.ipinyou.com
+cbu01.alicdn.com
+cdn0.mobmore.com
+afp.adchina.com
+cm.mlt01.com
+cm.ipinyou.com
+ex.mobmore.com
+ex.puata.info
+i.ipinyou.com
+feedback.whalecloud.com
+sjarvis.taobao.com
 # 一休数据平台
 yixiu-abtest.alicdn.com
 # IP 屏蔽
@@ -513,15 +536,24 @@ dm.bytedance.com
 .tobapplog.ctobsnssdk.com
 sdfp.snssdk.com
 tosv.byted.org
-log.snssdk.com
+.log.snssdk.com
 tosv.boe.byted.org
-i.snssdk.com
-is.snssdk.com
+.i.snssdk.com
+.is.snssdk.com
 pangolin.snssdk.com
 extlog.snssdk.com
 sf3-ttcdn-tos.pstatp.com
 bds.snssdk.com
 .ug.snssdk.com
+.tbm.snssdk.com
+.abtest-ch.snssdk.com
+.aweme.snssdk.com
+.effect.snssdk.com
+.hotsoon.snssdk.com
+.mon.snssdk.com
+.lf.snssdk.com
+.iu.snssdk.com
+.xlog.snssdk.com
 dig.bdurl.net
 mssdk-bu.bytedance.com
 tnc3-bjlgy.zijieapi.com
@@ -817,9 +849,9 @@ jsmsg.video.iqiyi.com
 viqiyi.admaster.com.cn
 www.iqiyi.space
 data.video.qiyi.com
+203.107.63.154
 
 ## vivo
-msch.f.360.cn
 avlstatic.vivo.com.cn
 stinmmtn.vivo.com.cn
 az.appstore.vivo.com.cn
@@ -860,7 +892,19 @@ fzapph5.gifzpt.cn
 ## firefoxchina
 .firefoxchina.cn
 
+## 美团 meituan
+.dreport.meituan.net
+.hreport.meituan.com
+.report.meituan.com
+analytics.meituan.net
+adgame.waimai.meituan.com
+flowplus.meituan.net
+api-unionid.meituan.com
+# 存疑
+lx0.meituan.com
+
 ## 360
+.msch.f.360.cn
 .c.sayhi.360.cn
 .dd.browser.360.cn
 .cdn.weathwe.hao.360.cn
@@ -1292,6 +1336,7 @@ slog.trackingio.com
 .uop.umeng.com
 .alogs.umengcloud.com
 .sec.umeng.com
+.ai.login.umeng.com
 
 ## AppsFlyer
 .launches.appsflyer.com

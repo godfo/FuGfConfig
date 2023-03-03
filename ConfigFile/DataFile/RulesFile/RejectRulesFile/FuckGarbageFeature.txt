@@ -18,3 +18,15 @@ broadcast.chat.bilibili.com
 .gamecenter.qq.com
 .buluo.qq.com
 .dns.weixin.qq.com
+
+.photovideo.photo.qq.com
+.q.qlogo.cn
+.qzonestyle.gtimg.cn
+
+## digicert
+.digicert.cn
+
+## 美团 meituan
+httpdns.meituan.com
+timeservice.meituan.com
+w.meituan.net
