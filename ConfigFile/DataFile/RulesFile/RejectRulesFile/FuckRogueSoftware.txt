@@ -347,7 +347,7 @@ amos.alicdn.com
 .adashxgc.ut.taobao.com
 .adashx4yt.m.taobao.com
 .adashx4ae.ut.taobao.com
-.amdc.m.taobao.com
+# .amdc.m.taobao.com
 .apoll.m.taobao.com
 .allyes.com
 a.alimama.cn
