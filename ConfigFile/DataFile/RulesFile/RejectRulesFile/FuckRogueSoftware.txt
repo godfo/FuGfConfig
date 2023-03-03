@@ -65,6 +65,7 @@ mobilelog.upqzfile.com
 .rqd.qq.com
 # wechat 微信
 dns.weixin.qq.com.cn
+dns.weixin.qq.com
 androidrqd.iot.wechatpay.cn
 iosrqd.iot.wechatpay.cn
 .ad.weixin.qq.com
@@ -304,6 +305,7 @@ idcconfig.gcloudsdk.com
 .tmfsdk4.m.qq.com
 .tbm.snssdk.com
 .tmfsdktcp.m.qq.com
+.access.toggle.qq.com
 # IP 屏蔽
 107.155.58.101
 119.28.147.30
@@ -523,6 +525,15 @@ bds.snssdk.com
 dig.bdurl.net
 mssdk-bu.bytedance.com
 tnc3-bjlgy.zijieapi.com
+.toblog.volceapplog.com
+.alink.volceapplog.com
+.abtest.volceapplog.com
+.sf6-be-pack.pglstatp-toutiao.com
+# 火山引擎 智能推荐平台
+api.byteair.volces.com
+byteair-api-sg1.byteintlapi.com
+api.byteair.volces.com
+byteair-api-sg1.byteintlapi.com
 
 ## 小米
 .api.miwifi.com
@@ -719,6 +730,8 @@ skdisplay.jd.com
 .policy.jd.com
 .stat.m.jd.com
 .img-x.jd.com
+.anti-sdk-ccs.m.jd.com
+.anti-sdk-report.m.jd.com
 
 ## 优酷 youku
 atm.youku.com
@@ -897,6 +910,9 @@ fzapph5.gifzpt.cn
 ## 2345
 .2345.com
 .2345.cn
+
+## 慢慢买
+applog.manmanbuy.com
 
 ## 高德地图
 dualstack-logs.amap.com
@@ -1225,6 +1241,8 @@ consent.truste.com
 sdkapi-smartop.jiguang.cn
 .ad.jiguang.cn
 api-extra.hzjizhun.com
+.tsis.jpush.cn
+.smartop-sdkapi.jiguang.cn
 # 存疑
 .easytomessage.com
 .s.jpush.cn
@@ -1273,6 +1291,7 @@ slog.trackingio.com
 .oc.umeng.co
 .uop.umeng.com
 .alogs.umengcloud.com
+.sec.umeng.com
 
 ## AppsFlyer
 .launches.appsflyer.com
@@ -1402,3 +1421,4 @@ paopaotuan.org
 .kaleido.art
 dzrsapp.darewayhealth.com
 ad.cyapi.cn
+.jddebug.com
