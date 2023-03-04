@@ -752,7 +752,7 @@ zeus.ad.intl.xiaomi.com
 ## jd 京东
 .wl.jd.com
 skdisplay.jd.com
-.ads.union.jd.com
+#.ads.union.jd.com
 .click.jr.jd.com
 .c-nfa.jd.com
 .cps.360buy.com
@@ -764,6 +764,36 @@ skdisplay.jd.com
 .img-x.jd.com
 .anti-sdk-ccs.m.jd.com
 .anti-sdk-report.m.jd.com
+.jpushjd.m.jd.com
+gias.jd.com
+nfa.jd.com
+xlog.jd.com
+janapi.jd.com
+im-x.jd.com
+dsp-x.jd.com
+knicks.jd.com
+policy.jd.com
+blackhole.m.jd.com
+mars.jd.com
+x.jd.com
+ex.m.jd.com
+gia.jd.com
+uranus.jd.com
+gias.jd.com
+nfa.jd.com
+mercury.jd.com
+firevent.jd.com
+jcm.jd.com
+wqs11.jd.com
+cm.jd.com
+hermes.jd.com
+ddms.jd.com
+saturn.jd.com
+jrad.jd.com
+cc.m.jd.com
+union.m.jd.com
+union.jd.com
+jjnctjd.com
 
 ## 优酷 youku
 atm.youku.com

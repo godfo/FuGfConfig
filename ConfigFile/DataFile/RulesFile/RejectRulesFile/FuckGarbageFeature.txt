@@ -20,7 +20,7 @@ broadcast.chat.bilibili.com
 .dns.weixin.qq.com
 
 .photovideo.photo.qq.com
-.q.qlogo.cn
+# .q.qlogo.cn
 .qzonestyle.gtimg.cn
 
 ## digicert

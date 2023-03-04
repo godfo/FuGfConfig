@@ -8,3 +8,9 @@ af.alicdn.com
 aeu.alicdn.com
 
 catdot.dianping.com
+resstatic.servicewechat.com
+res.servicewechat.com
+
+120.232.51.42
+14.116.242.250
+211.144.24.150
