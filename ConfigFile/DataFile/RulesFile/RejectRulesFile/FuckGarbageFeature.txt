@@ -5,7 +5,7 @@
 .biligame.com
 .biligame.net
 .bigfunapp.cn
-.app.bilibili.com
+#.app.bilibili.com
 # 会员购屏蔽 注意 ⚠
 mall.bilibili.com
 show.bilibili.com
