@@ -1,0 +1,19 @@
+[Host]
+*bigfunapp.cn = 0.0.0.0
+*biligame.com = 0.0.0.0
+*biligame.net = 0.0.0.0
+broadcast.chat.bilibili.com = 0.0.0.0
+*buluo.qq.com = 0.0.0.0
+*digicert.cn = 0.0.0.0
+*dns.weixin.qq.com = 0.0.0.0
+*down.qq.com = 0.0.0.0
+*gamecenter.qq.com = 0.0.0.0
+httpdns.meituan.com = 0.0.0.0
+live-trace.bilibili.com = 0.0.0.0
+mall.bilibili.com = 0.0.0.0
+pay.bilibili.com = 0.0.0.0
+*photovideo.photo.qq.com = 0.0.0.0
+*qzonestyle.gtimg.cn = 0.0.0.0
+show.bilibili.com = 0.0.0.0
+timeservice.meituan.com = 0.0.0.0
+*yundong.qq.com = 0.0.0.0

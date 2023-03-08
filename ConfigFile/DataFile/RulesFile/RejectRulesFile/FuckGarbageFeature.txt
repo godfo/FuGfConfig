@@ -11,6 +11,9 @@ mall.bilibili.com
 show.bilibili.com
 # 视频在线人数
 broadcast.chat.bilibili.com
+# 测试
+live-trace.bilibili.com
+pay.bilibili.com
 
 ## qq
 .down.qq.com

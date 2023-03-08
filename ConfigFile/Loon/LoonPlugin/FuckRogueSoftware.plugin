@@ -1,3 +1,4 @@
+[Host]
 ._im64._tcp.jpush.cn = 0.0.0.0
 ._psis._udp.jpush.cn = 0.0.0.0
 2052.flash2-http.qq.com = 0.0.0.0
@@ -1239,19 +1240,3 @@ zeus.ad.intl.xiaomi.com = 0.0.0.0
 *ztd.dds.microsoft.com = 0.0.0.0
 zz.bdstatic.com = 0.0.0.0
 *zzhc.vnet.cn = 0.0.0.0
-*bigfunapp.cn = 0.0.0.0
-*biligame.com = 0.0.0.0
-*biligame.net = 0.0.0.0
-broadcast.chat.bilibili.com = 0.0.0.0
-*buluo.qq.com = 0.0.0.0
-*digicert.cn = 0.0.0.0
-*dns.weixin.qq.com = 0.0.0.0
-*down.qq.com = 0.0.0.0
-*gamecenter.qq.com = 0.0.0.0
-httpdns.meituan.com = 0.0.0.0
-mall.bilibili.com = 0.0.0.0
-*photovideo.photo.qq.com = 0.0.0.0
-*qzonestyle.gtimg.cn = 0.0.0.0
-show.bilibili.com = 0.0.0.0
-timeservice.meituan.com = 0.0.0.0
-*yundong.qq.com = 0.0.0.0
