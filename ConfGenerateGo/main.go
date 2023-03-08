@@ -30,7 +30,6 @@ const loonFuckRogueSoftwareRule = "../ConfigFile/Loon/LoonRemoteRule/FuckRogueSo
 const surfboardFuckRogueSoftware = "../ConfigFile/Surfboard/FuckRogueSoftware.conf"
 
 // qx data file path
-const qxFuckRogueSoftware = "../ConfigFile/QuantumultX/FuckRogueSoftware.conf"
 
 const fuckRogueSoftwareHost = "../ConfigFile/Hosts/FuckRogueSoftware.txt"
 
@@ -44,21 +43,23 @@ const aghInboxRulesFilePath = "./DataFile/inbox/agh/"
 func main() {
 	println("开始")
 
-	// FuckRogueSoftware
-	base, inbox := readRule("../ConfigFile/DataFile/RulesFile/RejectRulesFile/FuckRogueSoftware.txt")
+	// direct
+
+	// proxy
+
+	// # FuckRogueSoftware
+	base, inbox := readRule("../ConfigFile/DataFile/RulesFile/RejectRulesFile/FuckRogueSoftware.txt", "../ConfigFile/DataFile/RulesFile/RejectRulesFile/inbox.txt")
 	ans := policyProcessing(base, inbox)
-	// loon FuckRogueSoftware.plugin
 	util.WriteFile("LoonHost", ans, "FuckRogueSoftware", "../ConfigFile/Loon/LoonPlugin/FuckRogueSoftware.plugin", true)
 	util.WriteFile("LoonRule", ans, "FuckRogueSoftware", "../ConfigFile/Loon/LoonRemoteRule/FuckRogueSoftware.conf", true)
-	// domain set
-	// util.WriteFile("DomainSetRule", ans, "FuckRogueSoftware", "../ConfigFile/DataFile/RulesFile/RejectRulesFile/DomainSet.txt", true)
-	// QuantumultX Rules
 	util.WriteFile("QuantumultXRules", ans, "FuckRogueSoftware", "../ConfigFile/QuantumultX/FuckRogueSoftware.conf", true)
 
-	// FuckGarbageFeature
-	base, inbox = readRule("../ConfigFile/DataFile/RulesFile/RejectRulesFile/FuckGarbageFeature.txt")
+	// # FuckGarbageFeature
+	base, inbox = readRule("../ConfigFile/DataFile/RulesFile/RejectRulesFile/FuckGarbageFeature.txt", "")
 	ans = policyProcessing(base, inbox)
 	util.WriteFile("QuantumultXRules", ans, "FuckGarbageFeature", "../ConfigFile/QuantumultX/FuckGarbageFeature.conf", true)
+	util.WriteFile("LoonRule", ans, "FuckGarbageFeature", "../ConfigFile/Loon/LoonRemoteRule/FuckGarbageFeature.conf", true)
+	util.WriteFile("LoonHost", ans, "FuckGarbageFeature", "../ConfigFile/Loon/LoonPlugin/FuckGarbageFeature.plugin", true)
 
 	// fmt.Println("是否要更新 or 下载远程数据 (y or n)")
 	// var input string
@@ -73,13 +74,20 @@ func main() {
 	println("结束")
 }
 
-func readRule(baseFilePath string) ([]string, []string) {
+func readRule(baseFilePath string, inboxFilePath string) ([]string, []string) {
+	//
 	var base, inbox []string
 	// 读取 base
 	base = util.ReadFile(baseFilePath)
 	// 读取 inbox
+	if inboxFilePath != "" {
+		inbox = util.ReadFile(inboxFilePath)
+	}
+
 	return base, inbox
 }
+
+var inboxResult []string
 
 func policyProcessing(base []string, inbox []string) []model.Pair {
 	// map 来存取数据 key 是唯一的 放置域名或者ip，value放置规则
@@ -111,20 +119,18 @@ func policyProcessing(base []string, inbox []string) []model.Pair {
 
 	fmt.Println("规则基础库构建完成，共:", len(ansMap), "条规则")
 
-	fmt.Println("test")
-
 	// 遍历 inbox
 	if len(inbox) > 0 {
 		for _, v := range inbox {
-			v = util.FormatCorrection(v)
-			a := ""
-			flagIsSuffix := false
-			if strings.Count(v, ",") >= 1 {
-				a, v = splitRule(v)
-			} else if strings.HasPrefix(v, ".") {
-				flagIsSuffix = true
-				v = strings.TrimPrefix(v, ".")
-			}
+			v = util.CleanAll(v)
+			// a := ""
+			// flagIsSuffix := false
+			// if strings.Count(v, ",") >= 1 {
+			// 	a, v = splitRule(v)
+			// } else if strings.HasPrefix(v, ".") {
+			// 	// flagIsSuffix = true
+			// 	v = strings.TrimPrefix(v, ".")
+			// }
 			if _, ok := ansMap[v]; !ok {
 				// 如果不存在
 				if isDomainRule(v) {
@@ -133,26 +139,35 @@ func policyProcessing(base []string, inbox []string) []model.Pair {
 					flag := false
 					s := v
 					for i := 0; i < count; i++ {
+						// fmt.Println("s: " + s)
 						s = domainRuleIntercept(s)
 						if _, ok := ansMap[s]; ok {
 							// 如果命中，直接 break
+							// fmt.Println("已存在: " + v)
 							flag = true
 							break
 						}
 					}
 					if !flag {
-						if flagIsSuffix {
-							ansMap[v] = "DOMAIN-SUFFIX"
-						} else {
-							ansMap[v] = "DOMAIN"
-						}
+						inboxResult = append(inboxResult, v)
+						// if flagIsSuffix {
+						// 	ansMap[v] = "DOMAIN-SUFFIX"
+						// } else {
+						// 	ansMap[v] = "DOMAIN"
+						// }
 					}
 				} else {
-					ansMap[v] = a
+					// ansMap[v] = a
+					inboxResult = append(inboxResult, v)
 				}
 			}
 		}
 	}
+
+	fmt.Println("查重后未处理的规则还剩 ", len(inboxResult), " 条")
+
+	sort.Strings(inboxResult)
+	util.NomalWriteFile(inboxResult, "../ConfigFile/DataFile/RulesFile/RejectRulesFile/inbox1.txt")
 
 	var data model.Pairs
 	for k, v := range ansMap {

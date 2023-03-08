@@ -35,3 +35,20 @@ func IsNote(s string) bool {
 	}
 	return false
 }
+
+// 只返回域名或者 IP
+func CleanAll(s string) string {
+	s = strings.Replace(s, "\r", "", -1)
+	s = strings.Replace(s, "\n", "", -1)
+	s = strings.Replace(s, " ", "", -1)
+	s = strings.Replace(s, "||", "", -1)
+	s = strings.Replace(s, "^", "", -1)
+	s = strings.Replace(s, "127.0.0.1", "", -1)
+
+	ss := strings.Split(s, ",")
+	if len(ss) >= 2 {
+		return ss[1]
+	}
+
+	return s
+}

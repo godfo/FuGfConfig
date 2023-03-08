@@ -1,0 +1,13 @@
+.supabase.com
+.visualstudio.com
+.wakapi.dev
+.vscode-sync.trafficmanager.net
+.vscode-unpkg.net
+.vscode-cdn.net
+.visualstudio.com
+.vscodeexperiments.azureedge.net
+.vo.msecnd.net
+.vsassets.io
+.fig.io
+.brew.sh
+.anaconda.com

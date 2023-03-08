@@ -60,6 +60,8 @@ cs.mbgame.gamesafe.qq.com
 intldlgs.qq.com
 .tdid.m.qq.com
 mobilelog.upqzfile.com
+other.upqzfile.com
+video.upqzfile.com
 # bugly
 .bugly.qq.com
 .rqd.qq.com
@@ -317,6 +319,7 @@ wup.imtt.qq.com
 .openmsf.3g.qq.com
 .ts.qq.com
 .capi.voice.gcloud.qq.com
+soup.v.qq.com
 
 ## 阿里系
 # 将阿里系 app 关闭网络权限且从移动网络切换到 Wi-Fi 时，有概率出现
@@ -443,6 +446,7 @@ secgw-na61-na62.wagbridge.advertisement.tanx.com
 st3.wagbridge.advertisement.tanx.com
 itemifs.tanx.com
 kgb-ifs.tanx.com
+.ifs.tanx.com
 ifsk2.tanx.com
 xifs.tanx.com
 toruk.gds.tanx.com

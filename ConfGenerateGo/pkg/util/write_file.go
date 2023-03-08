@@ -40,6 +40,7 @@ func WriteFile(matchType string, data model.Pairs, policyName string, filePath s
 		}
 	case strings.Contains(matchType, "LoonHost"):
 		fmt.Println("LoonHost")
+		fmt.Fprintln(write, "[Host]")
 		for _, v := range data {
 			if strings.Contains(v.Value, "DOMAIN-SUFFIX") || strings.Contains(v.Value, "DOMAIN") {
 				v.Key = strings.Replace(v.Key, "\r", "", -1)
@@ -134,8 +135,35 @@ func WriteFile(matchType string, data model.Pairs, policyName string, filePath s
 				}
 			}
 		}
+	case strings.Contains(matchType, "Nomal"):
+		for _, v := range data {
+			fmt.Fprint(write, "  - ")
+			fmt.Fprint(write, v.Value+",")
+			if strings.Contains(v.Key, "\n") {
+				fmt.Fprint(write, v.Key)
+			} else {
+				fmt.Fprintln(write, v.Key)
+			}
+		}
 	default:
 		fmt.Println("匹配 error")
+	}
+
+	return write.Flush()
+}
+
+func NomalWriteFile(data []string, filePath string) error {
+	file, err := os.OpenFile(filePath, os.O_WRONLY|os.O_TRUNC, 0644)
+	if err != nil {
+		fmt.Println("open file error !")
+		fmt.Println(err)
+		return err
+	}
+	defer file.Close()
+
+	write := bufio.NewWriter(file)
+	for _, v := range data {
+		fmt.Fprintln(write, v)
 	}
 
 	return write.Flush()
