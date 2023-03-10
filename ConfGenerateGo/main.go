@@ -1,7 +1,6 @@
 package main
 
 import (
-	"ConfGenerateGo/file"
 	"ConfGenerateGo/pkg/model"
 	"ConfGenerateGo/pkg/util"
 	"fmt"
@@ -11,34 +10,34 @@ import (
 )
 
 // loon data file path
-var loonInboxRulesUrl = [...]string{
-	"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising.list",
-	"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list"}
+// var loonInboxRulesUrl = [...]string{
+// 	"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising.list",
+// 	"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list"}
 
-var loonInboxRulesFilePath = [...]string{
-	"../ConfigFile/Loon/LoonRemoteRule/Advertising/AdRulesBeta.conf",
-	"./DataFile/inbox/loon/loon_inbox1.txt"}
+// var loonInboxRulesFilePath = [...]string{
+// 	"../ConfigFile/Loon/LoonRemoteRule/Advertising/AdRulesBeta.conf",
+// 	"./DataFile/inbox/loon/loon_inbox1.txt"}
 
-var loonBaseRulesFilePath = [...]string{
-	"../ConfigFile/Loon/LoonRemoteRule/Advertising/AdRules.conf",
-	"./DataFile/loon_base.txt"}
+// var loonBaseRulesFilePath = [...]string{
+// 	"../ConfigFile/Loon/LoonRemoteRule/Advertising/AdRules.conf",
+// 	"./DataFile/loon_base.txt"}
 
-const loonFuckRogueSoftwareHost = "../ConfigFile/Loon/LoonPlugin/FuckRogueSoftware.plugin"
+// const loonFuckRogueSoftwareHost = "../ConfigFile/Loon/LoonPlugin/FuckRogueSoftware.plugin"
 
-const loonFuckRogueSoftwareRule = "../ConfigFile/Loon/LoonRemoteRule/FuckRogueSoftware.conf"
+// const loonFuckRogueSoftwareRule = "../ConfigFile/Loon/LoonRemoteRule/FuckRogueSoftware.conf"
 
-const surfboardFuckRogueSoftware = "../ConfigFile/Surfboard/FuckRogueSoftware.conf"
+// const surfboardFuckRogueSoftware = "../ConfigFile/Surfboard/FuckRogueSoftware.conf"
 
-// qx data file path
+// // qx data file path
 
-const fuckRogueSoftwareHost = "../ConfigFile/Hosts/FuckRogueSoftware.txt"
+// const fuckRogueSoftwareHost = "../ConfigFile/Hosts/FuckRogueSoftware.txt"
 
-// agh data file path
-const aghFuckRogueSoftware = "../ConfigFile/AdGuardHome/FuckRogueSoftware.txt"
+// // agh data file path
+// const aghFuckRogueSoftware = "../ConfigFile/AdGuardHome/FuckRogueSoftware.txt"
 
-const aghInboxRulesUrls = "../ConfigFile/AdGuardHome/待整合的规则.txt"
+// const aghInboxRulesUrls = "../ConfigFile/AdGuardHome/待整合的规则.txt"
 
-const aghInboxRulesFilePath = "./DataFile/inbox/agh/"
+// const aghInboxRulesFilePath = "./DataFile/inbox/agh/"
 
 func main() {
 	println("开始")
@@ -180,16 +179,16 @@ func policyProcessing(base []string, inbox []string) []model.Pair {
 	return data
 }
 
-func downloadFiles() {
-	file.DownloadFile(loonInboxRulesUrl[0], loonBaseRulesFilePath[1])
-	file.DownloadFile(loonInboxRulesUrl[1], loonInboxRulesFilePath[1])
+// func downloadFiles() {
+// 	file.DownloadFile(loonInboxRulesUrl[0], loonBaseRulesFilePath[1])
+// 	file.DownloadFile(loonInboxRulesUrl[1], loonInboxRulesFilePath[1])
 
-	var ans = file.ReadFile(aghInboxRulesUrls)
-	for i := 0; i < len(ans); i++ {
-		file.DownloadFile(ans[i], fmt.Sprint("%s%d.txt", aghInboxRulesFilePath, i))
-	}
-	println("更新远程数据完成")
-}
+// 	var ans = file.ReadFile(aghInboxRulesUrls)
+// 	for i := 0; i < len(ans); i++ {
+// 		file.DownloadFile(ans[i], fmt.Sprint("%s%d.txt", aghInboxRulesFilePath, i))
+// 	}
+// 	println("更新远程数据完成")
+// }
 
 func splitRule(s string) (string, string) {
 	// 对 规则进行切片，返回中间

@@ -320,6 +320,16 @@ wup.imtt.qq.com
 .ts.qq.com
 .capi.voice.gcloud.qq.com
 soup.v.qq.com
+a.app.qq.com
+a.ssl.msdk.qq.com
+ab.qq.com
+ad.browser.qq.com
+adtoken.v.qq.com
+adx.qq.com
+cloud.tgpa.qq.com
+dispatcher.3g.qq.com
+boss.qzone.qq.com
+
 
 ## 阿里系
 # 将阿里系 app 关闭网络权限且从移动网络切换到 Wi-Fi 时，有概率出现

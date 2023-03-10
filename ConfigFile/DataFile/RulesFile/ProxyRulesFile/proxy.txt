@@ -102,10 +102,6 @@
 ## lastfm
 .last.fm
 
-# Onedrive
-.storage.live.com
-.1drv.com
-
 ## protonmail
 .pm.me
 .protonmail.ch
@@ -120,6 +116,7 @@
 # notion
 .notion.so
 http-inputs-notion.splunkcloud.com
+.obsidian.md
 
 ## vivaldi
 .vivaldi.com
@@ -179,6 +176,7 @@ calibre-ebook.com
 
 ## mega
 .mega.co.nz
+.mega.nz
 
 ## discord
 .discord.com
@@ -198,22 +196,25 @@ calibre-ebook.com
 .omdbapi.com
 .fanart.tv
 
-## 其他
-.fontawesome.com
-.polyfill.io
-.gpgtools.org
+## gravatar
+.gravatar.com
+.vercel.com
 
 ## SSL 相关
 .lencr.org
 .letsencrypt.org
 .comodoca.com
-
-## cdn
-.cloudfront.net
-.cloudfront.com
+.sectigo.com
+.positivessl.com
 
 ## 存疑
 .vscode-sync.trafficmanager.net
 .monitor.firefox.com
 .vortex.data.microsoft.com
 .vchv.ltd
+
+## 其他
+.fontawesome.com
+.polyfill.io
+.gpgtools.org
+.raycast.com

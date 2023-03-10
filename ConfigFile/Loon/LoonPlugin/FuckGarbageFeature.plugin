@@ -1,10 +1,11 @@
 [Host]
+*apikey.map.qq.com = 0.0.0.0
 *bigfunapp.cn = 0.0.0.0
 *biligame.com = 0.0.0.0
 *biligame.net = 0.0.0.0
 broadcast.chat.bilibili.com = 0.0.0.0
+*browser.qq.com = 0.0.0.0
 *buluo.qq.com = 0.0.0.0
-*digicert.cn = 0.0.0.0
 *dns.weixin.qq.com = 0.0.0.0
 *down.qq.com = 0.0.0.0
 *gamecenter.qq.com = 0.0.0.0
