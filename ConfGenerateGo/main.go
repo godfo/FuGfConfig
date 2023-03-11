@@ -179,17 +179,6 @@ func policyProcessing(base []string, inbox []string) []model.Pair {
 	return data
 }
 
-// func downloadFiles() {
-// 	file.DownloadFile(loonInboxRulesUrl[0], loonBaseRulesFilePath[1])
-// 	file.DownloadFile(loonInboxRulesUrl[1], loonInboxRulesFilePath[1])
-
-// 	var ans = file.ReadFile(aghInboxRulesUrls)
-// 	for i := 0; i < len(ans); i++ {
-// 		file.DownloadFile(ans[i], fmt.Sprint("%s%d.txt", aghInboxRulesFilePath, i))
-// 	}
-// 	println("更新远程数据完成")
-// }
-
 func splitRule(s string) (string, string) {
 	// 对 规则进行切片，返回中间
 	ss := strings.Split(s, ",")
