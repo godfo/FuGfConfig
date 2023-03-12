@@ -47,6 +47,8 @@ func main() {
 	// proxy
 
 	// # FuckRogueSoftware
+	inboxResult = []string{}
+	fmt.Println("----开始处理 FuckRogueSoftware----")
 	base, inbox := readRule("../ConfigFile/DataFile/RulesFile/RejectRulesFile/FuckRogueSoftware.txt", "../ConfigFile/DataFile/RulesFile/RejectRulesFile/inbox.txt")
 	ans := policyProcessing(base, inbox)
 	util.WriteFile("LoonHost", ans, "FuckRogueSoftware", "../ConfigFile/Loon/LoonPlugin/FuckRogueSoftware.plugin", true)
@@ -54,6 +56,8 @@ func main() {
 	util.WriteFile("QuantumultXRules", ans, "FuckRogueSoftware", "../ConfigFile/QuantumultX/FuckRogueSoftware.conf", true)
 
 	// # FuckGarbageFeature
+	inboxResult = []string{}
+	fmt.Println("----开始处理 FuckGarbageFeature----")
 	base, inbox = readRule("../ConfigFile/DataFile/RulesFile/RejectRulesFile/FuckGarbageFeature.txt", "")
 	ans = policyProcessing(base, inbox)
 	util.WriteFile("QuantumultXRules", ans, "FuckGarbageFeature", "../ConfigFile/QuantumultX/FuckGarbageFeature.conf", true)
@@ -165,8 +169,10 @@ func policyProcessing(base []string, inbox []string) []model.Pair {
 
 	fmt.Println("查重后未处理的规则还剩 ", len(inboxResult), " 条")
 
-	sort.Strings(inboxResult)
-	util.NomalWriteFile(inboxResult, "../ConfigFile/DataFile/RulesFile/RejectRulesFile/inbox1.txt")
+	if len(inboxResult) != 0 {
+		sort.Strings(inboxResult)
+		util.NomalWriteFile(inboxResult, "../ConfigFile/DataFile/RulesFile/RejectRulesFile/inbox1.txt")
+	}
 
 	var data model.Pairs
 	for k, v := range ansMap {

@@ -5,6 +5,9 @@
 .biligame.com
 .biligame.net
 .bigfunapp.cn
+apigame.bilibili.com
+game.bilibili.com.w.cdngslb.com
+.game.bilibili.com
 #.app.bilibili.com
 # 会员购屏蔽 注意 ⚠
 mall.bilibili.com
@@ -14,6 +17,8 @@ broadcast.chat.bilibili.com
 # 测试
 live-trace.bilibili.com
 pay.bilibili.com
+miniapp.bilibili.com
+big.bilibili.com
 
 ## qq
 .down.qq.com
@@ -25,6 +30,8 @@ pay.bilibili.com
 .apikey.map.qq.com
 .xinyue.qq.com
 .qt.qq.com
+.gamecenter.qq.com
+
 
 
 .photovideo.photo.qq.com
@@ -39,5 +46,8 @@ httpdns.meituan.com
 timeservice.meituan.com
 w.meituan.net
 
-# 网易
+## 网易
 .mail.163.com
+
+## jd
+.h5speed.m.jd.com

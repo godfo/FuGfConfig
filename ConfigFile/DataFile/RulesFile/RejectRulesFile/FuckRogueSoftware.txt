@@ -228,6 +228,7 @@ wup.imtt.qq.com
 .bkcommdata.v.qq.com
 .bksoup.v.qq.com
 .commdata.v.qq.com
+.appcfg.v.qq.com
 .data.qq.com
 .detect.mb.qq.com
 .event.toggle.qq.com
@@ -329,6 +330,34 @@ adx.qq.com
 cloud.tgpa.qq.com
 dispatcher.3g.qq.com
 boss.qzone.qq.com
+ac.o2.qq.com
+adfl.qq.com
+adc.qq.com
+admonitor.qq.com
+adnew.qq.com
+agent.sj.qq.com
+apikey.map.qq.com
+apponline.research.qq.com
+beaconcdn.qq.com
+bk.ps2.gamedl.qq.com
+cgi.pub.qq.com
+.clientreport.gfm.qq.com
+commdata6.v.qq.com
+connect.play.ott.video.qq.com
+cross.report.tgp.qq.com
+dlied1.qq.com
+dlied1.tcdn.qq.com
+ex.qq.com
+extshort.weixin.qq.com
+fbih5report.3g.qq.com
+fereport.qidian.qq.com
+hkextshort.weixin.qq.com
+hklong.weixin.qq.com
+hkminorshort.weixin.qq.com
+hkshort.weixin.qq.com
+hlsps.p2p.qq.com
+hpjy-report.tga.qq.com
+icreport.html5.qq.com
 
 
 ## 阿里系
@@ -424,6 +453,10 @@ userimg.qunar.com
 w.m.taobao.com
 umengacs.m.taobao.com
 m.intl.taobao.com
+# 一休数据平台
+yixiu-abtest.alicdn.com
+# IP 屏蔽
+39.107.142.158
 # 存疑
 .h-adashx.ut.taobao.com
 .audid-api.taobao.com
@@ -508,10 +541,9 @@ ex.puata.info
 i.ipinyou.com
 feedback.whalecloud.com
 sjarvis.taobao.com
-# 一休数据平台
-yixiu-abtest.alicdn.com
-# IP 屏蔽
-39.107.142.158
+log.video.taobao.com
+adashx.m.taobao.com.gds.alibabadns.com
+
 
 ## bilibili 哔哩哔哩
 data.bilibili.com
@@ -525,6 +557,7 @@ dataflow.biliapi.com
 grpc.biliapi.net
 # 观看直播时 b 站拿用户的电脑去 p2p 上传，所谓的 webRtc
 .stun.chat.bilibili.com
+
 
 ## 字节系
 api-access.pangolin-sdk-toutiao.com
@@ -575,6 +608,17 @@ tnc3-bjlgy.zijieapi.com
 .alink.volceapplog.com
 .abtest.volceapplog.com
 .sf6-be-pack.pglstatp-toutiao.com
+log-hl.snssdk.com
+log.snssdk.com.bytedns.net
+toblog.snssdk.com
+toblog.tobsnssdk.com
+analytics.snssdk.com
+smr.snssdk.com
+pangolin.snssdk.com.w.cdngslb.com
+smr.snssdk.com.w.cdngslb.com
+mon-hl.snssdk.com
+is.snssdk.com.w.alikunlun.com
+
 # 火山引擎 智能推荐平台
 api.byteair.volces.com
 byteair-api-sg1.byteintlapi.com
@@ -1365,6 +1409,13 @@ api.share.mob.com
 log.trackingio.com
 slog.trackingio.com
 
+
+## 极意网络 geetest
+# 设备验证
+.riskct.geetest.com
+# APP本机校验（OnePass）
+.onepass.geetest.com
+
 ## 神策数据分析
 .cloud.sensorsdata.cn
 
@@ -1373,6 +1424,7 @@ slog.trackingio.com
 .aaid.umeng.com
 .ulogs.umeng.com
 .alogs.umeng.com
+.alog.umeng.co
 .ulogs.umengcloud.com
 .ads.umeng.com
 .oc.umeng.com
@@ -1381,12 +1433,15 @@ slog.trackingio.com
 .alogs.umengcloud.com
 .sec.umeng.com
 .ai.login.umeng.com
+.at.umeng.com
 
 ## AppsFlyer
 .launches.appsflyer.com
 .inapps.appsflyer.com
 .conversions.appsflyer.com
 .skadsdk.appsflyer.com
+api2.appsflyer.com
+
 
 ## flurry
 .data.flurry.com
@@ -1511,3 +1566,4 @@ paopaotuan.org
 dzrsapp.darewayhealth.com
 ad.cyapi.cn
 .jddebug.com
+.jstatic.3.cn

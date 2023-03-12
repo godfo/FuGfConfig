@@ -17,7 +17,9 @@ res.servicewechat.com
 183.61.49.155
 1.204.113.233
 183.61.49.155
+42.49.119.248
 
 live-trace.bilibili.com
+shmmsns.qpic.cn
 
 trade-acs.m.taobao.com
