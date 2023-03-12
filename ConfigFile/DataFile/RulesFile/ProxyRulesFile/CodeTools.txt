@@ -11,3 +11,4 @@
 .fig.io
 .brew.sh
 .anaconda.com
+.zed.dev
