@@ -200,6 +200,9 @@ calibre-ebook.com
 .gravatar.com
 .vercel.com
 
+## vk
+.vk.com
+
 ## SSL 相关
 .lencr.org
 .letsencrypt.org
