@@ -254,3 +254,4 @@ calibre-ebook.com
 .xiaomi.eu
 .minamigo.moe
 .relingo.net
+.quantumult.app

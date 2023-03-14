@@ -55,8 +55,8 @@ func main() {
 	fmt.Println("----开始处理 proxy ----")
 	base, inbox = readRule("../ConfigFile/DataFile/RulesFile/ProxyRulesFile/proxy.txt", "")
 	ans = policyProcessing(base, inbox)
-	util.WriteFile("QuantumultXRules", ans, "Tracker", "../ConfigFile/QuantumultX/ProxyRules.conf", true)
-	util.WriteFile("LoonRule", ans, "FuckRogueSoftware", "../ConfigFile/Loon/LoonRemoteRule/ProxyRules.conf", true)
+	util.WriteFile("QuantumultXRules", ans, "Proxy", "../ConfigFile/QuantumultX/ProxyRules.conf", true)
+	util.WriteFile("LoonRule", ans, "Proxy", "../ConfigFile/Loon/LoonRemoteRule/ProxyRules.conf", true)
 
 	// # Tracker
 	inboxResult = []string{}
