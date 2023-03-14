@@ -48,6 +48,9 @@
 .gitter-static.net
 .gitter.im
 
+## 编辑器
+.zed.dev
+
 ## 维基百科
 .wikipedia.org
 .wikimedia.org
@@ -130,29 +133,8 @@ http-inputs-notion.splunkcloud.com
 .vercel.sh
 
 ## 其他
-.jsdelivr.net
-.jquery.com
-.adguard.com
-.typlod.io
-.fireside.fm
-.pwalist.app
-.moon.fm
-.half.plus
-.halfs.me
-.sm.ms
-.nsloon.com
-.vercel.app
-.v2ex.com
-.appsco.pe
-.decohack.com
-.campaign-archive.com
-calibre-ebook.com
-.sharepoint.com
-.office.net
-.xiaomi.eu
-.minamigo.moe
-.relingo.net
-.fig.io
+
+
 ## DOMAIN-KEYWORD,toggl
 ## DOMAIN-KEYWORD,joplin
 ## DOMAIN-KEYWORD,craft
@@ -229,6 +211,10 @@ calibre-ebook.com
 .sectigo.com
 .positivessl.com
 
+## Gitea
+.gitea.io
+.gitea.com
+
 ## 存疑
 .vscode-sync.trafficmanager.net
 .monitor.firefox.com
@@ -240,3 +226,24 @@ calibre-ebook.com
 .polyfill.io
 .gpgtools.org
 .raycast.com
+.jquery.com
+.adguard.com
+.typlod.io
+.fireside.fm
+.pwalist.app
+.moon.fm
+.half.plus
+.halfs.me
+.sm.ms
+.nsloon.com
+.vercel.app
+.v2ex.com
+.appsco.pe
+.decohack.com
+.campaign-archive.com
+calibre-ebook.com
+.sharepoint.com
+.office.net
+.xiaomi.eu
+.minamigo.moe
+.relingo.net

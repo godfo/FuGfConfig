@@ -1,3 +1,4 @@
+# 此规则存放对于速度和延迟敏感的 代码相关工具 如 包资源 或者在线数据库等
 .supabase.com
 .visualstudio.com
 .wakapi.dev
@@ -11,4 +12,4 @@
 .fig.io
 .brew.sh
 .anaconda.com
-.zed.dev
+.jsdelivr.net
