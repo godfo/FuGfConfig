@@ -42,22 +42,50 @@ import (
 func main() {
 	println("开始")
 
+	var base, inbox []string
+	var ans []model.Pair
+
 	// direct
 
 	// proxy
+	inboxResult = []string{}
+	base = []string{}
+	inbox = []string{}
+	ans = []model.Pair{}
+	fmt.Println("----开始处理 proxy ----")
+	base, inbox = readRule("../ConfigFile/DataFile/RulesFile/ProxyRulesFile/proxy.txt", "")
+	ans = policyProcessing(base, inbox)
+	util.WriteFile("QuantumultXRules", ans, "Tracker", "../ConfigFile/QuantumultX/ProxyRules.conf", true)
+	util.WriteFile("LoonRule", ans, "FuckRogueSoftware", "../ConfigFile/Loon/LoonRemoteRule/ProxyRules.conf", true)
+
+	// # Tracker
+	inboxResult = []string{}
+	base = []string{}
+	inbox = []string{}
+	ans = []model.Pair{}
+	fmt.Println("----开始处理 Tracker ----")
+	base, inbox = readRule("../ConfigFile/DataFile/RulesFile/ProxyRulesFile/Tracker.txt", "")
+	ans = policyProcessing(base, inbox)
+	util.WriteFile("QuantumultXRules", ans, "Tracker", "../ConfigFile/DataFile/RulesFile/ProxyRulesFile/1.txt", true)
 
 	// # FuckRogueSoftware
 	inboxResult = []string{}
-	fmt.Println("----开始处理 FuckRogueSoftware----")
-	base, inbox := readRule("../ConfigFile/DataFile/RulesFile/RejectRulesFile/FuckRogueSoftware.txt", "../ConfigFile/DataFile/RulesFile/RejectRulesFile/inbox.txt")
-	ans := policyProcessing(base, inbox)
+	base = []string{}
+	inbox = []string{}
+	ans = []model.Pair{}
+	fmt.Println("----开始处理 FuckRogueSoftware ----")
+	base, inbox = readRule("../ConfigFile/DataFile/RulesFile/RejectRulesFile/FuckRogueSoftware.txt", "../ConfigFile/DataFile/RulesFile/RejectRulesFile/inbox.txt")
+	ans = policyProcessing(base, inbox)
 	util.WriteFile("LoonHost", ans, "FuckRogueSoftware", "../ConfigFile/Loon/LoonPlugin/FuckRogueSoftware.plugin", true)
 	util.WriteFile("LoonRule", ans, "FuckRogueSoftware", "../ConfigFile/Loon/LoonRemoteRule/FuckRogueSoftware.conf", true)
 	util.WriteFile("QuantumultXRules", ans, "FuckRogueSoftware", "../ConfigFile/QuantumultX/FuckRogueSoftware.conf", true)
 
 	// # FuckGarbageFeature
 	inboxResult = []string{}
-	fmt.Println("----开始处理 FuckGarbageFeature----")
+	base = []string{}
+	inbox = []string{}
+	ans = []model.Pair{}
+	fmt.Println("----开始处理 FuckGarbageFeature ----")
 	base, inbox = readRule("../ConfigFile/DataFile/RulesFile/RejectRulesFile/FuckGarbageFeature.txt", "")
 	ans = policyProcessing(base, inbox)
 	util.WriteFile("QuantumultXRules", ans, "FuckGarbageFeature", "../ConfigFile/QuantumultX/FuckGarbageFeature.conf", true)
@@ -96,7 +124,7 @@ func policyProcessing(base []string, inbox []string) []model.Pair {
 	// map 来存取数据 key 是唯一的 放置域名或者ip，value放置规则
 
 	// 构建 base map
-	var ansMap = make(map[string](string))
+	var ansMap = make(map[string]string)
 	for _, v := range base {
 		v = util.FormatCorrection(v)
 		a := ""

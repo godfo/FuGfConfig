@@ -40,6 +40,10 @@
 .vo.msecnd.net
 .vsassets.io
 
+## vscodium
+vscodium.now.sh
+.vscodium.com
+
 ## Gitlab
 .gitlab-static.net
 .gitlab.com
@@ -110,6 +114,9 @@
 .protonmail.ch
 .protonmail.com
 .protonstatus.com
+
+## vercel
+.vercel.app
 
 ## 长毛象
 .o3o.ca

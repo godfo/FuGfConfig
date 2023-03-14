@@ -13,3 +13,4 @@
 .brew.sh
 .anaconda.com
 .jsdelivr.net
+.open-vsx.org
