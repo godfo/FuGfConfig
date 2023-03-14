@@ -12,9 +12,9 @@ func WriteFile(matchType string, data model.Pairs, policyName string, filePath s
 	var flag int
 	if writeType {
 		//	如果 为 true 就覆盖写入
-		flag = os.O_WRONLY | os.O_TRUNC
+		flag = os.O_WRONLY | os.O_CREATE | os.O_TRUNC
 	} else {
-		flag = os.O_WRONLY | os.O_APPEND | os.O_CREATE
+		flag = os.O_WRONLY | os.O_CREATE | os.O_APPEND
 	}
 	file, err := os.OpenFile(filePath, flag, 0644)
 	if err != nil {
@@ -135,16 +135,6 @@ func WriteFile(matchType string, data model.Pairs, policyName string, filePath s
 				}
 			}
 		}
-	case strings.Contains(matchType, "Nomal"):
-		for _, v := range data {
-			fmt.Fprint(write, "  - ")
-			fmt.Fprint(write, v.Value+",")
-			if strings.Contains(v.Key, "\n") {
-				fmt.Fprint(write, v.Key)
-			} else {
-				fmt.Fprintln(write, v.Key)
-			}
-		}
 	default:
 		fmt.Println("匹配 error")
 	}
@@ -152,7 +142,7 @@ func WriteFile(matchType string, data model.Pairs, policyName string, filePath s
 	return write.Flush()
 }
 
-func NomalWriteFile(data []string, filePath string) error {
+func NormalWriteFile(data []string, filePath string) error {
 	file, err := os.OpenFile(filePath, os.O_WRONLY|os.O_TRUNC, 0644)
 	if err != nil {
 		fmt.Println("open file error !")

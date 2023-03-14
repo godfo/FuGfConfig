@@ -7,6 +7,7 @@ import (
 	"os"
 )
 
+// ReadFile 读取文件 忽略空行及注释
 func ReadFile(filePath string) []string {
 	file, err := os.Open(filePath)
 	if err != nil {

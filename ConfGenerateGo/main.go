@@ -4,6 +4,7 @@ import (
 	"ConfGenerateGo/pkg/model"
 	"ConfGenerateGo/pkg/util"
 	"fmt"
+	"os"
 	"regexp"
 	"sort"
 	"strings"
@@ -14,83 +15,8 @@ import (
 // 	"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising.list",
 // 	"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list"}
 
-// var loonInboxRulesFilePath = [...]string{
-// 	"../ConfigFile/Loon/LoonRemoteRule/Advertising/AdRulesBeta.conf",
-// 	"./DataFile/inbox/loon/loon_inbox1.txt"}
-
-// var loonBaseRulesFilePath = [...]string{
-// 	"../ConfigFile/Loon/LoonRemoteRule/Advertising/AdRules.conf",
-// 	"./DataFile/loon_base.txt"}
-
-// const loonFuckRogueSoftwareHost = "../ConfigFile/Loon/LoonPlugin/FuckRogueSoftware.plugin"
-
-// const loonFuckRogueSoftwareRule = "../ConfigFile/Loon/LoonRemoteRule/FuckRogueSoftware.conf"
-
-// const surfboardFuckRogueSoftware = "../ConfigFile/Surfboard/FuckRogueSoftware.conf"
-
-// // qx data file path
-
-// const fuckRogueSoftwareHost = "../ConfigFile/Hosts/FuckRogueSoftware.txt"
-
-// // agh data file path
-// const aghFuckRogueSoftware = "../ConfigFile/AdGuardHome/FuckRogueSoftware.txt"
-
-// const aghInboxRulesUrls = "../ConfigFile/AdGuardHome/待整合的规则.txt"
-
-// const aghInboxRulesFilePath = "./DataFile/inbox/agh/"
-
 func main() {
 	println("开始")
-
-	var base, inbox []string
-	var ans []model.Pair
-
-	// direct
-
-	// proxy
-	inboxResult = []string{}
-	base = []string{}
-	inbox = []string{}
-	ans = []model.Pair{}
-	fmt.Println("----开始处理 proxy ----")
-	base, inbox = readRule("../ConfigFile/DataFile/RulesFile/ProxyRulesFile/proxy.txt", "")
-	ans = policyProcessing(base, inbox)
-	util.WriteFile("QuantumultXRules", ans, "Proxy", "../ConfigFile/QuantumultX/ProxyRules.conf", true)
-	util.WriteFile("LoonRule", ans, "Proxy", "../ConfigFile/Loon/LoonRemoteRule/ProxyRules.conf", true)
-
-	// # Tracker
-	inboxResult = []string{}
-	base = []string{}
-	inbox = []string{}
-	ans = []model.Pair{}
-	fmt.Println("----开始处理 Tracker ----")
-	base, inbox = readRule("../ConfigFile/DataFile/RulesFile/ProxyRulesFile/Tracker.txt", "")
-	ans = policyProcessing(base, inbox)
-	util.WriteFile("QuantumultXRules", ans, "Tracker", "../ConfigFile/DataFile/RulesFile/ProxyRulesFile/1.txt", true)
-
-	// # FuckRogueSoftware
-	inboxResult = []string{}
-	base = []string{}
-	inbox = []string{}
-	ans = []model.Pair{}
-	fmt.Println("----开始处理 FuckRogueSoftware ----")
-	base, inbox = readRule("../ConfigFile/DataFile/RulesFile/RejectRulesFile/FuckRogueSoftware.txt", "../ConfigFile/DataFile/RulesFile/RejectRulesFile/inbox.txt")
-	ans = policyProcessing(base, inbox)
-	util.WriteFile("LoonHost", ans, "FuckRogueSoftware", "../ConfigFile/Loon/LoonPlugin/FuckRogueSoftware.plugin", true)
-	util.WriteFile("LoonRule", ans, "FuckRogueSoftware", "../ConfigFile/Loon/LoonRemoteRule/FuckRogueSoftware.conf", true)
-	util.WriteFile("QuantumultXRules", ans, "FuckRogueSoftware", "../ConfigFile/QuantumultX/FuckRogueSoftware.conf", true)
-
-	// # FuckGarbageFeature
-	inboxResult = []string{}
-	base = []string{}
-	inbox = []string{}
-	ans = []model.Pair{}
-	fmt.Println("----开始处理 FuckGarbageFeature ----")
-	base, inbox = readRule("../ConfigFile/DataFile/RulesFile/RejectRulesFile/FuckGarbageFeature.txt", "")
-	ans = policyProcessing(base, inbox)
-	util.WriteFile("QuantumultXRules", ans, "FuckGarbageFeature", "../ConfigFile/QuantumultX/FuckGarbageFeature.conf", true)
-	util.WriteFile("LoonRule", ans, "FuckGarbageFeature", "../ConfigFile/Loon/LoonRemoteRule/FuckGarbageFeature.conf", true)
-	util.WriteFile("LoonHost", ans, "FuckGarbageFeature", "../ConfigFile/Loon/LoonPlugin/FuckGarbageFeature.plugin", true)
 
 	// fmt.Println("是否要更新 or 下载远程数据 (y or n)")
 	// var input string
@@ -101,6 +27,38 @@ func main() {
 	// 	downloadFiles()
 	// }
 
+	var base, inbox, inboxResult []string
+	var ans []model.Pair
+
+	//names := []string{"FuckRogueSoftware"}
+	names := []string{"Proxy", "CodeTools", "Tracker", "FuckGarbageFeature", "FuckRogueSoftware"}
+	for _, name := range names {
+		//  清空残留的数据
+		base, inbox, inboxResult = []string{}, []string{}, []string{}
+		ans = []model.Pair{}
+		fmt.Println("----开始处理 ", name, " ----")
+		// 拼接文件路径
+		buildString := func(ss ...string) string {
+			var builder strings.Builder
+			for _, s := range ss {
+				builder.WriteString(s)
+			}
+			return builder.String()
+		}
+		base, inbox = readRule(buildString("../ConfigFile/DataFile/", name, "/", name, ".txt"), buildString("../ConfigFile/DataFile/", name, "/inbox.txt"))
+		ans, inboxResult = policyProcessing(base, inbox)
+		util.WriteFile("QuantumultXRules", ans, name, buildString("../ConfigFile/QuantumultX/", name, "Rules.conf"), true)
+		util.WriteFile("LoonRule", ans, name, buildString("../ConfigFile/Loon/LoonRemoteRule/", name, "Rules.conf"), true)
+		util.WriteFile("Host", ans, name, buildString("../ConfigFile/Host/", name, "Rules.conf"), true)
+		util.WriteFile("DomainSetRule", ans, name, buildString("../ConfigFile/DomainSet/", name, "Rules.conf"), true)
+		util.WriteFile("AdGuardHome", ans, name, buildString("../ConfigFile/AdGuardHome/", name, "Rules.conf"), true)
+		util.WriteFile("Clash", ans, name, buildString("../ConfigFile/Clash/", name, "Rules.conf"), true)
+		if len(inboxResult) != 0 {
+			sort.Strings(inboxResult)
+			util.NormalWriteFile(inboxResult, buildString("../ConfigFile/DataFile/", name, "/inbox.txt"))
+		}
+	}
+
 	println("处理完成")
 	println("结束")
 }
@@ -109,19 +67,27 @@ func readRule(baseFilePath string, inboxFilePath string) ([]string, []string) {
 	//
 	var base, inbox []string
 	// 读取 base
-	base = util.ReadFile(baseFilePath)
+	// 判断文件是否存在
+	_, err := os.Stat(baseFilePath)
+	if err == nil {
+		base = util.ReadFile(baseFilePath)
+	} else {
+		fmt.Println("发生错误:", err)
+	}
+
 	// 读取 inbox
-	if inboxFilePath != "" {
+	_, err = os.Stat(inboxFilePath)
+	if err == nil {
 		inbox = util.ReadFile(inboxFilePath)
+	} else {
+		//fmt.Println(err)
 	}
 
 	return base, inbox
 }
 
-var inboxResult []string
-
-func policyProcessing(base []string, inbox []string) []model.Pair {
-	// map 来存取数据 key 是唯一的 放置域名或者ip，value放置规则
+func policyProcessing(base []string, inbox []string) ([]model.Pair, []string) {
+	// map 来存取数据 key 是唯一的 放置域名或者 ip，value 放置规则
 
 	// 构建 base map
 	var ansMap = make(map[string]string)
@@ -131,17 +97,17 @@ func policyProcessing(base []string, inbox []string) []model.Pair {
 		if strings.Count(v, ",") >= 1 {
 			a, v = splitRule(v)
 			ansMap[v] = a
-		} else if isDomainRule(v) {
+		} else if isIPV4(v) {
+			ansMap[v] = "IP-CIDR"
+		} else if isIPV6(v) {
+			ansMap[v] = "IP-CIDR6"
+		} else if util.IsDomainRule(v) {
 			if strings.HasPrefix(v, ".") {
 				v = strings.TrimPrefix(v, ".")
 				ansMap[v] = "DOMAIN-SUFFIX"
 			} else {
 				ansMap[v] = "DOMAIN"
 			}
-		} else if isIPV4(v) {
-			ansMap[v] = "IP-CIDR"
-		} else if isIPV6(v) {
-			ansMap[v] = "IP-CIDR6"
 		} else {
 			fmt.Println("发现未匹配到的规则，规则为：" + v)
 			ansMap[v] = "DOMAIN"
@@ -151,6 +117,7 @@ func policyProcessing(base []string, inbox []string) []model.Pair {
 	fmt.Println("规则基础库构建完成，共:", len(ansMap), "条规则")
 
 	// 遍历 inbox
+	var inboxResult []string
 	if len(inbox) > 0 {
 		for _, v := range inbox {
 			v = util.CleanAll(v)
@@ -164,7 +131,7 @@ func policyProcessing(base []string, inbox []string) []model.Pair {
 			// }
 			if _, ok := ansMap[v]; !ok {
 				// 如果不存在
-				if isDomainRule(v) {
+				if util.IsDomainRule(v) {
 					// 如果是 domain 规则
 					count := strings.Count(v, ".") - 1
 					flag := false
@@ -197,11 +164,6 @@ func policyProcessing(base []string, inbox []string) []model.Pair {
 
 	fmt.Println("查重后未处理的规则还剩 ", len(inboxResult), " 条")
 
-	if len(inboxResult) != 0 {
-		sort.Strings(inboxResult)
-		util.NomalWriteFile(inboxResult, "../ConfigFile/DataFile/RulesFile/RejectRulesFile/inbox1.txt")
-	}
-
 	var data model.Pairs
 	for k, v := range ansMap {
 		data = append(data, model.Pair{Key: k, Value: v})
@@ -210,11 +172,11 @@ func policyProcessing(base []string, inbox []string) []model.Pair {
 
 	fmt.Println("排序处理完后的规则共: ", len(data), " 条")
 
-	return data
+	return data, inboxResult
 }
 
+// 对 规则进行切片，返回中间
 func splitRule(s string) (string, string) {
-	// 对 规则进行切片，返回中间
 	ss := strings.Split(s, ",")
 	if len(ss) >= 2 {
 		return ss[0], ss[1]
@@ -222,6 +184,7 @@ func splitRule(s string) (string, string) {
 	return "", ""
 }
 
+// 对域名规则按 "." 切片
 func domainRuleIntercept(s string) string {
 	firstInd := strings.Index(s, ".")
 	return s[firstInd+1:]
@@ -239,7 +202,9 @@ func isIPV6(s string) bool {
 	return ipv6Pattern.MatchString(s)
 }
 
-func isDomainRule(s string) bool {
-	domainPattern := regexp.MustCompile(`^[a-zA-Z0-9\-\.]+(\.[a-zA-Z]{2,3}){1,2}(/\S*)?$`)
-	return domainPattern.MatchString(s)
+// 错误处理函数
+func handleError(fn func() error) {
+	if err := fn(); err != nil {
+		fmt.Printf("error occurred: %v\n", err)
+	}
 }

@@ -1,0 +1,259 @@
+# 此规则存放对代理 IP 频繁变化不敏感的需要走代理的服务
+
+## Github
+.atom.io
+.dependabot.com
+.ghcr.io
+.git.io
+.github-atom-io-herokuapp-com.freetls.fastly.net
+.github-avatars.oss-cn-hongkong.aliyuncs.com
+.github-cloud.s3.amazonaws.com
+.github.blog
+.github.com
+.github.community
+.github.dev
+.github.io
+.githubapp.com
+.githubassets.com
+.githubhackathon.com
+.githubpreview.dev
+.githubstatus.com
+.githubuniverse.com
+.githubusercontent.com
+.myoctocat.com
+.npm.community
+.npmjs.com
+.npmjs.org
+.opensource.guide
+.rawgit.com
+.rawgithub.com
+.thegithubshop.com
+.gitbook.com
+.gitbook.io
+.gitbook.zendesk.com
+
+## vscode
+.vscode-unpkg.net
+.vscode-cdn.net
+.visualstudio.com
+.vscodeexperiments.azureedge.net
+.vo.msecnd.net
+.vsassets.io
+
+## vscodium
+vscodium.now.sh
+.vscodium.com
+
+## Gitlab
+.gitlab-static.net
+.gitlab.com
+.gitlab.net
+.gitlab-assets.oss-cn-hongkong.aliyuncs.com
+.gitter-static.net
+.gitter.im
+
+## 编辑器
+.zed.dev
+
+## 维基百科
+.wikipedia.org
+.wikimedia.org
+
+## Pixiv
+.pximg.net
+.fanbox.cc
+.pixiv.me
+.pixiv.net
+.pixiv.re
+
+## Twitter
+.twitter.com
+.twimg.com
+
+## 密码管理器
+.bitwarden.com
+.1password.com
+
+# Win 检测是否可以联网域名
+.msftconnecttest.com
+
+## apksure
+.apkpure.com
+.cdnpure.com
+.pureapk.com
+.winudf.com
+
+## dropbox
+.db.tt
+.dropbox-dns.com
+.dropbox.com
+.dropbox.tech
+.dropbox.zendesk.com
+.dropboxapi.com
+.dropboxbusiness.com
+.dropboxcaptcha.com
+.dropboxforum.com
+.dropboxforums.com
+.dropboxinsiders.com
+.dropboxmail.com
+.dropboxpartners.com
+.dropboxstatic.com
+.dropboxusercontent.com
+.getdropbox.com
+.paper-attachments.s3.amazonaws.com
+
+## duckduckgo
+.duckduckgo.com
+.duckduckco.com
+
+## lastfm
+.last.fm
+
+## protonmail
+.pm.me
+.protonmail.ch
+.protonmail.com
+.protonstatus.com
+
+## vercel
+.vercel.app
+
+## 长毛象
+.o3o.ca
+.cmx.im
+
+## 笔记软件
+# notion
+.notion.so
+http-inputs-notion.splunkcloud.com
+.obsidian.md
+
+## vivaldi
+.vivaldi.com
+.vivaldi.net
+
+## matrix
+.matrix.org
+
+## vercel
+.vercel.com
+.vercel.sh
+
+
+## DOMAIN-KEYWORD,toggl
+## DOMAIN-KEYWORD,joplin
+## DOMAIN-KEYWORD,craft
+## DOMAIN-KEYWORD,instagram
+## DOMAIN,bilibili.tv
+
+## stripe
+.stripe.com
+.stripe.network
+
+## typlog
+.typlog.com
+.typlog.io
+
+## anchor
+.anchor.fm
+
+## facebook
+.facebook.com
+.fbcdn.net
+
+## onedrive 网页版
+onedrive.live.com
+
+
+## mega
+.mega.co.nz
+.mega.nz
+
+## discord
+.discord.com
+.discordapp.com
+
+## emby
+.emby.media
+.embydata.com
+
+.kodi.tv
+
+## 影音网站
+.adtidy.org
+.mb3admin.com
+.themoviedb.org
+.thetvdb.com
+.omdbapi.com
+.fanart.tv
+
+## gravatar
+.gravatar.com
+.vercel.com
+
+## vk
+.mvk.com
+.userapi.com
+.vk-cdn.me
+.vk-cdn.net
+.vk-portal.net
+.vk.cc
+.vk.com
+.vk.design
+.vk.link
+.vk.me
+.vkcache.com
+.vkgo.app
+.vklive.app
+.vkmessenger.app
+.vkmessenger.com
+.vkontakte.ru
+.vkuseraudio.com
+.vkuserlive.net
+.vkuservideo.com
+.vkuservideo.net
+
+## SSL 相关
+.lencr.org
+.letsencrypt.org
+.comodoca.com
+.sectigo.com
+.positivessl.com
+
+## Gitea
+.gitea.io
+.gitea.com
+
+## 存疑
+.vscode-sync.trafficmanager.net
+.monitor.firefox.com
+.vortex.data.microsoft.com
+.vchv.ltd
+
+## 其他
+.fontawesome.com
+.polyfill.io
+.gpgtools.org
+.raycast.com
+.jquery.com
+.adguard.com
+.typlod.io
+.fireside.fm
+.pwalist.app
+.moon.fm
+.half.plus
+.halfs.me
+.sm.ms
+.nsloon.com
+.vercel.app
+.v2ex.com
+.appsco.pe
+.decohack.com
+.campaign-archive.com
+calibre-ebook.com
+.sharepoint.com
+.office.net
+.xiaomi.eu
+.minamigo.moe
+.relingo.net
+.quantumult.app

@@ -2,13 +2,13 @@ package util
 
 import "strings"
 
-// 规则格式统一
+// FormatCorrection 规则格式统一
 func FormatCorrection(s string) string {
 	// s = strings.TrimPrefix(s, ".")
 	s = strings.Replace(s, "\r", "", -1)
 	s = strings.Replace(s, "\n", "", -1)
 	s = strings.Replace(s, "\t", "", -1)
-	s = strings.Replace(s, " ", "", -1)
+	//s = strings.Replace(s, " ", "", -1)
 	s = strings.Replace(s, "HOST", "DOMAIN", 1)
 	s = strings.Replace(s, "host", "DOMAIN", 1)
 	s = strings.Replace(s, "domain", "DOMAIN", 1)
@@ -25,7 +25,7 @@ func FormatCorrection(s string) string {
 	return s
 }
 
-// 忽略注释和空行
+// IsNote 忽略注释和空行
 func IsNote(s string) bool {
 	if strings.HasPrefix(s, "#") ||
 		strings.HasPrefix(s, ";") ||
@@ -37,7 +37,7 @@ func IsNote(s string) bool {
 	return false
 }
 
-// 只返回域名或者 IP
+// CleanAll 只返回域名或者 IP
 func CleanAll(s string) string {
 	s = strings.Replace(s, "\r", "", -1)
 	s = strings.Replace(s, "\n", "", -1)
