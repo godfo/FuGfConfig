@@ -24,6 +24,8 @@
 
 建议配合 ios_rule_script 项目中的 [QuantumultX 去广告](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising) 一起使用（已去重
 
+别配合使用了，我感觉误杀有点高（~~虽然好像 FuckRogueSoftware 规则集的误杀也不低~~
+
 优先级从高到低：
 
 ```txt
@@ -31,7 +33,7 @@ FuckRogueSoftware
 
 AppleRules
 
-自定义的策略组，走代理的或者不走代理的
+自定义的策略组，走代理的或者走不同代理路线的
 
 ChinaASN
 DirectRules
@@ -64,7 +66,6 @@ https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/QuantumultX
 优先级从高到低：
 
 ```
-AdRules
 FuckRogueSoftware
 ProxyRules
 TelegramRules
@@ -81,12 +82,12 @@ BaseRules
 
 ```
 # 去广告
-https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/Advertising/AdRules.conf, policy=Advertising, tag=CustomAd, enabled=true
+https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/FuckRogueSoftwareRules.conf, policy=Advertising, tag=FuckRogueSoftware, enabled=true
 
 # 自定义的代理
 https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/ProxyRules.conf, policy=PROXY, tag=CustomProxy, enabled=true
 
-https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/TelegramRules.conf, policy=PROXY, tag=TelegramRules, enabled=true
+https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/TelegramRules.conf, policy=PROXY, tag=TelegramRules, enabled=true
 
 # Apple 规则
 https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/Apple/AppleNoChinaCDNRules.conf, policy=AppleNoChinaCDN, tag=AppleNoChinaCDN, enabled=true
@@ -97,7 +98,7 @@ https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/LoonRe
 
 https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/Apple/AppleCDNRules.conf, policy=AppleCDN, tag=AppleCDN, enabled=true
 
-https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/GFWRules.conf, policy=PROXY, tag=FuckGFW, enabled=true
+https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/GFWRules.conf, policy=PROXY, tag=FuckGFW, enabled=true
 
 # 自定义的直连
 https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/DirectRules.conf, policy=DIRECT, tag=CustomDirect, enabled=true
@@ -108,9 +109,9 @@ https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/LoonRe
 
 ### 对于 FuckRogueSoftware 规则的说明
 
-此规则极其激进，对某些国内软件强屏蔽，包括但不限于广告，跟踪，数据分析，仅保证软件最低程度功能的正常使用，使用需谨慎
+此规则对某些国内软件强屏蔽，包括但不限于广告，跟踪，数据分析
 
-在 [FuckRogueSoftware.txt](https://github.com/dunlanl/FuGfConfig/blob/main/ConfigFile/DataFile/RulesFile/RejectRulesFile/FuckRogueSoftware.txt) 中可以看到部分屏蔽说明
+在 [FuckRogueSoftware.txt](https://github.com/dunlanl/FuGfConfig/blob/main/ConfigFile/DataFile/FuckGarbageFeature/FuckGarbageFeature.txt) 中可以看到部分屏蔽说明
 
 ```
 # qx
