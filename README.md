@@ -9,11 +9,12 @@
 本项目对 Loon、QuantumultX、AdGuard Home 提供完全支持
 
 优先级：Loon = QuantumultX > AdGuard Home > 小火箭
-> 因为我的一些个人原因 AdGuard Home 的支持被迫延期。但 QuantumultX 优先级得到了提高（最近的几个月里面 qx 规则集得到了完善和补充
 
-> 如果您发现了不知道为什么存在的部分小火箭规则或者 Surfboard 规则，请忽略它们 (
+> 经过鄙人的重构，现在提供 Host,DomainSet,Clash,Loon,QuantumultX 的支持，各位可以按需引用
 
-经过我个人的测试，FuckRogueSoftware 规则集误杀应该 ~~（大概 可能）~~ 没有那么严重了~~吧~~
+> 被迫修改了一些规则的路径和名字，我尽量争取此类事件不再发生
+
+经过我个人的测试，FuckRogueSoftware 规则集误杀应该 ~~（大概 可能）~~ 没有那么严重了~~吧~~，计划在未来本项目全面向 FuckRogueSoftware 转移，淘汰掉 以前的 AdRules
 
 > 仅个人测试，请添加时准备好 direct 规则 (
 
@@ -39,7 +40,7 @@ BasicRules
 
 ```
 # 隐私保护
-https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/QuantumultX/FuckRogueSoftware.conf, force-policy=FuckRogueSoftware, tag=FuckRogueSoftware, enabled=true
+https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/QuantumultX/FuckRogueSoftwareRules.conf, force-policy=FuckRogueSoftware, tag=FuckRogueSoftware, enabled=true
 
 # 去广告
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list, force-policy=Advertising, tag=CustomAd, enabled=true
@@ -113,10 +114,10 @@ https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/LoonRe
 
 ```
 # qx
-https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/QuantumultX/FuckRogueSoftware.conf, force-policy=FuckRogueSoftware, tag=FuckRogueSoftware, enabled=true
+https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/QuantumultX/FuckRogueSoftwareRules.conf, force-policy=FuckRogueSoftware, tag=FuckRogueSoftware, enabled=true
 
 # loon
-https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/FuckRogueSoftware.conf, policy=Advertising, tag=FuckRogueSoftware, enabled=true
+https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/FuckRogueSoftwareRules.conf, policy=Advertising, tag=FuckRogueSoftware, enabled=true
 ```
 
 ### Apple 系统更新
