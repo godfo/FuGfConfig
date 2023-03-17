@@ -1388,6 +1388,8 @@ api-extra.hzjizhun.com
 .user.jpush.cn
 .mini-stats.jpush.cn
 .report.jpush.cn
+.config.jpush.cn
+.config-junion.jpush.cn
 183.232.25.151
 121.36.6.165
 139.9.141.89

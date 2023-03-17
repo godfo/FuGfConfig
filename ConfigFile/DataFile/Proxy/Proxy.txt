@@ -52,6 +52,9 @@ vscodium.now.sh
 .gitter-static.net
 .gitter.im
 
+## code docs
+.vuejs.org
+
 ## 编辑器
 .zed.dev
 
@@ -219,6 +222,7 @@ onedrive.live.com
 .comodoca.com
 .sectigo.com
 .positivessl.com
+.digicert.com
 
 ## Gitea
 .gitea.io

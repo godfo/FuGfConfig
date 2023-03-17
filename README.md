@@ -18,6 +18,10 @@
 
 > 仅个人测试，请添加时准备好 direct 规则 (
 
+经过测试的软件：todo
+
+计划测试的软件：暂无
+
 ## 使用方法
 
 ### QuantumultX
@@ -220,6 +224,13 @@ https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/LoonPl
 可以预见的未来越来越光明啦
 
 特此提前准备了白名单模式，随时准备敬献。
+
+## 项目路线图
+
+- [x] 自动化根据规则集生成适配不同客户端的规则文件
+- [x] 去重，根据域名后缀去重
+- [] 构造域名后缀树，从 HashMap 切换到域名后缀树
+- [] 尝试函数式 C# 实现
 
 ## 感谢
 

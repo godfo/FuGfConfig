@@ -23,3 +23,5 @@ live-trace.bilibili.com
 shmmsns.qpic.cn
 
 trade-acs.m.taobao.com
+
+downv6.qq.com
