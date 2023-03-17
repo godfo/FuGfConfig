@@ -16,6 +16,8 @@
 .anaconda.com
 .jsdelivr.net
 .open-vsx.org
+.yarnpkg.com
+.npmjs.org
 
 ## Debian 仓库
 .packages.debian.org

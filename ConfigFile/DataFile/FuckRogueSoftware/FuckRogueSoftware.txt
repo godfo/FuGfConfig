@@ -1298,6 +1298,10 @@ logservice-drru.dt.hicloud.com
 logservice.hicloud.com
 logservice1.hicloud.com
 
+## 联通
+opencloud.wostore.cn
+nissd1.10010.com
+
 ## 银联
 ads.95516.com
 analytics.95516.com
@@ -1390,6 +1394,10 @@ api-extra.hzjizhun.com
 .report.jpush.cn
 .config.jpush.cn
 .config-junion.jpush.cn
+.update.sdk.jiguang.cn
+.im64.jpush.cn
+bjuser.jpush.cn
+fcapi-ipv6.jpush.cn
 183.232.25.151
 121.36.6.165
 139.9.141.89
@@ -1412,6 +1420,11 @@ api.share.mob.com
 #.trackingio.com
 log.trackingio.com
 slog.trackingio.com
+
+## 闪验
+sysdk.cl2009.com
+api.253.com
+sy.cl2009.com
 
 
 ## 极意网络 geetest
@@ -1482,6 +1495,13 @@ aads.shuzilm.cn
 
 ## astyanax
 .astyanax.io
+
+## faisys 繁科
+;.ss.faisys.com
+
+## 卓信
+.sandbox-zxid-api.mobileservice.cn
+.zxid-api.mobileservice.cn
 
 ## 其他
 .go-mpulse.net
@@ -1817,3 +1837,17 @@ ad.cyapi.cn
 .log2.ru
 .log2.sina.cn
 .log2.spotify.com
+client-log.box.com
+client-log.karte.io
+d-log.asahi.co.jp
+d-log.bs-asahi.tv
+d-log.tv-asahi.co.jp
+log-v4-insight.kaizenplatform.net
+log.letro.jp
+log.outbrainimg.com
+log1.mobylog.jp
+log22.makeshop.co.kr
+paas-push-api-log.immomo.com
+ad-log.wemakeprice.com
+ab-log.datahou.se
+

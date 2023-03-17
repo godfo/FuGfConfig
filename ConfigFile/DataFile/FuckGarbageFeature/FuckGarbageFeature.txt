@@ -5,7 +5,7 @@
 .biligame.com
 .biligame.net
 .bigfunapp.cn
-apigame.bilibili.com
+.apigame.bilibili.com
 game.bilibili.com.w.cdngslb.com
 .game.bilibili.com
 #.app.bilibili.com
@@ -31,6 +31,7 @@ big.bilibili.com
 .xinyue.qq.com
 .qt.qq.com
 .gamecenter.qq.com
+shortconn.im.qcloud.com
 
 
 
@@ -51,3 +52,10 @@ w.meituan.net
 
 ## jd
 .h5speed.m.jd.com
+
+## baidu
+# 自动推送
+.push.zhanzhang.baidu.com
+
+## 聚享玩 什么垃圾平台
+.juxiangwan.com
