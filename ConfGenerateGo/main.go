@@ -31,7 +31,7 @@ func main() {
 	var ans []model.Pair
 
 	//names := []string{"CodeTools"}
-	names := []string{"Proxy", "CodeTools", "Tracker", "FuckGarbageFeature", "FuckRogueSoftware"}
+	names := []string{"Direct", "Proxy", "CodeTools", "Tracker", "FuckGarbageFeature", "FuckRogueSoftware"}
 	for _, name := range names {
 		//  清空残留的数据
 		base, inbox, inboxResult = []string{}, []string{}, []string{}
@@ -110,7 +110,12 @@ func policyProcessing(base []string, inbox []string) ([]model.Pair, []string) {
 			}
 		} else {
 			fmt.Println("发现未匹配到的规则，规则为：" + v)
-			ansMap[v] = "DOMAIN"
+			if strings.HasPrefix(v, ".") {
+				v = strings.TrimPrefix(v, ".")
+				ansMap[v] = "DOMAIN-SUFFIX"
+			} else {
+				ansMap[v] = "DOMAIN"
+			}
 		}
 	}
 

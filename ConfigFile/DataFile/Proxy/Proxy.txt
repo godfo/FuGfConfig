@@ -52,6 +52,10 @@ vscodium.now.sh
 .gitter-static.net
 .gitter.im
 
+## docker
+.docker.io
+.docker.com
+
 ## code docs
 .vuejs.org
 
@@ -261,3 +265,5 @@ calibre-ebook.com
 .minamigo.moe
 .relingo.net
 .quantumult.app
+.arc.net
+.deepl.com
