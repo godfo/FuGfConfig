@@ -10,7 +10,7 @@
 # https://github.com/jdlingyu/ad-wars/blob/master/hosts
 # https://raw.githubusercontent.com/Code-Dramatist/Rule_Actions/main/Reject_Rule/Reject_Rule.rule
 # https://github.com/ftpmorph/ftprivacy
-183.232.25.151
+
 ## 腾讯系
 # qq
 cgi.connect.qq.com
@@ -620,7 +620,8 @@ pangolin.snssdk.com.w.cdngslb.com
 smr.snssdk.com.w.cdngslb.com
 mon-hl.snssdk.com
 is.snssdk.com.w.alikunlun.com
-
+.pglstatp-toutiao.com
+.pangolin-sdk-toutiao-b.com
 # 火山引擎 智能推荐平台
 api.byteair.volces.com
 byteair-api-sg1.byteintlapi.com
@@ -1062,11 +1063,20 @@ log2.cmpassport.com
 .ad.caiyunapp.com
 
 ## baidu 百度
-hm.baidu.com
-zz.bdstatic.com
+.hm.baidu.com
+.hmma.baidu.com
+.nsclick.baidu.com
+.ucstat.baidu.com
+.union.baidu.com
+.mobads-logs.baidu.com
+.mobads.baidu.com
+.mtj.baidu.com
+.nsclick.baidu.com
+.zz.bdstatic.com
 .dup.baidustatic.com
 .cpro.baidustatic.com
-zz.bdstatic.com
+.eclick.baidu.com
+.entry.baidu.com
 # 语音识别
 .vop.baidu.com
 # 文本在线合成
