@@ -59,3 +59,9 @@ w.meituan.net
 
 ## 聚享玩 什么垃圾平台
 .juxiangwan.com
+
+## 移动
+# 富媒体内容审核
+.api-wuxi-1.cmecloud.cn
+# 神眼视频解析
+.ecloud.10086.cn

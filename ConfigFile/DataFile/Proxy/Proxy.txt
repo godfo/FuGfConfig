@@ -72,6 +72,7 @@ vscodium.now.sh
 .pixiv.me
 .pixiv.net
 .pixiv.re
+210.140.131.199
 
 ## Twitter
 .twitter.com
@@ -231,6 +232,10 @@ onedrive.live.com
 ## Gitea
 .gitea.io
 .gitea.com
+
+## 亚马逊
+.amazontrust.com
+.amazon.com
 
 ## 存疑
 .vscode-sync.trafficmanager.net
