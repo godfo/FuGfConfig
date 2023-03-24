@@ -301,6 +301,7 @@ wup.imtt.qq.com
 .misc.wcd.qq.com
 .monitor.qq.com
 .p.store.qq.com
+.expeva.store.qq.com
 .report.qq.com
 .pcbrowser.dd.qq.com
 .pms.mb.qq.com
@@ -1077,6 +1078,7 @@ log2.cmpassport.com
 .cpro.baidustatic.com
 .eclick.baidu.com
 .entry.baidu.com
+.unionsug.baidu.com
 # 语音识别
 .vop.baidu.com
 # 文本在线合成
