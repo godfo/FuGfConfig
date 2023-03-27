@@ -65,3 +65,7 @@ w.meituan.net
 .api-wuxi-1.cmecloud.cn
 # 神眼视频解析
 .ecloud.10086.cn
+
+.360.cn
+
+.mobile.events.data.microsoft.com

@@ -1042,6 +1042,8 @@ lx0.meituan.com
 .t.wg.360-api.cn
 .skin.se.360.cn
 .mp.360.cn
+.lianmeng.360.cn
+.union.360.cn
 
 ## 2345
 .2345.com
@@ -1079,6 +1081,17 @@ log2.cmpassport.com
 .eclick.baidu.com
 .entry.baidu.com
 .unionsug.baidu.com
+.ad.player.baidu.com
+.afd.baidu.com
+adm.baidu.com
+adscdn.baidu.com
+.als.baidu.com
+w.gdown.baidu.com
+w.x.baidu.com
+videopush.baidu.com
+ulog.imap.baidu.com
+tracker.baidu.com
+rplog.baidu.com
 # 语音识别
 .vop.baidu.com
 # 文本在线合成
@@ -1230,6 +1243,16 @@ vortex.data.msn.com
 .uks.b.prd.ags.trafficmanager.net
 .view.atdmt.com
 .watson.live.com
+.weus2watcab02.blob.core.windows.net
+xblgdvrassets3010.blob.core.windows.net
+1oavsblobprodcus350.blob.core.windows.net
+37bvsblobprodcus311.blob.core.windows.net
+ceuswatcab01.blob.core.windows.net
+eaus2watcab01.blob.core.windows.net
+bn3sch020010558.wns.windows.com
+bn2wns1.wns.windows.com
+hk2sch130021334.wns.windows.com
+bn4sch101120814.wns.windows.com
 
 ## Facebook
 graph.facebook.com
@@ -1864,4 +1887,4 @@ log22.makeshop.co.kr
 paas-push-api-log.immomo.com
 ad-log.wemakeprice.com
 ab-log.datahou.se
-
+lapin.ithome.com
