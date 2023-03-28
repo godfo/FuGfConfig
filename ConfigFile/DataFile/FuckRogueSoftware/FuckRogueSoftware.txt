@@ -845,7 +845,6 @@ janapi.jd.com
 im-x.jd.com
 dsp-x.jd.com
 knicks.jd.com
-policy.jd.com
 blackhole.m.jd.com
 mars.jd.com
 x.jd.com
@@ -912,7 +911,15 @@ statis.mobile.youku.com
 v2html.atm.youku.com
 val.atm.youku.com
 valt.atm.youku.com
+b.smartvideo.youku.com
+c.yes.youku.com
 fvid.atm.youku.com
+dl.g.youku.com
+dev-push.m.youku.com
+gamex.mobile.youku.com
+hz.youku.com
+store.tv.api.3g.youku.com
+store.xl.api.3g.youku.com
 adextensioncontrol.tudou.com
 adplay.tudou.com
 adcontrol.tudou.com
@@ -922,6 +929,20 @@ stat.tudou.com
 stats.tudou.com
 p2v.tudou.com
 ad.api.3g.tudou.com
+117.177.248.17/32
+117.177.248.41/32
+223.87.176.139/32
+223.87.176.176/32
+223.87.177.180/32
+223.87.177.182/32
+223.87.177.184/32
+223.87.177.43/32
+223.87.177.47/32
+223.87.177.80/32
+223.87.182.101/32
+223.87.182.102/32
+223.87.182.11/32
+223.87.182.52/32
 
 ## 爱奇艺
 .t7z.cupid.iqiyi.com
@@ -953,6 +974,13 @@ viqiyi.admaster.com.cn
 www.iqiyi.space
 data.video.qiyi.com
 203.107.63.154
+101.227.200.11
+101.227.200.28
+101.227.97.240
+;101.227.200.0/24
+101.227.200.11/32
+101.227.200.28/32
+101.227.97.240/32
 
 ## vivo
 avlstatic.vivo.com.cn
@@ -1103,6 +1131,16 @@ videopush.baidu.com
 ulog.imap.baidu.com
 tracker.baidu.com
 rplog.baidu.com
+a.baidu.cn
+a.baidu.com
+.log.music.baidu.com
+.log.waimai.baidu.com
+adm.baidu.cn
+adscdn.baidu.cn
+afd.baidu.cn
+anquan.baidu.cn
+anquan.baidu.com
+antivirus.baidu.com
 # 语音识别
 .vop.baidu.com
 # 文本在线合成
@@ -1356,6 +1394,64 @@ tysdk.95516.com
 
 ## CSDN
 .event.csdn.net
+
+## 同花顺
+recommend.10jqka.com.cn
+stat.10jqka.com.cn
+vaserviece.10jqka.com.cn
+; adm.10jqka.com.cn
+
+## oppo
+adm.0.oppo.cn
+a45090.com.hw.1.oppo.cn
+a45090.com-cloud-iengine-origin2-learning-distribution.12.1.oppo.cn
+a45090.com-cloud-informationselb-wxopen-activedt-12-4.hw.1.oppo.cn
+a45090.com-cloud-learning-machine-learning-team.pc.1.oppo.cn
+a45090.com-cloud-myaccount-tomcat-learning-engine.pc.1.oppo.cn
+a45090.com-cloud-partner-compacteur-carton-adminwx-twitchdelivered.lb.1.oppo.cn
+a45090.com-cloud-platform-machine-machineelblax-engine.11.1.oppo.cn
+a45090.com-cloud-platform-thread-16-engine.1.1.oppo.cn
+a45090.com-cloud-toolbar-machine-learning-xcx2rd.pc.1.oppo.cn
+a45090.com-cloud-xcx2rdfs-machine-learning-xcx2rd.12.1.oppo.cn
+a45090.com-cloud-xcx2rdfs-machine-mail-xcx2rdpage.pc.1.oppo.cn
+a45090.com-cloud-xcx3rdfs-machine-learning-xcx3rd.pc.1.oppo.cn
+a45090.com-hwhe-i-topic-wxopen-learning-12-swagger.lb.1.oppo.cn
+a45090.com-apache-i-topic-control-learning-12.lb.1.oppo.cn
+a45090.com-apache-i-topic-wxopen-learning-12traffic.lb.1.oppo.cn
+a45090.com-cloud-0-268360-myseat-engine.com-cloud-enginepaymentfs-xcx2rdtest2-learning-enginepayment.0.oppo.cn
+a45090.com-cloud-0-google-265360payment-server.com-cloud-enginevpn-platform-myseat-engine.0.oppo.cn
+a45090.com-cloud-10-topiclax-learning-engine.pc.1.oppo.cn
+a45090.com-cloud-appleid-distribution-learning-engine.hw.1.oppo.cn
+a45090.com-cloud-azure-machine-learning-xcx2rd.pc.1.oppo.cn
+a45090.com-cloud-computing-google-learning-appleidelb.v.1.oppo.cn
+a45090.com-cloud-enginevpn-platform-myseat-engine.b2.1.oppo.cn
+a45090.com-cloud-hdverify-google-learning-mylonelypussyelb.com-cloud-enginevpn-platform-myseat-engine.0.oppo.cn
+a45090.com-cloud-hdverify-myworld-vipapi-appleidelb.gw.1.oppo.cn
+a45090.com-cloud-i-topic-wxopen-learning-12.lb.1.oppo.cn
+a45090.com-cloud-i-topic-wxopen-learning-12global.lb.1.oppo.cn
+a45090.com-cloud-i-topic-wxopen-ssl-12.lb.1.oppo.cn
+a245090.com-apache-alpha-wxopen-learning-12.lb.1.oppo.cn
+a245090.com-cloud-0-268360-168360-engine.com-cloud-0-previp-168360-engine.0.oppo.cn
+a245090.com-cloud-0-google-265360payment-server.com-cloud-enginevpn-platform-myseat-engine.0.oppo.cn
+a245090.com-cloud-10-topiclax-learning-engine.pc.1.oppo.cn
+a245090.com-cloud-appleidelb-adminwx-learning-hybrid.10.1.oppo.cn
+a245090.com-cloud-distributionelb-wxopen-learning-12.fw.1.oppo.cn
+a245090.com-cloud-hd268358-myflowers-vipapi-appleidelb.11.1.oppo.cn
+a245090.com-cloud-hd268358-myflowers-vipapi-appleidelb.16.1.oppo.cn
+a245090.com-cloud-hdverify-google-learning-mylonelypussyelb.bh.1.oppo.cn
+a245090.com-cloud-hw-wxopen-learning-12getter.lb.1.oppo.cn
+a245090.com-cloud-i-topic-wxopen-learning-12global.lb.1.oppo.cn
+a245090.com-cloud-myaccount-tomcat-learning-engine.pc.1.oppo.cn
+a245090.com-cloud-xcx2rdfs-machine-api-xcx2rd.pc.1.oppo.cn
+com-apache-alpha-wxopen-learning-12.lb.1.oppo.cn
+com-apache-i-topic-control-learning-12.lb.1.oppo.cn
+com-apache-i-topic-control-learning-12eng.lb.1.oppo.cn
+com-apache-i-topic-wxopen-learning-12traffic-10.lb.1.oppo.cn
+com-apache-i-topic-wxopen-learning-12traffic.lb.1.oppo.cn
+com-cloud-0-authvip-168360-engine-team.14.0.oppo.cn
+com-cloud-0-authvip-168360-engine.14.0.oppo.cn
+com-cloud-0-eventsold-168360-engine.14.0.oppo.cn
+com-cloud-0-eventsvip-svc-engine.14.0.oppo.cn
 
 ## Oracle
 tms.oracle.com
@@ -1766,7 +1862,7 @@ ad.cyapi.cn
 .log.moviebox.baofeng.com
 .log.mp3.zing.vn
 .log.mtime.cn
-.log.music.baidu.com
+
 .log.musical.ly
 .log.news.zing.vn
 .log.newsbreak.jp
@@ -1850,7 +1946,7 @@ ad.cyapi.cn
 .log.vov.vn
 .log.vovplus.vn
 .log.vovworld.vn
-.log.waimai.baidu.com
+
 .log.wat.tv
 .log.web.kugou.com
 .log.webnovel.com
@@ -1899,3 +1995,4 @@ paas-push-api-log.immomo.com
 ad-log.wemakeprice.com
 ab-log.datahou.se
 lapin.ithome.com
+.analytics.mobilegamestats.com

@@ -78,7 +78,11 @@ func WriteFile(matchType string, data model.Pairs, policyName string, filePath s
 				fmt.Fprint(write, "IP6-CIDR,")
 			case strings.Contains(v.Value, "IP-CIDR"):
 				fmt.Fprint(write, "IP-CIDR,")
-				fmt.Fprintln(write, v.Key+"/32"+","+policyName+",no-resolve")
+				fmt.Fprint(write, v.Key)
+				if !strings.Contains(v.Key, "/") {
+					fmt.Fprint(write, "/32")
+				}
+				fmt.Fprintln(write, ","+policyName+",no-resolve")
 				continue
 			case strings.Contains(v.Value, "DOMAIN-SUFFIX"):
 				fmt.Fprint(write, "HOST-SUFFIX,")

@@ -9,6 +9,7 @@ func FormatCorrection(s string) string {
 	s = strings.Replace(s, "\n", "", -1)
 	s = strings.Replace(s, "\t", "", -1)
 	//s = strings.Replace(s, " ", "", -1)
+	s = strings.Replace(s, "/32", "", -1)
 	s = strings.Replace(s, "HOST", "DOMAIN", 1)
 	s = strings.Replace(s, "host", "DOMAIN", 1)
 	s = strings.Replace(s, "domain", "DOMAIN", 1)

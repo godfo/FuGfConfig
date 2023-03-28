@@ -8,7 +8,9 @@ import (
 
 // IsIPV4 判断是否为 IPV4
 func IsIPV4(s string) bool {
-	ipv4Pattern := regexp.MustCompile(`^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$`)
+	ipv4Pattern := regexp.MustCompile(`^(\d{1,3}\.){3}\d{1,3}(\/\d{1,2})?$`)
+	// ipv4Pattern := regexp.MustCompile(`^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$`)
+	// `^(\d{1,3}\.){3}\d{1,3}(\/\d{1,2})?$` 匹配 192.168.1.1 和 192.168.1.1/24
 	return ipv4Pattern.MatchString(s)
 }
 
@@ -22,7 +24,7 @@ func IsIPV6(s string) bool {
 func IsDomainRule(s string) bool {
 	// todo 会匹配 128.1.102.20, 203.205.179.215, 39.107.142.158
 	//domainPattern := regexp.MustCompile(`^.?[^\s/$.?#].\S*$`)
-	// todo 无法匹配 dl_dir.qq.com  等有下划线的 domain ；会匹配 128.1.102.20, 203.205.179.215, 39.107.142.158
+	// todo 无法匹配 dl_dir.qq.com  等有下划线的 domain；会匹配 128.1.102.20, 203.205.179.215, 39.107.142.158
 	domainPattern := regexp.MustCompile(`^[a-zA-Z0-9\-.]+\.[a-zA-Z0-9\-.]+$`)
 	return domainPattern.MatchString(s)
 }

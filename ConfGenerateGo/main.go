@@ -30,7 +30,7 @@ func main() {
 	var base, inbox, inboxResult []string
 	var ans []model.Pair
 
-	//names := []string{"CodeTools"}
+	// names := []string{"FuckRogueSoftware"}
 	names := []string{"Direct", "Proxy", "CodeTools", "Tracker", "FuckGarbageFeature", "FuckRogueSoftware"}
 	for _, name := range names {
 		//  清空残留的数据
@@ -80,7 +80,7 @@ func readRule(baseFilePath string, inboxFilePath string) ([]string, []string) {
 	if err == nil {
 		inbox = util.ReadFile(inboxFilePath)
 	} else {
-		//fmt.Println(err)
+		fmt.Println(err)
 	}
 
 	return base, inbox
@@ -123,48 +123,50 @@ func policyProcessing(base []string, inbox []string) ([]model.Pair, []string) {
 
 	// 遍历 inbox
 	var inboxResult []string
+	type void struct{}
+	var member void
+
+	inboxResultSet := make(map[string]void)
 	if len(inbox) > 0 {
 		for _, v := range inbox {
+			// 清除一下格式，指保留 IP 或者域名
 			v = util.CleanAll(v)
-			// a := ""
-			// flagIsSuffix := false
-			// if strings.Count(v, ",") >= 1 {
-			// 	a, v = splitRule(v)
-			// } else if strings.HasPrefix(v, ".") {
-			// 	// flagIsSuffix = true
-			// 	v = strings.TrimPrefix(v, ".")
-			// }
+			// 检查是否在 base map 里面
 			if _, ok := ansMap[v]; !ok {
 				// 如果不存在
 				if util.IsDomainRule(v) {
-					// 如果是 domain 规则
+					// 如果是 domain 规则，则检查后缀域名是否存在 base map 里面
 					count := strings.Count(v, ".") - 1
-					flag := false
+					flag1, flag2 := false, false
 					s := v
 					for i := 0; i < count; i++ {
-						// fmt.Println("s: " + s)
 						s = domainRuleIntercept(s)
 						if _, ok := ansMap[s]; ok {
-							// 如果命中，直接 break
-							// fmt.Println("已存在: " + v)
-							flag = true
+							flag1 = true
 							break
 						}
+						// 检查一下 v 的后缀域名是否在 inboxResultSet 中存在
+						if _, ok := inboxResultSet[s]; ok {
+							flag2 = true
+						}
 					}
-					if !flag {
-						inboxResult = append(inboxResult, v)
-						// if flagIsSuffix {
-						// 	ansMap[v] = "DOMAIN-SUFFIX"
-						// } else {
-						// 	ansMap[v] = "DOMAIN"
-						// }
+					// 如果所有后缀域名均不在 base map 且不在 inboxResultSet 里面 ，则加入到 inbox map
+					if !flag1 && !flag2 {
+						inboxResultSet[v] = member
 					}
+				} else if util.IsIPV4(v) {
+					// todo 如果是 IPV4 规则，匹配一下 去掉 CIDR格式 前后的字符串是否在 base map 和 inbox map 中
+					inboxResultSet[v] = member
 				} else {
-					// ansMap[v] = a
-					inboxResult = append(inboxResult, v)
+					inboxResultSet[v] = member
 				}
 			}
 		}
+	}
+
+	// 将 inbox map 输出到 [] string 中
+	for key := range inboxResultSet {
+		inboxResult = append(inboxResult, key)
 	}
 
 	fmt.Println("查重后未处理的规则还剩 ", len(inboxResult), " 条")
