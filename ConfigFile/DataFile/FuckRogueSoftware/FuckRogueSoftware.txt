@@ -372,7 +372,7 @@ loggw-ex.alipay.com
 gm.mmstat.com
 d-gm.mmstat.com
 s-gm.mmstat.com
-log.mmstat.com
+.log.mmstat.com
 cnzz.mmstat.com
 applog.uc.cn
 tui.taobao.com
@@ -628,6 +628,17 @@ api.byteair.volces.com
 byteair-api-sg1.byteintlapi.com
 api.byteair.volces.com
 byteair-api-sg1.byteintlapi.com
+# douyin 抖音规则屏蔽
+douyin.com.c.dsa.cdnbuild.net
+douyin.com.queniuiq.com
+douyin.com.queniuum.com
+douyin.com.queniuyk.com
+douyincdn.com.230b2a2545cfa773.queniubg.com
+douyincdn.com.230b2a2545cfa773.queniucf.com
+douyincdn.com.230b2a2545cfa773.queniufm.com
+douyincdn.com.c.bytefcdn.com
+douyincdn.com.c.cdnhwc3.com
+douyincdn.com.c.volcfcdndvs.com
 
 ## 小米
 .api.miwifi.com
