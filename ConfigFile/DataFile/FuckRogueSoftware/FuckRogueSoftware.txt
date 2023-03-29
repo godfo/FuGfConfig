@@ -10,6 +10,7 @@
 # https://github.com/jdlingyu/ad-wars/blob/master/hosts
 # https://raw.githubusercontent.com/Code-Dramatist/Rule_Actions/main/Reject_Rule/Reject_Rule.rule
 # https://github.com/ftpmorph/ftprivacy
+# https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
 
 ## 腾讯系
 # qq
@@ -153,7 +154,7 @@ cmshow.gtimg.cn
 # 地图 api，但被用于收集用户位置信息，是否影响腾讯地图未知，待检测
 lbs.map.qq.com
 .cc.map.qq.com
-analytics.map.qq.com
+.analytics.map.qq.com
 # 其他
 .iacc.qq.com
 .debugtbs.qq.com
@@ -361,6 +362,21 @@ hpjy-report.tga.qq.com
 icreport.html5.qq.com
 .log.wtlogin.qq.com
 .logsdk.qq.com
+.adsmind.tc.qq.com
+.httpdns.kg.qq.com
+.img.ssl.msdk.qq.com
+.lcsdk.3g.qq.com
+.oimsgad.qq.com
+.oth.eve.qq.com
+.prom.b.qq.com
+.qqlogo.qq.com
+.stat.gamedl.qq.com
+.tgw-masdk.3g.qq.com
+.tgw-sasdk.3g.qq.com
+.toggle.qq.com
+.yeah.qq.com
+.ysdk.qq.com
+
 
 
 ## 阿里系
@@ -553,6 +569,8 @@ data.bilibili.com
 cm.bilibili.com
 dataflow.biliapi.com
 .web-player-tracker.biliapi.net
+.line1-log.biligame.net
+.miniapp.bilibili.com
 # 追踪器吗，是的，这是追踪器；是视频 CDN 吗，是的；但是，至少在此规则集里，它必须被屏蔽
 .v.smtcdns.net
 # 通过成熟的共享云计算技术，筹集用户闲置的带宽资源，为企业提供优质低成本的云计算服务
@@ -727,6 +745,22 @@ tracking.india.miui.com
 tracking.intl.miui.com
 zeus.ad.intl.xiaomi.com
 .zeus.ad.xiaomi.com
+.a.market.xiaomi.com
+a.stat.xiaomi.com
+api.d.xiaomi.com
+awssgp0-files.fds.api.xiaomi.com
+data.mistat.india.xiaomi.com
+data.mistat.rus.xiaomi.com
+.log.pandora.xiaomi.com
+mishop.cdn.pandora.xiaomi.com
+misc.pandora.xiaomi.com
+notice.game.xiaomi.com
+ppurifier.game.xiaomi.com
+sdkconfig.ad.india.xiaomi.com
+sdkconfig.ad.rus.xiaomi.com
+sentry.pay.xiaomi.com
+starfish.pandora.xiaomi.com
+
 .zhuti.xiaomi.com
 ## 来自 https://raw.githubusercontent.com/LoopDns/Fuck-you-MIUI/main/MIhosts
 #此处主要屏蔽小米云扫描组件
@@ -1158,6 +1192,30 @@ antivirus.baidu.com
 .spyneteurope.microsoft.akadns.net
 .preview.msn.com
 .rad.live.com
+.0.r.msn.com
+.ads.eu.msn.com
+.ads2.msn.com
+.adsyndication.msn.com
+.c.msn.com.cn
+.confiant.msn.com
+.h.msn.com
+.mobileads.msn.com
+.otf.msn.com
+.rads.msn.com
+.sam.msn.com
+.teams.events.data.microsoft.com
+.adbroker.mp.dse.microsoft.com
+.advertising.microsoft.com
+.ic3.events.data.microsoft.com
+.microsoft-cnd.com
+.microsoft-de.evyy.net
+.microsoft-home-en.com
+.microsoft-online-en-us.com
+.microsoft-row.evyy.net
+.microsoft-uk.evyy.net
+.microsoft-us.evyy.net
+.microsoft-ware.com
+.microsoft.updatecatalogs.com
 schemas.microsoft.akadns.net
 # Visual Studio App Center
 in.appcenter.ms
@@ -1996,3 +2054,17 @@ ad-log.wemakeprice.com
 ab-log.datahou.se
 lapin.ithome.com
 .analytics.mobilegamestats.com
+.acfun-log-sdk.ksapisrv.com
+.ad-log.dable.io
+.api-log-analytics.cloud.toast.com
+.api16-log-gcp.pangle.io
+.ask.log.kuyun.com
+.atom-log.3.cn
+.bjpg-log.ksapisrv.com
+.api16-log-sg.pangle.io
+.f-log-at.grammarly.io
+.f-log-balto.grammarly.io
+.f-log-csp.grammarly.io
+.f-log-features-ci.grammarly.io
+.f-log-test.grammarly.io
+.f-log-wrex.grammarly.io

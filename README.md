@@ -8,7 +8,7 @@
 
 本项目对 Loon、QuantumultX、AdGuard Home 提供完全支持
 
-优先级：Loon = QuantumultX > AdGuard Home > 小火箭
+优先级：Loon = QuantumultX = AdGuard Home > 小火箭
 
 > 经过鄙人的重构，现在提供 Host,DomainSet,Clash,Loon,QuantumultX 的支持，各位可以按需引用
 
@@ -231,6 +231,7 @@ https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/LoonPl
 - [x] 去重，根据域名后缀去重
 - [] 构造域名后缀树，从 HashMap 切换到域名后缀树
 - [] 尝试函数式 C# 实现
+- [] 对大佬们的 AdGuard 规则进行去重合并
 
 ## 感谢
 

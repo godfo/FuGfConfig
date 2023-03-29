@@ -19,6 +19,8 @@ live-trace.bilibili.com
 pay.bilibili.com
 miniapp.bilibili.com
 big.bilibili.com
+.bigfun.cn
+.bilicomic.com
 
 ## qq
 .down.qq.com
