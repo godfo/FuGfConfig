@@ -616,6 +616,8 @@ grpc.biliapi.net
 
 ## 字节系
 log*-normal-lq.toutiaoapi.com
+log*-normal-hl.toutiaoapi.com
+.mon11-misc-lf.toutiaoapi.com
 api-access.pangolin-sdk-toutiao.com
 api-access.pangolin-sdk-toutiao-b.com
 sf1-fe-tos.pglstatp-toutiao.com
@@ -664,11 +666,15 @@ tnc3-bjlgy.zijieapi.com
 .alink.volceapplog.com
 .abtest.volceapplog.com
 .sf6-be-pack.pglstatp-toutiao.com
-log-hl.snssdk.com
-log.snssdk.com.bytedns.net
-toblog.snssdk.com
-toblog.tobsnssdk.com
-analytics.snssdk.com
+.log-hl.snssdk.com
+.log.snssdk.com.bytedns.net
+.log-tb.sgsnssdk.com
+.toblog.snssdk.com
+.toblog.stobsnssdk.com
+.i.sgsnssdk.com
+.log.sgsnssdk.com
+.toblog.tobsnssdk.com
+.analytics.snssdk.com
 smr.snssdk.com
 pangolin.snssdk.com.w.cdngslb.com
 smr.snssdk.com.w.cdngslb.com
@@ -746,6 +752,8 @@ v*-be-pack.pglstatp-toutiao.com
 .tnc16-useast1a.isnssdk.com
 .pangolin16.isnssdk.com
 .h5.isnssdk.com
+.log-tb.isnssdk.com
+.log.isnssdk.com
 
 ## 小米
 ad.*.xiaomi.com
@@ -805,6 +813,8 @@ g.dtv.cn.miaozhan.com
 .miui2api.smi2.net
 .miuilog.yulorepages.com
 .sg.a.stat.mi.com
+.video.market.xiaomi.com
+.ssp.xiaomi.com
 .xmpush.xiaomi.com
 .abtest.mistat.india.xiaomi.com
 .hybrid.intl.xiaomi.com
@@ -1131,6 +1141,10 @@ www.iqiyi.space
 .data.video.qiyi.com
 .ifacelog.iqiyi.com
 .mbdlog.iqiyi.com
+.msg-intl.qy.net
+.api.ts.feedback.qy.net
+.msg.qy.net
+.msgv6.qy.net
 203.107.63.154
 101.227.200.11
 101.227.200.28
@@ -1241,6 +1255,9 @@ lx0.meituan.com
 .mp.360.cn
 .lianmeng.360.cn
 .union.360.cn
+.analytics.ci-360.se
+.xianglong360.cn
+.papi.look.360.cn
 
 ## 2345
 .2345.com
@@ -2036,6 +2053,11 @@ api2.appsflyer.com
 .sdk.appsflyer.tk
 .appsflyer.com.akamaized.net
 .appsflyer-web-4-962407740.eu-west-1.elb.amazonaws.com
+.inapps.appsflyersdk.com
+.conversions.appsflyersdk.com
+.launches.appsflyersdk.com
+;-launches.appsflyersdk.com
+.gcdsdk.appsflyersdk.com
 
 ## flurry
 .data.flurry.com
@@ -2179,9 +2201,8 @@ ad.cyapi.cn
 .log-marketing.jp
 .log-player.arte.tv
 .log-sg.bytegsdk.com
+.gpm-mon-sg.bytegsdk.com
 .log-stats.weathercn.com
-.log-tb.isnssdk.com
-.log-tb.sgsnssdk.com
 .log-upload-eur.mihoyo.com
 .log-va.tiktokv.com
 .log-vietnamplus-vn.cdn.ampproject.org
@@ -2265,7 +2286,6 @@ ad.cyapi.cn
 .log.infonet.vn
 .log.invodo.com
 .log.is.ysten.com
-.log.isnssdk.com
 .log.iyunmai.com
 .log.kajicam.com
 .log.kaka.me
@@ -2443,3 +2463,12 @@ lapin.ithome.com
 .f-log-features-ci.grammarly.io
 .f-log-test.grammarly.io
 .f-log-wrex.grammarly.io
+.t.360.audion.fm
+.at.360.audion.fm
+.ad-cdn.qingting.fm
+.ad.apps.fm
+.tracker.files.fm
+.analytics.send.cm
+.sanalytics.rundschau-online.de
+.track.rundschau-online.de
+counter*.sextracker.be
