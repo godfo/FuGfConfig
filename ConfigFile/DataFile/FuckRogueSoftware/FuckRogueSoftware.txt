@@ -376,7 +376,14 @@ icreport.html5.qq.com
 .toggle.qq.com
 .yeah.qq.com
 .ysdk.qq.com
-
+.cdn.ark.qq.com
+.img1.sj.qq.com
+.logs.game.qq.com
+.mazu.3g.qq.com
+.stdl.qq.com
+.msdk.qq.com
+report.*.qq.com
+ping*.qq.com
 
 
 ## 阿里系
@@ -562,7 +569,34 @@ feedback.whalecloud.com
 sjarvis.taobao.com
 log.video.taobao.com
 adashx.m.taobao.com.gds.alibabadns.com
-
+.shop115048570.taobao.com
+.simaba.m.taobao.com
+.stat.simba.taobao.com
+.textlink.simba.taobao.com
+.unitacs.m.taobao.com
+.wb.110.taobao.com
+.youku-acs.m.taobao.com
+.accscdn.m.taobao.com
+.adashx4sg.ut.taobao.com
+.adashx.ut.taobao.com
+.adash-c.m.taobao.com
+.acookie.taobao.com
+.h-adashx4yt.ut.taobao.com
+.h-adashx4sg.ut.taobao.com
+.h-adashx4ae.ut.taobao.com
+.strip.alicdn.com
+.gen.alicdn.com
+.aecpm.alicdn.com
+.afpmm.alicdn.com
+.unidesk.alicdn.com
+.baichuan-sdk.alicdn.com
+.asearch.alicdn.com
+.dorangesource.alicdn.com
+.ilce.alicdn.com
+.proxy-mob-cld.alicdn.com
+.gtmsdd.alicdn.com
+.alimama.alicdn.com
+.g01.a.alicdn.com
 
 ## bilibili 哔哩哔哩
 data.bilibili.com
@@ -581,6 +615,7 @@ grpc.biliapi.net
 
 
 ## 字节系
+log*-normal-lq.toutiaoapi.com
 api-access.pangolin-sdk-toutiao.com
 api-access.pangolin-sdk-toutiao-b.com
 sf1-fe-tos.pglstatp-toutiao.com
@@ -657,8 +692,65 @@ douyincdn.com.230b2a2545cfa773.queniufm.com
 douyincdn.com.c.bytefcdn.com
 douyincdn.com.c.cdnhwc3.com
 douyincdn.com.c.volcfcdndvs.com
+dm-*.toutiao.com
+s*-fe-scm.pglstatp-toutiao.com
+sf*-be-pack.pglstatp-toutiao.com
+sf*-fe-tos.pglstatp-toutiao.com
+v*-be-pack.pglstatp-toutiao.com
+
+.dm-hl.toutiao.com
+.ether-pack.pangolin-sdk-toutiao.com
+.dsp.toutiao.com
+.pangolin-sdk-toutiao.com
+.partner.toutiao.com
+.sm.toutiao.com
+.zhanzhang.toutiao.com
+.nativeapp.toutiao.com
+.adshare.toutiao.com
+.d.toutiao.com
+.ad.toutiao.com
+.open.snssdk.com.bytedns.net
+.isub.snssdk.com.bytedns.net
+.security.snssdk.com
+.tnc3-bjlgy.snssdk.com
+.vas-hl-x.snssdk.com
+.mssdk-bu.snssdk.com
+.mcs.snssdk.com
+.toutiao-frontier.snssdk.com
+.gecko-lq.snssdk.com
+.haohuo.snssdk.com
+.vcl-brain.snssdk.com
+.ecom.snssdk.com
+.stream.snssdk.com
+.gecko-hl.snssdk.com
+.mercury-sdk.snssdk.com
+.lianmengapi.snssdk.com
+.temai.snssdk.com
+.tsearch.snssdk.com
+.applog.snssdk.com
+.ic.snssdk.com
+.isub.snssdk.com
+.ib.snssdk.com
+.tnc3-aliec2.snssdk.com
+.tnc3-alisc1.snssdk.com
+.client_monitor.isnssdk.com
+.mon.isnssdk.com
+.open.isnssdk.com
+.dm.isnssdk.com
+.ichannel.isnssdk.com
+.i.isnssdk.com
+.tnc16-alisg.isnssdk.com
+.imapi-sg.isnssdk.com
+.i16-tb.isnssdk.com
+.hotapi-va.isnssdk.com
+.tnc16-useast1a.isnssdk.com
+.pangolin16.isnssdk.com
+.h5.isnssdk.com
 
 ## 小米
+ad.*.xiaomi.com
+mistat.*.xiaomi.com
+mistat.intl.xiaomi.com
 .api.miwifi.com
 .ad.xiaomi.com
 .sec.miui.com
@@ -676,7 +768,7 @@ gallery.pandora.xiaomi.com
 bss.pandora.xiaomi.com
 gvod.aiseejapp.atianqi.com
 ad.mi.com
-ad1.xiaomi.com
+.ad1.xiaomi.com
 staging.ai.api.xiaomi.com
 b.netcheck.gallery.pandora.xiaomi.com
 f1.market.xiaomi.com
@@ -692,8 +784,6 @@ f3.market.mi-img.com
 f4.market.mi-img.com
 f5.market.mi-img.com
 g.dtv.cn.miaozhan.com
-.ad.xiaomi.com
-ad1.xiaomi.com
 .register.xmpush.xiaomi.com
 .storeconfig.mistat.intl.xiaomi.com
 .api.miui.security.xiaomi.com
@@ -703,13 +793,34 @@ ad1.xiaomi.com
 .mistat.xiaomi.com
 .ad.intl.xiaomi.com
 # 存疑
+.union.mi.com
+.api.e.mi.com
+.d.g.mi.com
+.hd.mi.com
+.in.stat.mi.com
+.migc.g.mi.com
+.mis.g.mi.com
+.migcreport.g.mi.com
+.mivideo.g.mi.com
+.miui2api.smi2.net
+.miuilog.yulorepages.com
+.sg.a.stat.mi.com
+.xmpush.xiaomi.com
+.abtest.mistat.india.xiaomi.com
+.hybrid.intl.xiaomi.com
+.assistant.pandora.xiaomi.com
+.cdn.fds.api.xiaomi.com
+.controller.india.xiaomi.com
+.controller.intl.xiaomi.com
+.ecom.intl.xiaomi.com
+.hao.xiaomi.com
+.staging.admin.e.mi.com
 .abtest.mistat.xiaomi.com
 abtest.mistat.intl.xiaomi.com
 .analytics.ff.avast.sec.miui.com
 api.admob.xiaomi.com
 api.activity.browser.miui.com
 api.activity.browser.intl.miui.com
-cdn.ad.xiaomi.com
 contactapi.micloud.xiaomi.net
 connect.rom.miui.com
 cc.sys.intl.xiaomi.com
@@ -720,7 +831,6 @@ ccc.sys.intl.xiaomi.com
 chat.global.xiaomi.net
 data.mistat.intl.xiaomi.com
 data.sec.intl.miui.com
-e.ad.xiaomi.com
 feedback.intl.miui.com
 feedback.miui.com
 file.market.xiaomi.com
@@ -732,19 +842,16 @@ imgg.traffic-media.co.uk
 info.analysis.kp.sec.miui.com
 jupiter.intl.sys.miui.com
 log.avlyun.sec.miui.com
-new.api.ad.xiaomi.com
 resolver.msg.xiaomi.net
 resolver.msg.global.xiaomi.net
 sa.api.miui.com
 sa.api.intl.miui.com
-ssp.ad.xiaomi.com
 sec-cdn.static.xiaomi.net
 sdkconfig.ad.intl.xiaomi.com
 tracking.rus.miui.com
 tracking.india.miui.com
 tracking.intl.miui.com
 zeus.ad.intl.xiaomi.com
-.zeus.ad.xiaomi.com
 .a.market.xiaomi.com
 a.stat.xiaomi.com
 api.d.xiaomi.com
@@ -760,6 +867,18 @@ sdkconfig.ad.india.xiaomi.com
 sdkconfig.ad.rus.xiaomi.com
 sentry.pay.xiaomi.com
 starfish.pandora.xiaomi.com
+fakecell.sys.miui.com
+geofence.sys.miui.com
+stats.miui.com
+api.bbs.miui.com
+nav.browser.miui.com
+httpdns.browser.miui.com
+reader.browser.miui.com
+webapp.browser.miui.com
+spd.browser.miui.com
+app.miui.com
+web.vip.miui.com
+api.comm.miui.com
 
 .zhuti.xiaomi.com
 ## 来自 https://raw.githubusercontent.com/LoopDns/Fuck-you-MIUI/main/MIhosts
@@ -792,10 +911,6 @@ starfish.pandora.xiaomi.com
 #OneTrack & Analytics & Ad
 .tracking.miui.com
 .data.mistat.xiaomi.com
-.diagnosis.ad.xiaomi.com
-.log.ad.xiaomi.com
-.track.ad.xiaomi.com
-.sdkconfig.ad.xiaomi.com
 # 小爱同学
 .tracker.ai.xiaomi.com
 # 好像是小米自己的引擎 还在内测
@@ -822,7 +937,6 @@ starfish.pandora.xiaomi.com
 # others
 .data.sec.miui.com
 .adinfo.ra1.xlmc.sec.miui.com
-.test.ad.xiaomi.com
 .hybrid.xiaomi.com
 .hybrid.miui.com
 #??? 云控?
@@ -900,6 +1014,14 @@ cc.m.jd.com
 union.m.jd.com
 union.jd.com
 jjnctjd.com
+.u-x.jd.com
+.zt.jd.com
+.orbit.jd.com
+.kepler.jd.com
+.ads-union.jd.com
+.log.jd.com
+.dgstatic.jd.com
+.c.fa.jd.com
 
 ## 优酷 youku
 atm.youku.com
@@ -1006,7 +1128,9 @@ jsmsg.video.qiyi.com
 jsmsg.video.iqiyi.com
 viqiyi.admaster.com.cn
 www.iqiyi.space
-data.video.qiyi.com
+.data.video.qiyi.com
+.ifacelog.iqiyi.com
+.mbdlog.iqiyi.com
 203.107.63.154
 101.227.200.11
 101.227.200.28
@@ -1180,6 +1304,196 @@ antivirus.baidu.com
 # 文本在线合成
 .tsn.baidu.com
 .aip.baidubce.com
+## 存疑
+.baiduyubaidu.com
+.utility.baidu.com
+.js.mobojoy.baidu.com
+.api.mobojoy.baidu.com
+.sync.mobojoy.baidu.com
+.plugin.mobopay.baidu.com
+.static1.searchbox.baidu.com
+.tcbox.baidu.com
+.datax.baidu.com
+.dlsw.baidu.com
+.dl1sw.baidu.com
+.udpolimenew.baidu.com
+.baidutv.baidu.com
+.znsv.baidu.com
+.banlv.baidu.com
+.eiv.baidu.com
+.openrcv.baidu.com
+.dl-vip.bav.baidu.com
+.download.bav.baidu.com
+.dl2.bav.baidu.com
+.stat.v.baidu.com
+.idm-su.baidu.com
+.cpu.baidu.com
+.publish-pic-cpu.baidu.com
+.as1.wenku.baidu.com
+.shadu.baidu.com
+.cir-smart.baidu.com
+.anti-bot.baidu.com
+.dl.client.baidu.com
+.statsonline.pushct.baidu.com
+.unstat.baidu.com
+.sestat.baidu.com
+.s.baidu.com
+.imageplus.baidu.com
+.bdplus.baidu.com
+.ers.baidu.com
+.crs.baidu.com
+.pups.baidu.com
+.dl.ops.baidu.com
+.pos.baidu.com
+.mscbos.baidu.com
+.cbjs.baidu.com
+.click.bes.baidu.com
+.br.bmbs.baidu.com
+.as.baidu.com
+.cleaner.baidu.com
+.launcher.baidu.com
+.dlswbr.baidu.com
+.dlsw.br.baidu.com
+.j.br.baidu.com
+.bar.baidu.com
+.sobar.baidu.com
+.toolbar.baidu.com
+.iebar.baidu.com
+.cjhq.baidu.com
+.dxp.baidu.com
+.mssp.baidu.com
+.rp.baidu.com
+.sobartop.baidu.com
+.loc.map.baidu.com
+.itsdata.map.baidu.com
+.pro.baidu.com
+.mpro.baidu.com
+.cpro.baidu.com
+.mo.baidu.com
+.nsclickvideo.baidu.com
+.nadvideo.baidu.com
+.adavideo.baidu.com
+.wisepush.video.baidu.com
+.yingxiao.baidu.com
+.miao.baidu.com
+.river.zhidao.baidu.com
+.cpro.zhidao.baidu.com
+.mountain.zhidao.baidu.com
+.fc5tn.baidu.com
+.fc3tn.baidu.com
+.cpu-admin.baidu.com
+.techain.baidu.com
+.aden.baidu.com
+.cpucdn.baidu.com
+.collector.dcdn.baidu.com
+.tracker.dcdn.baidu.com
+.baichuan.baidu.com
+.tuijian.baidu.com
+.wm.baidu.com
+.cstm.baidu.com
+.qapm.baidu.com
+.drmcmm.baidu.com
+.em.baidu.com
+.cm.baidu.com
+.fcm.baidu.com
+.dzl.baidu.com
+.browserkernel.baidu.com
+.conf.international.baidu.com
+.mobile-global.baidu.com
+.tk.baidu.com
+.utk.baidu.com
+.cdn-haokanapk.baidu.com
+.bzclk.baidu.com
+.fexclick.baidu.com
+.duclick.baidu.com
+.sclick.baidu.com
+.pc.videoclick.baidu.com
+.qianclick.baidu.com
+.wkclick.baidu.com
+.fclick.baidu.com
+.caclick.baidu.com
+.hijack.baidu.com
+.kstj.baidu.com
+.wkctj.baidu.com
+.rj.baidu.com
+.hdj.baidu.com
+.click.fanyi.baidu.com
+.res.mi.baidu.com
+.weishi.baidu.com
+.duiwai.baidu.com
+.sjh.baidu.com
+.btlaunch.baidu.com
+.g.baidu.com
+.cbjslog.baidu.com
+.nlog.baidu.com
+.pimlog.baidu.com
+.fclog.baidu.com
+.goutong.baidu.com
+.tuisong.baidu.com
+.neirong.baidu.com
+.wangmeng.baidu.com
+.push.zhanzhang.baidu.com
+.gimg.baidu.com
+.e.baidu.com
+.msite.baidu.com
+.release.baidu.com
+.sofire.baidu.com
+.share.baidu.com
+.img.phone.baidu.com
+.mipengine.baidu.com
+.unionimage.baidu.com
+.feed-image.baidu.com
+.sfp.safe.baidu.com
+.udc.safe.baidu.com
+.spcode.baidu.com
+.ikcode.baidu.com
+.bce.baidu.com
+.download.sd.baidu.com
+.hpd.baidu.com
+.xsolid.baidu.com
+.feed.baidu.com
+.paimgcdn-feed.baidu.com
+.eduad.baidu.com
+.iwanad.baidu.com
+.c.baidu.com
+.msc.baidu.com
+.appc.baidu.com
+.baifen.music.baidu.com
+.push.music.baidu.com
+.ulic.baidu.com
+.hc.baidu.com
+.tkweb.baidu.com
+.cb.baidu.com
+.crab.baidu.com
+.ma.baidu.com
+.guanjia.baidu.com
+.ada.baidu.com
+.cpro.tieba.baidu.com
+.static.tieba.baidu.com
+.t9.baidu.com
+.t8.baidu.com
+.t7.baidu.com
+.t6.baidu.com
+.t5.baidu.com
+.t4.baidu.com
+.t3.baidu.com
+.gsp3.baidu.com
+.t2.baidu.com
+.gsp2.baidu.com
+.cpro2.baidu.com
+.nadvideo2.baidu.com
+.t12.baidu.com
+.t1.baidu.com
+.usp1.baidu.com
+.gsp1.baidu.com
+.m1.baidu.com
+.dj1.baidu.com
+.t11.baidu.com
+.sp0.baidu.com
+.gsp0.baidu.com
+.t10.baidu.com
+.f10.baidu.com
+.88-baidu.com
 
 ## 微软 Microsoft
 ## 主要来自 https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt ，在此表示感谢
@@ -1192,6 +1506,7 @@ antivirus.baidu.com
 .spyneteurope.microsoft.akadns.net
 .preview.msn.com
 .rad.live.com
+c.*.msn.com
 .0.r.msn.com
 .ads.eu.msn.com
 .ads2.msn.com
@@ -1370,6 +1685,9 @@ graph.facebook.com
 .googletagmanager.com
 firebaselogging-pa.googleapis.com
 .googleadservices.com
+www-google-analytics.l.google.com
+ssl-google-analytics.l.google.com
+adservice.google.com
 
 ## Apple
 acfeedbackws.icloud.com
@@ -1397,11 +1715,14 @@ settings.crashlytics.com
 
 ## cloudflare
 .cloudflareinsights.com
+tr.www.cloudflare.com
+csp-reporting.cloudflare.com
 
 ## 快手
 open.kuaishouzt.com
 
 ## huawei
+datacollector-*.dt.hicloud.com
 datacollector-dra.dt.dbankcloud.cn
 datacollector-dra.dt.hicloud.com
 datacollector-drcn.dt.dbankcloud.cn
@@ -1439,10 +1760,29 @@ logservice-dre.platform.hicloud.com
 logservice-drru.dt.hicloud.com
 logservice.hicloud.com
 logservice1.hicloud.com
+.adx-dre.op.hicloud.com
+.events-dra.op.hicloud.com
+events-*.op.hicloud.com
+.logtransform.hicloud.com
+.logbak.hicloud.com
+.data.hicloud.com
+.5g-0v-wirnhfg-9wiebgf-8wgf-q9eh-8egth-8e.obs.ap-southeast-3.myhuaweicloud.com
+.teslaamg.obs.cn-east-3.myhuaweicloud.com
+.libfre.obs.cn-east-3.myhuaweicloud.com
+.f394f9i-02w4kfd0-w9ke0gfnjw-0rfjnmg-0rf-0ef.obs.la-south-2.myhuaweicloud.com
+.press2dori-safe.obs.la-south-2.myhuaweicloud.com
+.vfnh3wo0i4er8gfv0-3ihbn4-0rgbfnh-03w4b.obs.la-south-2.myhuaweicloud.com
+.09-0-2-erguj-3e54r9gh-w0e9jv-0sd8ghv-0das9jh-0hyf.obs.ap-southeast-1.myhuaweicloud.com
+.if03eveo0gf-rjeer.obs.sa-brazil-1.myhuaweicloud.com
+.vgje4p095rtg-h43e-g9fhvnew-rp0hvg-e3hgrgrg.obs.sa-brazil-1.myhuaweicloud.com
+.8035ugt-w34hrg-0hjwre-ghjew-r0hg-ehg9-h-rtg.obs.af-south-1.myhuaweicloud.com
 
 ## 联通
 opencloud.wostore.cn
 nissd1.10010.com
+.jf.10010.com
+.smartad.10010.com
+.ad.10010.com
 
 ## 银联
 ads.95516.com
@@ -1452,12 +1792,24 @@ tysdk.95516.com
 
 ## CSDN
 .event.csdn.net
+.kunyu.csdn.net
+.adaccount.csdn.net
+.ads.csdn.net
+.counter.csdn.net
+.zhannei-dm.csdn.net
+.medal.blog.csdn.net
+.kunpeng.csdn.net
+.ad.csdn.net
+.silkroad.csdn.net
+.dc.csdn.net
 
 ## 同花顺
 recommend.10jqka.com.cn
 stat.10jqka.com.cn
 vaserviece.10jqka.com.cn
 ; adm.10jqka.com.cn
+.eq.10jqka.com.cn
+.ozone.10jqka.com.cn
 
 ## oppo
 adm.0.oppo.cn
@@ -1526,11 +1878,23 @@ consent.truste.com
 .xdcs-collector.ximalaya.com
 .xdcs-collector.ximalaya.com
 .xdcs-collector.ximalaya.com
+.dns.ximalaya.com
+.adwbs.ximalaya.com
+.adsebs.ximalaya.com
+.adbs.ximalaya.com
+.adbehavior.ximalaya.com
+.linkeye.ximalaya.com
+.ad.ximalaya.com
+.mobwsa.ximalaya.com
+.adbehavior.wsa.ximalaya.com
+.adse.wsa.ximalaya.com
+.adsehera.ximalaya.com
 
 ## 其他推送平台
 
 ## 数美
 # https://help.ishumei.com
+fp-*it*.fengkongcloud.com
 # 风险ip识别
 .api-tianxiang-bj.fengkongcloud.com
 .api-tianxiang-xjp.fengkongcloud.com
@@ -1570,6 +1934,13 @@ consent.truste.com
 .api-skynet-fjny.fengkongcloud.com
 .api-skynet-xjp.fengkongcloud.com
 .api-skynet-eur.fengkongcloud.com
+.fp-it.fengkongcloud.com
+.tracker.fengkongcloud.com
+.fp-bj.fengkongcloud.com
+.cloudconf.fengkongcloud.com
+.static.fengkongcloud.com
+.castatic.fengkongcloud.com
+
 
 ## 极光推送
 # .jpush.cn
@@ -1651,6 +2022,8 @@ sy.cl2009.com
 .sec.umeng.com
 .ai.login.umeng.com
 .at.umeng.com
+.umeng.com.gds.alibabadns.com
+.umengcloud.com.gds.alibabadns.com
 
 ## AppsFlyer
 .launches.appsflyer.com
@@ -1660,7 +2033,9 @@ sy.cl2009.com
 api2.appsflyer.com
 .gedsdk.appsflyer.com
 .cdn-settings.appsflyersdk.com
-
+.sdk.appsflyer.tk
+.appsflyer.com.akamaized.net
+.appsflyer-web-4-962407740.eu-west-1.elb.amazonaws.com
 
 ## flurry
 .data.flurry.com

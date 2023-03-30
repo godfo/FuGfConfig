@@ -5,7 +5,6 @@ import (
 	"ConfGenerateGo/pkg/util"
 	"fmt"
 	"os"
-	"regexp"
 	"sort"
 	"strings"
 )
@@ -30,7 +29,7 @@ func main() {
 	var base, inbox, inboxResult []string
 	var ans []model.Pair
 
-	// names := []string{"FuckRogueSoftware"}
+	//names := []string{"FuckRogueSoftware"}
 	names := []string{"Direct", "Proxy", "CodeTools", "Tracker", "FuckGarbageFeature", "FuckRogueSoftware"}
 	for _, name := range names {
 		//  清空残留的数据
@@ -49,12 +48,15 @@ func main() {
 		ans, inboxResult = policyProcessing(base, inbox)
 		util.WriteFile("QuantumultXRules", ans, name, buildString("../ConfigFile/QuantumultX/", name, "Rules.conf"), true)
 		util.WriteFile("LoonRule", ans, name, buildString("../ConfigFile/Loon/LoonRemoteRule/", name, "Rules.conf"), true)
-		util.WriteFile("Host", ans, name, buildString("../ConfigFile/Host/", name, "Rules.conf"), true)
 		util.WriteFile("DomainSetRule", ans, name, buildString("../ConfigFile/DomainSet/", name, "Rules.conf"), true)
-		util.WriteFile("AdGuardHome", ans, name, buildString("../ConfigFile/AdGuardHome/", name, "Rules.conf"), true)
 		util.WriteFile("Clash", ans, name, buildString("../ConfigFile/Clash/", name, "Rules.conf"), true)
+
+		if name == "FuckRogueSoftware" || strings.EqualFold(name, "FuckGarbageFeature") {
+			util.WriteFile("Host", ans, name, buildString("../ConfigFile/Host/", name, "Rules.conf"), true)
+			util.WriteFile("AdGuardHome", ans, name, buildString("../ConfigFile/AdGuardHome/", name, "Rules.conf"), true)
+		}
+
 		if len(inboxResult) != 0 {
-			sort.Strings(inboxResult)
 			util.NormalWriteFile(inboxResult, buildString("../ConfigFile/DataFile/", name, "/inbox.txt"))
 		}
 	}
@@ -97,14 +99,19 @@ func policyProcessing(base []string, inbox []string) ([]model.Pair, []string) {
 		if strings.Count(v, ",") >= 1 {
 			a, v = splitRule(v)
 			ansMap[v] = a
-		} else if isIPV4(v) {
+		} else if util.IsIPV4(v) {
 			ansMap[v] = "IP-CIDR"
-		} else if isIPV6(v) {
+		} else if util.IsIPV6(v) {
 			ansMap[v] = "IP-CIDR6"
 		} else if util.IsDomainRule(v) {
 			if strings.HasPrefix(v, ".") {
 				v = strings.TrimPrefix(v, ".")
 				ansMap[v] = "DOMAIN-SUFFIX"
+			} else if strings.HasPrefix(v, "*.") {
+				v = strings.TrimPrefix(v, "*.")
+				ansMap[v] = "DOMAIN-SUFFIX"
+			} else if strings.Contains(v, "*") {
+				ansMap[v] = "HOST-WILDCARD"
 			} else {
 				ansMap[v] = "DOMAIN"
 			}
@@ -148,6 +155,7 @@ func policyProcessing(base []string, inbox []string) ([]model.Pair, []string) {
 						// 检查一下 v 的后缀域名是否在 inboxResultSet 中存在
 						if _, ok := inboxResultSet[s]; ok {
 							flag2 = true
+							break
 						}
 					}
 					// 如果所有后缀域名均不在 base map 且不在 inboxResultSet 里面 ，则加入到 inbox map
@@ -168,6 +176,17 @@ func policyProcessing(base []string, inbox []string) ([]model.Pair, []string) {
 	for key := range inboxResultSet {
 		inboxResult = append(inboxResult, key)
 	}
+
+	sort.Slice(inboxResult, func(i, j int) bool {
+		a, b := inboxResult[i], inboxResult[j]
+		for k := 1; k <= len(a) && k <= len(b); k++ {
+			if a[len(a)-k] != b[len(b)-k] {
+				return a[len(a)-k] < b[len(b)-k]
+			}
+		}
+		return len(a) > len(b)
+	})
+	inboxResult = util.SliceReverse(inboxResult)
 
 	fmt.Println("查重后未处理的规则还剩 ", len(inboxResult), " 条")
 
@@ -195,18 +214,6 @@ func splitRule(s string) (string, string) {
 func domainRuleIntercept(s string) string {
 	firstInd := strings.Index(s, ".")
 	return s[firstInd+1:]
-}
-
-func isIPV4(s string) bool {
-	// 判断是否为 IPV4
-	ipv4Pattern := regexp.MustCompile(`^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$`)
-	return ipv4Pattern.MatchString(s)
-}
-
-func isIPV6(s string) bool {
-	// 判断是否为 IPV6
-	ipv6Pattern := regexp.MustCompile(`^([0-9a-fA-F]{1,4}:){7}[0-9a-fA-F]{1,4}$`)
-	return ipv6Pattern.MatchString(s)
 }
 
 // 错误处理函数

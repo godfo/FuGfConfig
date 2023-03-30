@@ -30,6 +30,7 @@ func FormatCorrection(s string) string {
 func IsNote(s string) bool {
 	if strings.HasPrefix(s, "#") ||
 		strings.HasPrefix(s, ";") ||
+		strings.HasPrefix(s, "@") ||
 		strings.HasPrefix(s, "\n") ||
 		strings.HasPrefix(s, "//") ||
 		strings.HasPrefix(s, "!") {
@@ -43,11 +44,15 @@ func CleanAll(s string) string {
 	s = strings.Replace(s, "\r", "", -1)
 	s = strings.Replace(s, "\n", "", -1)
 	s = strings.Replace(s, "\t", "", -1)
+	if strings.HasPrefix(s, "*.") {
+		s = strings.TrimPrefix(s, "*")
+	}
 	s = strings.Replace(s, " ", "", -1)
 	s = strings.Replace(s, "||", "", -1)
 	s = strings.Replace(s, "^", "", -1)
 	s = strings.Replace(s, "127.0.0.1", "", -1)
 	s = strings.Replace(s, "0.0.0.0", "", -1)
+	s = strings.Replace(s, "::", "", -1)
 
 	ss := strings.Split(s, ",")
 	if len(ss) >= 2 {

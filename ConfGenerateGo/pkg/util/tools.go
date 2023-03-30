@@ -24,8 +24,8 @@ func IsIPV6(s string) bool {
 func IsDomainRule(s string) bool {
 	// todo 会匹配 128.1.102.20, 203.205.179.215, 39.107.142.158
 	//domainPattern := regexp.MustCompile(`^.?[^\s/$.?#].\S*$`)
-	// todo 无法匹配 dl_dir.qq.com  等有下划线的 domain；会匹配 128.1.102.20, 203.205.179.215, 39.107.142.158
-	domainPattern := regexp.MustCompile(`^[a-zA-Z0-9\-.]+\.[a-zA-Z0-9\-.]+$`)
+	// todo 无法匹配有下划线或者*的 domain；会匹配 128.1.102.20, 203.205.179.215, 39.107.142.158
+	domainPattern := regexp.MustCompile(`^[a-zA-Z0-9_*\-.]+\.[a-zA-Z0-9_*\-.]+$`)
 	return domainPattern.MatchString(s)
 }
 
@@ -42,4 +42,12 @@ func IsFileExist(filePath string) bool {
 	} else {
 		return true
 	}
+}
+
+// SliceReverse 翻转
+func SliceReverse[T any](slice []T) []T {
+	for i, j := 0, len(slice)-1; i < j; i, j = i+1, j-1 {
+		slice[i], slice[j] = slice[j], slice[i]
+	}
+	return slice
 }

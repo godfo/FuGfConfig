@@ -30,13 +30,26 @@ func WriteFile(matchType string, data model.Pairs, policyName string, filePath s
 	case strings.Contains(matchType, "LoonRule"):
 		fmt.Println("LoonRule")
 		for _, v := range data {
-			v.Key = strings.Replace(v.Key, "\r", "", -1)
-			v.Key = strings.Replace(v.Key, "\n", "", -1)
-
-			fmt.Fprint(write, v.Value)
-			fmt.Fprint(write, ",")
+			if strings.Contains(v.Value, "HOST-WILDCARD") {
+				continue
+			}
+			switch {
+			case strings.Contains(v.Value, "IP-CIDR6"):
+				fmt.Fprint(write, "IP-CIDR6,")
+			case strings.Contains(v.Value, "IP-CIDR"):
+				fmt.Fprint(write, "IP-CIDR,")
+				fmt.Fprint(write, v.Key)
+				if !strings.Contains(v.Key, "/") {
+					fmt.Fprint(write, "/32")
+				}
+				fmt.Fprintln(write, ",no-resolve")
+				continue
+			case strings.Contains(v.Value, "DOMAIN-SUFFIX"):
+				fmt.Fprint(write, "DOMAIN-SUFFIX,")
+			case strings.Contains(v.Value, "DOMAIN"):
+				fmt.Fprint(write, "DOMAIN,")
+			}
 			fmt.Fprintln(write, v.Key)
-
 		}
 	case strings.Contains(matchType, "LoonHost"):
 		fmt.Println("LoonHost")
@@ -69,10 +82,6 @@ func WriteFile(matchType string, data model.Pairs, policyName string, filePath s
 	case strings.Contains(matchType, "QuantumultXRules"):
 		fmt.Println("QuantumultXRules")
 		for _, v := range data {
-			// TODO: 什么时候添加 no-resolve
-			v.Key = strings.Replace(v.Key, "\n", "", -1)
-			v.Key = strings.Replace(v.Key, "\r", "", -1)
-
 			switch {
 			case strings.Contains(v.Value, "IP-CIDR6"):
 				fmt.Fprint(write, "IP6-CIDR,")
@@ -88,6 +97,8 @@ func WriteFile(matchType string, data model.Pairs, policyName string, filePath s
 				fmt.Fprint(write, "HOST-SUFFIX,")
 			case strings.Contains(v.Value, "DOMAIN"):
 				fmt.Fprint(write, "HOST,")
+			case strings.Contains(v.Value, "HOST-WILDCARD"):
+				fmt.Fprint(write, "HOST-WILDCARD,")
 			}
 
 			fmt.Fprintln(write, v.Key+","+policyName)
@@ -129,15 +140,31 @@ func WriteFile(matchType string, data model.Pairs, policyName string, filePath s
 		// todo clash 是否支持 USER-AGENT
 		fmt.Fprintln(write, "payload:")
 		for _, v := range data {
-			if !strings.Contains(v.Value, "USER-AGENT") {
-				fmt.Fprint(write, "  - ")
-				fmt.Fprint(write, v.Value+",")
-				if strings.Contains(v.Key, "\n") {
-					fmt.Fprint(write, v.Key)
-				} else {
-					fmt.Fprintln(write, v.Key)
-				}
+			if strings.Contains(v.Value, "HOST-WILDCARD") || strings.Contains(v.Value, "USER-AGENT") {
+				continue
 			}
+			v.Key = strings.Replace(v.Key, "\r", "", -1)
+			v.Key = strings.Replace(v.Key, "\n", "", -1)
+
+			fmt.Fprint(write, "  - ")
+
+			switch {
+			case strings.Contains(v.Value, "IP-CIDR6"):
+				fmt.Fprint(write, "IP-CIDR6,")
+			case strings.Contains(v.Value, "IP-CIDR"):
+				fmt.Fprint(write, "IP-CIDR,")
+				fmt.Fprint(write, v.Key)
+				if !strings.Contains(v.Key, "/") {
+					fmt.Fprint(write, "/32")
+				}
+				fmt.Fprintln(write, ",no-resolve")
+				continue
+			case strings.Contains(v.Value, "DOMAIN-SUFFIX"):
+				fmt.Fprint(write, "DOMAIN-SUFFIX,")
+			case strings.Contains(v.Value, "DOMAIN"):
+				fmt.Fprint(write, "DOMAIN,")
+			}
+			fmt.Fprintln(write, v.Key)
 		}
 	default:
 		fmt.Println("匹配 error")
