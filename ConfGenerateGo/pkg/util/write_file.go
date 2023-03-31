@@ -128,7 +128,7 @@ func WriteFile(matchType string, data model.Pairs, policyName string, filePath s
 	case strings.Contains(matchType, "AdGuardHome"):
 		fmt.Println("AdGuardHome")
 		for _, v := range data {
-			if strings.Contains(v.Value, "DOMAIN-SUFFIX") || strings.Contains(v.Value, "DOMAIN") {
+			if strings.Contains(v.Value, "DOMAIN-SUFFIX") || strings.Contains(v.Value, "DOMAIN") || strings.Contains(v.Value, "HOST-WILDCARD") {
 				v.Key = strings.Replace(v.Key, "\r", "", -1)
 				v.Key = strings.Replace(v.Key, "\n", "", -1)
 				fmt.Fprint(write, "||")

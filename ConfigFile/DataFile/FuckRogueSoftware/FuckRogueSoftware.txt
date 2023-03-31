@@ -801,6 +801,17 @@ g.dtv.cn.miaozhan.com
 .mistat.xiaomi.com
 .ad.intl.xiaomi.com
 # 存疑
+.api.brs.intl.miui.com
+.activity.browser.intl.miui.com
+.api.setting.intl.miui.com
+.api.newsfeed.intl.miui.com
+.adv.sec.intl.miui.com
+.api.sec.intl.miui.com
+.authbe.sec.intl.miui.com
+.api.collect.data.intl.miui.com
+.mp.huangye.miui.com
+collect.*.miui.com
+tracking.*.miui.com
 .union.mi.com
 .api.e.mi.com
 .d.g.mi.com
@@ -2071,6 +2082,7 @@ sy.cl2009.com
 .aaid.umeng.com
 .ulogs.umeng.com
 .alogs.umeng.com
+.alog.umeng.com
 .alog.umeng.co
 .ulogs.umengcloud.com
 .ads.umeng.com
@@ -2083,6 +2095,15 @@ sy.cl2009.com
 .at.umeng.com
 .umeng.com.gds.alibabadns.com
 .umengcloud.com.gds.alibabadns.com
+.ocx.umeng.com
+.au.umeng.com
+.alog-default.umeng.com
+.alogsus.umeng.com
+.alogus.umeng.com
+.errlogos.umeng.com
+.ar.umeng.com
+.plbslog.umeng.com
+.ouplog.umeng.com
 
 ## AppsFlyer
 .launches.appsflyer.com
