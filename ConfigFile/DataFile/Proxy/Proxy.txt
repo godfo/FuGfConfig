@@ -31,6 +31,7 @@
 .gitbook.com
 .gitbook.io
 .gitbook.zendesk.com
+.exp-tas.com
 
 ## vscode
 .vscode-unpkg.net
@@ -62,6 +63,9 @@ vscodium.now.sh
 
 ## 编辑器
 .zed.dev
+
+## blender
+.blender.org
 
 ## 维基百科
 .wikipedia.org
