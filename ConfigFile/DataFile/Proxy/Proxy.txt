@@ -277,3 +277,4 @@ calibre-ebook.com
 .quantumult.app
 .arc.net
 .deepl.com
+.edu.tw

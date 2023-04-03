@@ -19,8 +19,23 @@
 .yarnpkg.com
 .npmjs.org
 
+.githubusercontent.com
+
 ## Debian 仓库
-.packages.debian.org
+.debian.org
+
+## kali 仓库
+.kali.org
+.kali.cs.nycu.edu.tw
+
+## resilio
+54.192.18.123
+31.13.67.41
+.resilio.com
+
+## docker
+.docker.io
+.docker.com
 
 ## brew
 .brew.sh
