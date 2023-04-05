@@ -67,8 +67,15 @@ video.upqzfile.com
 .bugly.qq.com
 .rqd.qq.com
 # wechat 微信
-dns.weixin.qq.com.cn
-dns.weixin.qq.com
+.dns.weixin.qq.com.cn
+.dns.weixin.qq.com
+42.81.232.18/32
+42.187.182.106/32
+42.187.182.123/32
+42.187.184.154/32
+123.151.54.50/32
+;2402:4e00:1900:1700:0:9554:1ad9:c3a/128
+;240e:928:1400:10::25/128
 androidrqd.iot.wechatpay.cn
 iosrqd.iot.wechatpay.cn
 .ad.weixin.qq.com
@@ -388,6 +395,10 @@ ping*.qq.com
 
 ## 阿里系
 # 将阿里系 app 关闭网络权限且从移动网络切换到 Wi-Fi 时，有概率出现
+.httpdns.alicdn.com
+.httpdns-api.aliyuncs.com
+.httpdns-sc.aliyuncs.com
+203.107.1.1/24
 jtrn.is.autonavi.com.gds.alibabadns.com
 .alipaylog.com
 loggw.alipay.com
@@ -415,13 +426,14 @@ amos.alicdn.com
 .adashxgc.ut.taobao.com
 .adashx4yt.m.taobao.com
 .adashx4ae.ut.taobao.com
-# .amdc.m.taobao.com
+.amdc.m.taobao.com
 .apoll.m.taobao.com
 .allyes.com
 a.alimama.cn
 .acjs.aliyun.com
-adashbc.m.taobao.com
-adashx.m.taobao.com
+.adashbc.m.taobao.com
+.adashx.m.taobao.com
+.adashx.ut.dingtalk.com
 adsh.m.taobao.com
 .adchina.com
 afp.alicdn.com
@@ -485,6 +497,7 @@ yixiu-abtest.alicdn.com
 39.107.142.158
 # 存疑
 .h-adashx.ut.taobao.com
+.h-adashx.ut.dingtalk.com
 .audid-api.taobao.com
 .optimus-ads.amap.com
 .nbsdk-baichuan.alicdn.com
@@ -545,6 +558,7 @@ woodpecker.uc.cn
 p4psearch.china.alibaba.com
 loggw.alipay.com.cn
 guide-acs.m.taobao.com
+.acs.m.taobao.com
 .log.aliyuncs.com
 # .dorangesource.alicdn.com
 m-adash.m.taobao.com
@@ -599,9 +613,10 @@ adashx.m.taobao.com.gds.alibabadns.com
 .g01.a.alicdn.com
 
 ## bilibili 哔哩哔哩
-data.bilibili.com
-cm.bilibili.com
-dataflow.biliapi.com
+.httpdns.bilivideo.com
+.data.bilibili.com
+.cm.bilibili.com
+.dataflow.biliapi.com
 .web-player-tracker.biliapi.net
 .line1-log.biligame.net
 .miniapp.bilibili.com
@@ -1206,6 +1221,8 @@ az.appstore.vivo.com.cn
 mqtt.zhihu.com
 .zhihu.xmcimg.com
 .sugar.zhihu.com
+.118.89.204.198/23
+;2402:4e00:1200:ed00:0:9089:6dac:96b6/40
 # 强制跳转 app 下载页面
 .oia.zhihu.com
 
@@ -1305,6 +1322,10 @@ log2.cmpassport.com
 .ad.caiyunapp.com
 
 ## baidu 百度
+.httpsdns.baidu.com
+.httpdns.baidu.com
+.httpdns.baidubce.com
+186.76.76.200/32
 .hm.baidu.com
 .hmma.baidu.com
 .nsclick.baidu.com
@@ -1765,6 +1786,7 @@ open.kuaishouzt.com
 
 ## huawei
 datacollector-*.dt.hicloud.com
+.httpdns.c.cdnhwc2.com
 datacollector-dra.dt.dbankcloud.cn
 datacollector-dra.dt.hicloud.com
 datacollector-drcn.dt.dbankcloud.cn
@@ -1819,6 +1841,8 @@ events-*.op.hicloud.com
 .vgje4p095rtg-h43e-g9fhvnew-rp0hvg-e3hgrgrg.obs.sa-brazil-1.myhuaweicloud.com
 .8035ugt-w34hrg-0hjwre-ghjew-r0hg-ehg9-h-rtg.obs.af-south-1.myhuaweicloud.com
 
+## 移动
+
 ## 联通
 opencloud.wostore.cn
 nissd1.10010.com
@@ -1831,6 +1855,13 @@ ads.95516.com
 analytics.95516.com
 # 存疑
 tysdk.95516.com
+
+## 网易
+.httpdns.n.netease.com
+59.111.239.61/32
+59.111.239.62/32
+.music.httpdns.c.163.com
+.lofter.httpdns.c.163.com
 
 ## CSDN
 .event.csdn.net
@@ -1854,6 +1885,7 @@ vaserviece.10jqka.com.cn
 .ozone.10jqka.com.cn
 
 ## oppo
+.httpdns.push.oppomobile.com
 adm.0.oppo.cn
 a45090.com.hw.1.oppo.cn
 a45090.com-cloud-iengine-origin2-learning-distribution.12.1.oppo.cn
@@ -1912,6 +1944,11 @@ tms.oracle.com
 d*.sina.com.cn
 ad*.sina.com.cn
 log*.sina.cn
+
+.dns.weibo.cn
+39.97.128.148/32
+39.97.130.51/32
+
 .adbox.sina.com.cn
 .r.sax.sina.com.cn
 .adm.leju.sina.com.cn

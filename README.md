@@ -236,6 +236,8 @@ https://raw.githubusercontent.com/dunlanl/FuGfConfig/main/ConfigFile/Loon/LoonPl
 
 本项目的数据大部分来自一下项目，在此对他们表示感谢（以下排名不分先后
 
+[GetSomeFries](https://github.com/VirgilClyne/GetSomeFries)
+
 [ios_rule_script](https://github.com/blackmatrix7/ios_rule_script)
 
 [NextDNS 维护的系统级跟踪列表](https://github.com/nextdns/metadata/tree/master/privacy/native)

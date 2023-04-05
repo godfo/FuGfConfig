@@ -22637,7 +22637,6 @@ tffytdo.cn
 cvemhco.cn
 qofvpbo.cn
 fenbo.cn
-dns.weibo.cn
 dp.im.weibo.cn
 gpsncbo.cn
 yrcicbo.cn
@@ -43466,9 +43465,7 @@ yaomuzhubao.com
 dig.qbao.com
 38taobao.com
 eco.taobao.com
-acs.m.taobao.com
 c-adash.m.taobao.com
-amdc.m.taobao.com
 detail.taobao.com
 bcfeedback.taobao.com
 audid-api-sg.taobao.com
@@ -57779,7 +57776,6 @@ heytapmobile.com
 u.oppomobile.com
 adsfs.oppomobile.com
 ads.oppomobile.com
-httpdns.push.oppomobile.com
 stat-in.dc.oppomobile.com
 conff.dc.oppomobile.com
 dragate.dc.oppomobile.com
