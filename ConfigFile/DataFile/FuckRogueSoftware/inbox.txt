@@ -7794,6 +7794,7 @@ ad-delivery.net
 buvamery.net
 jullyambery.net
 collector-hpn.gDOMAINery.net
+myg.qy.net
 gaimoupy.net
 live-tag.creatopy.net
 aumaupoy.net
@@ -22088,6 +22089,7 @@ sitebot.cn
 ys6ot.cn
 oivgqnt.cn
 ysont.cn
+iqiyim.adtrack.enlightent.cn
 egrent.cn
 librarymanagement.cn
 ddwant.cn
@@ -22136,6 +22138,7 @@ huosai.net.cn
 niuguwang.net.cn
 wangkuang.net.cn
 fanzhuang.net.cn
+f74f7f7765f8a2f6.ngaa.net.cn
 urlet.cn
 ixihet.cn
 appget.cn
@@ -22637,7 +22640,7 @@ tffytdo.cn
 cvemhco.cn
 qofvpbo.cn
 fenbo.cn
-dp.im.weibo.cn
+game.weibo.cn
 gpsncbo.cn
 yrcicbo.cn
 vptjabo.cn
@@ -24405,9 +24408,12 @@ mixer.sina.cn
 cre-dp.sina.cn
 gk.sina.cn
 taiji.sina.cn
+wbpctips.mobile.sina.cn
 sdkapp.mobile.sina.cn
 wbapp.mobile.sina.cn
 sdkclick.mobile.sina.cn
+wbclick.mobile.sina.cn
+wapwbclick.mobile.sina.cn
 adimg.mobile.sina.cn
 sa.sina.cn
 log2.sina.cn
@@ -25495,6 +25501,7 @@ plumbingcurlproximity.com
 boardingproximity.com
 app.roximity.com
 exporder-patuility.com
+activation.crossutility.com
 denutility.com
 mignished-sility.com
 simility.com
@@ -28871,10 +28878,7 @@ adomv.com
 bilqi-omv.com
 cjxomyilmv.com
 cyunbwkmglmv.com
-log5-misc-lq.amemv.com
-log3-misc-lq.amemv.com
-log3-misc-lf.amemv.com
-log*-misc-lf.amemv.com
+amemv.com
 jcecirohramv.com
 js.moeamv.com
 1ex4oemg99mv.com
@@ -29679,6 +29683,7 @@ quldu.com
 untiledhaldu.com
 ztidu.com
 onekeyedu.com
+mituyuedu.com
 weidianyuedu.com
 nmbtedu.com
 51vipedu.com
@@ -30803,6 +30808,7 @@ hopedwishfulpercent.com
 mercent.com
 webstats.100procent.com
 virtualvincent.com
+tpns.tencent.com
 afficent.com
 eraserindecent.com
 dischargedecent.com
@@ -42624,6 +42630,7 @@ dd1.diymianmo.com
 reklam.turkmmo.com
 portalisimmo.com
 stats.fundimmo.com
+img.dailmo.com
 lojapanelmo.com
 wazimo.com
 yyjvimo.com
@@ -43372,10 +43379,7 @@ hktracker.hankookilbo.com
 weblog.hankookilbo.com
 tkbo.com
 ntsibo.com
-biz.weibo.com
-alitui.weibo.com
-sdkapp.uve.weibo.com
-adimg.uve.weibo.com
+weibo.com
 matrix.hbo.com
 smatrix.hbo.com
 mongbo.com
@@ -45660,6 +45664,7 @@ adserve.bongocdn.com
 fresnel-events.vimeocdn.com
 connect.idocdn.com
 tracker.idocdn.com
+weibocdn.com
 btncdn.com
 irncdn.com
 wpncdn.com
@@ -48082,6 +48087,7 @@ oascentral.townhall.com
 unbecominghall.com
 honorablehall.com
 ads.adhall.com
+img.allahall.com
 edmanalytics.pandahall.com
 egotizeoxgall.com
 fathuntsgall.com
@@ -49949,6 +49955,7 @@ sc.iombank.com
 www.clickbank.com
 smetrics.clickbank.com
 cbmetrics.clickbank.com
+youzibank.com
 smetrics.privatebank.citibank.com
 metrics1.citibank.com
 b.mibank.com
@@ -50941,6 +50948,7 @@ yinzantouzi.com
 cdn.karpatzi.com
 cifzuqopdpzi.com
 7fkm2r4pzi.com
+app.zhoudamozi.com
 haosesaozi.com
 quanxiaozi.com
 adxiaozi.com
@@ -50952,6 +50960,7 @@ youzhizi.com
 jiphihizi.com
 cndaizi.com
 xrlkvghzi.com
+weibomingzi.com
 ptidsezi.com
 js*.abolezi.com
 kouptufezi.com
@@ -50980,6 +50989,7 @@ webmasterskyi.com
 dxssiyi.com
 api.yuedu.iqiyi.com
 cm.passport.iqiyi.com
+cr-status.iqiyi.com
 cards-css.iqiyi.com
 dx-cards-css.iqiyi.com
 tracker.sns.iqiyi.com
@@ -51002,7 +51012,7 @@ static.g.iqiyi.com
 store.iqiyi.com
 cs-feige.iqiyi.com
 notice.iqiyi.com
-msga.cupid.iqiyi.com
+cupid.iqiyi.com
 nl-rcd.iqiyi.com
 c.uaa.iqiyi.com
 uestat.video.qiyi.com
@@ -54076,7 +54086,10 @@ us.i1.yimg.com
 us.a1.yimg.com
 xcf-bd-js.chuimg.com
 y66xvgo5i.chuimg.com
+wb.gtimg.com
+qzs.gdtimg.com
 1.vsimg.com
+afdback.ppsimg.com
 haiyunimg.com
 images.outbrainimg.com
 zem.outbrainimg.com
@@ -57736,6 +57749,7 @@ analytics.cnnchile.com
 sanalytics.cnnchile.com
 content.logile.com
 pervialinagile.com
+upqzfile.com
 xforever3xfile.com
 track.promptfile.com
 mydisplay.ctfile.com
@@ -65281,6 +65295,7 @@ dig.lianjia.com
 jinghuazhijia.com
 91chaodijia.com
 cdgtw3.guapaijia.com
+sdk.kaijia.com
 sdhongjia.com
 hzyouhejia.com
 dadjia.com

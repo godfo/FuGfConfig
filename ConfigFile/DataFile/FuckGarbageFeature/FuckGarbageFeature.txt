@@ -71,3 +71,6 @@ w.meituan.net
 .360.cn
 
 .mobile.events.data.microsoft.com
+
+## weibo
+.game.weibo.cn

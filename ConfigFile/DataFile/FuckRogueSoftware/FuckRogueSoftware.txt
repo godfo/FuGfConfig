@@ -389,9 +389,11 @@ icreport.html5.qq.com
 .mazu.3g.qq.com
 .stdl.qq.com
 .msdk.qq.com
+.static-res.qq.com
+.api.poll.video.qq.com
+.tetrack.qq.com
 report.*.qq.com
 ping*.qq.com
-
 
 ## 阿里系
 # 将阿里系 app 关闭网络权限且从移动网络切换到 Wi-Fi 时，有概率出现
@@ -1221,7 +1223,7 @@ az.appstore.vivo.com.cn
 mqtt.zhihu.com
 .zhihu.xmcimg.com
 .sugar.zhihu.com
-.118.89.204.198/23
+118.89.204.198/23
 ;2402:4e00:1200:ed00:0:9089:6dac:96b6/40
 # 强制跳转 app 下载页面
 .oia.zhihu.com
@@ -1949,6 +1951,11 @@ log*.sina.cn
 39.97.128.148/32
 39.97.130.51/32
 
+.promote.biz.weibo.cn
+.gw6.push.mcp.weibo.cn
+.gw5.push.mcp.weibo.cn
+.dp.im.weibo.cn
+
 .adbox.sina.com.cn
 .r.sax.sina.com.cn
 .adm.leju.sina.com.cn
@@ -2169,7 +2176,8 @@ graph.facebook.com
 api2.branch.io
 
 ## adjust
-app.adjust.com
+.app.adjust.com
+.s2s.adjust.com
 
 ## 阳光宽频网
 v9-default.365yg.com
@@ -2634,3 +2642,8 @@ bdcpro*.techweb.com.cn
 fota*.adups.cn
 ysdm*.ys137.com.cn
 .ad.xelements.cn
+.sdk.kaijiawan.com
+.render.shuqireader.com
+.jcollection.shuqireader.com
+240.1.1.0/4
+203.107.1.1/24

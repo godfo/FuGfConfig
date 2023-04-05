@@ -1,4 +1,4 @@
-[URL Rewrite]
+[Script]
 #^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
 # 来源：https://github.com/JamesHopbourn/Apple-Automation/blob/master/URL%20Rewrite.conf
 
@@ -8,3 +8,20 @@
 #^https?://www.google.(com|cn)/search.*?q=tw\+ https://mobile.twitter.com/search?q= 302
 #^https?://www.google.(com|cn)/search.*?q=twu\+ https://mobile.twitter.com/search?f=user&q= 302
 #^https?://www.google.(com|cn)/search.*?q=img\+ https://www.google.com/search?tbm=isch&q= 302
+
+# Weibo
+http-response ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js
+http-response ^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/(photos/pic_recommend_status|live/media_homelist)|video/tiny_stream_video_list|photo/info|remind/unread_count) requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js
+
+http-response ^https?:\/\/(t7z|kjp)\.cupid\.iqiyi\.com\/mixer\? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,tag=爱奇艺_开屏去广告
+http-response ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/cx\/startup\? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,tag=嘀嗒出行_开屏去广告
+http-response ^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/market\/start\/ad requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,tag=Fa米家_开屏去广告
+http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/(show|list) requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,tag=BiliBili_开屏去广告
+http-response ^https?:\/\/wmapi\.meituan\.com\/api\/v\d+\/loadInfo? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,tag=美团外卖_开屏去广告
+http-response ^https?:\/\/hd\.mina\.mi\.com\/splashscreen\/alert requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,tag=小爱音箱_开屏去广告
+http-response ^https?:\/\/hd\.mina\.mi\.com\/splashscreen\/alert requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,tag=京东_开屏去广告
+http-response ^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview.fcg requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,tag=联享家_开屏去广告
+http-response ^https?:\/\/cmsapi\.dmall\.com\/app\/home\/homepageStartUpPic requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,tag=多点_开屏去广告
+
+[MITM]
+hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, capis.didapinche.com,capis*.didapinche.com,fmapp.chinafamilymart.com.cn,app.bilibili.com,wmapi.meituan.com,hd.mina.mi.com,api.m.jd.com,mi.gdt.qq.com,cmsapi.dmall.com,*.cupid.iqiyi.com
