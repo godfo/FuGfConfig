@@ -21,6 +21,8 @@
 
 .githubusercontent.com
 
+.nuget.org
+
 ## Debian 仓库
 .debian.org
 

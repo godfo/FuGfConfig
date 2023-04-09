@@ -629,6 +629,9 @@ adashx.m.taobao.com.gds.alibabadns.com
 grpc.biliapi.net
 # 观看直播时 b 站拿用户的电脑去 p2p 上传，所谓的 webRtc
 .stun.chat.bilibili.com
+stun-*.chat.bilibili.com
+stun*.chat.bilibili.com
+*-*-live-p2p-*.chat.bilibili.com
 
 
 ## 字节系
