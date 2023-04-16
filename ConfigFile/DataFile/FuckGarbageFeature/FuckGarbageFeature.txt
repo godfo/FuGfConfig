@@ -74,3 +74,6 @@ w.meituan.net
 
 ## weibo
 .game.weibo.cn
+
+## meituan 美团
+.data-sdk-uuid-log.d.meituan.net

@@ -392,6 +392,64 @@ icreport.html5.qq.com
 .static-res.qq.com
 .api.poll.video.qq.com
 .tetrack.qq.com
+report.imtt.qq.com
+res.imtt.qq.com
+report.tv.kohesport.qq.com
+report.syzs.qq.com
+s.syzs.qq.com
+uplog.inews.qq.com
+s.pcapps.qq.com
+wns.qq.com
+tpns.qq.com
+stat-doctor.qq.com
+gamecenter.qq.com
+update.browser.qq.com
+master.etl.desktop.qq.com
+itop.qq.com
+iyouxi3.vip.qq.com
+restlbs.map.qq.com
+p2p.qq.com
+ott.video.qq.com
+sdksp6.video.qq.com
+masterconn.qq.com
+szlong.weixin.qq.com
+log1.wtlogin.qq.com
+report.qcloudcdn.qq.com
+qm.qq.com
+hc.tdm.qq.com
+jprx.m.qq.com
+tmfmazu.m.qq.com
+pmir.m.qq.com
+gatherer.m.qq.com
+webcdn.m.qq.com
+luban.m.qq.com
+jsync.m.qq.com
+tmfmazu-wangka.m.qq.com
+tmfmazuhttp-wangka.m.qq.com
+tmfmazutcpv4.m.qq.com
+tmfmazu4.m.qq.com
+p2pupdate.gamedl.qq.com
+ps2.gamedl.qq.com
+research.qq.com
+report.kg.qq.com
+mayybstatnew.3g.qq.com
+zxcv.3g.qq.com
+mastat.3g.qq.com
+mazu-hk.3g.qq.com
+softfile.3g.qq.com
+stun.qqlive.qq.com
+sns.qzone.qq.com
+vweixinthumb.tc.qq.com
+isure.stream.qqmusic.qq.com
+stat.music.qq.com
+stat.3g.music.qq.com
+safebrowsing.urlsec.qq.com
+localDOMAIN.sec.qq.com
+wpa.qq.com
+report.nfa.qq.com
+masterconn2.qq.com
+localDOMAIN.ptlogin2.qq.com
+masterconn11.qq.com
 report.*.qq.com
 ping*.qq.com
 
@@ -428,7 +486,7 @@ amos.alicdn.com
 .adashxgc.ut.taobao.com
 .adashx4yt.m.taobao.com
 .adashx4ae.ut.taobao.com
-.amdc.m.taobao.com
+# .amdc.m.taobao.com
 .apoll.m.taobao.com
 .allyes.com
 a.alimama.cn
@@ -613,6 +671,33 @@ adashx.m.taobao.com.gds.alibabadns.com
 .gtmsdd.alicdn.com
 .alimama.alicdn.com
 .g01.a.alicdn.com
+.tracert.alipay.com
+.kcart.alipay.com
+.ikcart.alipay.com
+.collect.alipay.com
+.loggw-exsdk.alipay.com
+.ynuf.alipay.com
+.seccliprod.alipay.com
+.pss.alicdn.com
+.kb-render.alicdn.com
+.oalipay-dl-django.alicdn.com
+.img.im.alicdn.com
+.handycam.alicdn.com
+.userlink.alicdn.com
+.umc.danuoyi.alicdn.com
+na61-na62-st3.wagbridge.advertisement.tanx.com.gds.alibabadns.com
+na61-na62.wagbridge.advertisement.tanx.com.gds.alibabadns.com
+cn.hz.wagbridge.ad.alibabacorp.com.gds.alibabadns.com
+ovs.us.wagbridge.ad.alibabacorp.com.gds.alibabadns.com
+default.ovs.us.wagbridge.ad.alibabacorp.com.gds.alibabadns.com
+v4.wagbridge.ad.alibabacorp.com.gds.alibabadns.com
+cn.zb.v4.wagbridge.ad.alibabacorp.com.gds.alibabadns.com
+advertisement.taobao.com.gds.alibabadns.com
+adsz.wagbridge.tanx.alimama.com.gds.alibabadns.com
+.stat.alibaba.com.gds.alibabadns.com
+.ads.uc.cn
+.applog.ucdns.uc.cn
+.applog-perf.uc.cn
 
 ## bilibili 哔哩哔哩
 .httpdns.bilivideo.com
@@ -633,11 +718,13 @@ stun-*.chat.bilibili.com
 stun*.chat.bilibili.com
 *-*-live-p2p-*.chat.bilibili.com
 
-
 ## 字节系
 log*-normal-lq.toutiaoapi.com
 log*-normal-hl.toutiaoapi.com
+log*-normal-lf.toutiaoapi.com
+.log3-normal-lf.toutiaoapi.com
 .mon11-misc-lf.toutiaoapi.com
+.mon11-misc-hl.toutiaoapi.com
 api-access.pangolin-sdk-toutiao.com
 api-access.pangolin-sdk-toutiao-b.com
 sf1-fe-tos.pglstatp-toutiao.com
@@ -718,6 +805,7 @@ douyincdn.com.230b2a2545cfa773.queniufm.com
 douyincdn.com.c.bytefcdn.com
 douyincdn.com.c.cdnhwc3.com
 douyincdn.com.c.volcfcdndvs.com
+.log0-misc-alinc2-hl.amemv.com
 dm-*.toutiao.com
 s*-fe-scm.pglstatp-toutiao.com
 sf*-be-pack.pglstatp-toutiao.com
@@ -920,6 +1008,7 @@ spd.browser.miui.com
 app.miui.com
 web.vip.miui.com
 api.comm.miui.com
+.ad.pandora.xiaomi.com
 
 .zhuti.xiaomi.com
 ## 来自 https://raw.githubusercontent.com/LoopDns/Fuck-you-MIUI/main/MIhosts
@@ -1126,6 +1215,8 @@ stat.tudou.com
 stats.tudou.com
 p2v.tudou.com
 ad.api.3g.tudou.com
+.ad.youku.com
+.cad.youku.com
 117.177.248.17/32
 117.177.248.41/32
 223.87.176.139/32
@@ -1172,6 +1263,7 @@ www.iqiyi.space
 .data.video.qiyi.com
 .ifacelog.iqiyi.com
 .mbdlog.iqiyi.com
+.api.cupid.dns.iqiyi.com
 .msg-intl.qy.net
 .api.ts.feedback.qy.net
 .msg.qy.net
@@ -1226,6 +1318,7 @@ az.appstore.vivo.com.cn
 mqtt.zhihu.com
 .zhihu.xmcimg.com
 .sugar.zhihu.com
+.log-sdk.ksapisrv.com
 118.89.204.198/23
 ;2402:4e00:1200:ed00:0:9089:6dac:96b6/40
 # 强制跳转 app 下载页面
@@ -1250,6 +1343,7 @@ analytics.meituan.net
 adgame.waimai.meituan.com
 flowplus.meituan.net
 api-unionid.meituan.com
+.wmlog.meituan.com
 # 存疑
 lx0.meituan.com
 
@@ -1562,6 +1656,7 @@ antivirus.baidu.com
 .t10.baidu.com
 .f10.baidu.com
 .88-baidu.com
+.hiphotos.baidu.com
 
 ## 微软 Microsoft
 ## 主要来自 https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt ，在此表示感谢
@@ -1786,9 +1881,6 @@ settings.crashlytics.com
 tr.www.cloudflare.com
 csp-reporting.cloudflare.com
 
-## 快手
-open.kuaishouzt.com
-
 ## huawei
 datacollector-*.dt.hicloud.com
 .httpdns.c.cdnhwc2.com
@@ -1891,6 +1983,7 @@ vaserviece.10jqka.com.cn
 
 ## oppo
 .httpdns.push.oppomobile.com
+.dragate.dc.oppomobile.com
 adm.0.oppo.cn
 a45090.com.hw.1.oppo.cn
 a45090.com-cloud-iengine-origin2-learning-distribution.12.1.oppo.cn
@@ -1941,6 +2034,28 @@ com-cloud-0-authvip-168360-engine-team.14.0.oppo.cn
 com-cloud-0-authvip-168360-engine.14.0.oppo.cn
 com-cloud-0-eventsold-168360-engine.14.0.oppo.cn
 com-cloud-0-eventsvip-svc-engine.14.0.oppo.cn
+
+## kuaishou 快手
+.apidns.kwd.inkuai.com
+.imgx.kwd.inkuai.com
+.httpdns.kwd.inkuai.com
+.zt-sup.kwd.inkuai.com
+.cny-pro.kwd.inkuai.com
+.push.kwd.inkuai.com
+.magic-face.kwd.inkuai.com
+.res-warmup-vod.kwd.inkuai.com
+.kkd.kwd.inkuai.com
+.hybrid.kwd.inkuai.com
+.res-warmup-static.kwd.inkuai.com
+.ec.kwd.inkuai.com
+.kyoda.kwd.inkuai.com
+.static.inkuai.com
+.promotion-partner.kuaishou.com
+.wlog.kuaishou.com
+.e.kuaishou.com
+.atj-kuaishou.37.com.cn
+.ad-ggtg-kuaishou-api.37.com.cn
+.open.kuaishouzt.com
 
 ## Oracle
 tms.oracle.com
@@ -2058,6 +2173,8 @@ fp-*it*.fengkongcloud.com
 .static.fengkongcloud.com
 .castatic.fengkongcloud.com
 
+## 梦享网络 及刻
+.log-sdk.clickwifi.net
 
 ## 极光推送
 # .jpush.cn
@@ -2185,6 +2302,12 @@ api2.branch.io
 ## 阳光宽频网
 v9-default.365yg.com
 v3-default.365yg.com
+
+## 诸云纵横科技
+.log.collector.muchcloud.com
+
+## 云壹互动
+.applogs.yunyihudong.com
 
 ## 个推
 dnms.getui.com
@@ -2648,5 +2771,9 @@ ysdm*.ys137.com.cn
 .sdk.kaijiawan.com
 .render.shuqireader.com
 .jcollection.shuqireader.com
+ad.gt.sigpolicy.qq.p1.lon.opendns.com
+ad.gt.sigpolicy.qq.p1.ash.opendns.com
+advertising.com.sigpolicy.qq.p1.ash.opendns.com
+ace-tag.advertising.com.sigpolicy.qq.p1.ash.opendns.com
 240.1.1.0/4
 203.107.1.1/24
