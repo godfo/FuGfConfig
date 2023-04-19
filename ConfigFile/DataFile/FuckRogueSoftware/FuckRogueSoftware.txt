@@ -449,6 +449,7 @@ wpa.qq.com
 report.nfa.qq.com
 masterconn2.qq.com
 localDOMAIN.ptlogin2.qq.com
+.res.wx.qq.com
 masterconn11.qq.com
 report.*.qq.com
 ping*.qq.com
@@ -1152,6 +1153,8 @@ jjnctjd.com
 .log.jd.com
 .dgstatic.jd.com
 .c.fa.jd.com
+.dg.k.jd.com
+.mapi.m.jd.com
 
 ## 优酷 youku
 atm.youku.com
@@ -2186,6 +2189,7 @@ sdkapi-smartop.jiguang.cn
 api-extra.hzjizhun.com
 .tsis.jpush.cn
 .smartop-sdkapi.jiguang.cn
+.sdk-jmlink.jpush.cn
 # 存疑
 .easytomessage.com
 .s.jpush.cn
