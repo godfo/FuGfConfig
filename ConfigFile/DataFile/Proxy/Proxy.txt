@@ -64,6 +64,13 @@ vscodium.now.sh
 ## 编辑器
 .zed.dev
 
+## proton
+.proton.me
+.pm.me
+.protonmail.ch
+.protonmail.com
+.protonstatus.com
+
 ## blender
 .blender.org
 
@@ -122,11 +129,6 @@ vscodium.now.sh
 ## lastfm
 .last.fm
 
-## protonmail
-.pm.me
-.protonmail.ch
-.protonmail.com
-.protonstatus.com
 
 ## vercel
 .vercel.app

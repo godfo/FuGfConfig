@@ -1,0 +1,7 @@
+.unstoppable.money
+.coinbase.com
+.ethereum.org
+.bitcoin.org
+.cryptocompare.com
+.infura.io
+.codefi.network

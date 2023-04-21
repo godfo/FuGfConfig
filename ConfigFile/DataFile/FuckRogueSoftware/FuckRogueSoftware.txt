@@ -1956,6 +1956,10 @@ analytics.95516.com
 # 存疑
 tysdk.95516.com
 
+## 上海交通卡
+.api-extra.hzjizhun.com
+
+
 ## 网易
 .httpdns.n.netease.com
 59.111.239.61/32
@@ -2186,7 +2190,6 @@ fp-*it*.fengkongcloud.com
 .stats.jpush.cn
 sdkapi-smartop.jiguang.cn
 .ad.jiguang.cn
-api-extra.hzjizhun.com
 .tsis.jpush.cn
 .smartop-sdkapi.jiguang.cn
 .sdk-jmlink.jpush.cn
@@ -2207,6 +2210,7 @@ api-extra.hzjizhun.com
 .im64.jpush.cn
 bjuser.jpush.cn
 fcapi-ipv6.jpush.cn
+jiguang.sptcc.com
 183.232.25.151
 121.36.6.165
 139.9.141.89
@@ -2339,6 +2343,11 @@ aads.shuzilm.cn
 ## 卓信
 .sandbox-zxid-api.mobileservice.cn
 .zxid-api.mobileservice.cn
+
+## mixpanel
+api-*.mixpanel.com
+.api-eu.mixpanel.com
+.api.mixpanel.com
 
 ## 其他
 .go-mpulse.net
