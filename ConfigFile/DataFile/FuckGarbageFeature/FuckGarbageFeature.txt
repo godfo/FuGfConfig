@@ -54,6 +54,7 @@ w.meituan.net
 
 ## jd
 .h5speed.m.jd.com
+.mapi.m.jd.com
 
 ## baidu
 # 自动推送
@@ -68,8 +69,6 @@ w.meituan.net
 # 神眼视频解析
 .ecloud.10086.cn
 
-.360.cn
-
 .mobile.events.data.microsoft.com
 
 ## weibo
@@ -77,3 +76,31 @@ w.meituan.net
 
 ## meituan 美团
 .data-sdk-uuid-log.d.meituan.net
+
+## 移动
+onekey*.cmpassport.com
+config*.cmpassport.com
+.onekey2.cmpassport.com
+.config2.cmpassport.com
+
+## 杉德
+cashier*.sandpay.com.cn
+.caspay.sandpay.com.cn
+.cashier.sandpay.com.cn
+.smp-uat01.sand.com.cn
+.cashier1.sandpay.com.cn
+
+
+## 上海公交
+.nfcos.net.cn
+
+## 有赞
+.open.youzanyun.com
+
+## other
+.ocsp.trust-provider.cn
+.crt.trust-provider.cn
+
+.szmg.qq.com
+.jubao.qq.com
+.poplayer.template.alibaba.com

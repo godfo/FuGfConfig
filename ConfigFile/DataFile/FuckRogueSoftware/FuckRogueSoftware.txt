@@ -12,10 +12,17 @@
 # https://github.com/ftpmorph/ftprivacy
 # https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
 
+## 对于小厂 DNS 封杀，以防
+.opendns.com
+.yunxindns.com
+.oemdns.com
+.ubmdns.com
+
 ## 腾讯系
 # qq
 cgi.connect.qq.com
-dns.qq.com
+.dns.qq.com
+.imtmp.net
 .btrace.qq.com
 .sdkconfig.video.qq.com
 i.mail.qq.com
@@ -453,6 +460,8 @@ localDOMAIN.ptlogin2.qq.com
 masterconn11.qq.com
 report.*.qq.com
 ping*.qq.com
+.uc.qq.uuaoz.com
+.qq-os.com
 
 ## 阿里系
 # 将阿里系 app 关闭网络权限且从移动网络切换到 Wi-Fi 时，有概率出现
@@ -461,9 +470,11 @@ ping*.qq.com
 .httpdns-sc.aliyuncs.com
 203.107.1.1/24
 jtrn.is.autonavi.com.gds.alibabadns.com
+log-v6.mmstat.com.gds.alibabadns.com
 .alipaylog.com
 loggw.alipay.com
 loggw-ex.alipay.com
+agoo-report.m.taobao.com
 gm.mmstat.com
 d-gm.mmstat.com
 s-gm.mmstat.com
@@ -619,7 +630,6 @@ woodpecker.uc.cn
 p4psearch.china.alibaba.com
 loggw.alipay.com.cn
 guide-acs.m.taobao.com
-.acs.m.taobao.com
 .log.aliyuncs.com
 # .dorangesource.alicdn.com
 m-adash.m.taobao.com
@@ -699,6 +709,9 @@ adsz.wagbridge.tanx.alimama.com.gds.alibabadns.com
 .ads.uc.cn
 .applog.ucdns.uc.cn
 .applog-perf.uc.cn
+.umdc.alibabachengdun.com
+.wvcfg.alicdn.com
+
 
 ## bilibili 哔哩哔哩
 .httpdns.bilivideo.com
@@ -1350,6 +1363,24 @@ api-unionid.meituan.com
 # 存疑
 lx0.meituan.com
 
+## pdd nmsl 拼多多
+cmtw.pinduoduo.com
+titan-mt.pinduoduo.com
+at.pinduoduo.com
+titan-ws.pinduoduo.com
+t-dsp.pinduoduo.com
+lp.pinduoduo.com
+lpcdn.pinduoduo.com
+titan.pinduoduo.com
+adim.pinduoduo.com
+otk.pinduoduo.com
+th.pinduoduo.com
+tne.pinduoduo.com
+meta.pinduoduo.com
+pmmtk-a.pinduoduo.com
+th-a.pinduoduo.com
+log.ergeduoduo.com
+
 ## 360
 .msch.f.360.cn
 .c.sayhi.360.cn
@@ -1412,6 +1443,7 @@ applog.manmanbuy.com
 
 ## 高德地图
 dualstack-logs.amap.com
+.logs.amap.com
 
 ## 各种银行
 log.cmbchina.com
@@ -1660,6 +1692,7 @@ antivirus.baidu.com
 .f10.baidu.com
 .88-baidu.com
 .hiphotos.baidu.com
+.ota.baidu.com
 
 ## 微软 Microsoft
 ## 主要来自 https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt ，在此表示感谢
@@ -1956,16 +1989,53 @@ analytics.95516.com
 # 存疑
 tysdk.95516.com
 
-## 上海交通卡
-.api-extra.hzjizhun.com
-
 
 ## 网易
+g*.163.com
+f*.p0y.cn
+e-p*p.163.com
 .httpdns.n.netease.com
-59.111.239.61/32
-59.111.239.62/32
 .music.httpdns.c.163.com
 .lofter.httpdns.c.163.com
+.wanproxy-hz.127.net
+.e-p4p.163.com
+.nex.163.com
+.push.yuedu.163.com
+.n.3g.163.com
+.adgeo.163.com
+.iad.g.163.com
+.crashlytics.163.com
+.count.mail.163.com
+.r.mail.163.com
+.ir.mail.163.com
+.irpmt.mail.163.com
+.rec.g.163.com
+.g.163.com
+.g1.163.com
+.analytics.ws.126.net
+.push.126.net
+.m.analytics.126.net
+.haitaoad.nosdn.127.net
+.analytics.hz.netease.com
+.statis.push.netease.com
+.popme.163.com
+.bobo.163.com
+.f1.p0y.cn
+.f2.p0y.cn
+.fa.163.com
+.gb.corp.163.com
+.oimagea2.ydstatic.com
+.pagechoice.net
+.prom.gome.com.cn
+.rlogs.youdao.com
+.static.flv.uuzuonline.com
+.wanproxy.127.net
+59.111.239.61/32
+59.111.239.62/32
+
+
+## 网易七鱼
+.ap2.qiyukf.com
 
 ## CSDN
 .event.csdn.net
@@ -2183,6 +2253,14 @@ fp-*it*.fengkongcloud.com
 ## 梦享网络 及刻
 .log-sdk.clickwifi.net
 
+## HBuilder 数字天堂
+s*.*cloud.net.cn
+ac*.*cloud.net.cn
+.s1.dcloud.net.cn
+.s1.cloud.net.cn
+.ac1.dcloud.net.cn
+.ac1.cloud.net.cn
+
 ## 极光推送
 # .jpush.cn
 .ali-stats.jpush.cn
@@ -2210,7 +2288,11 @@ sdkapi-smartop.jiguang.cn
 .im64.jpush.cn
 bjuser.jpush.cn
 fcapi-ipv6.jpush.cn
-jiguang.sptcc.com
+.jiguang.sptcc.com
+.verification.jpush.cn
+.verification.jiguang.cn
+.ums.jiguang.cn
+.api-extra.hzjizhun.com
 183.232.25.151
 121.36.6.165
 139.9.141.89
@@ -2344,12 +2426,16 @@ aads.shuzilm.cn
 .sandbox-zxid-api.mobileservice.cn
 .zxid-api.mobileservice.cn
 
+## 北京锐讯灵通科技有限公司
+.log.umsns.com
+
 ## mixpanel
 api-*.mixpanel.com
 .api-eu.mixpanel.com
 .api.mixpanel.com
 
 ## 其他
+.online-metrix.net
 .go-mpulse.net
 .webpushr.com
 .sentry.io
@@ -2526,6 +2612,15 @@ ad.cyapi.cn
 .log.happyapkdown.com
 .log.hemera.com.vn
 .log.hiiir.com
+.logs.douguo.net
+.log.downloadatoz.com
+log*.optimizely.com
+.log.optimizely.com
+.log3.optimizely.com
+.log.user-grey.com
+.log.cognex.com
+.log.showmax.com
+.log.ssread.cn
 .log.hunantv.com
 .log.hypebeast.com
 .log.idnes.cz
@@ -2561,7 +2656,7 @@ ad.cyapi.cn
 .log.moviebox.baofeng.com
 .log.mp3.zing.vn
 .log.mtime.cn
-
+.log.rewardpumpkin.com
 .log.musical.ly
 .log.news.zing.vn
 .log.newsbreak.jp
@@ -2644,7 +2739,17 @@ ad.cyapi.cn
 .log.vov.vn
 .log.vovplus.vn
 .log.vovworld.vn
-
+.log-scv.lezhin.com
+.log.outbrain.com
+.log-ird.outbrain.com
+.log.immoversum.com
+.mas-log.paas.paytm.com
+.log.cmcm.com
+.log.aimtell.com
+.log.aiprm.com
+.log.pvproom.com
+.log-netgame.dmm.com
+.log-api.lc.dmm.com
 .log.wat.tv
 .log.web.kugou.com
 .log.webnovel.com

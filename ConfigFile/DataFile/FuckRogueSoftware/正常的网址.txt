@@ -6,6 +6,7 @@ diablo.alibaba.com
 g.alicdn.com
 af.alicdn.com
 aeu.alicdn.com
+gw.alipayobjects.com:443
 
 catdot.dianping.com
 resstatic.servicewechat.com

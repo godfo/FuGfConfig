@@ -5,3 +5,10 @@
 .cryptocompare.com
 .infura.io
 .codefi.network
+.crossbell.io
+.walletconnect.org
+.etherscan.io
+
+## metamask
+.metamask.app.link
+.metamask.io

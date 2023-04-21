@@ -92,6 +92,7 @@ vscodium.now.sh
 
 ## 密码管理器
 .bitwarden.com
+.bitwarden.net
 .1password.com
 
 # Win 检测是否可以联网域名
