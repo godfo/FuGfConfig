@@ -129,6 +129,8 @@ func WriteFile(matchType string, data model.Pairs, policyName string, filePath s
 		}
 	case strings.Contains(matchType, "SurgeHost"):
 		fmt.Println("SurgeHost")
+		fmt.Fprintln(write, "#!name="+policyName)
+		fmt.Fprintln(write, "#!desc="+policyName)
 		fmt.Fprintln(write, "[Host]")
 		for _, v := range data {
 			if strings.Contains(v.Value, "DOMAIN-SUFFIX") || strings.Contains(v.Value, "DOMAIN") {

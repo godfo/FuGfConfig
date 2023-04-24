@@ -1,3 +1,5 @@
+#!name=FuckGarbageFeature
+#!desc=FuckGarbageFeature
 [Host]
 *.api-wuxi-1.cmecloud.cn = 0.0.0.0
 *.apigame.bilibili.com = 0.0.0.0
