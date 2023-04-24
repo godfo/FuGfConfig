@@ -728,6 +728,14 @@ adsz.wagbridge.tanx.alimama.com.gds.alibabadns.com
 grpc.biliapi.net
 # 观看直播时 b 站拿用户的电脑去 p2p 上传，所谓的 webRtc
 .stun.chat.bilibili.com
+.stun-1.chat.bilibili.com
+.stun-2.chat.bilibili.com
+.stun-3.chat.bilibili.com
+.stun-4.chat.bilibili.com
+.stun-5.chat.bilibili.com
+.stun-6.chat.bilibili.com
+.stun-7.chat.bilibili.com
+.stun-8.chat.bilibili.com
 stun-*.chat.bilibili.com
 stun*.chat.bilibili.com
 *-*-live-p2p-*.chat.bilibili.com

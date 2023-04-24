@@ -48,12 +48,14 @@ func main() {
 		ans, inboxResult = policyProcessing(base, inbox)
 		util.WriteFile("QuantumultXRules", ans, name, buildString("../ConfigFile/QuantumultX/", name, "Rules.conf"), true)
 		util.WriteFile("LoonRule", ans, name, buildString("../ConfigFile/Loon/LoonRemoteRule/", name, "Rules.conf"), true)
+		util.WriteFile("SurgeRule", ans, name, buildString("../ConfigFile/Surge/", name, "Rules.conf"), true)
 		util.WriteFile("DomainSetRule", ans, name, buildString("../ConfigFile/DomainSet/", name, "Rules.conf"), true)
 		util.WriteFile("Clash", ans, name, buildString("../ConfigFile/Clash/", name, "Rules.conf"), true)
 
 		if name == "FuckRogueSoftware" || strings.EqualFold(name, "FuckGarbageFeature") {
 			util.WriteFile("Host", ans, name, buildString("../ConfigFile/Host/", name, "Rules.conf"), true)
 			util.WriteFile("AdGuardHome", ans, name, buildString("../ConfigFile/AdGuardHome/", name, "Rules.conf"), true)
+			util.WriteFile("SurgeHost", ans, name, buildString("../ConfigFile/Surge/SurgeModule/", name, "Module.sgmodule"), true)
 		}
 
 		if len(inboxResult) != 0 {
