@@ -1176,6 +1176,9 @@ jjnctjd.com
 .c.fa.jd.com
 .dg.k.jd.com
 .mapi.m.jd.com
+## 存疑
+.jpushsc.m.jd.com
+.jpushsc.m.jd.com.gslb.qianxun.com
 
 ## 优酷 youku
 atm.youku.com
@@ -1370,6 +1373,7 @@ api-unionid.meituan.com
 .wmlog.meituan.com
 # 存疑
 lx0.meituan.com
+.data-sdk-uuid-log.d.meituan.net
 
 ## pdd nmsl 拼多多
 cmtw.pinduoduo.com
@@ -2120,7 +2124,7 @@ com-cloud-0-authvip-168360-engine.14.0.oppo.cn
 com-cloud-0-eventsold-168360-engine.14.0.oppo.cn
 com-cloud-0-eventsvip-svc-engine.14.0.oppo.cn
 
-## kuaishou 快手
+## kuaishou 快手 gifshow
 .apidns.kwd.inkuai.com
 .imgx.kwd.inkuai.com
 .httpdns.kwd.inkuai.com
@@ -2141,6 +2145,9 @@ com-cloud-0-eventsvip-svc-engine.14.0.oppo.cn
 .atj-kuaishou.37.com.cn
 .ad-ggtg-kuaishou-api.37.com.cn
 .open.kuaishouzt.com
+.ulog-sdk.gifshow.com
+.ulogs1.gifshow.com
+ulogs2.gifshow.com
 
 ## Oracle
 tms.oracle.com
@@ -2260,6 +2267,7 @@ fp-*it*.fengkongcloud.com
 
 ## 梦享网络 及刻
 .log-sdk.clickwifi.net
+.vivonew-sdk.clickwifi.net
 
 ## HBuilder 数字天堂
 s*.*cloud.net.cn

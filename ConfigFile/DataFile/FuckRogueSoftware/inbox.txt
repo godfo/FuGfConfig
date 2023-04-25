@@ -69267,7 +69267,6 @@ live-redpackrain.gifshow.com
 en.gifshow.com
 slink.gifshow.com
 log-sdk.gifshow.com
-ulog-sdk.gifshow.com
 miniapi.gifshow.com
 sftx-api.gifshow.com
 txvg.gifshow.com
@@ -69280,11 +69279,9 @@ push3.gifshow.com
 upload3.gifshow.com
 apijs2.gifshow.com
 livejs2.gifshow.com
-ulogs2.gifshow.com
 uploads2.gifshow.com
 apijs1.gifshow.com
 livejs1.gifshow.com
-ulogs1.gifshow.com
 uploads1.gifshow.com
 apihn1.gifshow.com
 separateshow.com

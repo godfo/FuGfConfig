@@ -155,13 +155,6 @@ http-inputs-notion.splunkcloud.com
 .vercel.com
 .vercel.sh
 
-
-## DOMAIN-KEYWORD,toggl
-## DOMAIN-KEYWORD,joplin
-## DOMAIN-KEYWORD,craft
-## DOMAIN-KEYWORD,instagram
-## DOMAIN,bilibili.tv
-
 ## stripe
 .stripe.com
 .stripe.network
@@ -179,7 +172,6 @@ http-inputs-notion.splunkcloud.com
 
 ## onedrive 网页版
 onedrive.live.com
-
 
 ## mega
 .mega.co.nz
