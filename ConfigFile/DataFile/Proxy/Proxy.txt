@@ -273,3 +273,4 @@ calibre-ebook.com
 .arc.net
 .deepl.com
 .edu.tw
+.huggingface.co

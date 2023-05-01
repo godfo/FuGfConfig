@@ -157,3 +157,4 @@ test-ipv6.com
 .coolapk.com
 .smms.app
 .rustdesk.com
+.lizhi.io
