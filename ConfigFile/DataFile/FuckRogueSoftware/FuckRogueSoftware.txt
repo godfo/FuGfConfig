@@ -2417,15 +2417,19 @@ v3-default.365yg.com
 
 ## 个推
 dnms.getui.com
-c-gtc.getui.net
-b-gtc.gepush.com
-cm-10-139.getui.com
+.c-gtc.getui.net
+.b-gtc.gepush.com
+.cm-10-139.getui.com
 # 存疑
 .sdk.open.extension.getui.com
 .restapi.getui.com
 .sdk.open.talk.getui.net
 .sdk.open.talk.igexin.com
 .sdk.open.talk.gepush.com
+.sdk-open-phone.getui.com
+.c-hzgt2.getui.com
+.sdk-conf.getui.com
+.cm-10-134.getui.com
 
 ## 数字联盟
 aads.shuzilm.cn
