@@ -140,6 +140,10 @@ func policyProcessing(base []string, inbox []string) ([]model.Pair, []string) {
 		for _, v := range inbox {
 			// 清除一下格式，指保留 IP 或者域名
 			v = util.CleanAll(v)
+			// 跳过 待处理 规则中 类似于 xxx.com 的规则 或者 xxx 的规则
+			if strings.Count(v, ".") == 1 || strings.Count(v, ".") == 0 {
+				continue
+			}
 			// 检查是否在 base map 里面
 			if _, ok := ansMap[v]; !ok {
 				// 如果不存在

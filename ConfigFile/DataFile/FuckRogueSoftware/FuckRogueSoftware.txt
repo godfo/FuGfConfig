@@ -462,6 +462,9 @@ report.*.qq.com
 ping*.qq.com
 .uc.qq.uuaoz.com
 .qq-os.com
+.mfm.video.qq.com
+.isee.weishi.qq.com
+.urlsec.qq.com
 
 ## 阿里系
 # 将阿里系 app 关闭网络权限且从移动网络切换到 Wi-Fi 时，有概率出现
@@ -790,7 +793,7 @@ bds.snssdk.com
 .xlog.snssdk.com
 dig.bdurl.net
 mssdk-bu.bytedance.com
-tnc3-bjlgy.zijieapi.com
+.tnc3-bjlgy.zijieapi.com
 .toblog.volceapplog.com
 .alink.volceapplog.com
 .abtest.volceapplog.com
@@ -884,6 +887,35 @@ v*-be-pack.pglstatp-toutiao.com
 .h5.isnssdk.com
 .log-tb.isnssdk.com
 .log.isnssdk.com
+.ads5-normal-lq.zijieapi.com.c.dsa.cdnbuild.net
+.ads5-normal-hl.zijieapi.com.c.dsa.cdnbuild.net
+.ads5-normal-lf.zijieapi.com.c.dsa.cdnbuild.net
+.ad.zijieapi.com.queniukw.com
+.polaris.zijieapi.com
+.ads5-normal-lq.zijieapi.com
+.minigame5-normal-lq.zijieapi.com
+.ads3-normal-lq.zijieapi.com
+.ads5-normal-hl.zijieapi.com
+.minigame5-normal-hl.zijieapi.com
+.polaris3-normal-hl.zijieapi.com
+.ads3-normal-hl.zijieapi.com
+.mssdk3-normal-hl.zijieapi.com
+.gecko5-hl.zijieapi.com
+.ads5-normal.zijieapi.com
+.mssdk5-normal.zijieapi.com
+.minigame5-normal.zijieapi.com
+.minigame3-normal.zijieapi.com
+.mssdk.zijieapi.com
+.ads5-normal-lf.zijieapi.com
+.ads3-normal-lf.zijieapi.com
+.mssdk3-normal-lf.zijieapi.com
+.gecko5-lf.zijieapi.com
+.ad.zijieapi.com
+.feedback-c.zijieapi.com
+.tnc3-aliec2.zijieapi.com
+.tnc3-alisc1.zijieapi.com
+.ad.zijieapi.com.w.cdngslb.com
+.toblog.ctobsnssdk.com.w.cdngslb.com
 
 ## 小米
 ad.*.xiaomi.com
@@ -2309,6 +2341,15 @@ fcapi-ipv6.jpush.cn
 .verification.jiguang.cn
 .ums.jiguang.cn
 .api-extra.hzjizhun.com
+.sdk.im.jiguang.cn
+.awake-stats.jpush.cn
+.im.jpush.cn
+.api.jpush.cn
+.fcapi.jpush.cn
+.bjim64.jpush.cn
+.lcs.dev.surepush.cn
+.susapi.dev.surepush.cn
+.test.surepush.cn
 183.232.25.151
 121.36.6.165
 139.9.141.89
@@ -2389,8 +2430,64 @@ api2.appsflyer.com
 .inapps.appsflyersdk.com
 .conversions.appsflyersdk.com
 .launches.appsflyersdk.com
-;-launches.appsflyersdk.com
 .gcdsdk.appsflyersdk.com
+appsflyer-web-2-1926050047.eu-west-1.elb.amazonaws.com
+appsflyer-web-1810875176.eu-west-1.elb.amazonaws.com
+appsflyer-web-3-1052820924.eu-west-1.elb.amazonaws.com
+.websdk-dev.appsflyer.com
+.ru.appsflyer.com
+.t.appsflyer.com
+.cdnappiconstest.appsflyer.com
+.status.appsflyer.com
+.events.appsflyer.com
+.stats.appsflyer.com
+.emailstats.appsflyer.com
+.mos.appsflyer.com
+.cdnappicons.appsflyer.com
+.fs.appsflyer.com
+.sdk-services.appsflyer.com
+.s2s.appsflyer.com
+.gcd-s2s.appsflyer.com
+.attr.appsflyer.com
+.fr.appsflyer.com
+.register.appsflyer.com
+.banner.appsflyer.com
+.af-event-logger.appsflyer.com
+.br.appsflyer.com
+.sp.appsflyer.com
+.app.appsflyer.com
+.lp.appsflyer.com
+.help.appsflyer.com
+.jp.appsflyer.com
+.go.appsflyer.com
+.info.appsflyer.com
+.learn.appsflyer.com
+.impression.appsflyer.com
+creatives-cdn.appsflyer.com
+m.appsflyer.com
+onelink.appsflyer.com
+.sdk.appsflyer.com
+.monitorsdk.appsflyer.com
+.gcdsdk.appsflyer.com
+.websdk.appsflyer.com
+.track.appsflyer.com
+.api.appsflyer.com
+.websdk-stg.appsflyer.com
+.sfmcaf.appsflyer.com
+.adrevenue.appsflyer.com
+.validate.appsflyer.com
+.content.experience.appsflyer.com
+.data.experience.appsflyer.com
+.fvalid.appsflyer.com
+.sb.appsflyer.com
+.namespaces-haproxy-alb.appsflyer.com
+.wa.appsflyer.com
+.url1883.appsflyer.com
+.websdk-dev2.appsflyer.com
+.websdk2.appsflyer.com
+.websdk-stg2.appsflyer.com
+fvalid2.appsflyer.com
+hq1.appsflyer.com
 
 ## flurry
 .data.flurry.com
@@ -2432,7 +2529,11 @@ dnms.getui.com
 .cm-10-134.getui.com
 
 ## 数字联盟
-aads.shuzilm.cn
+.aads.shuzilm.cn
+.caid.shuzilm.cn
+.idaa.shuzilm.cn
+.iudd.shuzilm.cn
+.ipv6.shuzilm.cn
 ## 数据收集，详见 https://tech.sina.com.cn/i/2019-03-25/doc-ihsxncvh5289363.shtml
 .zzhc.vnet.cn
 
@@ -2448,6 +2549,43 @@ aads.shuzilm.cn
 
 ## 北京锐讯灵通科技有限公司
 .log.umsns.com
+
+## 同盾科技
+.fp.fraudmetrix.cn
+
+## 小满 商业化运营 SaaS 服务平台
+.saas.hixiaoman.com
+
+## adsplay.xyz
+.sony.adsplay.xyz
+.report.adsplay.xyz
+.api4report.adsplay.xyz
+.ingress.adsplay.xyz
+.cp.adsplay.xyz
+.omo.adsplay.xyz
+.admin.adsplay.xyz
+.cdn.adsplay.xyz
+.sdk.adsplay.xyz
+.api.adsplay.xyz
+.wifi-api.adsplay.xyz
+.wifi.adsplay.xyz
+.log.adsplay.xyz
+.d.adsplay.xyz
+.cpd.adsplay.xyz
+.id.adsplay.xyz
+.a.adsplay.xyz
+.log7.adsplay.xyz
+.d7.adsplay.xyz
+.wifi-api4.adsplay.xyz
+.a4.adsplay.xyz
+.wifi-api3.adsplay.xyz
+.a3.adsplay.xyz
+.wifi-api2.adsplay.xyz
+.sony1.adsplay.xyz
+.cp1.adsplay.xyz
+.wifi-api1.adsplay.xyz
+.a1.adsplay.xyz
+.gw01.adsplay.xyz
 
 ## mixpanel
 api-*.mixpanel.com
@@ -2915,3 +3053,13 @@ advertising.com.sigpolicy.qq.p1.ash.opendns.com
 ace-tag.advertising.com.sigpolicy.qq.p1.ash.opendns.com
 240.1.1.0/4
 203.107.1.1/24
+sal.gslb.topgslb.com
+analytics.126.net.w.cdngslb.com
+pushmiddle.bs2dl.yy.com.w.cdngslb.com
+v2-ad.video.yximgs.com.w.cdngslb.com
+ads-video-al.xhscdn.com.w.cdngslb.com
+ad.adkova.com
+ad-display.diwodiwo.xyz
+ad-channel.diwodiwo.xyz
+ad.kisscartoon.nz
+ad.kissasian.nz

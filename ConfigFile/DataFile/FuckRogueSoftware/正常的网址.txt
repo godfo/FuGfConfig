@@ -26,3 +26,7 @@ shmmsns.qpic.cn
 trade-acs.m.taobao.com
 
 downv6.qq.com
+
+v1.hitokoto.cn
+
+eco.taobao.com
