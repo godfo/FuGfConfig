@@ -1772,7 +1772,6 @@ nuffnang.com.my
 smetrics.pediasure.com.my
 adservice.google.com.my
 id.google.com.my
-log-collector.shopee.com.my
 lyxfra.shopee.com.my
 yourvoice.com.my
 webmail.resourcefood.com.my
@@ -1881,7 +1880,6 @@ branchtest.cocoon.today
 ad.outstream.today
 earthworm.lidi.today
 os.beauty-health.today
-log.newsdog.today
 api.decentralize.today
 x.babe.today
 ax.babe.today
@@ -2051,7 +2049,6 @@ id.google.tw
 ampcid.google.tw
 userstats.shopee.tw
 games.shopee.tw
-log-collector.shopee.tw
 spigte.shopee.tw
 bilanx.dcard.tw
 pixel.dcard.tw
@@ -2196,7 +2193,6 @@ hit.duhnet.tv
 s.duhnet.tv
 sso.internetat.tv
 usecho.internetat.tv
-log.internetat.tv
 chewie.internetat.tv
 guide.internetat.tv
 media.internetat.tv
@@ -2262,7 +2258,6 @@ ads.adap.tv
 u-ads.adap.tv
 redir.adap.tv
 control.adap.tv
-log.adap.tv
 sync.adap.tv
 l.hamazo.tv
 b1.tubexo.tv
@@ -38954,7 +38949,6 @@ nsg2.namebrightdns.com
 expired2.namebrightdns.com
 ns1.namebrightdns.com
 nsg1.namebrightdns.com
-rd596n.jomodns.com
 bowie-cdn.fathomdns.com
 starman.fathomdns.com
 oddsserve-wqps7yvkz.stackpathdns.com
@@ -70420,7 +70414,6 @@ ads.movieweb.com
 stats.drivetheweb.com
 ads.advanceweb.com
 lanzar.publicidadweb.com
-px.ucweb.com
 gcsu.ucweb.com
 insight.ucweb.com
 pixel-insight.ucweb.com

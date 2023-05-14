@@ -17,11 +17,13 @@
 .yunxindns.com
 .oemdns.com
 .ubmdns.com
+.jomodns.com
 
 ## 腾讯系
 # qq
 cgi.connect.qq.com
 .dns.qq.com
+.aedns.weixin.qq.com
 .imtmp.net
 .btrace.qq.com
 .sdkconfig.video.qq.com
@@ -465,6 +467,7 @@ ping*.qq.com
 .mfm.video.qq.com
 .isee.weishi.qq.com
 .urlsec.qq.com
+.gds.alibabadns.com
 
 ## 阿里系
 # 将阿里系 app 关闭网络权限且从移动网络切换到 Wi-Fi 时，有概率出现
@@ -714,6 +717,7 @@ adsz.wagbridge.tanx.alimama.com.gds.alibabadns.com
 .applog-perf.uc.cn
 .umdc.alibabachengdun.com
 .wvcfg.alicdn.com
+.px.ucweb.com
 
 
 ## bilibili 哔哩哔哩
@@ -3062,4 +3066,9 @@ ad.adkova.com
 ad-display.diwodiwo.xyz
 ad-channel.diwodiwo.xyz
 ad.kisscartoon.nz
+.log-collector.shopee.com.my
+.log.newsdog.today
+.log-collector.shopee.tw
+.log.internetat.tv
+.log.adap.tv
 ad.kissasian.nz
