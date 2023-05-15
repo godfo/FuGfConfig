@@ -58,6 +58,10 @@ func main() {
 			util.WriteFile("SurgeHost", ans, name, buildString("../ConfigFile/Surge/SurgeModule/", name, "Module.sgmodule"), true)
 		}
 
+		if name == "FuckRogueSoftware" {
+			util.WriteFile("ShadowrocketRule", ans, "Reject", buildString("../ConfigFile/Shadowrocket/", name, "Rules.conf"), true)
+		}
+
 		if len(inboxResult) != 0 {
 			util.NormalWriteFile(inboxResult, buildString("../ConfigFile/DataFile/", name, "/inbox.txt"))
 		}

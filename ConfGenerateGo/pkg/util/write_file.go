@@ -176,6 +176,34 @@ func WriteFile(matchType string, data model.Pairs, policyName string, filePath s
 				fmt.Fprintln(write, "^")
 			}
 		}
+	case strings.Contains(matchType, "ShadowrocketRule"):
+		fmt.Println("ShadowrocketRule")
+
+		fmt.Fprintln(write, "#!name="+policyName)
+		fmt.Fprintln(write, "#!desc="+policyName)
+		fmt.Fprintln(write, "[Rule]")
+		for _, v := range data {
+			if strings.Contains(v.Value, "HOST-WILDCARD") {
+				continue
+			}
+			switch {
+			case strings.Contains(v.Value, "IP-CIDR6"):
+				fmt.Fprint(write, "IP-CIDR6,")
+			case strings.Contains(v.Value, "IP-CIDR"):
+				fmt.Fprint(write, "IP-CIDR,")
+				fmt.Fprint(write, v.Key)
+				if !strings.Contains(v.Key, "/") {
+					fmt.Fprint(write, "/32")
+				}
+				fmt.Fprintln(write, ",no-resolve,"+policyName)
+				continue
+			case strings.Contains(v.Value, "DOMAIN-SUFFIX"):
+				fmt.Fprint(write, "DOMAIN-SUFFIX,")
+			case strings.Contains(v.Value, "DOMAIN"):
+				fmt.Fprint(write, "DOMAIN,")
+			}
+			fmt.Fprintln(write, v.Key+","+policyName)
+		}
 	case strings.Contains(matchType, "Clash"):
 		// todo clash 是否支持 USER-AGENT
 		fmt.Fprintln(write, "payload:")
