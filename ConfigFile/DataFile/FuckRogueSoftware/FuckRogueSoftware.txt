@@ -752,6 +752,8 @@ log*-normal-lq.toutiaoapi.com
 log*-normal-hl.toutiaoapi.com
 log*-normal-lf.toutiaoapi.com
 .log3-normal-lf.toutiaoapi.com
+.log3-normal-hl.toutiaoapi.com
+.log3-normal-lq.toutiaoapi.com
 .mon11-misc-lf.toutiaoapi.com
 .mon11-misc-hl.toutiaoapi.com
 api-access.pangolin-sdk-toutiao.com
@@ -2161,9 +2163,11 @@ com-cloud-0-eventsold-168360-engine.14.0.oppo.cn
 com-cloud-0-eventsvip-svc-engine.14.0.oppo.cn
 
 ## kuaishou 快手 gifshow
-.apidns.kwd.inkuai.com
-.imgx.kwd.inkuai.com
+.kuaishou.httpdns.pro
 .httpdns.kwd.inkuai.com
+.apidns.kwd.inkuai.com
+
+.imgx.kwd.inkuai.com
 .zt-sup.kwd.inkuai.com
 .cny-pro.kwd.inkuai.com
 .push.kwd.inkuai.com
@@ -2419,6 +2423,11 @@ sy.cl2009.com
 .ar.umeng.com
 .plbslog.umeng.com
 .ouplog.umeng.com
+.ex.umengcloud.com
+.utop.umengcloud.com
+.upoll.umengcloud.com
+.msg.umengcloud.com
+.alog.umengcloud.com
 
 ## AppsFlyer
 .launches.appsflyer.com
@@ -2490,8 +2499,11 @@ onelink.appsflyer.com
 .websdk-dev2.appsflyer.com
 .websdk2.appsflyer.com
 .websdk-stg2.appsflyer.com
-fvalid2.appsflyer.com
-hq1.appsflyer.com
+.fvalid2.appsflyer.com
+.hq1.appsflyer.com
+.cdn.appsflyer.com
+.cdn.apflyer.com
+.api.apflyer.com
 
 ## flurry
 .data.flurry.com
@@ -2531,6 +2543,41 @@ dnms.getui.com
 .c-hzgt2.getui.com
 .sdk-conf.getui.com
 .cm-10-134.getui.com
+.thirdrcp-hz.getui.com
+.gz.getui.com
+.s-gt.getui.com
+.detect.getui.com
+.gs.getui.com
+.c-gs.getui.com
+.sdk-open-lbs.getui.com
+.openapi-smsp.getui.com
+.api-devapp.getui.com
+.i-trip.getui.com
+.geatmap.getui.com
+.gdxsappdown.getui.com
+.gduserappdown.getui.com
+.dzsbappdown.getui.com
+.geyan.getui.com
+.gt-im.getui.com
+.logful.getui.com
+.thirdrcp-bj.getui.com
+.geqi.getui.com
+.api.getui.com
+.nzrestapi.getui.com
+.telapi.getui.com
+.cncapi.getui.com
+.sdk2api.getui.com
+.api-gi.getui.com
+.c-gi.getui.com
+.b-gi.getui.com
+.minzong.getui.com
+.yunmeng.getui.com
+.bi.cname.getui.com
+.public.service.getui.com
+.c-uid.getui.com
+.c-gtc.getui.com
+.b-gtc.getui.com
+.cnaac.getui.com
 
 ## 数字联盟
 .aads.shuzilm.cn
@@ -2606,7 +2653,7 @@ adsmind.gdtimg.com
 
 oss.chanct.cn
 sdk.open.talk.gepush.com
-sdk.open.talk.getui.net
+
 sdk.open.talk.igexin.com
 
 at-img1.tdimg.com
@@ -2931,6 +2978,10 @@ log*.optimizely.com
 .log.zingnews.com.vn
 .log.zingnews.vn
 .log.zongheng.com
+.log-vip-ssl.xunlei.com
+.log.coolguang.com
+.log.podbbang.com
+.ad.podbbang.com
 .log000.goo.ne.jp
 .log002.commutil.kr
 .log1.17173.com
@@ -3072,3 +3123,6 @@ ad.kisscartoon.nz
 .log.internetat.tv
 .log.adap.tv
 ad.kissasian.nz
+.sdkoptedge.chinanetcenter.com
+.report.binance.im
+.jpush.binance.im
