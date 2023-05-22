@@ -1377,6 +1377,8 @@ az.appstore.vivo.com.cn
 # firebaselogging-pa.mihoyo.com
 # firebaseremoteconfig.mihoyo.com
 # .exam-ios-jp.bh3.com
+.ad-log-upload.mihoyo.com
+.log-upload-eur.mihoyo.com
 
 ## zhihu 知乎
 .zhihu-web-analytics.zhihu.com
@@ -1396,6 +1398,7 @@ mqtt.zhihu.com
 fzapp.chanct.cn
 fzapp.gifzpt.cn
 fzapph5.gifzpt.cn
+.gjfzpt.cn
 
 ## firefoxchina
 .firefoxchina.cn
@@ -2745,7 +2748,6 @@ ad.cyapi.cn
 .log-sg.bytegsdk.com
 .gpm-mon-sg.bytegsdk.com
 .log-stats.weathercn.com
-.log-upload-eur.mihoyo.com
 .log-va.tiktokv.com
 .log-vietnamplus-vn.cdn.ampproject.org
 .log-yex.youdao.com

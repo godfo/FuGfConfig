@@ -111,3 +111,5 @@ cashier*.sandpay.com.cn
 .poplayer.template.alibaba.com
 
 .game.xiaomi.com
+
+.dns.google

@@ -46713,7 +46713,6 @@ geo.gyazo.com
 t.grtyo.com
 t.frtyo.com
 trust.mitutoyo.com
-ad-log-upload.mihoyo.com
 cgqfsc.gemmyo.com
 telemetrics.klaviyo.com
 static-tracking.klaviyo.com
