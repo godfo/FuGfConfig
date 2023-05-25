@@ -179,6 +179,7 @@ onedrive.live.com
 ## discord
 .discord.com
 .discordapp.com
+.discordapp.net
 
 ## emby
 .emby.media
