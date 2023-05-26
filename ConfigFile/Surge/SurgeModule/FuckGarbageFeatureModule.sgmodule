@@ -16,6 +16,7 @@ broadcast.chat.bilibili.com = 0.0.0.0
 *.cashier.sandpay.com.cn = 0.0.0.0
 *.cashier1.sandpay.com.cn = 0.0.0.0
 *.caspay.sandpay.com.cn = 0.0.0.0
+*.cgi.connect.qq.com = 0.0.0.0
 *.config2.cmpassport.com = 0.0.0.0
 *.crt.trust-provider.cn = 0.0.0.0
 *.data-sdk-uuid-log.d.meituan.net = 0.0.0.0

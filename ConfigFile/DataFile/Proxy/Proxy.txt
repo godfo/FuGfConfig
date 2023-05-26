@@ -178,6 +178,8 @@ onedrive.live.com
 
 ## discord
 .discord.com
+.discord.gg
+.discord.media
 .discordapp.com
 .discordapp.net
 
@@ -274,3 +276,6 @@ calibre-ebook.com
 .deepl.com
 .edu.tw
 .huggingface.co
+.prodkeys.net
+.eggnsemulator.com
+.tii.la

@@ -113,3 +113,5 @@ cashier*.sandpay.com.cn
 .game.xiaomi.com
 
 .dns.google
+
+.cgi.connect.qq.com
