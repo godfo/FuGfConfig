@@ -69,6 +69,7 @@ weibo.com = server:https://doh.pub/dns-query
 *.jd.com = server:https://doh.pub/dns-query
 *.jdcloud.com = server:https://doh.pub/dns-query
 *.jd.hk = server:https://doh.pub/dns-query
+*.360buyimg.com = server:https://doh.pub/dns-query
 ## 爱奇艺
 *.iqiyi.com = server:https://doh.pub/dns-query
 *.qiyi.com = server:https://doh.pub/dns-query

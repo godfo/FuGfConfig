@@ -20,6 +20,7 @@
 .jomodns.com
 
 ## 腾讯系
+.miav-cse.avlyun.com
 # qq
 cgi.connect.qq.com
 .dns.qq.com
@@ -1079,7 +1080,6 @@ api.comm.miui.com
 .logupdate.avlyun.sec.miui.com
 .miui-fxcse.avlyun.com
 .sdkconf.avlyun.com
-.miav-cse.avlyun.com
 .api.installer.xiaomi.com
 .tmfsdk.m.qq.com
 .a0.app.xiaomi.com
@@ -1399,6 +1399,7 @@ fzapp.chanct.cn
 fzapp.gifzpt.cn
 fzapph5.gifzpt.cn
 .gjfzpt.cn
+157.148.47.204
 
 ## firefoxchina
 .firefoxchina.cn
@@ -2325,7 +2326,7 @@ ac*.*cloud.net.cn
 .ali-stats.jpush.cn
 .gd-stats.jpush.cn
 .stats.jpush.cn
-sdkapi-smartop.jiguang.cn
+.sdkapi-smartop.jiguang.cn
 .ad.jiguang.cn
 .tsis.jpush.cn
 .smartop-sdkapi.jiguang.cn
@@ -2345,7 +2346,7 @@ sdkapi-smartop.jiguang.cn
 .config-junion.jpush.cn
 .update.sdk.jiguang.cn
 .im64.jpush.cn
-bjuser.jpush.cn
+.bjuser.jpush.cn
 fcapi-ipv6.jpush.cn
 .jiguang.sptcc.com
 .verification.jpush.cn

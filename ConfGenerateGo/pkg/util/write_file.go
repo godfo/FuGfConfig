@@ -146,9 +146,10 @@ func WriteFile(matchType string, data model.Pairs, policyName string, filePath s
 	case strings.Contains(matchType, "Host"):
 		fmt.Println("Host")
 		for _, v := range data {
-			if strings.Contains(v.Value, "DOMAIN-SUFFIX") || strings.Contains(v.Value, "DOMAIN") {
-				v.Key = strings.Replace(v.Key, "\r", "", -1)
-				v.Key = strings.Replace(v.Key, "\n", "", -1)
+			if strings.Contains(v.Value, "DOMAIN-SUFFIX") || strings.Contains(v.Value, "DOMAIN") || strings.Contains(v.Value, "IP-CIDR") || strings.Contains(v.Value, "IP-CIDR6") {
+				if strings.Contains(v.Key, "/") {
+					continue
+				}
 				fmt.Fprint(write, "0.0.0.0 ")
 				fmt.Fprintln(write, v.Key)
 			}
@@ -174,6 +175,13 @@ func WriteFile(matchType string, data model.Pairs, policyName string, filePath s
 				fmt.Fprint(write, "||")
 				fmt.Fprint(write, v.Key)
 				fmt.Fprintln(write, "^")
+			}
+			if strings.Contains(v.Value, "IP-CIDR") || strings.Contains(v.Value, "IP-CIDR6") {
+				if strings.Contains(v.Key, "/") {
+					continue
+				}
+				fmt.Fprint(write, "0.0.0.0 ")
+				fmt.Fprintln(write, v.Key)
 			}
 		}
 	case strings.Contains(matchType, "ShadowrocketRule"):
