@@ -183,6 +183,10 @@ onedrive.live.com
 .discordapp.com
 .discordapp.net
 
+## twitch
+.twitch.tv
+.twitchcdn.net
+
 ## emby
 .emby.media
 .embydata.com
@@ -238,6 +242,10 @@ onedrive.live.com
 ## 亚马逊
 .amazontrust.com
 .amazon.com
+
+## unity
+.unity3d.com
+.unity.com
 
 ## 存疑
 .vscode-sync.trafficmanager.net

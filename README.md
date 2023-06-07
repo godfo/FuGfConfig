@@ -117,7 +117,7 @@ https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/main/ConfigFile/Loon
 
 此规则对某些国内软件强屏蔽，包括但不限于广告，跟踪，数据分析
 
-在 [FuckRogueSoftware.txt](https://github.com/Elysian-Realme/FuGfConfig/blob/main/ConfigFile/DataFile/FuckGarbageFeature/FuckGarbageFeature.txt) 中可以看到部分屏蔽说明
+在 [FuckRogueSoftware.txt](https://github.com/Elysian-Realme/FuGfConfig/blob/main/ConfigFile/DataFile/FuckRogueSoftware/FuckRogueSoftware.txt) 中可以看到部分屏蔽说明
 
 ```
 # qx

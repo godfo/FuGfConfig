@@ -423,7 +423,7 @@ ott.video.qq.com
 sdksp6.video.qq.com
 masterconn.qq.com
 szlong.weixin.qq.com
-log1.wtlogin.qq.com
+.log1.wtlogin.qq.com
 report.qcloudcdn.qq.com
 qm.qq.com
 hc.tdm.qq.com
@@ -470,6 +470,7 @@ ping*.qq.com
 .urlsec.qq.com
 .gds.alibabadns.com
 
+
 ## 阿里系
 # 将阿里系 app 关闭网络权限且从移动网络切换到 Wi-Fi 时，有概率出现
 .httpdns.alicdn.com
@@ -487,7 +488,7 @@ d-gm.mmstat.com
 s-gm.mmstat.com
 .log.mmstat.com
 cnzz.mmstat.com
-applog.uc.cn
+.applog.uc.cn
 tui.taobao.com
 .fourier.taobao.com
 .tunion-api.m.taobao.com
