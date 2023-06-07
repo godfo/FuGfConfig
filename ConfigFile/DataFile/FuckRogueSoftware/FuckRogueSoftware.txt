@@ -1374,6 +1374,8 @@ az.appstore.vivo.com.cn
 .log.upload.os.mihoyo.com
 .log-upload-os.mihoyo.com
 .log-upload-os.hoyoverse.com
+.ad-log-upload-os.mihoyo.com
+.ad-log-upload-os.hoyoverse.com
 .uspider.yuanshen.com
 # firebaselogging-pa.mihoyo.com
 # firebaseremoteconfig.mihoyo.com
@@ -2728,6 +2730,26 @@ bugtags.com
 cgi.qplus.com
 paopaotuan.org
 
+.*-analytics-*.huami.com
+.app-analytics-ru.huami.com
+.api-analytics-ru.huami.com
+.app-analytics-us.huami.com
+.api-analytics-us.huami.com
+.app-analytics.huami.com
+.api-analytics.huami.com
+.web-analytics.huami.com
+.app-analytics-in.huami.com
+.api-analytics-in.huami.com
+.app-analytics-cn.huami.com
+.api-analytics-cn.huami.com
+.web-analytics-cn.huami.com
+.app-analytics-sg.huami.com
+.api-analytics-sg.huami.com
+.web-analytics-sg.huami.com
+.app-analytics-de.huami.com
+.api-analytics-de.huami.com
+.web-analytics-de.huami.com
+
 .beacon.tingyun.com
 .taboola.com
 .union.bokecc.com
@@ -2999,8 +3021,21 @@ log*.optimizely.com
 .log2.musical.ly
 .log2.radiko.jp
 .log2.ru
-
+.log.xzcs3zlph.com
+.log.mobpowertech.com
+.log.ventunotech.com
+.log.aispeech.com
+.log.suning.com
+.log.tving.com
+.ad.tving.com
+.sdk-log.appclicking.com
+.analytics-log.withhive.com
+.log.vilagame.com
+.ads.ad4game.com
 .log2.spotify.com
+.log.lscreenc.com
+.analytics.cn.ru
+.ads.skillz.com
 client-log.box.com
 client-log.karte.io
 d-log.asahi.co.jp

@@ -110,6 +110,9 @@ cashier*.sandpay.com.cn
 
 .ocsp2.globalsign.com
 .ocsp.usertrust.com
+.ocsp.pki.goog
+.ocsp.r2m02.amazontrust.com
+.ocsp.digicert.cn
 
 .szmg.qq.com
 .jubao.qq.com
@@ -120,3 +123,6 @@ cashier*.sandpay.com.cn
 .dns.google
 
 .cgi.connect.qq.com
+
+.unity.cn
+.unitychina.cn

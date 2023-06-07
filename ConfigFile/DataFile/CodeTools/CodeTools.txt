@@ -41,3 +41,6 @@
 
 ## brew
 .brew.sh
+
+## go
+.goproxy.io
