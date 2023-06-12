@@ -110,13 +110,15 @@ cashier*.sandpay.com.cn
 
 .ocsp2.globalsign.com
 .ocsp.usertrust.com
-.ocsp.pki.goog
-.ocsp.r2m02.amazontrust.com
+# .ocsp.pki.goog
+# .ocsp.r2m02.amazontrust.com
 .ocsp.digicert.cn
 
 .szmg.qq.com
 .jubao.qq.com
 .poplayer.template.alibaba.com
+59.36.121.252
+183.61.49.155
 
 .game.xiaomi.com
 

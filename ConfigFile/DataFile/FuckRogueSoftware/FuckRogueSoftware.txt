@@ -2730,7 +2730,7 @@ bugtags.com
 cgi.qplus.com
 paopaotuan.org
 
-.*-analytics-*.huami.com
+*-analytics-*.huami.com
 .app-analytics-ru.huami.com
 .api-analytics-ru.huami.com
 .app-analytics-us.huami.com

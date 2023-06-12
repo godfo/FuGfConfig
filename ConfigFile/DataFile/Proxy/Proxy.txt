@@ -205,6 +205,11 @@ onedrive.live.com
 .gravatar.com
 .vercel.com
 
+## matters
+.matters.news
+.mattersprotocol.io
+.matters.town
+
 ## vk
 .mvk.com
 .userapi.com
@@ -246,6 +251,14 @@ onedrive.live.com
 ## unity
 .unity3d.com
 .unity.com
+
+## reddit
+.reddit.com
+.redditstatic.com
+.redditmedia.com
+
+## tailscale
+.tailscale.com
 
 ## 存疑
 .vscode-sync.trafficmanager.net
