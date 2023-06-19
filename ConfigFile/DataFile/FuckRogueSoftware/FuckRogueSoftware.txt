@@ -2542,6 +2542,7 @@ dnms.getui.com
 .cm-10-139.getui.com
 # 存疑
 .sdk.open.extension.getui.com
+.sdk.open.talk.getui.com
 .restapi.getui.com
 .sdk.open.talk.getui.net
 .sdk.open.talk.igexin.com

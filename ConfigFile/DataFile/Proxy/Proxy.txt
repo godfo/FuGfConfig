@@ -259,6 +259,7 @@ onedrive.live.com
 
 ## tailscale
 .tailscale.com
+.tailscale.io
 
 ## 存疑
 .vscode-sync.trafficmanager.net
