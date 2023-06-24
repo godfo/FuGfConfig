@@ -261,6 +261,12 @@ onedrive.live.com
 .tailscale.com
 .tailscale.io
 
+## f-droid
+.f-droid.org
+
+## proxmox
+.proxmox.com
+
 ## 存疑
 .vscode-sync.trafficmanager.net
 .monitor.firefox.com

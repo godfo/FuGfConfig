@@ -56,7 +56,6 @@ overseauspider.yuanshen.com
 .steamcommunity.com
 .steamstat.us
 .steamstatic.com
-# IP-ASN,9808,no-resolve
 .steamcontent.com
 .steamserver.net
 .steampowered.com
