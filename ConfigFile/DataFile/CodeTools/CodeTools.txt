@@ -44,3 +44,7 @@
 
 ## go
 .goproxy.io
+
+## python
+.pypi.org
+.pythonhosted.org
