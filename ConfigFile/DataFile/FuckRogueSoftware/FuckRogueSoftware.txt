@@ -459,7 +459,7 @@ wpa.qq.com
 report.nfa.qq.com
 masterconn2.qq.com
 localDOMAIN.ptlogin2.qq.com
-.res.wx.qq.com
+# .res.wx.qq.com
 masterconn11.qq.com
 report.*.qq.com
 ping*.qq.com
@@ -1375,6 +1375,8 @@ az.appstore.vivo.com.cn
 .vcardsdkservice.vivo.com.cn
 .adsstatic.vivo.com.cn
 .brandadsstatic.vivo.com.cn
+# 存疑
+.stappupgrade.vivo.com.cn
 
 ## mihoyo 米哈游
 .client-report.bh3.com
@@ -2532,6 +2534,7 @@ api2.branch.io
 ## adjust
 .app.adjust.com
 .s2s.adjust.com
+.app.adjust.net.in
 
 ## 阳光宽频网
 v9-default.365yg.com
@@ -3175,3 +3178,4 @@ ad.kissasian.nz
 .report.binance.im
 .jpush.binance.im
 .googleads.g.doubleclick.net
+apple-finance.query.yahoo.com

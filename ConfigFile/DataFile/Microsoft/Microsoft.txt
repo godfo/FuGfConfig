@@ -18,3 +18,4 @@
 .onenote.com
 .bing.com
 .office.com
+.hotmail.com

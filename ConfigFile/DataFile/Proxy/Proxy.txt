@@ -267,6 +267,9 @@ onedrive.live.com
 ## proxmox
 .proxmox.com
 
+## 多邻国 duolingo
+.duolingo.com
+
 ## 存疑
 .vscode-sync.trafficmanager.net
 .monitor.firefox.com
