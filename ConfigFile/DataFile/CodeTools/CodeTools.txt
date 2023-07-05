@@ -44,6 +44,7 @@
 
 ## go
 .goproxy.io
+.go.dev
 
 ## python
 .pypi.org

@@ -19,3 +19,4 @@
 .bing.com
 .office.com
 .hotmail.com
+.microsoftonline.com
