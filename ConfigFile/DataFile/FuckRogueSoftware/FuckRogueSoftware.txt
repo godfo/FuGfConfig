@@ -232,7 +232,9 @@ c.isdspeed.qq.com
 .dlied1.cdntips.net
 miniapp.gtimg.cn
 .qappcenterv6.3g.qq.com
-wup.imtt.qq.com
+.wup.imtt.qq.com
+.qbwup.imtt.qq.com
+.wup.html5.qq.com
 .cfg.imtt.qq.com
 .zhizi.qq.com
 .adsrich.qq.com
@@ -421,7 +423,7 @@ restlbs.map.qq.com
 p2p.qq.com
 ott.video.qq.com
 sdksp6.video.qq.com
-masterconn.qq.com
+.masterconn.qq.com
 szlong.weixin.qq.com
 .log1.wtlogin.qq.com
 report.qcloudcdn.qq.com
@@ -3179,3 +3181,4 @@ ad.kissasian.nz
 .jpush.binance.im
 .googleads.g.doubleclick.net
 apple-finance.query.yahoo.com
+.log.sms.mob.com

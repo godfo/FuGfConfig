@@ -311,3 +311,5 @@ calibre-ebook.com
 .eggnsemulator.com
 .tii.la
 .archive.org
+.openwrt.org
+.sublimetext.com

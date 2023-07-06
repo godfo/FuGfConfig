@@ -70205,7 +70205,6 @@ verify.mob.com
 log-verify.mob.com
 adnet.mob.com
 init.sms.mob.com
-log.sms.mob.com
 gm.mob.com
 applink.mob.com
 moblink.mob.com
