@@ -70202,7 +70202,6 @@ media.admob.com
 api.altamob.com
 m.96mob.com
 verify.mob.com
-log-verify.mob.com
 adnet.mob.com
 init.sms.mob.com
 gm.mob.com

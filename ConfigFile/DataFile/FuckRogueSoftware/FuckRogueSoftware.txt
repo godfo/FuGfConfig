@@ -3182,3 +3182,4 @@ ad.kissasian.nz
 .googleads.g.doubleclick.net
 apple-finance.query.yahoo.com
 .log.sms.mob.com
+.log-verify.mob.com

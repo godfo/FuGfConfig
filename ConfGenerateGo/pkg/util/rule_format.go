@@ -53,6 +53,7 @@ func CleanAll(s string) string {
 	s = strings.Replace(s, "127.0.0.1", "", -1)
 	s = strings.Replace(s, "0.0.0.0", "", -1)
 	s = strings.Replace(s, "::", "", -1)
+	s = strings.Replace(s, ",no-resolve", "", -1)
 
 	ss := strings.Split(s, ",")
 	if len(ss) >= 2 {

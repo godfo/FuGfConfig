@@ -29,8 +29,8 @@ func main() {
 	var base, inbox, inboxResult []string
 	var ans []model.Pair
 
-	//names := []string{"FuckRogueSoftware"}
-	names := []string{"AI", "Direct", "Cryptocurrency", "Proxy", "CodeTools", "Microsoft", "Tracker", "FuckGarbageFeature", "FuckRogueSoftware"}
+	names := []string{"ChinaASN"}
+	// names := []string{"AI", "Direct", "Cryptocurrency", "Proxy", "CodeTools", "Microsoft", "Tracker", "FuckGarbageFeature", "FuckRogueSoftware"}
 	for _, name := range names {
 		//  清空残留的数据
 		base, inbox, inboxResult = []string{}, []string{}, []string{}
@@ -105,6 +105,8 @@ func policyProcessing(base []string, inbox []string) ([]model.Pair, []string) {
 		if strings.Count(v, ",") >= 1 {
 			a, v = splitRule(v)
 			ansMap[v] = a
+		} else if util.IsASN(v) {
+			ansMap[v] = "IP-ASN"
 		} else if util.IsIPV4(v) {
 			ansMap[v] = "IP-CIDR"
 		} else if util.IsIPV6(v) {
@@ -142,12 +144,12 @@ func policyProcessing(base []string, inbox []string) ([]model.Pair, []string) {
 	inboxResultSet := make(map[string]void)
 	if len(inbox) > 0 {
 		for _, v := range inbox {
-			// 清除一下格式，指保留 IP 或者域名
+			// 清除一下格式，只保留 IP 或者域名
 			v = util.CleanAll(v)
 			// 跳过 待处理 规则中 类似于 xxx.com 的规则 或者 xxx 的规则
-			if strings.Count(v, ".") == 1 || strings.Count(v, ".") == 0 {
-				continue
-			}
+			// if strings.Count(v, ".") == 1 || strings.Count(v, ".") == 0 {
+			// 	continue
+			// }
 			// 检查是否在 base map 里面
 			if _, ok := ansMap[v]; !ok {
 				// 如果不存在

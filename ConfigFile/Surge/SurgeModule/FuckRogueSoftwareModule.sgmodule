@@ -1384,6 +1384,7 @@ log-api.pangolin-sdk-toutiao.com = 0.0.0.0
 log-v4-insight.kaizenplatform.net = 0.0.0.0
 log-v6.mmstat.com.gds.alibabadns.com = 0.0.0.0
 *.log-va.tiktokv.com = 0.0.0.0
+*.log-verify.mob.com = 0.0.0.0
 *.log-vietnamplus-vn.cdn.ampproject.org = 0.0.0.0
 *.log-vip-ssl.xunlei.com = 0.0.0.0
 *.log-yex.youdao.com = 0.0.0.0

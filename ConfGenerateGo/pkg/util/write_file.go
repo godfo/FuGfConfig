@@ -34,6 +34,9 @@ func WriteFile(matchType string, data model.Pairs, policyName string, filePath s
 				continue
 			}
 			switch {
+			case strings.Contains(v.Value, "IP-ASN"):
+				fmt.Fprintln(write, "IP-ASN,"+v.Key+",no-resolve")
+				continue
 			case strings.Contains(v.Value, "IP-CIDR6"):
 				fmt.Fprint(write, "IP-CIDR6,")
 			case strings.Contains(v.Value, "IP-CIDR"):
@@ -48,6 +51,8 @@ func WriteFile(matchType string, data model.Pairs, policyName string, filePath s
 				fmt.Fprint(write, "DOMAIN-SUFFIX,")
 			case strings.Contains(v.Value, "DOMAIN"):
 				fmt.Fprint(write, "DOMAIN,")
+			default:
+				fmt.Fprint(write, v.Value+",")
 			}
 			fmt.Fprintln(write, v.Key)
 		}
@@ -83,11 +88,14 @@ func WriteFile(matchType string, data model.Pairs, policyName string, filePath s
 		fmt.Println("QuantumultXRules")
 		for _, v := range data {
 			switch {
+			case strings.Contains(v.Value, "IP-ASN"):
+				fmt.Fprint(write, "IP-ASN,"+v.Key)
+				fmt.Fprintln(write, ","+policyName+",no-resolve")
+				continue
 			case strings.Contains(v.Value, "IP-CIDR6"):
 				fmt.Fprint(write, "IP6-CIDR,")
 			case strings.Contains(v.Value, "IP-CIDR"):
-				fmt.Fprint(write, "IP-CIDR,")
-				fmt.Fprint(write, v.Key)
+				fmt.Fprint(write, "IP-CIDR,"+v.Key)
 				if !strings.Contains(v.Key, "/") {
 					fmt.Fprint(write, "/32")
 				}
@@ -99,6 +107,8 @@ func WriteFile(matchType string, data model.Pairs, policyName string, filePath s
 				fmt.Fprint(write, "HOST,")
 			case strings.Contains(v.Value, "HOST-WILDCARD"):
 				fmt.Fprint(write, "HOST-WILDCARD,")
+			default:
+				fmt.Fprint(write, v.Value+",")
 			}
 
 			fmt.Fprintln(write, v.Key+","+policyName)
@@ -110,6 +120,9 @@ func WriteFile(matchType string, data model.Pairs, policyName string, filePath s
 				continue
 			}
 			switch {
+			case strings.Contains(v.Value, "IP-ASN"):
+				fmt.Fprintln(write, "IP-ASN,"+v.Key+",no-resolve")
+				continue
 			case strings.Contains(v.Value, "IP-CIDR6"):
 				fmt.Fprint(write, "IP-CIDR6,")
 			case strings.Contains(v.Value, "IP-CIDR"):
@@ -124,6 +137,8 @@ func WriteFile(matchType string, data model.Pairs, policyName string, filePath s
 				fmt.Fprint(write, "DOMAIN-SUFFIX,")
 			case strings.Contains(v.Value, "DOMAIN"):
 				fmt.Fprint(write, "DOMAIN,")
+			default:
+				fmt.Fprint(write, v.Value+",")
 			}
 			fmt.Fprintln(write, v.Key)
 		}
@@ -225,6 +240,9 @@ func WriteFile(matchType string, data model.Pairs, policyName string, filePath s
 			fmt.Fprint(write, "  - ")
 
 			switch {
+			case strings.Contains(v.Value, "IP-ASN"):
+				fmt.Fprintln(write, "IP-ASN,"+v.Key+",no-resolve")
+				continue
 			case strings.Contains(v.Value, "IP-CIDR6"):
 				fmt.Fprint(write, "IP-CIDR6,")
 			case strings.Contains(v.Value, "IP-CIDR"):

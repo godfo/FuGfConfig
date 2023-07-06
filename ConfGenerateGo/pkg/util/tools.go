@@ -29,6 +29,12 @@ func IsDomainRule(s string) bool {
 	return domainPattern.MatchString(s)
 }
 
+// IsASN 是否为 ASN 规则
+func IsASN(s string) bool {
+	domainPattern := regexp.MustCompile(`^[0-9]+$`)
+	return domainPattern.MatchString(s)
+}
+
 // IsFileExist 判断文件是否存在
 func IsFileExist(filePath string) bool {
 	_, err := os.Stat(filePath)
