@@ -29,8 +29,8 @@ func main() {
 	var base, inbox, inboxResult []string
 	var ans []model.Pair
 
-	names := []string{"ChinaASN"}
-	// names := []string{"AI", "Direct", "Cryptocurrency", "Proxy", "CodeTools", "Microsoft", "Tracker", "FuckGarbageFeature", "FuckRogueSoftware"}
+	// names := []string{"ChinaASN"}
+	names := []string{"AI", "Direct", "Cryptocurrency", "Proxy", "CodeTools", "Microsoft", "Tracker", "FuckGarbageFeature", "FuckRogueSoftware"}
 	for _, name := range names {
 		//  清空残留的数据
 		base, inbox, inboxResult = []string{}, []string{}, []string{}

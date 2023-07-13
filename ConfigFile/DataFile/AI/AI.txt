@@ -4,3 +4,5 @@
 .openaiapi-site.azureedge.net
 .poe.com
 .poecdn.net
+.claude.ai
+.anthropic.com
