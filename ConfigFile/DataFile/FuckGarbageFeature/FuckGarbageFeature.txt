@@ -35,7 +35,8 @@ big.bilibili.com
 .gamecenter.qq.com
 shortconn.im.qcloud.com
 .game.weixin.qq.com
-*.c2c.qq.com
+.c2c.qq.com
+.szminorshort.weixin.qq.com
 
 # 微信看一看的视频服务器地址（屏蔽可能影响腾讯新闻等产品）
 .shortv.cdp.qq.com

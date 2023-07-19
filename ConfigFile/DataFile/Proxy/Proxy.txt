@@ -85,6 +85,7 @@ vscodium.now.sh
 .pixiv.net
 .pixiv.re
 210.140.131.199
+210.140.139.131
 
 ## Twitter
 .twitter.com
@@ -186,6 +187,9 @@ onedrive.live.com
 ## twitch
 .twitch.tv
 .twitchcdn.net
+# static-cdn.jtvnw.net
+# .ttvnw.net
+# poe.live-video.net
 
 ## emby
 .emby.media
@@ -209,6 +213,10 @@ onedrive.live.com
 .matters.news
 .mattersprotocol.io
 .matters.town
+
+## Figma
+.figma.com
+
 
 ## vk
 .mvk.com
