@@ -1379,6 +1379,8 @@ az.appstore.vivo.com.cn
 .brandadsstatic.vivo.com.cn
 # 存疑
 .stappupgrade.vivo.com.cn
+.browserconf.vivo.com.cn
+.vcode-api.vivo.com.cn
 
 ## mihoyo 米哈游
 .client-report.bh3.com
@@ -2384,6 +2386,13 @@ slog.trackingio.com
 sysdk.cl2009.com
 api.253.com
 sy.cl2009.com
+
+## Point SDK
+pointsdk.vivo.com.cn
+
+## chinanetcenter.com
+mauth.chinanetcenter.com
+vivomaa.chinanetcenter.com
 
 
 ## 极意网络 geetest
