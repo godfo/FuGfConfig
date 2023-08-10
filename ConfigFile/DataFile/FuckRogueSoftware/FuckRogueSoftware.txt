@@ -1632,8 +1632,8 @@ antivirus.baidu.com
 .mssp.baidu.com
 .rp.baidu.com
 .sobartop.baidu.com
-.loc.map.baidu.com
-.itsdata.map.baidu.com
+# .loc.map.baidu.com
+# .itsdata.map.baidu.com
 .pro.baidu.com
 .mpro.baidu.com
 .cpro.baidu.com

@@ -113,7 +113,7 @@ cashier*.sandpay.com.cn
 .ocsp.usertrust.com
 # .ocsp.pki.goog
 # .ocsp.r2m02.amazontrust.com
-.ocsp.digicert.cn
+# .ocsp.digicert.cn
 
 .szmg.qq.com
 .jubao.qq.com
