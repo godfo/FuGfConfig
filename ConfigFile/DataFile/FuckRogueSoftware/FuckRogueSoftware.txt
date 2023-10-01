@@ -20,6 +20,7 @@
 .jomodns.com
 
 ## 腾讯系
+# .gtimg.com
 .miav-cse.avlyun.com
 # qq
 cgi.connect.qq.com
@@ -28,7 +29,8 @@ cgi.connect.qq.com
 .imtmp.net
 .btrace.qq.com
 .sdkconfig.video.qq.com
-i.mail.qq.com
+.i.mail.qq.com
+.res.mail.qq.com
 .qumas.mail.qq.com
 cdnimg.3g.qq.com
 casestudy.html5.qq.com
@@ -471,6 +473,8 @@ ping*.qq.com
 .isee.weishi.qq.com
 .urlsec.qq.com
 .gds.alibabadns.com
+v6.htdata.qq.com
+.ias.tencent-cloud.net
 
 
 ## 阿里系
@@ -1172,6 +1176,7 @@ api.comm.miui.com
 
 
 ## jd 京东
+.dns.jd.com
 .wl.jd.com
 skdisplay.jd.com
 #.ads.union.jd.com
@@ -1968,6 +1973,7 @@ tr.www.cloudflare.com
 csp-reporting.cloudflare.com
 
 ## huawei
+servicesupport.hicloud.com
 datacollector-*.dt.hicloud.com
 .httpdns.c.cdnhwc2.com
 datacollector-dra.dt.dbankcloud.cn
@@ -2537,6 +2543,9 @@ v3-default.365yg.com
 ## 云壹互动
 .applogs.yunyihudong.com
 
+## 12306
+.ad.12306.cn
+
 ## 个推
 dnms.getui.com
 .c-gtc.getui.net
@@ -2652,6 +2661,95 @@ dnms.getui.com
 api-*.mixpanel.com
 .api-eu.mixpanel.com
 .api.mixpanel.com
+
+## Smart-TV Blocklist for Pi-hole
+## 部分来源于 https://github.com/Perflyst/PiHoleBlocklist/blob/master/SmartTV.txt
+
+# Hisense Smart TV 海信
+api.chcatv.hismarttv.com
+api-gps-em.hismarttv.com
+auth-em.hismarttv.com
+msg-em.hismarttv.com
+api-launcher-em.hismarttv.com
+auth-launcher-em.hismarttv.com
+api-gps-na.hismarttv.com
+auth-na.hismarttv.com
+msg-na.hismarttv.com
+api-launcher-na.hismarttv.com
+auth-launcher-na.hismarttv.com
+unified-ter-na.hismarttv.com
+# These may be needed for software/firmware updates, not sure if it's one or both but the first one tries thousands of times a day to connect.
+api.us.hismarttv.com
+api.euro.hismarttv.com
+api.eu.hismarttv.com
+kukong.hismarttv.com
+upgrade-juui.hismarttv.com
+download-juui-plugin.hismarttv.com
+lbgs.hismarttv.com
+
+
+# Hulu
+api.distribution.hulu.com
+
+# Xioami Mi TV
+mitv.tracking.intl.miui.com
+tracking.intl.miui.com
+data.mistat.intl.xiaomi.com
+sdkconfig.ad.intl.xiaomi.com
+
+# LG
+ad.lgappstv.com
+ibis.lgappstv.com
+jp.rdx2.lgtvsdp.com
+jp.lgtvsdp.com
+jp.info.lgsmartad.com
+lgad.cjpowercast.com.edgesuite.net
+#ngfts.lge.com # blocks thumbnails from loading in the LG Content Store
+smartclip.com
+smartclip.net
+smartshare.lgtvsdp.com
+us.ad.lgsmartad.com
+us.ibs.lgappstv.com
+us.info.lgsmartad.com
+#us.lgtvsdp.com # #117
+us.rdx2.lgtvsdp.com
+yumenetworks.com
+aic-ngfts.lge.com
+us.cdpbeacon.lgtvcommon.com
+us.cdpsvc.lgtvcommon.com
+us.homeprv.lgtvcommon.com
+us.nudge.lgtvcommon.com
+us.rdl.lgtvcommon.com
+us.recommend.lgtvcommon.com
+us.lgsmartad.com
+us.service.lgtvcommon.com
+
+# Sony Bravia
+# needed for applications
+# needed for applications, if blocked error "no internet connection"
+#applicast.ga.sony.net
+#portal.store.sonyentertainmentnetwork.com
+ad8641f3cff742de893d919add74c2bb.ssm1.internet.sony.tv
+ad8641f3cff742de893d919add74c2bb.ssm2.internet.sony.tv
+#reg.biv.sony.tv # https://github.com/notracking/hosts-blocklists/issues/384
+#service.biv.sony.tv # https://github.com/notracking/hosts-blocklists/issues/384
+#ssm1.internet.sony.tv # https://github.com/notracking/hosts-blocklists/issues/384
+#ssm2.internet.sony.tv # https://github.com/notracking/hosts-blocklists/issues/384
+#ssm3.internet.sony.tv # https://github.com/notracking/hosts-blocklists/issues/384
+#update.biv.sony.tv # required for updates
+api-mf1.meta.ndmdhs.com
+b02.black.ndmdhs.com
+bravia.dl.playstation.net
+call.me.sel.sony.com
+flingo.tv
+sonybivstatic-a.akamaihd.net
+facemap.foldlife.net
+bdcore-apr-lb.bda.ndmdhs.com
+tvsideviewandroidv2-cfgdst-ore-pro.bda.ndmdhs.com
+api.cid.samba.tv
+#platform.cid.samba.tv #See Toshiba
+preferences.cid.samba.tv
+bravia-cfgdst-ore-pro.bda.ndmdhs.com
 
 ## 其他
 .online-metrix.net
@@ -3172,3 +3270,5 @@ ad.kissasian.nz
 apple-finance.query.yahoo.com
 .log.sms.mob.com
 .log-verify.mob.com
+api.v1.dailypad.cn
+helper.2bulu.com

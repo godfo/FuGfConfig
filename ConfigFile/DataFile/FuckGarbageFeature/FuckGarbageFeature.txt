@@ -37,6 +37,10 @@ shortconn.im.qcloud.com
 .game.weixin.qq.com
 .c2c.qq.com
 .szminorshort.weixin.qq.com
+183.61.49.155
+59.36.121.252
+
+api-mayi.django.t.taobao.com
 
 # 微信看一看的视频服务器地址（屏蔽可能影响腾讯新闻等产品）
 .shortv.cdp.qq.com
@@ -81,6 +85,7 @@ w.meituan.net
 
 ## weibo
 .game.weibo.cn
+face.t.sinajs.cn
 
 ## meituan 美团
 .data-sdk-uuid-log.d.meituan.net
@@ -90,6 +95,7 @@ onekey*.cmpassport.com
 config*.cmpassport.com
 .onekey2.cmpassport.com
 .config2.cmpassport.com
+.log1.cmpassport.com
 
 ## 杉德
 cashier*.sandpay.com.cn
@@ -98,6 +104,28 @@ cashier*.sandpay.com.cn
 .smp-uat01.sand.com.cn
 .cashier1.sandpay.com.cn
 
+## heytap
+api-cn.store.heytapmobi.com
+
+## 华数
+health.wasu.tv
+
+## vivo
+h5.vivo.com.cn
+gcort-stsak.vivo.com.cn
+accountinfo.vivo.com.cn
+kernelapi.vivo.com.cn
+ro.up.vivo.com.cn
+wf.vivo.com.cn
+main.gamecenter.vivo.com.cn
+.sysupgrade.vivo.com.cn
+fastonrt-stsdk.vivo.com.cn
+
+## 美的IoT开发者平台
+iot1.midea.com.cn
+
+## 学习强国
+.xuexi.cn
 
 ## 上海公交
 .nfcos.net.cn
@@ -126,6 +154,15 @@ cashier*.sandpay.com.cn
 .dns.google
 
 .cgi.connect.qq.com
+.tianshu.gtimg.cn
+.sola.gtimg.cn
+.sqimg.qq.com
+.res.tu.qq.com
 
 .unity.cn
 .unitychina.cn
+
+.mpaas-loggw4zwy.aliyuncs.com
+.pingtest.avlsec.com
+ocsp.trust-provider.cn
+firebase-settings.crashlytics.com

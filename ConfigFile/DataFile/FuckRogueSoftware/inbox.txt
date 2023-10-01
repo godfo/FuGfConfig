@@ -4552,8 +4552,6 @@ watch.jawwy.tv
 an.sny.tv
 social.biv.sony.tv
 metadata.erabu.sony.tv
-ad8641f3cff742de893d919add74c2bb.ssm2.internet.sony.tv
-ad8641f3cff742de893d919add74c2bb.ssm1.internet.sony.tv
 ads.digitalalchemy.tv
 livejasminacademy.tv
 www.fashiondaily.tv
@@ -4721,7 +4719,6 @@ fili.nojo.tv
 tafeio.tv
 cool.gaygo.tv
 sanalytics.tntgo.tv
-flingo.tv
 activity.bigo.tv
 viqeo.tv
 icf-pvc-production.livelyvideo.tv
@@ -15298,7 +15295,6 @@ eezegrip.net
 www.yahooip.net
 freegeoip.net
 jumpflip.net
-smartclip.net
 res.teleskip.net
 move.teleskip.net
 sad.teleskip.net
@@ -15706,7 +15702,6 @@ sellaction.net
 clickaction.net
 stats.positiveaction.net
 cs.prd.msys.playstation.net
-bravia.dl.playstation.net
 a.ad.playstation.net
 atozcorporation.net
 microintegration.net
@@ -17837,7 +17832,6 @@ feedage.net
 sexwife.net
 myeverydaylife.net
 intimlife.net
-facemap.foldlife.net
 facepic.foldlife.net
 story-life.net
 hk-life.net
@@ -17988,8 +17982,6 @@ pro-web-metrics.alias.s24cloud.net
 a3cloud.net
 www.3cloud.net
 px-cloud.net
-beacon.ias.tencent-cloud.net
-msf.ias.tencent-cloud.net
 publiclog.zhiyan.tencent-cloud.net
 trace.zhiyan.tencent-cloud.net
 bench.mig.tencent-cloud.net
@@ -35332,7 +35324,6 @@ hm.5646.cn
 126.cn
 www.21026.cn
 ad.95306.cn
-ad.12306.cn
 5mm.zxfw5.cn
 7j7jv5.cn
 tel.mhfm9.dm5.cn
@@ -37285,7 +37276,6 @@ mds.csx.sony.com
 smetrics.sony.com
 hqmetrics.sony.com
 shqmetrics.sony.com
-call.me.sel.sony.com
 chameleon.spe.sony.com
 psydyrony.com
 analytics.mysynchrony.com
@@ -41059,35 +41049,18 @@ xda.xiaodutv.com
 projects.posttv.com
 analytics.posttv.com
 casttv.com
-api.chcatv.hismarttv.com
-api.eu.hismarttv.com
-api.us.hismarttv.com
 ad-cmp.hismarttv.com
-api.euro.hismarttv.com
-api-gps-em.hismarttv.com
-api-launcher-em.hismarttv.com
-auth-launcher-em.hismarttv.com
-auth-em.hismarttv.com
-msg-em.hismarttv.com
 api.globalphone.hismarttv.com
 api.sa.hismarttv.com
-api-gps-na.hismarttv.com
-unified-ter-na.hismarttv.com
-api-launcher-na.hismarttv.com
-auth-launcher-na.hismarttv.com
-auth-na.hismarttv.com
-msg-na.hismarttv.com
 adservice.chsmarttv.com
 lmorsb.highstreettv.com
 metrics.directtv.com
 b.liquidustv.com
 aa.thedoctorstv.com
 saa.thedoctorstv.com
-ibis.lgappstv.com
 gb.lgrecommends.lgappstv.com
 mx.ibs.lgappstv.com
 ru.ibs.lgappstv.com
-us.ibs.lgappstv.com
 br.ibs.lgappstv.com
 de.ibs.lgappstv.com
 gb.ibs.lgappstv.com
@@ -42634,7 +42607,6 @@ vortex.hulu.com
 t.hulu.com
 adservices.hulu.com
 doppler.hulu.com
-api.distribution.hulu.com
 metcon.hulu.com
 ads-v-darwin.hulu.com
 adtrack.hulu.com
@@ -54265,7 +54237,6 @@ incentivenetworks.com
 resonatenetworks.com
 comscorenetworks.com
 undertonenetworks.com
-yumenetworks.com
 www.movienetworks.com
 almondnetworks.com
 dedicatednetworks.com
@@ -54941,9 +54912,6 @@ images.ihs.com
 buttsnthighs.com
 hazelnutshighs.com
 adproxy.ndmdhs.com
-api-mf1.meta.ndmdhs.com
-tvsideviewandroidv2-cfgdst-ore-pro.bda.ndmdhs.com
-bdcore-apr-lb.bda.ndmdhs.com
 keysearchs.com
 sportsearchs.com
 4ksportsearchs.com
@@ -64327,7 +64295,6 @@ v2.api.uberflip.com
 develip.com
 anyclip.com
 offertracking.vuclip.com
-smartclip.com
 daggerclip.com
 cdn.banclip.com
 apollo.miniclip.com
@@ -64508,7 +64475,6 @@ langserv.public.ggs-ep.com
 trvdp.com
 adtdp.com
 kr.lgtvsdp.com
-jp.lgtvsdp.com
 gb.lgtvsdp.com
 kz.rdx2.lgtvsdp.com
 cz.rdx2.lgtvsdp.com
@@ -64519,12 +64485,10 @@ hu.rdx2.lgtvsdp.com
 pt.rdx2.lgtvsdp.com
 gt.rdx2.lgtvsdp.com
 at.rdx2.lgtvsdp.com
-us.rdx2.lgtvsdp.com
 tr.rdx2.lgtvsdp.com
 gr.rdx2.lgtvsdp.com
 br.rdx2.lgtvsdp.com
 iq.rdx2.lgtvsdp.com
-jp.rdx2.lgtvsdp.com
 ro.rdx2.lgtvsdp.com
 do.rdx2.lgtvsdp.com
 co.rdx2.lgtvsdp.com
@@ -90186,7 +90150,6 @@ info.tradeinterchange.com
 elasticchange.com
 tk.little-big-change.com
 tracking.go.mge.com
-aic-ngfts.lge.com
 cardinalimprovementscartrige.com
 www.inadequateinadmissibleoblige.com
 m.sanjiangge.com
@@ -94258,7 +94221,6 @@ adx-mx-edge-dra.op.dbankcloud.com
 openlocation-drcn.platform.dbankcloud.com
 cpznj.juhuicloud.com
 unznj.juhuicloud.com
-servicesupport.hicloud.com
 campaign-dra.jos.hicloud.com
 tracker-dre.things.hicloud.com
 tracker-device-dre.things.hicloud.com

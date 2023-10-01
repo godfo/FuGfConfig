@@ -321,3 +321,4 @@ calibre-ebook.com
 .archive.org
 .openwrt.org
 .sublimetext.com
+.rfi.fr
