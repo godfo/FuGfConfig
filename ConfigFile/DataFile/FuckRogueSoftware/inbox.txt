@@ -4585,7 +4585,6 @@ sdk-cache.video.ptqy.gitv.tv
 sdk.ptqy.gitv.tv
 si.ptqy.gitv.tv
 puma-api.ptqy.gitv.tv
-msg.ptqy.gitv.tv
 cupid.ptqy.gitv.tv
 nl.rcd.ptqy.gitv.tv
 static.ptqy.gitv.tv
@@ -32417,7 +32416,6 @@ searchanything.co
 leancoding.co
 olympusholding.co
 www.aspenholding.co
-umeng.co
 stats.readng.co
 log.heftig.co
 plauplauplau.budg.co
@@ -34413,7 +34411,7 @@ p.qlogo.cn
 liaoningo.cn
 choujiang.19ego.cn
 sad.qeo.cn
-pyk.in-neo.cn
+in-neo.cn
 xiaozhuvideo.cn
 ggtagcache.cmvideo.cn
 ad.cmvideo.cn
@@ -34607,6 +34605,7 @@ zio.xcar.com.cn
 dx1.xcar.com.cn
 d0.xcar.com.cn
 idgdmgroup.com.cn
+ads.cup.com.cn
 push.samsungosp.com.cn
 a-m-s.adnonstop.com.cn
 caip.com.cn
@@ -35040,6 +35039,7 @@ t-flow.flyme.cn
 api-flow.flyme.cn
 bro.flyme.cn
 t-e.flyme.cn
+iuni.telecome.cn
 logservice.vidonme.cn
 logx.mtime.cn
 godloveme.cn
@@ -35376,6 +35376,7 @@ nd2z41.cn
 s11.cn
 static.cz01.cn
 qchannel01.cn
+qchanel01.cn
 luodiye01.cn
 stat.jc001.cn
 gg1.jc001.cn
@@ -36031,6 +36032,7 @@ kakayy.com
 9596yy.com
 9911yy.com
 reinforce.security.yy.com
+emyfs.bs2dl.yy.com
 pushmiddle.bs2dl.yy.com
 push-link.yy.com
 global-yypushsdk.yy.com
@@ -36315,6 +36317,7 @@ propositionsensitivity.com
 stats.mrc-productivity.com
 zrpts.webconnectivity.com
 fancyactivity.com
+asiad.byteactivity.com
 ads.talkscreativity.com
 mobivity.com
 masktoelevity.com
@@ -41049,7 +41052,6 @@ xda.xiaodutv.com
 projects.posttv.com
 analytics.posttv.com
 casttv.com
-ad-cmp.hismarttv.com
 api.globalphone.hismarttv.com
 api.sa.hismarttv.com
 adservice.chsmarttv.com
@@ -41715,6 +41717,7 @@ twinadsrv.com
 eadsrv.com
 exrtbsrv.com
 dmp.rtbsrv.com
+orbsrv.com
 ac.babsrv.com
 goasrv.com
 oclasrv.com
@@ -43559,8 +43562,7 @@ news-first.com
 math-first.com
 birst.com
 vipeterst.com
-cdn.strpst.com
-img.strpst.com
+strpst.com
 widgets.stripst.com
 b-hls-18.stripst.com
 b-hls-17.stripst.com
@@ -56450,6 +56452,7 @@ tr.infos.odalys-vacances.com
 tr.pro.odalys-vacances.com
 ea.odalys-vacances.com
 eulerian.officiel-des-vacances.com
+mssdk.volces.com
 as.gettyservices.com
 images.solutions.kellyservices.com
 analytics.kellyservices.com
@@ -61971,6 +61974,7 @@ hpyrdr.com
 cmrdr.com
 julrdr.com
 lnkrdr.com
+xlviirdr.com
 go.bshrdr.com
 creative.bshrdr.com
 gldrdr.com
@@ -62502,27 +62506,6 @@ analytics.app.marq.com
 pphqq.com
 mangaqq.com
 a.4aqq.com
-stat6.y.qq.com
-zyx.qq.com
-jsreport.qq.com
-beacondataport.qq.com
-advert.qq.com
-fs-conn-doctor.qq.com
-adbrowser.qq.com
-appstore.browser.qq.com
-api.pr.weixin.qq.com
-mp.weixin.qq.com
-long.weixin.qq.com
-admind.svideo.tcdn.qq.com
-x2.tcdn.qq.com
-test.ark.qq.com
-icrash.qq.com
-mayybstat.3g.qq.com
-download.wegame.qq.com
-report.b.qq.com
-bigdata.qq.com
-qbwup.html5.qq.com
-visitor.crm2.qq.com
 analytics.loanspq.com
 searchmapq.com
 zoqzoq.com
@@ -63375,9 +63358,9 @@ poczta-polska-botabba330279.codeanyapp.com
 appmail-stock-epos-lgazo1212826929.codeanyapp.com
 mailapp-center1-net-rileymonroe60580775.codeanyapp.com
 services-verrouillage-enligne-zpipa9696734571.codeanyapp.com
+myapp.com
 network.bemyapp.com
 dashbo15myapp.com
-s.dd.myapp.com
 browsesafelyapp.com
 appvalleyapp.com
 forum.fancykeyapp.com
@@ -64648,6 +64631,7 @@ amap-aos-info-nogw.amap.com
 adashx.ut.amap.com
 apiinit.amap.com
 apsrgeo.amap.com
+aoscdn.amap.com
 restapi.amap.com
 page.amap.com
 hit2map.com
@@ -67463,8 +67447,7 @@ kasa.m.biqubao.com
 adsin.zhangyoubao.com
 dig.qbao.com
 ju.taobao.com
-adash.ut.taobao.com
-h-adashx4bc.ut.taobao.com
+ut.taobao.com
 top.taobao.com
 ip.taobao.com
 eco.taobao.com
@@ -67800,6 +67783,7 @@ tiktok-fun.com
 chat-and-fun.com
 play.vista-fun.com
 kdun.com
+mum.alibabachengdun.com
 forad1.weimeicun.com
 matsubun.matsubun.com
 middleubun.com
@@ -70637,6 +70621,7 @@ static.unocdn.com
 p.annocdn.com
 flocdn.com
 alocdn.com
+doppiocdn.com
 media.twiliocdn.com
 clickiocdn.com
 giocdn.com
@@ -70703,6 +70688,8 @@ usicdn.com
 p.jsapicdn.com
 vali.cp31.ott.cibntv.net.302.myalicdn.com
 ykugc.cp31.ott.cibntv.net.302.myalicdn.com
+ossgw.alicdn.com
+dtmall-tel.alicdn.com
 tmge.alicdn.com
 laz-dorangesource.alicdn.com
 snap.licdn.com
@@ -72752,6 +72739,7 @@ sanalytics.canaltcm.com
 sanalytics.tcm.com
 smetrics.tcm.com
 marketing.artemiscm.com
+lf-cdn-tos.bytescm.com
 analytics.bytescm.com
 tagtracking.vibescm.com
 ytdscm.com
@@ -83101,7 +83089,6 @@ cp.oupeng.com
 turbo2sdk-push.oupeng.com
 analytics-redirector.rmneng.com
 xztongneng.com
-umeng.com
 888lianmeng.com
 api.22lianmeng.com
 down.91wangmeng.com
@@ -90324,6 +90311,7 @@ cementencourage.com
 emailmeditateencourage.com
 untiloutrage.com
 www.banner-strage.com
+fri4esianewheywr90itrage.com
 click.mrrage.com
 bannerrage.com
 stats.reprage.com
@@ -95378,6 +95366,7 @@ mtrackd.com
 qkkjd.com
 quackexclusfdfjd.com
 shooter.m.jd.com
+popup3.jd.com
 chat1.jd.com
 ads.gamespyid.com
 metrics.protectmyid.com
@@ -103054,6 +103043,7 @@ mum.m.alibaba.com
 click.alibaba.com
 lazada-sg.alibaba.com
 marketing.alibaba.com
+poplayer.template.alibaba.com
 acookie.alibaba.com
 adtracker.surge.alibaba.com
 umlazada.alibaba.com
@@ -103149,6 +103139,7 @@ stripe.rs-1028-a.com
 www.rs-1117-a.com
 branding.rs-1117-a.com
 stripe.rs-1117-a.com
+https?:\/\/p\w\-ad\-sign\.byteimg\.com
 ads.thzDOMAIN.com
 xla-support.com.fozzyDOMAIN.com
 1zclompm6.myutilityDOMAIN.com
@@ -106551,6 +106542,7 @@ sa122.com
 www.mbsearchtracking1122.com
 g0t0-22.com
 www.poiuy12.com
+asiad.byteactivity12.com
 trw12.com
 securesrv12.com
 interst12.com
@@ -106772,6 +106764,7 @@ tm.iqfp1.com
 searchm3p1.com
 canuto1.com
 highpro1.com
+pangolin-sdk-toutiao1.com
 newignition1.com
 marketing.on1.com
 realwin1.com
@@ -129915,3 +129908,10 @@ googie.DOMAIN
 analytic.DOMAIN
 ztfcm8e1aj7ua.DOMAIN
 tripadvisor-longterm2rooms.com-safety-65ts20ju07vi95-book-apid512608.DOMAIN
+59.82.113.219/24
+59.82.34.148/24
+59.82.9.145/24
+114.112.207.3/24
+59.82.14.161/24
+106.11.43.70/24
+2400:89c0:1053:311

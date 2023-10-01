@@ -475,6 +475,28 @@ ping*.qq.com
 .gds.alibabadns.com
 v6.htdata.qq.com
 .ias.tencent-cloud.net
+.stat6.y.qq.com
+.zyx.qq.com
+.jsreport.qq.com
+.beacondataport.qq.com
+.advert.qq.com
+.fs-conn-doctor.qq.com
+.adbrowser.qq.com
+.appstore.browser.qq.com
+.photovideo.photo.qq.com
+.api.pr.weixin.qq.com
+.mp.weixin.qq.com
+.long.weixin.qq.com
+.admind.svideo.tcdn.qq.com
+.x2.tcdn.qq.com
+.test.ark.qq.com
+.icrash.qq.com
+.mayybstat.3g.qq.com
+.download.wegame.qq.com
+.report.b.qq.com
+.bigdata.qq.com
+.qbwup.html5.qq.com
+.visitor.crm2.qq.com
 
 
 ## 阿里系
@@ -1357,6 +1379,12 @@ www.iqiyi.space
 101.227.200.11/32
 101.227.200.28/32
 101.227.97.240/32
+
+# 银河互联网电视
+msg.ptqy.gitv.tv
+stv.ptqy.gitv.tv
+data.video.ptqy.gitv.tv
+policy.video.ptqy.gitv.tv
 
 ## vivo
 avlstatic.vivo.com.cn
@@ -2686,6 +2714,45 @@ kukong.hismarttv.com
 upgrade-juui.hismarttv.com
 download-juui-plugin.hismarttv.com
 lbgs.hismarttv.com
+jhk-cdn-mam.hismarttv.com
+play-mam-v1.hismarttv.com
+ad-cmp.hismarttv.com
+msg-dass.hismarttv.com
+unified-ter.hismarttv.com
+cdn-v2-api-channel-launcher.hismarttv.com
+v2-api-channel-launcher.hismarttv.com
+ad-download.hismarttv.com
+publicv2-auth.hismarttv.com
+resource-cmp.hismarttv.com
+param-launcher.hismarttv.com
+cdn-param-launcher.hismarttv.com
+ad-imp.hismarttv.com
+unified-exc.hismarttv.com
+api-gps.hismarttv.com
+layout-launcher.hismarttv.com
+sys-launcher.hismarttv.com
+home-launcher.hismarttv.com
+cdn-bos-launcher.hismarttv.com
+unified-new-exc.hismarttv.com
+param-api-launcher.hismarttv.com
+launcherv2-auth.hismarttv.com
+upgrade-update.hismarttv.com
+picture-shoppingguider.hismarttv.com
+api-shoppingguider.hismarttv.com
+anony-auth.hismarttv.com
+ota-tv.hismarttv.com
+.api.hismarttv.com
+public-wxtv.hismarttv.com
+v2-vod-launcher.hismarttv.com
+.nlp.hismarttv.com
+evt-nlp.hismarttv.com
+livetv-layout-launcher.hismarttv.com
+api-bos.hismarttv.com
+api-dynhost.hismarttv.com
+bas.hismarttv.com
+recommender-launcher.hismarttv.com
+airdrop-screen.hismarttv.com
+play-mam-v1-aliacc.hismarttv.com
 
 
 # Hulu
