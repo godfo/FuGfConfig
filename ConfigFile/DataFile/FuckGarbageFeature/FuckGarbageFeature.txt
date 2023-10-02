@@ -166,3 +166,4 @@ iot1.midea.com.cn
 .pingtest.avlsec.com
 ocsp.trust-provider.cn
 firebase-settings.crashlytics.com
+time.wasu.tv
