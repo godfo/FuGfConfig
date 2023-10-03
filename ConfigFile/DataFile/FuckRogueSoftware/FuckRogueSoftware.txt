@@ -497,6 +497,7 @@ v6.htdata.qq.com
 .bigdata.qq.com
 .qbwup.html5.qq.com
 .visitor.crm2.qq.com
+.weixin.renrenying.com
 
 
 ## 阿里系
@@ -748,6 +749,11 @@ adsz.wagbridge.tanx.alimama.com.gds.alibabadns.com
 .umdc.alibabachengdun.com
 .wvcfg.alicdn.com
 .px.ucweb.com
+zconfig.alibabausercontent.com.w.cdngslb.com
+ads-img-al.xhscdn.com.w.cdngslb.com
+yixiu-abtest.alicdn.com.w.cdngslb.com
+laz-dorangesource.alicdn.com.w.cdngslb.com
+game.bilibili.com.w.cdngslb.com
 
 
 ## bilibili 哔哩哔哩
@@ -880,7 +886,6 @@ s*-fe-scm.pglstatp-toutiao.com
 sf*-be-pack.pglstatp-toutiao.com
 sf*-fe-tos.pglstatp-toutiao.com
 v*-be-pack.pglstatp-toutiao.com
-
 .dm-hl.toutiao.com
 .ether-pack.pangolin-sdk-toutiao.com
 .dsp.toutiao.com
@@ -959,6 +964,7 @@ v*-be-pack.pglstatp-toutiao.com
 .tnc3-aliec2.zijieapi.com
 .tnc3-alisc1.zijieapi.com
 .ad.zijieapi.com.w.cdngslb.com
+.ad.zijieapi.com.bytedns1.com
 .toblog.ctobsnssdk.com.w.cdngslb.com
 
 ## 小米
@@ -1195,6 +1201,9 @@ api.comm.miui.com
 .t03-api.xlmc.xunlei.com
 .pre.api.tw06.xlmc.sandai.net
 .guid-xldw-ssl.n0808.com
+.privacy.miui.com
+.sys.miui.com
+.game.browser.intl.miui.com
 
 
 ## jd 京东
@@ -1255,6 +1264,7 @@ jjnctjd.com
 ## 存疑
 .jpushsc.m.jd.com
 .jpushsc.m.jd.com.gslb.qianxun.com
+.analytics.jd-powered.net
 
 ## 优酷 youku
 atm.youku.com
@@ -1383,26 +1393,30 @@ api.cupid.qiyi.com
 msg.video.qiyi.com
 msg2.video.qiyi.com
 
-# 银河互联网电视
-msg.ptqy.gitv.tv
-stv.ptqy.gitv.tv
-data.video.ptqy.gitv.tv
-policy.video.ptqy.gitv.tv
-doh.ptqy.gitv.tv
-ip.ptqy.gitv.tv
-openapi.vip.ptqy.gitv.tv
-time.video.ptqy.gitv.tv
-sdk-cache.video.ptqy.gitv.tv
-sdk.ptqy.gitv.tv
-si.ptqy.gitv.tv
-puma-api.ptqy.gitv.tv
-cupid.ptqy.gitv.tv
-nl.rcd.ptqy.gitv.tv
-static.ptqy.gitv.tv
-ota.ptqy.gitv.tv
-msga.ptqy.gitv.tv
-auth.api.gitv.tv
-pb.bi.gitv.tv
+
+## 银河互联网电视
+.msg.ptqy.gitv.tv
+.stv.ptqy.gitv.tv
+.data.video.ptqy.gitv.tv
+.policy.video.ptqy.gitv.tv
+.doh.ptqy.gitv.tv
+.ip.ptqy.gitv.tv
+.openapi.vip.ptqy.gitv.tv
+.time.video.ptqy.gitv.tv
+.sdk-cache.video.ptqy.gitv.tv
+.sdk.ptqy.gitv.tv
+.si.ptqy.gitv.tv
+.puma-api.ptqy.gitv.tv
+.cupid.ptqy.gitv.tv
+.nl.rcd.ptqy.gitv.tv
+.static.ptqy.gitv.tv
+.ota.ptqy.gitv.tv
+.msga.ptqy.gitv.tv
+#.auth.api.gitv.tv
+.pb.bi.gitv.tv
+.msg.video.ptqy.gitv.tv
+.msg2.video.ptqy.gitv.tv
+
 
 ## vivo
 avlstatic.vivo.com.cn
@@ -1447,6 +1461,8 @@ az.appstore.vivo.com.cn
 # .exam-ios-jp.bh3.com
 .ad-log-upload.mihoyo.com
 .log-upload-eur.mihoyo.com
+.hkrpg-log-upload.mihoyo.com
+
 
 ## zhihu 知乎
 .zhihu-web-analytics.zhihu.com
@@ -1484,6 +1500,9 @@ api-unionid.meituan.com
 # 存疑
 lx0.meituan.com
 .data-sdk-uuid-log.d.meituan.net
+postreport.meituan.com
+appsec-mobile.meituan.com
+
 
 ## pdd nmsl 拼多多
 cmtw.pinduoduo.com
@@ -1555,6 +1574,9 @@ log.ergeduoduo.com
 .analytics.ci-360.se
 .xianglong360.cn
 .papi.look.360.cn
+.stat.wifi.360.cn
+.hao.360.cn
+
 
 ## 2345
 .2345.com
@@ -1815,6 +1837,16 @@ antivirus.baidu.com
 .88-baidu.com
 .hiphotos.baidu.com
 .ota.baidu.com
+.activity.baidu.com
+.updown.mobileassist.baidu.com
+
+## Facebook
+.graph.facebook.com
+.huawei.facebook.com
+.dns.facebook.com
+.analytics.facebook.com
+.platform.facebook.com
+
 
 ## 微软 Microsoft
 ## 主要来自 https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt ，在此表示感谢
@@ -2075,8 +2107,11 @@ events-*.op.hicloud.com
 .if03eveo0gf-rjeer.obs.sa-brazil-1.myhuaweicloud.com
 .vgje4p095rtg-h43e-g9fhvnew-rp0hvg-e3hgrgrg.obs.sa-brazil-1.myhuaweicloud.com
 .8035ugt-w34hrg-0hjwre-ghjew-r0hg-ehg9-h-rtg.obs.af-south-1.myhuaweicloud.com
+.logserver.hicloud.com
+.feedback-dre.platform.hicloud.com
+.reporte2.hicloud.com
+.reporte.hicloud.com
 
-## 移动
 
 ## 联通
 opencloud.wostore.cn
@@ -2084,6 +2119,7 @@ nissd1.10010.com
 .jf.10010.com
 .smartad.10010.com
 .ad.10010.com
+
 
 ## 银联
 ads.95516.com
@@ -2152,6 +2188,7 @@ e-p*p.163.com
 .silkroad.csdn.net
 .dc.csdn.net
 
+
 ## 同花顺
 recommend.10jqka.com.cn
 stat.10jqka.com.cn
@@ -2159,6 +2196,7 @@ vaserviece.10jqka.com.cn
 ; adm.10jqka.com.cn
 .eq.10jqka.com.cn
 .ozone.10jqka.com.cn
+
 
 ## oppo
 .httpdns.push.oppomobile.com
@@ -2240,24 +2278,33 @@ com-cloud-0-eventsvip-svc-engine.14.0.oppo.cn
 .ulog-sdk.gifshow.com
 .ulogs1.gifshow.com
 ulogs2.gifshow.com
+.ad.partner.gifshow.com
+.log-sdk.gifshow.com
+.gdfp.gifshow.com
+
+
 
 ## Oracle
 tms.oracle.com
+
 
 ## sina
 d*.sina.com.cn
 ad*.sina.com.cn
 log*.sina.cn
-
+.log2.sina.cn
+.log.sina.cn
+.ads.sina.com
+.adimages.sina.com.hk
+.ad.sina.com.cn
+.logger.sina.cn
 .dns.weibo.cn
 39.97.128.148/32
 39.97.130.51/32
-
 .promote.biz.weibo.cn
 .gw6.push.mcp.weibo.cn
 .gw5.push.mcp.weibo.cn
 .dp.im.weibo.cn
-
 .adbox.sina.com.cn
 .r.sax.sina.com.cn
 .adm.leju.sina.com.cn
@@ -2281,12 +2328,22 @@ log*.sina.cn
 .ad2.sina.com.cn
 .d1.sina.com.cn
 .d0.sina.com.cn
+.d6.sina.com.cn
+.d4.sina.com.cn
+.d00.sina.com.cn
+sdkapp.mobile.sina.cn
+wbapp.mobile.sina.cn
+sdkclick.mobile.sina.cn
+u1.img.mobile.sina.cn
+
 
 ## truste
 consent.truste.com
 
+
 ## 奶牛快传 厦门稿定股份有限公司
 .log-v2.hlgdata.com
+
 
 ## 喜马拉雅
 .location.ximalaya.com
@@ -2305,6 +2362,7 @@ consent.truste.com
 .adbehavior.wsa.ximalaya.com
 .adse.wsa.ximalaya.com
 .adsehera.ximalaya.com
+
 
 ## 其他推送平台
 
@@ -2357,9 +2415,11 @@ fp-*it*.fengkongcloud.com
 .static.fengkongcloud.com
 .castatic.fengkongcloud.com
 
+
 ## 梦享网络 及刻
 .log-sdk.clickwifi.net
 .vivonew-sdk.clickwifi.net
+
 
 ## HBuilder 数字天堂
 s*.*cloud.net.cn
@@ -2368,6 +2428,7 @@ ac*.*cloud.net.cn
 .s1.cloud.net.cn
 .ac1.dcloud.net.cn
 .ac1.cloud.net.cn
+
 
 ## 极光推送
 # .jpush.cn
@@ -2415,6 +2476,7 @@ fcapi-ipv6.jpush.cn
 139.9.141.89
 114.132.165.205
 
+
 ## MobTech 袤博
 api.push.mob.com
 api.applink.mob.com
@@ -2424,23 +2486,28 @@ api.share.mob.com
 .c.data.mob.com
 .api.fc.mob.com
 
+
 ## 基调听云
 # https://doc.tingyun.com/index.html
 # 听云小程序
 .report.tingyun.com
+
 
 ## 热云
 #.trackingio.com
 log.trackingio.com
 slog.trackingio.com
 
+
 ## 闪验
 sysdk.cl2009.com
 api.253.com
 sy.cl2009.com
 
+
 ## Point SDK
 pointsdk.vivo.com.cn
+
 
 ## chinanetcenter.com
 mauth.chinanetcenter.com
@@ -2453,8 +2520,10 @@ vivomaa.chinanetcenter.com
 # APP本机校验（OnePass）
 .onepass.geetest.com
 
+
 ## 神策数据分析
 .cloud.sensorsdata.cn
+
 
 ## 友盟
 .errlog.umeng.com
@@ -2488,6 +2557,7 @@ vivomaa.chinanetcenter.com
 .upoll.umengcloud.com
 .msg.umengcloud.com
 .alog.umengcloud.com
+
 
 ## AppsFlyer
 .launches.appsflyer.com
@@ -2564,33 +2634,41 @@ onelink.appsflyer.com
 .cdn.appsflyer.com
 .cdn.apflyer.com
 .api.apflyer.com
+.t.appsflyersdk.com
+
 
 ## flurry
 .data.flurry.com
 
-## Facebook
-graph.facebook.com
+
+
 
 ## branch
 api2.branch.io
+
 
 ## adjust
 .app.adjust.com
 .s2s.adjust.com
 .app.adjust.net.in
 
+
 ## 阳光宽频网
 v9-default.365yg.com
 v3-default.365yg.com
 
+
 ## 诸云纵横科技
 .log.collector.muchcloud.com
+
 
 ## 云壹互动
 .applogs.yunyihudong.com
 
+
 ## 12306
 .ad.12306.cn
+
 
 ## 个推
 dnms.getui.com
@@ -2644,20 +2722,27 @@ dnms.getui.com
 .b-gtc.getui.com
 .cnaac.getui.com
 
+
 ## 数字联盟
 .aads.shuzilm.cn
 .caid.shuzilm.cn
 .idaa.shuzilm.cn
 .iudd.shuzilm.cn
 .ipv6.shuzilm.cn
+.www.shuzilm.cn
+.api.shuzilm.cn
+.daa.shuzilm.cn
 ## 数据收集，详见 https://tech.sina.com.cn/i/2019-03-25/doc-ihsxncvh5289363.shtml
 .zzhc.vnet.cn
+
 
 ## astyanax
 .astyanax.io
 
+
 ## faisys 繁科
 ;.ss.faisys.com
+
 
 ## 卓信
 .sandbox-zxid-api.mobileservice.cn
@@ -2666,11 +2751,14 @@ dnms.getui.com
 ## 北京锐讯灵通科技有限公司
 .log.umsns.com
 
+
 ## 同盾科技
 .fp.fraudmetrix.cn
 
+
 ## 小满 商业化运营 SaaS 服务平台
 .saas.hixiaoman.com
+
 
 ## adsplay.xyz
 .sony.adsplay.xyz
@@ -2703,15 +2791,22 @@ dnms.getui.com
 .a1.adsplay.xyz
 .gw01.adsplay.xyz
 
+
 ## mixpanel
 api-*.mixpanel.com
 .api-eu.mixpanel.com
 .api.mixpanel.com
+.api-js.mixpanel.com
+.api-secure.mixpanel.com
+.api-compatible.mixpanel.com
+.decide.mixpanel.com
+.switchboard.mixpanel.com
+
 
 ## Smart-TV Blocklist for Pi-hole
 ## 部分来源于 https://github.com/Perflyst/PiHoleBlocklist/blob/master/SmartTV.txt
 
-# Hisense Smart TV 海信
+## Hisense Smart TV 海信
 api.chcatv.hismarttv.com
 api-gps-em.hismarttv.com
 auth-em.hismarttv.com
@@ -2782,25 +2877,38 @@ v2-app-launcher.hismarttv.com
 upgrade-launcher.hismarttv.com
 shop-launcher.hismarttv.com
 upgrade-backup.hismarttv.com
+api.globalphone.hismarttv.com
+api.sa.hismarttv.com
 
-# CIBN 互联网电视
-ad.advst.cp33.ott.cibntv.net
-stat.v2.cp33.ott.cibntv.net
-topapi.cp12.ott.cibntv.net
-mtrace.play.cp81.ott.cibntv.net
-de.as.cp61.ott.cibntv.net
-atm.cp31.ott.cibntv.net
-pl.cp31.ott.cibntv.net
-vali.cp31.ott.cibntv.net
-yk-ssp-ad.cp31.ott.cibntv.net
-ykugc.cp31.ott.cibntv.net
-vali-g1.cp31.ott.cibntv.net
-ark.cp21.ott.cibntv.net
 
-# Hulu
+## CIBN 互联网电视
+.ad.advst.cp33.ott.cibntv.net
+.stat.v2.cp33.ott.cibntv.net
+.topapi.cp12.ott.cibntv.net
+.mtrace.play.cp81.ott.cibntv.net
+.de.as.cp61.ott.cibntv.net
+.atm.cp31.ott.cibntv.net
+.pl.cp31.ott.cibntv.net
+.vali.cp31.ott.cibntv.net
+.yk-ssp-ad.cp31.ott.cibntv.net
+.ykugc.cp31.ott.cibntv.net
+.vali-g1.cp31.ott.cibntv.net
+.ark.cp21.ott.cibntv.net
+.t-l.play.cp81.ott.cibntv.net
+.p-l.play.cp81.ott.cibntv.net
+.mcgi.play.cp81.ott.cibntv.net
+.bkmcgi.play.cp81.ott.cibntv.net
+.sdkconfig.play.cp81.ott.cibntv.net
+.bksdkconfig.play.cp81.ott.cibntv.net
+.brance.play.cp81.ott.cibntv.net
+.dp3.play.cp81.ott.cibntv.net
+.livep.l.cp81.ott.cibntv.net
+
+
+## Hulu
 api.distribution.hulu.com
 
-# Xioami Mi TV
+## Xioami Mi TV
 mitv.tracking.intl.miui.com
 tracking.intl.miui.com
 data.mistat.intl.xiaomi.com
@@ -2832,6 +2940,14 @@ us.rdl.lgtvcommon.com
 us.recommend.lgtvcommon.com
 us.lgsmartad.com
 us.service.lgtvcommon.com
+gb.lgrecommends.lgappstv.com
+mx.ibs.lgappstv.com
+ru.ibs.lgappstv.com
+br.ibs.lgappstv.com
+de.ibs.lgappstv.com
+gb.ibs.lgappstv.com
+ca.ibs.lgappstv.com
+
 
 # Sony Bravia
 # needed for applications
@@ -2860,6 +2976,7 @@ api.cid.samba.tv
 preferences.cid.samba.tv
 bravia-cfgdst-ore-pro.bda.ndmdhs.com
 
+
 ## 其他
 .online-metrix.net
 .go-mpulse.net
@@ -2887,7 +3004,7 @@ cntv.wrating.com
 
 71.am
 msg.71.am
-
+.adservice.chsmarttv.com
 focusbaiduafp.allyes.com
 .res.mgtv.com
 x.da.hunantv.com
@@ -3381,3 +3498,184 @@ apple-finance.query.yahoo.com
 .log-verify.mob.com
 api.v1.dailypad.cn
 helper.2bulu.com
+.log.vserv.com
+.adlog.vserv.com
+.logfiles.zoomgov.com
+.log.zoomgov.com
+.log-phx.tiktokv.com
+.log-ru.tiktokv.com
+.rtlog-phx.tiktokv.com
+.rtlog-ru.tiktokv.com
+.log16-platform-ycru.tiktokv.com
+.rtlog19-platform-useast5.us.tiktokv.com
+.mssdk16-platform-useast5.us.tiktokv.com
+.log19-applog-useast5.us.tiktokv.com
+.log16-applog-useast5.us.tiktokv.com
+.rtlog16-applog-useast5.us.tiktokv.com
+.log-i18n.tiktokv.com
+.rtlog-i18n.tiktokv.com
+.log19-normal.tiktokv.com
+.log16-normal.tiktokv.com
+.rtlog16-normal.tiktokv.com
+.mssdk22-normal.tiktokv.com
+.log22-normal.tiktokv.com
+.rtlog22-normal.tiktokv.com
+.log16-normal-delay-alisg.tiktokv.com
+.mssdk19-normal-alisg.tiktokv.com
+.log19-normal-alisg.tiktokv.com
+.rtlog19-normal-alisg.tiktokv.com
+.log58-normal-alisg.tiktokv.com
+.rtlog58-normal-alisg.tiktokv.com
+.log17-normal-alisg.tiktokv.com
+.rtlog17-normal-alisg.tiktokv.com
+.mssdk16-normal-alisg.tiktokv.com
+.log16-normal-alisg.tiktokv.com
+.rtlog16-normal-alisg.tiktokv.com
+.log15-normal-alisg.tiktokv.com
+.mssdk22-normal-alisg.tiktokv.com
+.log22-normal-alisg.tiktokv.com
+.rtlog22-normal-alisg.tiktokv.com
+.log31-normal-alisg.tiktokv.com
+.log58-normal-c-alisg.tiktokv.com
+.log77-normal-c-alisg.tiktokv.com
+.log3-normal-c-alisg.tiktokv.com
+.mssdk-sg.tiktokv.com
+.xlog.tiktokv.com
+.rtlog.tiktokv.com
+.mssdk19-normal-useast2a.tiktokv.com
+.log19-normal-useast2a.tiktokv.com
+.rtlog19-normal-useast2a.tiktokv.com
+.log17-normal-useast2a.tiktokv.com
+.rtlog17-normal-useast2a.tiktokv.com
+.mssdk16-normal-useast2a.tiktokv.com
+.log16-normal-useast2a.tiktokv.com
+.rtlog16-normal-useast2a.tiktokv.com
+.log15-normal-useast2a.tiktokv.com
+.rtlog15-normal-useast2a.tiktokv.com
+.mssdk22-normal-useast2a.tiktokv.com
+.log22-normal-useast2a.tiktokv.com
+.rtlog22-normal-useast2a.tiktokv.com
+.log31-normal-useast2a.tiktokv.com
+.log19-applog-useast2a.tiktokv.com
+.rtlog16-applog-useast2a.tiktokv.com
+.log22-applog-useast2a.tiktokv.com
+.log16-normal-c-useast2a.tiktokv.com
+.xlog16-normal-c-useast2a.tiktokv.com
+.log-va-useast2a.tiktokv.com
+.rtlog-va-useast2a.tiktokv.com
+.log16-tmp-normal-useast1a.tiktokv.com
+.rtlog16-tmp-normal-useast1a.tiktokv.com
+.mssdk19-normal-useast1a.tiktokv.com
+.log19-normal-useast1a.tiktokv.com
+.rtlog19-normal-useast1a.tiktokv.com
+.rtlog58-normal-useast1a.tiktokv.com
+.log17-normal-useast1a.tiktokv.com
+.rtlog17-normal-useast1a.tiktokv.com
+.mon16-normal-useast1a.tiktokv.com
+.mssdk16-normal-useast1a.tiktokv.com
+.log16-normal-useast1a.tiktokv.com
+.rtlog16-normal-useast1a.tiktokv.com
+.mon15-normal-useast1a.tiktokv.com
+.log15-normal-useast1a.tiktokv.com
+.rtlog15-normal-useast1a.tiktokv.com
+.mssdk22-normal-useast1a.tiktokv.com
+.log22-normal-useast1a.tiktokv.com
+.rtlog22-normal-useast1a.tiktokv.com
+.log19-applog-useast1a.tiktokv.com
+.rtlog19-applog-useast1a.tiktokv.com
+.rtlog16-applog-useast1a.tiktokv.com
+.log9-normal-c-useast1a.tiktokv.com
+.log58-normal-c-useast1a.tiktokv.com
+.log77-normal-c-useast1a.tiktokv.com
+.log16-normal-c-useast1a.tiktokv.com
+.log3-normal-c-useast1a.tiktokv.com
+.log53-normal-c-useast1a.tiktokv.com
+.log.51changdu.com
+.log.tadu.com
+.log.mogu.com
+.app-log.dewu.com
+.log.bifrost.com
+.log-tagmanager.toast.com
+.ad-exchange.toast.com
+.log.x2convert.com
+.log.tpns.gz2.tencent.com
+.log.tresorit.com
+.log.api.drift.com
+.log.ohmynews.com
+.news-log.lsttnews.com
+.ads.rttnews.com
+.advertising.ttnews.com
+.pps-log.feednews.com
+.log.nablerstats.com
+.log.rhythmtowers.com
+.log-eap.coloros.com
+.log-eap-in.coloros.com
+.feedback.coloros.com
+.log-eap-sg.coloros.com
+.log.chosunjns.com
+.log.user-clicks.com
+.wxmini-log.hortorgames.com
+.log.diggoods.com
+.ads.mondogames.com
+.log.us.mybogames.com
+.hw.log.functionads.com
+.log.gamehorror.com
+.dibs-log.tumblr.com
+.log.kmplayer.com
+.log.tmtreader.com
+.log.ireader.com
+.logv2.ireader.com
+.log.al-hiwar.com
+.log.hinterstellar.com
+.log.himoddescargar.com
+.log.uu.easebar.com
+.applog.matrix.easebar.com
+.log-mediation.smartvisionapp.com
+.log.apktoptop.com
+.app-log.immomo.com
+.api-log.immomo.com
+.live-log.immomo.com
+.log.lkjuio.com
+.log.gns.go.com
+.log.kzvepo.com
+.sdk-log-inter.youdao.com
+.store.log.ksyun.com
+.log.allapkdown.com
+.log.modapkdown.com
+.miuilog.update.avlyun.com
+.log-abroad.avlyun.com
+.log.slb.avlyun.com
+.log.kaayun.com
+.client-log.poizon.com
+.log.5gtip.com
+.analytics.nexon.com
+.log.ngsm.nexon.com
+.log.melon.com
+.log.collectaction.com
+.log-sg.dailygn.com
+.log.sysop.duowan.com
+.log.goodfm.com
+.log.gemscool.com
+.analytics.tylenol.com
+.ads.emol.com
+.analytics.emol.com
+.analytics.xmslol.com
+.log.goodnovel.com
+.log.meganovel.com
+.applog-lq.fqnovel.com
+.applog-hl.fqnovel.com
+.applog.fqnovel.com
+.log.100apkdl.com
+.log.klook.com
+.log.iflytek.com
+.log.edgebook.com
+.log.getadblock.com
+.log.igamecj.com
+.log.zuimeitianqi.com
+.ad.zuimeitianqi.com
+.log.user-api.com
+.log.core.cloud.vewd.com
+.titan.babytree.com
+.log.babytree.com
+.tracking.babytree.com
+.titan01.babytree.com
