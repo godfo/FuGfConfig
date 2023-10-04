@@ -47,7 +47,7 @@ shortconn.im.qcloud.com
 119.167.131.95
 125.39.104.18
 42.187.183.13
-119.167.131.37:443
+119.167.131.37
 .szmg.qq.com
 .jubao.qq.com
 .imgcache.qq.com

@@ -1,7 +1,6 @@
 #!name=FuckGarbageFeature
 #!desc=FuckGarbageFeature
 [Host]
-119.167.131.37:443 = 0.0.0.0
 abtest.volceapplog.com = 0.0.0.0
 accountinfo.vivo.com.cn = 0.0.0.0
 adeng.lebo.cn = 0.0.0.0
