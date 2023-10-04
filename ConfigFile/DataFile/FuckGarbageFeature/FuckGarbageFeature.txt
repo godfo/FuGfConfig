@@ -180,7 +180,7 @@ appcloud.zhihu.com
 appcloud2.zhihu.com
 lens.zhihu.com
 main.m.taobao.com
-crash2.zhihu.com
+
 page-modular.zhihu.com
 m-cloud.zhihu.com
 duga.zhihu.com

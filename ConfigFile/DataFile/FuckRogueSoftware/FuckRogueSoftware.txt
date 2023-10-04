@@ -20,6 +20,8 @@
 .jomodns.com
 
 ## 腾讯系
+119.29.29.98
+119.29.29.99
 # .gtimg.com
 .miav-cse.avlyun.com
 # qq
@@ -511,7 +513,7 @@ v6.htdata.qq.com
 .httpdns.alicdn.com
 .httpdns-api.aliyuncs.com
 .httpdns-sc.aliyuncs.com
-203.107.1.1/24
+203.107.1.0/24
 jtrn.is.autonavi.com.gds.alibabadns.com
 log-v6.mmstat.com.gds.alibabadns.com
 .alipaylog.com
@@ -1271,12 +1273,15 @@ jjnctjd.com
 .c.fa.jd.com
 .dg.k.jd.com
 .mapi.m.jd.com
+103.224.222.208
+101.124.19.122
 ## 存疑
 .jpushsc.m.jd.com
 .jpushsc.m.jd.com.gslb.qianxun.com
 .analytics.jd-powered.net
 .lbsgw.m.jd.com
 .blackhole-m.m.jd.com
+
 
 ## 优酷 youku
 atm.youku.com
@@ -1520,6 +1525,7 @@ az.appstore.vivo.com.cn
 .mqtt.zhihu.com
 .zhihu.xmcimg.com
 .sugar.zhihu.com
+.crash2.zhihu.com
 .log-sdk.ksapisrv.com
 118.89.204.198/23
 ;2402:4e00:1200:ed00:0:9089:6dac:96b6/40
@@ -1541,6 +1547,7 @@ fzapph5.gifzpt.cn
 .firefoxchina.cn
 
 ## 美团 meituan
+.httpdns.meituan.com
 .dreport.meituan.net
 .hreport.meituan.com
 .report.meituan.com
@@ -2231,6 +2238,8 @@ e-p*p.163.com
 .wanproxy.127.net
 59.111.239.61/32
 59.111.239.62/32
+115.236.121.51
+115.236.121.195
 
 
 ## 网易七鱼
@@ -3073,6 +3082,9 @@ bravia-cfgdst-ore-pro.bda.ndmdhs.com
 
 
 ## 其他
+182.254.118.117
+182.254.118.119
+
 .online-metrix.net
 .go-mpulse.net
 .webpushr.com
