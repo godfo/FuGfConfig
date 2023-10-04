@@ -48,11 +48,99 @@ shortconn.im.qcloud.com
 125.39.104.18
 42.187.183.13
 119.167.131.37
+119.167.131.86
+120.53.64.82
+119.167.131.41
+153.37.101.79
+157.148.49.253
 .szmg.qq.com
 .jubao.qq.com
 .imgcache.qq.com
 .ugcimg.cn
 .gtimg.cn
+aesupport.weixin.qq.com
+wxkeyboardcms-1258476243.file.myqcloud.com
+thirdqq.qlogo.cn
+wxfile.open.weixin.qq.com
+.cgi.connect.qq.com
+.tianshu.gtimg.cn
+.sola.gtimg.cn
+.sqimg.qq.com
+.res.tu.qq.com
+.aq.qq.com
+qqfile.open.qq.com
+mmbiz.qpic.cn
+ti.qq.com
+.qzonestyle.gtimg.cn
+tucao.qq.com
+qzs.qzone.qq.com
+wj.qq.com
+act.qzone.qq.com
+tcb-api.tencentcloudapi.com
+v2.thefatherofsalmon.com
+; security.wechat.com
+10.9.170.126
+fm.m.tencent.com
+aq.qbrand.com
+wx.tenpay.com
+weixin110.qq.com
+shp.qpic.cn
+mapdownload.map.qq.com
+jiazhang.qq.com
+.pay.qq.com
+mobile.qzone.qq.com
+c6.y.qq.com
+youhui.95516.com
+softroute.map.qq.com
+api.youtu.qq.com
+tcdns.myqcloud.com
+livepullipv6.myqcloud.com
+miaojian.weixin.qq.com
+wechat-android-dev.firebaseio.com
+mp.weixinbridge.com
+kf.qbrand.com
+wx.qbrand.com
+ad.wx.com
+wwcdn.weixin.qq.com
+kf.qq.com
+t.qq.com
+wxsnsdy.wxs.qq.com
+1500000419.vod2.myqcloud.com
+m.v.qq.com
+wx.mail.qq.com
+channels.weixin.qq.com
+rd.wechat.com
+mdc.html5.qq.com
+mmocgame.qpic.cn
+hkwallet.moneydata.hk
+e.cn.miaozhen.com
+v.weishi.qq.com
+s.qzone.qq.com
+h.trace.qq.com
+sdi.3g.qq.com
+c.weixin.com
+tcdnsipv6.myqcloud.com
+mmgame.qpic.cn
+wxsnsdythumb.wxs.qq.com
+maplbs-40171.sh.gfp.tencent-cloud.com
+livepull.myqcloud.com
+unipay.sdk.android
+mpvideo.qpic.cn
+wximg.qq.com
+mmsns.qpic.cn
+ilogs.weixin.qq.com
+i.y.qq.com
+wxapp.tc.qq.com
+dianhua.qq.com
+debugxweb.qq.com
+wwfile.work.weixin.qq.com
+ent.chinadaily.com.cn
+view.inews.qq.com
+qprostat.imtt.qq.com
+y.gtimg.cn
+dns.brand.qbrand.com
+confinfo.map.qq.com
+
 
 
 api-mayi.django.t.taobao.com
@@ -66,7 +154,7 @@ api-mayi.django.t.taobao.com
 
 .photovideo.photo.qq.com
 # .q.qlogo.cn
-.qzonestyle.gtimg.cn
+
 
 ## digicert
 ;.digicert.cn
@@ -109,7 +197,6 @@ cgi.qplus.com
 saas.test.hpplay.com.cn
 view.csslcloud.net
 test.lebo.cn
-grs.dbankcloud.com
 debugger.in.zhihu.com
 schemas.xmlsoap.org
 open.e.189.cn
@@ -232,11 +319,7 @@ iot1.midea.com.cn
 
 .dns.google
 
-.cgi.connect.qq.com
-.tianshu.gtimg.cn
-.sola.gtimg.cn
-.sqimg.qq.com
-.res.tu.qq.com
+
 
 .unity.cn
 .unitychina.cn

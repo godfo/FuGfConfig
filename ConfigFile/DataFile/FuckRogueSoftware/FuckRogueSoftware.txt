@@ -108,7 +108,7 @@ omgmta1.qq.com
 sngmta.qq.com
 .dp3.qq.com
 .ad.qq.com
-ad.qun.qq.com
+.qun.qq.com
 .adping.qq.com
 adpm.app.qq.com
 adrdir.qq.com
@@ -219,6 +219,9 @@ idcconfig.gcloudsdk.com
 203.205.138.242
 203.205.179.215
 59.36.121.252
+# 微信输入法
+t.rconfig.qq.com
+content.rconfig.qq.com
 # 存疑
 .dl.url.cn
 .hbd.url.cn
@@ -2166,6 +2169,9 @@ events-*.op.hicloud.com
 .feedback-dre.platform.hicloud.com
 .reporte2.hicloud.com
 .reporte.hicloud.com
+.appgallery.cloud.huawei.com
+.store.hispace.hicloud.com
+fastappjump-drcn.hispace.hicloud.com
 
 
 ## 联通
