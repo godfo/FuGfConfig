@@ -498,6 +498,8 @@ v6.htdata.qq.com
 .qbwup.html5.qq.com
 .visitor.crm2.qq.com
 .weixin.renrenying.com
+.keyrotate.qq.com
+.compliance.tdos.qq.com
 
 
 ## 阿里系
@@ -1265,6 +1267,8 @@ jjnctjd.com
 .jpushsc.m.jd.com
 .jpushsc.m.jd.com.gslb.qianxun.com
 .analytics.jd-powered.net
+.lbsgw.m.jd.com
+.blackhole-m.m.jd.com
 
 ## 优酷 youku
 atm.youku.com
@@ -1344,6 +1348,31 @@ ad.api.3g.tudou.com
 223.87.182.102/32
 223.87.182.11/32
 223.87.182.52/32
+notify.youku.com
+m.yes.youku.com
+s.p.youku.com
+wan.youku.com
+passport-log.youku.com
+ad.api.mobile.youku.com
+guanggaoad.youku.com
+irs01.youku.com
+
+
+## sohu.com
+v.aty.sohu.com
+p.aty.sohu.com
+agn.aty.sohu.com
+m.aty.sohu.com
+vm.aty.sohu.com
+pm.aty.sohu.com
+vg.aty.sohu.com
+pg.aty.sohu.com
+mmg.aty.sohu.com
+f.aty.sohu.com
+api.danmu.tv.sohu.com
+pv.sohu.com
+download.wan.sohu.com
+
 
 ## 爱奇艺
 .t7z.cupid.iqiyi.com
@@ -1392,6 +1421,20 @@ www.iqiyi.space
 api.cupid.qiyi.com
 msg.video.qiyi.com
 msg2.video.qiyi.com
+api.yuedu.iqiyi.com
+cm.passport.iqiyi.com
+tracker.sns.iqiyi.com
+emoticon.sns.iqiyi.com
+gamecenter.iqiyi.com
+policy.video.iqiyi.com
+paopao.iqiyi.com
+hotchat-im.iqiyi.com
+cloudpush.iqiyi.com
+static.g.iqiyi.com
+store.iqiyi.com
+notice.iqiyi.com
+msga.cupid.iqiyi.com
+c.uaa.iqiyi.com
 
 
 ## 银河互联网电视
@@ -1846,6 +1889,10 @@ antivirus.baidu.com
 .dns.facebook.com
 .analytics.facebook.com
 .platform.facebook.com
+
+
+## apple
+iadsdk.apple.com
 
 
 ## 微软 Microsoft
@@ -2485,6 +2532,9 @@ api.share.mob.com
 .api.fd.mob.com
 .c.data.mob.com
 .api.fc.mob.com
+.cdn-api-verify.mob.com
+.f.gm.mob.com
+.l.gm.mob.com
 
 
 ## 基调听云
@@ -2557,6 +2607,7 @@ vivomaa.chinanetcenter.com
 .upoll.umengcloud.com
 .msg.umengcloud.com
 .alog.umengcloud.com
+.errnewlog.umeng.com
 
 
 ## AppsFlyer
@@ -2635,12 +2686,13 @@ onelink.appsflyer.com
 .cdn.apflyer.com
 .api.apflyer.com
 .t.appsflyersdk.com
+.tldaqxt-launches.appsflyersdk.com
+.tldqxt-skadsdkless.appsflyersdk.com
+.tldqxt-dynamic-report-api.appsflyersdk.com
 
 
 ## flurry
 .data.flurry.com
-
-
 
 
 ## branch
@@ -2728,10 +2780,27 @@ dnms.getui.com
 .caid.shuzilm.cn
 .idaa.shuzilm.cn
 .iudd.shuzilm.cn
+.ipv4.shuzilm.cn
 .ipv6.shuzilm.cn
 .www.shuzilm.cn
 .api.shuzilm.cn
 .daa.shuzilm.cn
+.ipi.shuzilm.cn
+.adt.shuzilm.cn
+.api1.shuzilm.cn
+.d2api.shuzilm.cn
+.dai.shuzilm.cn
+.dcc.shuzilm.cn
+.dcc2.shuzilm.cn
+.download.shuzilm.cn
+.idfa2.shuzilm.cn
+.iert.shuzilm.cn
+.mobile.shuzilm.cn
+.stream.shuzilm.cn
+.telecom.shuzilm.cn
+.unicom.shuzilm.cn
+
+
 ## 数据收集，详见 https://tech.sina.com.cn/i/2019-03-25/doc-ihsxncvh5289363.shtml
 .zzhc.vnet.cn
 
