@@ -43,6 +43,11 @@ shortconn.im.qcloud.com
 183.61.49.155
 120.53.80.119
 119.167.131.89
+120.53.70.106
+119.167.131.95
+125.39.104.18
+42.187.183.13
+119.167.131.37:443
 .szmg.qq.com
 .jubao.qq.com
 .imgcache.qq.com
@@ -83,6 +88,10 @@ w.meituan.net
 103.41.167.237
 imagex-settings.volcimagex.net
 appcloud.zhihu.com
+appcloud2.zhihu.com
+lens.zhihu.com
+main.m.taobao.com
+crash2.zhihu.com
 page-modular.zhihu.com
 m-cloud.zhihu.com
 duga.zhihu.com
@@ -140,6 +149,11 @@ test.hpplay.cn
 vipimdns.hpplay.cn
 zeus.csslcloud.net
 logger.csslcloud.net
+fms.ipinyou.com
+apm.zhihu.com
+open.kwaizt.com
+web-er.zhihu.com
+datahub.zhihu.com
 
 
 ## baidu
