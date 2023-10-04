@@ -17,7 +17,6 @@ res.servicewechat.com
 211.144.24.150
 183.61.49.155
 1.204.113.233
-183.61.49.155
 42.49.119.248
 
 live-trace.bilibili.com

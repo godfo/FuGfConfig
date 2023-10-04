@@ -23,7 +23,7 @@
 # .gtimg.com
 .miav-cse.avlyun.com
 # qq
-cgi.connect.qq.com
+.cgi.connect.qq.com
 .dns.qq.com
 .aedns.weixin.qq.com
 .imtmp.net
@@ -56,6 +56,7 @@ pacaio.match.qq.com
 qring-tms.qq.com
 show-msgch.qq.com
 .tbs.imtt.qq.com
+.tbsrecovery.imtt.qq.com
 upage.imtt.qq.com
 upload_data.qq.com
 vv.video.qq.com
@@ -823,9 +824,11 @@ dm.toutiao.com
 dm.bytedance.com
 .toblog.ctobsnssdk.com
 .tobapplog.ctobsnssdk.com
+.toblog-alink.ctobsnssdk.com
 sdfp.snssdk.com
 tosv.byted.org
 .log.snssdk.com
+.ichannel.snssdk.com
 tosv.boe.byted.org
 .i.snssdk.com
 .is.snssdk.com
@@ -849,6 +852,8 @@ mssdk-bu.bytedance.com
 .toblog.volceapplog.com
 .alink.volceapplog.com
 .abtest.volceapplog.com
+.tobapplog.volceapplog.com
+.klink.volceapplog.com
 .sf6-be-pack.pglstatp-toutiao.com
 .log-hl.snssdk.com
 .log.snssdk.com.bytedns.net
@@ -1509,7 +1514,7 @@ az.appstore.vivo.com.cn
 
 ## zhihu 知乎
 .zhihu-web-analytics.zhihu.com
-mqtt.zhihu.com
+.mqtt.zhihu.com
 .zhihu.xmcimg.com
 .sugar.zhihu.com
 .log-sdk.ksapisrv.com
@@ -1517,6 +1522,7 @@ mqtt.zhihu.com
 ;2402:4e00:1200:ed00:0:9089:6dac:96b6/40
 # 强制跳转 app 下载页面
 .oia.zhihu.com
+appcloud2.in.zhihu.com
 
 ## douban 豆瓣
 .erebor.douban.com
@@ -1636,8 +1642,10 @@ dualstack-logs.amap.com
 log.cmbchina.com
 
 ## 移动认证
-log.cmpassport.com
-log2.cmpassport.com
+.log*.cmpassport.com
+.log.cmpassport.com
+.log2.cmpassport.com
+.log1.cmpassport.com
 
 ## 彩云
 .ad.caiyunapp.com
@@ -2129,7 +2137,7 @@ metrics1.data.hicloud.com
 metrics2.data.hicloud.com
 metrics3.data.hicloud.com
 metrics4.data.hicloud.com
-metrics5.data.hicloud.com
+.metrics5.data.hicloud.com
 metrics5.dt.dbankcloud.ru
 metrics6.dt.hicloud.com
 logservice-dra.platform.hicloud.com
@@ -2608,6 +2616,11 @@ vivomaa.chinanetcenter.com
 .msg.umengcloud.com
 .alog.umengcloud.com
 .errnewlog.umeng.com
+.utoken.umeng.com
+.ccs.umeng.com
+.audid.umeng.com
+.pslog.umeng.com
+.sss.umeng.com
 
 
 ## AppsFlyer
@@ -2773,6 +2786,7 @@ dnms.getui.com
 .c-gtc.getui.com
 .b-gtc.getui.com
 .cnaac.getui.com
+.d-gt.getui.com
 
 
 ## 数字联盟
@@ -2803,6 +2817,11 @@ dnms.getui.com
 
 ## 数据收集，详见 https://tech.sina.com.cn/i/2019-03-25/doc-ihsxncvh5289363.shtml
 .zzhc.vnet.cn
+
+
+## 统一移动基础服务平台
+zxid-m.mobileservice.cn
+.aid.mobileservice.cn
 
 
 ## astyanax
@@ -3748,3 +3767,4 @@ helper.2bulu.com
 .log.babytree.com
 .tracking.babytree.com
 .titan01.babytree.com
+.aaid.uyunad.com
