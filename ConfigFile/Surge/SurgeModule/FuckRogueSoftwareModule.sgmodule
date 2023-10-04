@@ -2897,6 +2897,7 @@ titan.pinduoduo.com = 0.0.0.0
 *.tkweb.baidu.com = 0.0.0.0
 *.tldaqxt-launches.appsflyersdk.com = 0.0.0.0
 *.tldqxt-dynamic-report-api.appsflyersdk.com = 0.0.0.0
+*.tldqxt-launches.appsflyersdk.com = 0.0.0.0
 *.tldqxt-skadsdkless.appsflyersdk.com = 0.0.0.0
 *.tmead.y.qq.com = 0.0.0.0
 *.tmeadcomm.y.qq.com = 0.0.0.0

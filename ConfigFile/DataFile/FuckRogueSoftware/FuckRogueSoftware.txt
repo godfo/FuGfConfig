@@ -2706,6 +2706,7 @@ onelink.appsflyer.com
 .api.apflyer.com
 .t.appsflyersdk.com
 .tldaqxt-launches.appsflyersdk.com
+.tldqxt-launches.appsflyersdk.com
 .tldqxt-skadsdkless.appsflyersdk.com
 .tldqxt-dynamic-report-api.appsflyersdk.com
 

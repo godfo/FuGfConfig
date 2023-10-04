@@ -140,6 +140,7 @@ qprostat.imtt.qq.com
 y.gtimg.cn
 dns.brand.qbrand.com
 confinfo.map.qq.com
+jsapi.qq.com
 
 
 
