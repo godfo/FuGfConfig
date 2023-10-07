@@ -33,4 +33,3 @@ face.t.sinajs.cn
 v1.hitokoto.cn
 
 eco.taobao.com
-v1.hitokoto.cn

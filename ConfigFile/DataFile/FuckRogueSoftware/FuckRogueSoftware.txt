@@ -506,6 +506,7 @@ v6.htdata.qq.com
 .weixin.renrenying.com
 .keyrotate.qq.com
 .compliance.tdos.qq.com
+.appservice.qq.com
 
 
 ## 阿里系
@@ -1451,6 +1452,7 @@ c.uaa.iqiyi.com
 
 
 ## 银河互联网电视
+.doh.ptqy.gitv.tv
 .msg.ptqy.gitv.tv
 .stv.ptqy.gitv.tv
 .data.video.ptqy.gitv.tv
@@ -2973,9 +2975,9 @@ play-mam-v1-aliacc.hismarttv.com
 cudetect.hismarttv.com
 gfgk-ter-cn.hismarttv.com
 api-cloudfalcon.hismarttv.com
-api-vidaaasst.hismarttv.com
+.api-vidaaasst.hismarttv.com
 service-api-videochat.hismarttv.com
-vidaa.chcatv.hismarttv.com
+.vidaa.chcatv.hismarttv.com
 play-mam-v1-wsacc.hismarttv.com
 v2-app-launcher.hismarttv.com
 upgrade-launcher.hismarttv.com
@@ -2983,6 +2985,7 @@ shop-launcher.hismarttv.com
 upgrade-backup.hismarttv.com
 api.globalphone.hismarttv.com
 api.sa.hismarttv.com
+.neo-nlp.hismarttv.com
 
 
 ## CIBN 互联网电视

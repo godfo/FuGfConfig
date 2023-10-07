@@ -616,3 +616,15 @@ api.sobot.com
 77.162.125.199/32
 78.140.131.214/32
 91.196.216.64/32
+
+apilocate.amap.com
+restapi.amap.com
+askshda.iot.gz.baidubce.com
+
+mdap.alipay.com
+
+moni-onrt-stsdk.vivo.com.cn
+
+acs.m.taobao.com
+
+resolver.dingtalk.com
