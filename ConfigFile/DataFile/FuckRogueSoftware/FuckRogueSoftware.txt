@@ -491,7 +491,6 @@ v6.htdata.qq.com
 .appstore.browser.qq.com
 .photovideo.photo.qq.com
 .api.pr.weixin.qq.com
-.mp.weixin.qq.com
 .long.weixin.qq.com
 .admind.svideo.tcdn.qq.com
 .x2.tcdn.qq.com
@@ -2560,6 +2559,7 @@ api.share.mob.com
 .cdn-api-verify.mob.com
 .f.gm.mob.com
 .l.gm.mob.com
+.api.verify.mob.com
 
 
 ## 基调听云
