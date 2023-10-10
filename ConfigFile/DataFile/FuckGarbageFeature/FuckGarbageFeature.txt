@@ -629,3 +629,8 @@ acs.m.taobao.com
 
 resolver.dingtalk.com
 apppush.xiaohongshu.com
+
+# 存疑
+.tags.tiqcdn.com
+.mum.alibabachengdun.com
+.acs-mum.alibabachengdun.com

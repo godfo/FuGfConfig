@@ -59415,7 +59415,6 @@ zdcjts.asics.com
 tags.asics.com
 smetrics.asics.com
 www.qualtrics.com
-siteintercept.qualtrics.com
 microsoft.qualtrics.com
 email.social.qualtrics.com
 www.securitymetrics.com
@@ -59591,7 +59590,6 @@ cdn.appdynamics.com
 api.appdynamics.com
 observe.appdynamics.com
 www.eum-appdynamics.com
-col.eum-appdynamics.com
 gru-col.eum-appdynamics.com
 lon-col.eum-appdynamics.com
 sin-col.eum-appdynamics.com

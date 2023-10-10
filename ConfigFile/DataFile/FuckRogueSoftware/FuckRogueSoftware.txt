@@ -1926,6 +1926,10 @@ wup-58144bf0.we-stats.com
 mobile.eum-appdynamics.com
 pdx-col.eum-appdynamics.com
 lbg-eum-proxy.appdynamics.com
+col.eum-appdynamics.com
+
+## qualtrics
+.siteintercept.qualtrics.com
 
 ## apple
 .iadsdk.apple.com
