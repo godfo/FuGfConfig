@@ -1909,9 +1909,28 @@ antivirus.baidu.com
 .analytics.facebook.com
 .platform.facebook.com
 
+## we-stats
+us.v2.we-stats.com
+eu.v2.we-stats.com
+wup-edc5180c.us.v2.we-stats.com
+log-58144bf0.we-stats.com
+log-edc5180c.us.v2.we-stats.com
+wup-6bb5a42d.eu.v2.we-stats.com
+log-b8c1a2ee.we-stats.com
+bcdn-god.we-stats.com
+bcdn-dbff2e04.we-stats.com
+v2.we-stats.com
+wup-58144bf0.we-stats.com
+
+## appdynamics
+mobile.eum-appdynamics.com
+pdx-col.eum-appdynamics.com
+lbg-eum-proxy.appdynamics.com
 
 ## apple
-iadsdk.apple.com
+.iadsdk.apple.com
+metrics.apple.com
+
 
 
 ## 微软 Microsoft
@@ -2549,17 +2568,41 @@ fcapi-ipv6.jpush.cn
 
 
 ## MobTech 袤博
-api.push.mob.com
+.push.mob.com
 api.applink.mob.com
-api.share.mob.com
+.share.mob.com
 .devs.data.mob.com
 .api.fd.mob.com
 .c.data.mob.com
 .api.fc.mob.com
 .cdn-api-verify.mob.com
-.f.gm.mob.com
-.l.gm.mob.com
-.api.verify.mob.com
+.gm.mob.com
+.verify.mob.com
+.log.sms.mob.com
+.log-verify.mob.com
+.mic.mob.com
+.df.mob.com
+.init.sms.mob.com
+.applink.mob.com
+.moblink.mob.com
+.d.mob.com
+.sdk.guard.mob.com
+.api.exc.mob.com
+.m.data.mob.com
+.cors.hot-mob.com
+.wpr.hot-mob.com
+.monitor.hot-mob.com
+.dsp.hot-mob.com
+.wap.hot-mob.com
+.cdn.hot-mob.com
+.trk.hot-mob.com
+.network.hot-mob.com
+.track.hot-mob.com
+.webapi.hot-mob.com
+.adsite.hot-mob.com
+.code.hot-mob.com
+.ad.hot-mob.com
+.testad.hot-mob.com
 
 
 ## 基调听云
@@ -3604,8 +3647,7 @@ ad.kissasian.nz
 .jpush.binance.im
 .googleads.g.doubleclick.net
 apple-finance.query.yahoo.com
-.log.sms.mob.com
-.log-verify.mob.com
+
 api.v1.dailypad.cn
 helper.2bulu.com
 .log.vserv.com
@@ -3790,3 +3832,4 @@ helper.2bulu.com
 .tracking.babytree.com
 .titan01.babytree.com
 .aaid.uyunad.com
+.sentry.csdn.net

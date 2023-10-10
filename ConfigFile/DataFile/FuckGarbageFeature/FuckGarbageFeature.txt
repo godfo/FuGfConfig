@@ -628,9 +628,4 @@ moni-onrt-stsdk.vivo.com.cn
 acs.m.taobao.com
 
 resolver.dingtalk.com
-
-# xiaohongshu
-
 apppush.xiaohongshu.com
-#3ms
-:80

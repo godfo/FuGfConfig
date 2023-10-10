@@ -30,7 +30,7 @@ func main() {
 	var ans []model.Pair
 
 	// names := []string{"ChinaASN"}
-	names := []string{"AI", "Direct", "Cryptocurrency", "Proxy", "CodeTools", "Microsoft", "Tracker", "FuckGarbageFeature", "FuckRogueSoftware"}
+	names := []string{"AI", "Bank", "Direct", "Cryptocurrency", "Proxy", "CodeTools", "Microsoft", "Tracker", "FuckGarbageFeature", "FuckRogueSoftware"}
 	for _, name := range names {
 		//  清空残留的数据
 		base, inbox, inboxResult = []string{}, []string{}, []string{}
@@ -147,9 +147,9 @@ func policyProcessing(base []string, inbox []string) ([]model.Pair, []string) {
 			// 清除一下格式，只保留 IP 或者域名
 			v = util.CleanAll(v)
 			// 跳过 待处理 规则中 类似于 xxx.com 的规则 或者 xxx 的规则
-			// if strings.Count(v, ".") == 1 || strings.Count(v, ".") == 0 {
-			// 	continue
-			// }
+			if strings.Count(v, ".") == 1 || strings.Count(v, ".") == 0 {
+				continue
+			}
 			// 检查是否在 base map 里面
 			if _, ok := ansMap[v]; !ok {
 				// 如果不存在
