@@ -1083,7 +1083,6 @@ ex.qq.com = 0.0.0.0
 *.ex.umengcloud.com = 0.0.0.0
 *.expeva.store.qq.com = 0.0.0.0
 extlog.snssdk.com = 0.0.0.0
-extshort.weixin.qq.com = 0.0.0.0
 *.f-log-at.grammarly.io = 0.0.0.0
 *.f-log-balto.grammarly.io = 0.0.0.0
 *.f-log-csp.grammarly.io = 0.0.0.0

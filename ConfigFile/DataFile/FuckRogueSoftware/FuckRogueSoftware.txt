@@ -377,7 +377,8 @@ cross.report.tgp.qq.com
 dlied1.qq.com
 dlied1.tcdn.qq.com
 ex.qq.com
-extshort.weixin.qq.com
+# 屏蔽会导致新设备登录时显示无网络连接
+# extshort.weixin.qq.com
 fbih5report.3g.qq.com
 fereport.qidian.qq.com
 hkextshort.weixin.qq.com

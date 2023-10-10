@@ -69,7 +69,6 @@ wxfile.open.weixin.qq.com
 .res.tu.qq.com
 .aq.qq.com
 qqfile.open.qq.com
-mmbiz.qpic.cn
 ti.qq.com
 .qzonestyle.gtimg.cn
 tucao.qq.com
@@ -83,7 +82,7 @@ v2.thefatherofsalmon.com
 fm.m.tencent.com
 aq.qbrand.com
 wx.tenpay.com
-weixin110.qq.com
+# weixin110.qq.com
 shp.qpic.cn
 mapdownload.map.qq.com
 jiazhang.qq.com
