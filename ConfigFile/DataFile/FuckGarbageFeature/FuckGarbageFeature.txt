@@ -53,8 +53,12 @@ shortconn.im.qcloud.com
 119.167.131.41
 153.37.101.79
 157.148.49.253
-119.167.131.97
+# 119.167.131.97
 120.53.71.94
+42.187.183.169
+111.206.99.40
+116.130.228.169
+111.206.99.40
 .szmg.qq.com
 .jubao.qq.com
 .imgcache.qq.com
@@ -640,6 +644,10 @@ vipauth.hpplay.cn
 
 cdnauth2.hpplay.cn
 
+clients3.google.com
+
+codepush.appcenter.ms
+
 # 存疑
 .tags.tiqcdn.com
 .mum.alibabachengdun.com
@@ -647,3 +655,9 @@ cdnauth2.hpplay.cn
 .adash-emas.cn-hangzhou.aliyuncs.com
 .conf-darwin.xycdn.com
 .sd-gl.xycdn.com
+.tdsdk.cpatrk.net
+.me.cpatrk.net
+cloud.cpatrk.net
+sentry.manmanbuy.com
+eco-push-api-client.meiqia.com
+volcengine.manmanbuy.com
