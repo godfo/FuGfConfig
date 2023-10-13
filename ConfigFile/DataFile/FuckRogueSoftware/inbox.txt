@@ -44434,7 +44434,6 @@ chickadee.serverlessfirst.com
 blue.ozarksfirst.com
 blue.rochesterfirst.com
 blue.dothanfirst.com
-px.effirst.com
 ude.effirst.com
 consent.cookiefirst.com
 sstats.americafirst.com

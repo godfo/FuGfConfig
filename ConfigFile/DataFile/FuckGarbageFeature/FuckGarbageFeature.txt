@@ -53,6 +53,8 @@ shortconn.im.qcloud.com
 119.167.131.41
 153.37.101.79
 157.148.49.253
+119.167.131.97
+120.53.71.94
 .szmg.qq.com
 .jubao.qq.com
 .imgcache.qq.com
@@ -140,6 +142,7 @@ y.gtimg.cn
 dns.brand.qbrand.com
 confinfo.map.qq.com
 jsapi.qq.com
+pubminishare-30161.picsz.qpic.cn
 
 
 
@@ -629,7 +632,18 @@ acs.m.taobao.com
 resolver.dingtalk.com
 apppush.xiaohongshu.com
 
+ipv4.dewu.com
+
+client-inf.dewu.com
+
+vipauth.hpplay.cn
+
+cdnauth2.hpplay.cn
+
 # 存疑
 .tags.tiqcdn.com
 .mum.alibabachengdun.com
 .acs-mum.alibabachengdun.com
+.adash-emas.cn-hangzhou.aliyuncs.com
+.conf-darwin.xycdn.com
+.sd-gl.xycdn.com

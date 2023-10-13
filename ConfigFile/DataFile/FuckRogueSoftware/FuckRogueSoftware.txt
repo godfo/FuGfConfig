@@ -763,6 +763,8 @@ ads-img-al.xhscdn.com.w.cdngslb.com
 yixiu-abtest.alicdn.com.w.cdngslb.com
 laz-dorangesource.alicdn.com.w.cdngslb.com
 game.bilibili.com.w.cdngslb.com
+# 岳鹰全景监控
+.px.effirst.com
 
 
 ## bilibili 哔哩哔哩
@@ -2768,6 +2770,7 @@ onelink.appsflyer.com
 .tldqxt-launches.appsflyersdk.com
 .tldqxt-skadsdkless.appsflyersdk.com
 .tldqxt-dynamic-report-api.appsflyersdk.com
+.tldqxt-cdn-settings.appsflyersdk.com
 
 
 ## flurry
@@ -3838,3 +3841,7 @@ helper.2bulu.com
 .titan01.babytree.com
 .aaid.uyunad.com
 .sentry.csdn.net
+.adashx.ut.hzshudian.com
+.edgesdk-data.uhabo.com
+.client-log.dewu.com
+.sdk1xyajs.data.kuiniuca.com
