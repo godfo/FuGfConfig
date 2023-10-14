@@ -309,6 +309,12 @@ iot1.midea.com.cn
 ## 有赞
 .open.youzanyun.com
 
+## 腾讯会议
+updatecdn.meeting.qq.com
+wemeet-resupdate-1256380422.file.myqcloud.com
+updatecdnv6.meeting.qq.com
+report.meeting.tencent.com
+
 ## other
 .ocsp.trust-provider.cn
 .crt.trust-provider.cn
@@ -661,3 +667,14 @@ cloud.cpatrk.net
 sentry.manmanbuy.com
 eco-push-api-client.meiqia.com
 volcengine.manmanbuy.com
+.sensors.dewu.com
+.kit-device-log-1252363965.cos.ap-beijing.myqcloud.com
+.fs.cl2009.com
+.httpdns.calorietech.com
+xinchacha2dv.ocsp-certum.com
+aid.m.taobao.com
+api.map.baidu.com
+121.37.179.2
+apapia-search-weblogic.manmanbuy.com
+tdsdk.xdrig.com
+.track.midway.run
