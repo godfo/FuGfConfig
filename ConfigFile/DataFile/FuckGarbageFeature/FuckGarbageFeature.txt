@@ -54,6 +54,7 @@ shortconn.im.qcloud.com
 153.37.101.79
 157.148.49.253
 # 119.167.131.97
+123.125.0.210
 120.53.71.94
 42.187.183.169
 111.206.99.40
@@ -678,3 +679,4 @@ api.map.baidu.com
 apapia-search-weblogic.manmanbuy.com
 tdsdk.xdrig.com
 .track.midway.run
+.amdc.m.taobao.com

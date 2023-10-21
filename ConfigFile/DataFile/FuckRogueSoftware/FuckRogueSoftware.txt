@@ -769,7 +769,7 @@ game.bilibili.com.w.cdngslb.com
 
 ## bilibili 哔哩哔哩
 .httpdns.bilivideo.com
-.data.bilibili.com
+; .data.bilibili.com
 .cm.bilibili.com
 .dataflow.biliapi.com
 .web-player-tracker.biliapi.net
