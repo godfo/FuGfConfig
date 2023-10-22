@@ -40,6 +40,7 @@
 .vscodeexperiments.azureedge.net
 .vo.msecnd.net
 .vsassets.io
+.vscode-webview.net
 
 ## vscodium
 vscodium.now.sh
@@ -322,3 +323,4 @@ calibre-ebook.com
 .openwrt.org
 .sublimetext.com
 .rfi.fr
+.surge-activation.com

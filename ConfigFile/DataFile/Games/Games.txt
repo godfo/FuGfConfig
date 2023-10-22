@@ -20,6 +20,9 @@ overseauspider.yuanshen.com
 .minecraftshop.com
 .mojang.com
 
+.playfabapi.com
+.fandom.com
+
 ## Xbox
 .xbox.com
 .xbox.org

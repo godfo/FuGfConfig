@@ -198,6 +198,7 @@ upl.baidu.com
 qyapi.weixin.qq.com
 m.duanqu.com
 tsn.baidu.com
+bgg.baidu.com
 test-qs.baijiayun.com
 walletpay.zhihu.com
 baichuan-sdk.alicdn.com
@@ -334,6 +335,8 @@ report.meeting.tencent.com
 .dns.google
 
 
+doapps.gmud.top
+dasher.gmud.top
 
 .unity.cn
 .unitychina.cn

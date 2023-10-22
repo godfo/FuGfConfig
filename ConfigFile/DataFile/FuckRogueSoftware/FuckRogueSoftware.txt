@@ -1563,6 +1563,7 @@ api-unionid.meituan.com
 # 存疑
 lx0.meituan.com
 .data-sdk-uuid-log.d.meituan.net
+.babel-statistics-android.d.meituan.net
 postreport.meituan.com
 appsec-mobile.meituan.com
 
@@ -1651,6 +1652,7 @@ applog.manmanbuy.com
 ## 高德地图
 dualstack-logs.amap.com
 .logs.amap.com
+.cgicol.amap.com
 
 ## 各种银行
 log.cmbchina.com
@@ -2610,6 +2612,7 @@ api.applink.mob.com
 .code.hot-mob.com
 .ad.hot-mob.com
 .testad.hot-mob.com
+
 
 
 ## 基调听云
@@ -3845,3 +3848,6 @@ helper.2bulu.com
 .edgesdk-data.uhabo.com
 .client-log.dewu.com
 .sdk1xyajs.data.kuiniuca.com
+.delivery.wasu.cn
+.go.xlviiirdr.com
+
