@@ -179,6 +179,7 @@ w.meituan.net
 ## jd
 .h5speed.m.jd.com
 .mapi.m.jd.com
+.mllog.jd.com
 
 ## zhihu
 103.41.167.237
@@ -322,7 +323,7 @@ report.meeting.tencent.com
 .crt.trust-provider.cn
 
 .ocsp2.globalsign.com
-.ocsp.usertrust.com
+# .ocsp.usertrust.com
 # .ocsp.pki.goog
 # .ocsp.r2m02.amazontrust.com
 # .ocsp.digicert.cn
@@ -668,6 +669,7 @@ codepush.appcenter.ms
 .tdsdk.cpatrk.net
 .me.cpatrk.net
 cloud.cpatrk.net
+adt.cpatrk.net
 sentry.manmanbuy.com
 eco-push-api-client.meiqia.com
 volcengine.manmanbuy.com
@@ -682,4 +684,10 @@ api.map.baidu.com
 apapia-search-weblogic.manmanbuy.com
 tdsdk.xdrig.com
 .track.midway.run
-.amdc.m.taobao.com
+# .amdc.m.taobao.com
+t2.xiaohongshu.com
+magpie.xhscdn.com
+al-log.d.meituan.net
+layout.meituan.net
+119.167.131.83
+198.18.0.1
