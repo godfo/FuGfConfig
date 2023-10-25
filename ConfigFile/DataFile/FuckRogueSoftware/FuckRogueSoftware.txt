@@ -18,6 +18,7 @@
 .oemdns.com
 .ubmdns.com
 .jomodns.com
+.httpdns.calorietech.com
 
 ## 腾讯系
 119.29.29.98
@@ -755,7 +756,6 @@ adsz.wagbridge.tanx.alimama.com.gds.alibabadns.com
 .ads.uc.cn
 .applog.ucdns.uc.cn
 .applog-perf.uc.cn
-.umdc.alibabachengdun.com
 .wvcfg.alicdn.com
 .px.ucweb.com
 zconfig.alibabausercontent.com.w.cdngslb.com
@@ -862,6 +862,9 @@ mssdk-bu.bytedance.com
 .abtest.volceapplog.com
 .tobapplog.volceapplog.com
 .klink.volceapplog.com
+.mcs.volceapplog.com
+.toblog.volceapplog.com
+.abtest.volceapplog.com
 .sf6-be-pack.pglstatp-toutiao.com
 .log-hl.snssdk.com
 .log.snssdk.com.bytedns.net
@@ -1522,6 +1525,7 @@ az.appstore.vivo.com.cn
 .ad-log-upload.mihoyo.com
 .log-upload-eur.mihoyo.com
 .hkrpg-log-upload.mihoyo.com
+.ys-log-upload.mihoyo.com
 
 
 ## zhihu 知乎
@@ -1585,6 +1589,10 @@ meta.pinduoduo.com
 pmmtk-a.pinduoduo.com
 th-a.pinduoduo.com
 log.ergeduoduo.com
+
+## xiaohongshu
+.t-ads.xiaohongshu.com
+.crash.xiaohongshu.com
 
 ## 360
 .msch.f.360.cn
@@ -2438,6 +2446,12 @@ u1.img.mobile.sina.cn
 
 ## truste
 consent.truste.com
+privacy-policy.truste.com
+consent-st.truste.com
+preferences.truste.com
+choices.truste.com
+choices-or.truste.com
+preferences-mgr.truste.com
 
 
 ## 奶牛快传 厦门稿定股份有限公司
@@ -2631,6 +2645,7 @@ slog.trackingio.com
 sysdk.cl2009.com
 api.253.com
 sy.cl2009.com
+fs.cl2009.com
 
 
 ## Point SDK
@@ -2647,6 +2662,8 @@ vivomaa.chinanetcenter.com
 .riskct.geetest.com
 # APP本机校验（OnePass）
 .onepass.geetest.com
+.static.geetest.com
+.onelogin.geetest.com
 
 
 ## 神策数据分析
@@ -2774,6 +2791,7 @@ onelink.appsflyer.com
 .tldqxt-skadsdkless.appsflyersdk.com
 .tldqxt-dynamic-report-api.appsflyersdk.com
 .tldqxt-cdn-settings.appsflyersdk.com
+.dlsdk.appsflyer.com
 
 
 ## flurry
@@ -2961,6 +2979,10 @@ api-*.mixpanel.com
 .api-compatible.mixpanel.com
 .decide.mixpanel.com
 .switchboard.mixpanel.com
+
+## umetrip
+analytics.umetrip.com
+flightstatus.umetrip.com
 
 
 ## Smart-TV Blocklist for Pi-hole

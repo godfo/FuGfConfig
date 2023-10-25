@@ -60,6 +60,7 @@ shortconn.im.qcloud.com
 111.206.99.40
 116.130.228.169
 111.206.99.40
+14.116.242.250
 .szmg.qq.com
 .jubao.qq.com
 .imgcache.qq.com
@@ -223,10 +224,10 @@ mall.meishesdk.com
 metrics5.dt.dbankcloud.ru
 wap.cmpassport.com
 loggw-exsdk.alipay.com
-abtest.volceapplog.com
+
 huatuocode.huatuo.qq.com
 pre.nbsdk-baichuan.taobao.com
-toblog.volceapplog.com
+
 norma-external-collect.meizu.com
 data-drru.push.dbankcloud.com
 appsupport.qq.com
@@ -236,7 +237,7 @@ sdkauth.lebo.cn
 devicemgr.lebo.cn
 report.csslcloud.net
 creative.meishesdk.com
-umdc.alibabachengdun.com
+.umdc.alibabachengdun.com
 click.baijiayun.com
 conf.lebo.cn
 192.168.124.6
@@ -319,10 +320,10 @@ updatecdnv6.meeting.qq.com
 report.meeting.tencent.com
 
 ## other
-.ocsp.trust-provider.cn
+#.ocsp.trust-provider.cn
 .crt.trust-provider.cn
 
-.ocsp2.globalsign.com
+# .ocsp2.globalsign.com
 # .ocsp.usertrust.com
 # .ocsp.pki.goog
 # .ocsp.r2m02.amazontrust.com
@@ -344,7 +345,6 @@ dasher.gmud.top
 
 .mpaas-loggw4zwy.aliyuncs.com
 .pingtest.avlsec.com
-ocsp.trust-provider.cn
 firebase-settings.crashlytics.com
 time.wasu.tv
 
@@ -645,7 +645,7 @@ moni-onrt-stsdk.vivo.com.cn
 acs.m.taobao.com
 
 resolver.dingtalk.com
-apppush.xiaohongshu.com
+.apppush.xiaohongshu.com
 
 ipv4.dewu.com
 
@@ -675,8 +675,7 @@ eco-push-api-client.meiqia.com
 volcengine.manmanbuy.com
 .sensors.dewu.com
 .kit-device-log-1252363965.cos.ap-beijing.myqcloud.com
-.fs.cl2009.com
-.httpdns.calorietech.com
+
 xinchacha2dv.ocsp-certum.com
 aid.m.taobao.com
 api.map.baidu.com
@@ -691,3 +690,35 @@ al-log.d.meituan.net
 layout.meituan.net
 119.167.131.83
 198.18.0.1
+.lkme.cc
+.ip.taobao.com
+.umdc.aliapp.org
+smallimg.bevol.com
+43.231.145.10
+.unilog.wostore.cn
+.unipayupg.wostore.cn
+.p.iqun.qq.com
+.pic.upqzfile.com
+.clients1.google.com
+qosidc.gcloud.qq.com
+amdc-sibling.alipay.com.cn
+afs.ampaeservices.com
+api.geetest.com
+o4505671399178240.ingest.sentry.io
+photogz.photo.store.qq.com
+sns-video-hw.xhscdn.com
+fe-video-qc.xhscdn.com
+open.mobile.qq.com
+qq-web.cdn-go.cn
+security-web.cdn-go.cn
+aq.qq.com
+graph.qq.com
+vm.gtimg.cn
+rule.tencent.com
+pubminishare-30161.picsz.qpic.cn
+drink.lemonpiggy.com
+aim-abtesting-sdk.za.group
+xman-xflow-sdk.za.group
+appguard.za.group
+api.geevisit.com
+report.futunn.com
