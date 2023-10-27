@@ -722,3 +722,7 @@ xman-xflow-sdk.za.group
 appguard.za.group
 api.geevisit.com
 report.futunn.com
+125.39.104.14
+vectorsdk.map.qq.com
+overseactrl.map.qq.com
+pr.map.qq.com
