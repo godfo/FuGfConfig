@@ -74010,8 +74010,6 @@ cdn-eu.brcdn.com
 cdn.brcdn.com
 p16.hypstarcdn.com
 static.polarcdn.com
-tags-eu.tiqcdn.com
-akamai.tags.tiqcdn.com
 stats.reqcdn.com
 softdl.360tpcdn.com
 delta.rspcdn.com

@@ -1462,7 +1462,6 @@ c.uaa.iqiyi.com
 .stv.ptqy.gitv.tv
 .data.video.ptqy.gitv.tv
 .policy.video.ptqy.gitv.tv
-.doh.ptqy.gitv.tv
 .ip.ptqy.gitv.tv
 .openapi.vip.ptqy.gitv.tv
 .time.video.ptqy.gitv.tv
