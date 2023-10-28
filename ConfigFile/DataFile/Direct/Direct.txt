@@ -159,3 +159,5 @@ test-ipv6.com
 .rustdesk.com
 .lizhi.io
 .cloudfront.net
+.liveperson.net
+.lpsnmedia.net

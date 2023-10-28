@@ -659,11 +659,6 @@ clients3.google.com
 codepush.appcenter.ms
 
 # 存疑
-.tags.tiqcdn.com
-.akamai.tiqcdn.com
-.tags-eu.tiqcdn.com
-.akamai.tags.tiqcdn.com
-
 .mum.alibabachengdun.com
 .acs-mum.alibabachengdun.com
 .adash-emas.cn-hangzhou.aliyuncs.com
