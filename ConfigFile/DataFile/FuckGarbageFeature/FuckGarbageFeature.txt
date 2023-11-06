@@ -309,6 +309,17 @@ iot1.midea.com.cn
 ## 学习强国
 .xuexi.cn
 
+## wps
+qdyn.wps.cn
+ic.wps.cn
+
+## microsoft
+displaycatalog.mp.microsoft.com
+
+## firefox
+detectportal.firefox.com
+tracking-protection.cdn.mozilla.net
+
 ## 上海公交
 .nfcos.net.cn
 
@@ -316,7 +327,6 @@ iot1.midea.com.cn
 .open.youzanyun.com
 
 ## 腾讯会议
-updatecdn.meeting.qq.com
 wemeet-resupdate-1256380422.file.myqcloud.com
 updatecdnv6.meeting.qq.com
 report.meeting.tencent.com
