@@ -24,6 +24,8 @@ miniapp.bilibili.com
 big.bilibili.com
 .bigfun.cn
 .bilicomic.com
+110.18.32.79
+223.167.229.82
 
 ## qq
 .down.qq.com
@@ -725,3 +727,5 @@ vectorsdk.map.qq.com
 overseactrl.map.qq.com
 pr.map.qq.com
 .hismarttv.com
+mobile-data.onetrust.io
+tidal-privacy.my.onetrust.com

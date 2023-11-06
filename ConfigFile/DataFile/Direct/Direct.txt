@@ -1,5 +1,6 @@
 ## 全局
 .cn
+.139.com
 
 ## mihoyo
 .mihoyo.com
