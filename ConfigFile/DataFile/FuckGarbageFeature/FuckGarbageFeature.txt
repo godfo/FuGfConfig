@@ -42,27 +42,6 @@ shortconn.im.qcloud.com
 .game.weixin.qq.com
 .c2c.qq.com
 .szminorshort.weixin.qq.com
-183.61.49.155
-120.53.80.119
-119.167.131.89
-120.53.70.106
-119.167.131.95
-125.39.104.18
-42.187.183.13
-119.167.131.37
-119.167.131.86
-120.53.64.82
-119.167.131.41
-153.37.101.79
-157.148.49.253
-# 119.167.131.97
-123.125.0.210
-120.53.71.94
-42.187.183.169
-111.206.99.40
-116.130.228.169
-111.206.99.40
-14.116.242.250
 .szmg.qq.com
 .jubao.qq.com
 .imgcache.qq.com
@@ -88,7 +67,6 @@ act.qzone.qq.com
 tcb-api.tencentcloudapi.com
 v2.thefatherofsalmon.com
 ; security.wechat.com
-10.9.170.126
 fm.m.tencent.com
 aq.qbrand.com
 wx.tenpay.com

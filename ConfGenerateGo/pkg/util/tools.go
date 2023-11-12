@@ -14,11 +14,39 @@ func IsIPV4(s string) bool {
 	return ipv4Pattern.MatchString(s)
 }
 
+// func IsIPV4(s string) bool {
+// 	ip := net.ParseIP(s)
+// 	if ip == nil {
+// 		fmt.Println("IP address is not valid")
+// 		return false
+// 	}
+
+// 	if ip.To4() != nil {
+// 		return true
+// 	} else {
+// 		return false
+// 	}
+// }
+
 // IsIPV6 判断是否为 IPV6
 func IsIPV6(s string) bool {
 	ipv6Pattern := regexp.MustCompile(`^([0-9a-fA-F]{1,4}:){7}[0-9a-fA-F]{1,4}$`)
 	return ipv6Pattern.MatchString(s)
 }
+
+// func IsIPV6(s string) bool {
+// 	ip := net.ParseIP(s)
+// 	if ip == nil {
+// 		fmt.Println("IP address is not valid")
+// 		return false
+// 	}
+
+// 	if ip.To16() != nil {
+// 		return true
+// 	} else {
+// 		return false
+// 	}
+// }
 
 // IsDomainRule 是否为 域名
 func IsDomainRule(s string) bool {

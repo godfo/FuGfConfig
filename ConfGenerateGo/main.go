@@ -62,6 +62,10 @@ func main() {
 			util.WriteFile("ShadowrocketRule", ans, "Reject", buildString("../ConfigFile/Shadowrocket/", name, "Rules.conf"), true)
 		}
 
+		if name == "CnAppRule" {
+			util.MITMWriteFile(util.ReadFile("../ConfigFile/DataFile/CnAppRule/CnAppRule.txt") ,"../ConfigFile/QuantumultX/RewriteRemote/MITM.conf")
+		}
+
 		if len(inboxResult) != 0 {
 			util.NormalWriteFile(inboxResult, buildString("../ConfigFile/DataFile/", name, "/inbox.txt"))
 		}
