@@ -1,0 +1,9 @@
+#!name=Cn App MITM
+#!desc=Cn App MITM
+
+[URL Rewrite]
+"^https?:\/\/d\.url\.cn/.*\.plist" - reject
+"^https?:\/\/a\.qiumibao\.com\/activities\/config\.php" - reject
+
+[MITM]
+hostname = %APPEND% *.ott.cibntv.net,*.d.url.cn,*.dldir1.qq.com
