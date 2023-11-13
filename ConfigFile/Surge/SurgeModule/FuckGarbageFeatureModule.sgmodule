@@ -177,6 +177,7 @@ mp.weixinbridge.com = 0.0.0.0
 *.mpaas-loggw4zwy.aliyuncs.com = 0.0.0.0
 mpvideo.qpic.cn = 0.0.0.0
 *.mpvideo.svideoipv6adapter.sched.dcloudstc.com = 0.0.0.0
+msfwifi.3g.qq.com = 0.0.0.0
 *.mum.alibabachengdun.com = 0.0.0.0
 nbsdk-baichuan.alicdn.com = 0.0.0.0
 *.nfcos.net.cn = 0.0.0.0
