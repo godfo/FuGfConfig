@@ -28,6 +28,15 @@ big.bilibili.com
 223.167.229.82
 
 ## qq
+# 不是 443 端口，屏蔽，无法 MITM
+59.36.121.252
+183.61.49.155
+120.53.71.94
+120.53.80.228
+
+
+.qh.qlogo.cn
+
 .down.qq.com
 .yundong.qq.com
 .gamecenter.qq.com
@@ -723,3 +732,4 @@ tidal-privacy.my.onetrust.com
 .xhamsterpremium.com
 .sdk.yiigle.com
 metrics.icloud.com
+pcapp-data-collect.youku.com

@@ -284,7 +284,7 @@ func NormalWriteFile(data []string, filePath string) error {
 	return write.Flush()
 }
 
-func MITMWriteFile(data []string, filePath string) error {
+func QuantumultXMITMWriteFile(data []string, filePath string) error {
 	file, err := os.OpenFile(filePath, os.O_WRONLY|os.O_TRUNC, 0644)
 	if err != nil {
 		fmt.Println("open file error !")
@@ -304,6 +304,31 @@ func MITMWriteFile(data []string, filePath string) error {
 	fmt.Fprintln(write, "")
 	fmt.Fprintln(write, "")
 	fmt.Fprintln(write, `^http:\/\/182\.256\.116\.116\/d - reject`)
+
+	return write.Flush()
+}
+
+func LoonMITMWriteFile(data []string, filePath string) error {
+	file, err := os.OpenFile(filePath, os.O_WRONLY|os.O_TRUNC, 0644)
+	if err != nil {
+		fmt.Println("open file error !")
+		fmt.Println(err)
+		return err
+	}
+	defer file.Close()
+
+	write := bufio.NewWriter(file)
+	fmt.Fprintln(write,"[MITM]")
+	fmt.Fprint(write, "hostname = %APPEND% ")
+	for i, v := range data {
+		fmt.Fprint(write, v)
+		if i < len(data)-1 {
+			fmt.Fprint(write, ", ")
+		}
+	}
+	fmt.Fprintln(write, "")
+	// fmt.Fprintln(write, "")
+	// fmt.Fprintln(write, `^http:\/\/182\.256\.116\.116\/d - reject`)
 
 	return write.Flush()
 }

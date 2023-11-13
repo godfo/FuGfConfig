@@ -63,7 +63,9 @@ func main() {
 		}
 
 		if name == "CnAppRule" {
-			util.MITMWriteFile(util.ReadFile("../ConfigFile/DataFile/CnAppRule/CnAppRule.txt") ,"../ConfigFile/QuantumultX/RewriteRemote/MITM.conf")
+			data:=util.ReadFile("../ConfigFile/DataFile/CnAppRule/CnAppRule.txt")
+			util.QuantumultXMITMWriteFile(data ,"../ConfigFile/QuantumultX/RewriteRemote/MITM.conf")
+			util.LoonMITMWriteFile(data ,"../ConfigFile/Loon/LoonPlugin/MITM.plugin")
 		}
 
 		if len(inboxResult) != 0 {
