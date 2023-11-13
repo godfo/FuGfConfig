@@ -1,10 +1,11 @@
 # 本文件致力于屏蔽一些流氓软件中的垃圾功能
 # 注意可能您认为的不是垃圾的功能在我这儿是垃圾。使用前请注意
 
-## http
+## 未知来源
+112.224.162.141
 60.28.172.233
 
-## b 站游戏屏蔽 注意 ⚠
+## b 站游戏屏蔽
 .biligame.com
 .biligame.net
 .bigfunapp.cn
@@ -12,7 +13,7 @@
 game.bilibili.com.w.cdngslb.com
 .game.bilibili.com
 #.app.bilibili.com
-# 会员购屏蔽 注意 ⚠
+# 会员购屏蔽
 mall.bilibili.com
 show.bilibili.com
 # 视频在线人数
@@ -34,7 +35,7 @@ big.bilibili.com
 120.53.71.94
 120.53.80.228
 
-
+# 头像图片地址，软件内没做缓存，不太需要
 .qh.qlogo.cn
 
 .down.qq.com
@@ -726,10 +727,7 @@ pr.map.qq.com
 .hismarttv.com
 mobile-data.onetrust.io
 tidal-privacy.my.onetrust.com
-.go.xlivesex.com
-.go.xhamsterlive.com
-.syndication.twitter.com
-.xhamsterpremium.com
+
 .sdk.yiigle.com
 metrics.icloud.com
 pcapp-data-collect.youku.com

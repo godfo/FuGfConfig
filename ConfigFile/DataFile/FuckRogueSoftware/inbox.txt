@@ -61839,7 +61839,6 @@ ads-api-sandbox.twitter.com
 cards.twitter.com
 analytics.twitter.com
 p.twitter.com
-syndication.twitter.com
 urls.api.twitter.com
 ads-api.twitter.com
 ads-bidder-api.twitter.com
@@ -92473,7 +92472,6 @@ geoip.masslive.com
 link.loopslive.com
 www.xvideoslive.com
 statse.webtrendslive.com
-go.xhamsterlive.com
 creative.xhamsterlive.com
 l.azarlive.com
 creative.thefaplive.com
