@@ -294,7 +294,7 @@ func QuantumultXMITMWriteFile(data []string, filePath string) error {
 	defer file.Close()
 
 	write := bufio.NewWriter(file)
-	fmt.Fprint(write, "hostname = ")
+	fmt.Fprint(write, "hostname = %APPEND% ")
 	for i, v := range data {
 		fmt.Fprint(write, v)
 		if i < len(data)-1 {
@@ -318,7 +318,7 @@ func LoonMITMWriteFile(data []string, filePath string) error {
 	defer file.Close()
 
 	write := bufio.NewWriter(file)
-	fmt.Fprintln(write,"[MITM]")
+	fmt.Fprintln(write, "[MITM]")
 	fmt.Fprint(write, "hostname = %APPEND% ")
 	for i, v := range data {
 		fmt.Fprint(write, v)
