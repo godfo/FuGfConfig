@@ -1,0 +1,7 @@
+[MITM]
+hostname = %APPEND% d.url.cn, h5.qzone.qq.com
+[URL Rewrite]
+# d.url.cn
+^https?:\/\/d\.url\.cn/abc/abc\.plist - reject
+# h5.qzone.qq.com
+^https?://h5\.qzone\.qq\.com/report.*$ - reject

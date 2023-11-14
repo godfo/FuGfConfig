@@ -2,8 +2,12 @@
 #!desc=Cn App MITM
 
 [URL Rewrite]
-"^https?:\/\/d\.url\.cn/.*\.plist" - reject
-"^https?:\/\/a\.qiumibao\.com\/activities\/config\.php" - reject
+# d.url.cn
+^https?:\/\/d\.url\.cn/abc/abc\.plist - reject
+^https?://ad\.com/ad\.png - reject
+# h5.qzone.qq.com
+^https?://h5\.qzone\.qq\.com/report.*$ - reject
+
 
 [MITM]
-hostname = %APPEND% *.ott.cibntv.net,*.d.url.cn,*.dldir1.qq.com
+hostname = %APPEND% d.url.cn,*.dldir1.qq.com, ad.com, h5.qzone.qq.com
