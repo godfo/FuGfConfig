@@ -1,7 +1,26 @@
-[MITM]
-hostname = %APPEND% d.url.cn, h5.qzone.qq.com
 [URL Rewrite]
-# d.url.cn
-^https?:\/\/d\.url\.cn/abc/abc\.plist - reject
+## Tim
+# d.url.cn | dl.url.cn
+# 加上 (.*\.xml)?$
+^https?:\/\/d\.url\.cn/.*\.plist - reject
+^https?:\/\/dl\.url\.cn/.*\.plist(.*\.xml)?$ - reject
 # h5.qzone.qq.com
-^https?://h5\.qzone\.qq\.com/report.*$ - reject
+^https?:\/\/h5\.qzone\.qq\.com/report.*$ - reject
+## bilibili
+# api.bilibili.com | data.bilibili.com | skynet.bilivideo.com
+^https?:\/\/api\.bilibili\.com/x/push/report.*$ - reject
+^https?:\/\/api\.bilibili\.com/x/v2/dataflow/report.*$ - reject
+^https?:\/\/data\.bilibili\.com/log.*$ - reject
+^https?:\/\/data\.bilibili\.com/v2/log.*$ - reject
+^https?:\/\/skynet\.bilivideo\.com/t1000/log.*$ - reject
+
+## mihoyo
+# minor-api.mihoyo.com
+^https?:\/\/minor-api\.mihoyo\.com/common/h5log/log.*$ - reject
+
+## Other
+^https?:\/\/ad\.com/.*\.png - reject
+^https?:\/\/ad\.com/.*\.png url reject
+
+[MITM]
+hostname = %APPEND% d.url.cn,dl.url.cn,*.dldir1.qq.com, ad.com, h5.qzone.qq.com, api.bilibili.com, data.bilibili.com, skynet.bilivideo.com, minor-api.mihoyo.com
