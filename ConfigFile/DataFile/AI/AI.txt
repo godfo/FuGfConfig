@@ -6,3 +6,5 @@
 .poecdn.net
 .claude.ai
 .anthropic.com
+.oaistatic.com
+.oaiusercontent.com

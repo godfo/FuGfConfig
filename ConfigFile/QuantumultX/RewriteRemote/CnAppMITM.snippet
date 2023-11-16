@@ -1,4 +1,4 @@
-# [URL Rewrite]
+[URL Rewrite]
 ## Tim
 # d.url.cn | dl.url.cn
 # 加上 (.*\.xml)?$
@@ -6,6 +6,18 @@
 ^https?:\/\/dl\.url\.cn/.*\.plist(.*\.xml)?$ url reject
 # h5.qzone.qq.com
 ^https?:\/\/h5\.qzone\.qq\.com/report.*$ url reject
+
+
+## alibaba
+# taobao
+# live-spare.alicdn.com | alive-interact.alicdn.com | livemsgconnect.taobao.com | videotool.ossgw.alicdn.com | fe.m.taobao.com
+^https?:\/\/live-spare\.alicdn\.com/message.*$ url reject
+^https?:\/\/alive-interact\.alicdn\.com/groupBuy/common.*$ url reject
+^https?:\/\/livemsgconnect\.taobao\.com/live/message.*$ url reject
+^https?:\/\/videotool\.ossgw\.alicdn\.com/material/tblive.*$ url reject
+^https?:\/\/fe\.m\.taobao\.com/app/mtb-guang.*$ url reject
+
+
 ## bilibili
 # api.bilibili.com | data.bilibili.com | skynet.bilivideo.com
 ^https?:\/\/api\.bilibili\.com/x/push/report.*$ url reject
@@ -14,9 +26,11 @@
 ^https?:\/\/data\.bilibili\.com/v2/log.*$ url reject
 ^https?:\/\/skynet\.bilivideo\.com/t1000/log.*$ url reject
 
+
 ## mihoyo
 # minor-api.mihoyo.com
 ^https?:\/\/minor-api\.mihoyo\.com/common/h5log/log.*$ url reject
 
-# [MITM]
-hostname = %APPEND% d.url.cn,dl.url.cn,*.dldir1.qq.com, h5.qzone.qq.com, api.bilibili.com, data.bilibili.com, skynet.bilivideo.com, minor-api.mihoyo.com
+
+[MITM]
+hostname = %APPEND% d.url.cn,dl.url.cn,*.dldir1.qq.com, ad.com, h5.qzone.qq.com, livemsgconnect.taobao.com, live-spare.alicdn.com, alive-interact.alicdn.com, videotool.ossgw.alicdn.com, fe.m.taobao.com, api.bilibili.com, data.bilibili.com, skynet.bilivideo.com, minor-api.mihoyo.com
