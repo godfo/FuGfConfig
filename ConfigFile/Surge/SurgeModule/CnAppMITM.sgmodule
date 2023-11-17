@@ -1,39 +1,40 @@
 #!name=Cn App MITM
 #!desc=Cn App MITM
 
+# https://gist.githubusercontent.com/TruElysian/72b528d5aea3cae5ebb2ff4d5947fce4/raw/LoonPlugin.plugin
+
 [URL Rewrite]
 ## Tim
-# d.url.cn | dl.url.cn
+# d.url.cn | dl.url.cn | h5.qzone.qq.com | i.gtimg.cn
 # 加上 (.*\.xml)?$
 ^https?:\/\/d\.url\.cn/.*\.plist - reject
 ^https?:\/\/dl\.url\.cn/.*\.plist(.*\.xml)?$ - reject
-# h5.qzone.qq.com
 ^https?:\/\/h5\.qzone\.qq\.com/report.*$ - reject
-
+^https?:\/\/i\.gtimg\.cn/qqshow/admindata/comdata/vipData_url_to_api/ios.json - reject
 
 ## alibaba
 # taobao
-# live-spare.alicdn.com | alive-interact.alicdn.com | livemsgconnect.taobao.com | videotool.ossgw.alicdn.com | fe.m.taobao.com
+# live-spare.alicdn.com | alive-interact.alicdn.com | livemsgconnect.taobao.com | videotool.ossgw.alicdn.com | fe.m.taobao.com | loggw-ex.alipay.com
 ^https?:\/\/live-spare\.alicdn\.com/message.*$ - reject
 ^https?:\/\/alive-interact\.alicdn\.com/groupBuy/common.*$ - reject
 ^https?:\/\/livemsgconnect\.taobao\.com/live/message.*$ - reject
 ^https?:\/\/videotool\.ossgw\.alicdn\.com/material/tblive.*$ - reject
 ^https?:\/\/fe\.m\.taobao\.com/app/mtb-guang.*$ - reject
-
+^https:\/\/loggw-ex\.alipay\.com\/loggw\/logUpload\.do$ - reject
 
 ## bilibili
 # api.bilibili.com | data.bilibili.com | skynet.bilivideo.com
 ^https?:\/\/api\.bilibili\.com/x/push/report.*$ - reject
+^https?:\/\/api\.bilibili\.com/x/report/heartbeat/mobile.*$ - reject
 ^https?:\/\/api\.bilibili\.com/x/v2/dataflow/report.*$ - reject
 ^https?:\/\/data\.bilibili\.com/log.*$ - reject
 ^https?:\/\/data\.bilibili\.com/v2/log.*$ - reject
 ^https?:\/\/skynet\.bilivideo\.com/t1000/log.*$ - reject
 
-
 ## mihoyo
-# minor-api.mihoyo.com
+# minor-api.mihoyo.com | bbs-api.miyoushe.com
 ^https?:\/\/minor-api\.mihoyo\.com/common/h5log/log.*$ - reject
-
+^https?:\/\/bbs-api\.miyoushe\.com/apihub/api/getAppSplash - reject
 
 [MITM]
-hostname = %APPEND% d.url.cn,dl.url.cn,*.dldir1.qq.com, ad.com, h5.qzone.qq.com, livemsgconnect.taobao.com, live-spare.alicdn.com, alive-interact.alicdn.com, videotool.ossgw.alicdn.com, fe.m.taobao.com, api.bilibili.com, data.bilibili.com, skynet.bilivideo.com, minor-api.mihoyo.com
+hostname = %APPEND% d.url.cn,dl.url.cn,*.dldir1.qq.com, ad.com, h5.qzone.qq.com, i.gtimg.cn, livemsgconnect.taobao.com, live-spare.alicdn.com, alive-interact.alicdn.com, videotool.ossgw.alicdn.com, fe.m.taobao.com, loggw-ex.alipay.com, api.bilibili.com, data.bilibili.com, skynet.bilivideo.com, minor-api.mihoyo.com, bbs-api.miyoushe.com
