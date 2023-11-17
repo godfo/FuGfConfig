@@ -274,7 +274,7 @@ sdkauth.lebo.cn
 devicemgr.lebo.cn
 report.csslcloud.net
 creative.meishesdk.com
-.umdc.alibabachengdun.com
+; .umdc.alibabachengdun.com
 click.baijiayun.com
 conf.lebo.cn
 192.168.124.6

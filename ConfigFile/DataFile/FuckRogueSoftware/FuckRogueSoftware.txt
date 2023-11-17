@@ -608,7 +608,7 @@ yixiu-abtest.alicdn.com
 # 存疑
 .h-adashx.ut.taobao.com
 .h-adashx.ut.dingtalk.com
-.audid-api.taobao.com
+; .audid-api.taobao.com # 审核完成可以放开
 .optimus-ads.amap.com
 .nbsdk-baichuan.alicdn.com
 .nbsdk-baichuan.taobao.com
@@ -666,8 +666,8 @@ track.uc.cn
 wmedia-track.uc.cn
 woodpecker.uc.cn
 p4psearch.china.alibaba.com
-loggw.alipay.com.cn
-guide-acs.m.taobao.com
+; loggw.alipay.com.cn # 导致电费无法提交
+; guide-acs.m.taobao.com #导致无法登录
 .log.aliyuncs.com
 # .dorangesource.alicdn.com
 m-adash.m.taobao.com
