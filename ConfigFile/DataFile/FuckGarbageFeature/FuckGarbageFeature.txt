@@ -778,3 +778,4 @@ tidal-privacy.my.onetrust.com
 .sdk.yiigle.com
 metrics.icloud.com
 pcapp-data-collect.youku.com
+.videotool.ossgw.alicdn.com
