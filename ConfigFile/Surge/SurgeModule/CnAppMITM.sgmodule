@@ -1,7 +1,7 @@
 #!name=Cn App MITM
 #!desc=Cn App MITM
 
-# https://gist.githubusercontent.com/TruElysian/72b528d5aea3cae5ebb2ff4d5947fce4/raw/LoonPlugin.plugin
+# https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/main/ConfigFile/Surge/SurgeModule/CnAppMITM.sgmodule
 
 [URL Rewrite]
 ## Tim
@@ -13,7 +13,7 @@
 ^https?:\/\/i\.gtimg\.cn/qqshow/admindata/comdata/vipData_url_to_api/ios.json - reject
 
 ## alibaba
-# live-spare.alicdn.com | alive-interact.alicdn.com | livemsgconnect.taobao.com | videotool.ossgw.alicdn.com | fe.m.taobao.com | loggw-ex.alipay.com | datagw-edge.alipay.com | amdc-sibling.alipay.com.cn | amdc.alipay.com
+# live-spare.alicdn.com | alive-interact.alicdn.com | livemsgconnect.taobao.com | videotool.ossgw.alicdn.com | fe.m.taobao.com | loggw-ex.alipay.com | datagw-edge.alipay.com | loggw.alipay.com.cn | amdc-sibling.alipay.com.cn | amdc.alipay.com
 # taobao
 ^https?:\/\/live-spare\.alicdn\.com/message.*$ - reject
 ^https?:\/\/alive-interact\.alicdn\.com/groupBuy/common.*$ - reject
@@ -23,6 +23,7 @@
 # zhifubao
 ^https:\/\/loggw-ex\.alipay\.com\/loggw\/logUpload\.do$ - reject
 ^https:\/\/datagw-edge\.alipay\.com\/loggw\/logUpload\.do$ - reject
+^https:\/\/loggw\.alipay\.com\.cn\/loggw\/logUpload\.do$ - reject
 ^https?:\/\/amdc-sibling\.alipay\.com\.cn\/s?query - reject
 ^https?:\/\/amdc\.alipay\.com\/s?query - reject
 
@@ -44,4 +45,4 @@
 ^https?:\/\/bbs-api\.miyoushe\.com/apihub/api/getAppSplash - reject
 
 [MITM]
-hostname = %APPEND% d.url.cn,dl.url.cn,*.dldir1.qq.com, ad.com, h5.qzone.qq.com, i.gtimg.cn, livemsgconnect.taobao.com, live-spare.alicdn.com, alive-interact.alicdn.com, videotool.ossgw.alicdn.com, fe.m.taobao.com, loggw-ex.alipay.com, datagw-edge.alipay.com, amdc-sibling.alipay.com.cn, amdc.alipay.com, mdn.alipayobjects.com, api.bilibili.com, data.bilibili.com, skynet.bilivideo.com, minor-api.mihoyo.com, bbs-api.miyoushe.com
+hostname = %APPEND% d.url.cn,dl.url.cn,*.dldir1.qq.com, ad.com, h5.qzone.qq.com, i.gtimg.cn, livemsgconnect.taobao.com, live-spare.alicdn.com, alive-interact.alicdn.com, videotool.ossgw.alicdn.com, fe.m.taobao.com, loggw-ex.alipay.com, datagw-edge.alipay.com, loggw.alipay.com.cn, amdc-sibling.alipay.com.cn, amdc.alipay.com, mdn.alipayobjects.com, api.bilibili.com, data.bilibili.com, skynet.bilivideo.com, minor-api.mihoyo.com, bbs-api.miyoushe.com
