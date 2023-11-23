@@ -10,7 +10,7 @@
 ^https?:\/\/i\.gtimg\.cn/qqshow/admindata/comdata/vipData_url_to_api/ios.json url reject
 
 ## alibaba
-# live-spare.alicdn.com | alive-interact.alicdn.com | livemsgconnect.taobao.com | videotool.ossgw.alicdn.com | fe.m.taobao.com | loggw-ex.alipay.com | datagw-edge.alipay.com | loggw.alipay.com.cn | amdc-sibling.alipay.com.cn | amdc.alipay.com | live-spare.alicdn.com | gw.alipayobjects.com | umdc.alibabachengdun.net
+# live-spare.alicdn.com | alive-interact.alicdn.com | livemsgconnect.taobao.com | videotool.ossgw.alicdn.com | fe.m.taobao.com | loggw-ex.alipay.com | datagw-edge.alipay.com | loggw.alipay.com.cn | amdc-sibling.alipay.com.cn | amdc.alipay.com | live-spare.alicdn.com | gw.alipayobjects.com | umdc.alibabachengdun.net | acs.m.taobao.com
 # taobao
 ^https?:\/\/live-spare\.alicdn\.com/message.*$ url reject
 ^https?:\/\/alive-interact\.alicdn\.com/livedetail/common.*$ url reject
@@ -31,6 +31,12 @@
 ^https?:\/\/gw\.alipayobjects\.com\/os\/finxbff\/lolita\/.*\/lottie.json$ url reject
 ^https?:\/\/impaas\.alicdn\.com\/live\/message.*$ url reject
 ^https?:\/\/umdc\.alibabachengdun\.net\/sg\/.*\.json$ url reject
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv\/ url reject
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.allresource url reject
+
+## jd
+# api.m.jd.com
+^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(start|uniformRecommend) url reject
 
 ## bilibili
 # api.bilibili.com | data.bilibili.com | skynet.bilivideo.com
@@ -38,6 +44,7 @@
 ^https?:\/\/api\.bilibili\.com/x/report/heartbeat/mobile.*$ url reject
 ^https?:\/\/api\.bilibili\.com/x/v2/dataflow/report.*$ url reject
 ^https?:\/\/api\.bilibili\.com/x/report.*$ url reject
+^https?:\/\/api\.bilibili\.com/open/monitor/apm/report.*$ url reject
 ^https?:\/\/data\.bilibili\.com/log.*$ url reject
 ^https?:\/\/data\.bilibili\.com/v2/log.*$ url reject
 ^https?:\/\/data\.bilibili\.com/gol/postweb.*$ url reject
@@ -54,5 +61,53 @@
 ^https?:\/\/device\.cup\.com\.cn\/dcs_svc\/rest\/outer/devinfo.*$ url reject
 ^https?:\/\/antifraud\.cup\.com\.cn\/v3/profile.*$ url reject
 
+## MeiTuan
+# peisongapi.meituan.com | *.meituan.net | wmapi.meituan.com | www.meituan.com
+^https?:\/\/peisongapi\.meituan\.com\/client\/getInitiateImage url reject
+^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/\w+\.(gif|jpg|jpg\.webp)$ url reject
+^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4) url reject
+^https?:\/\/p\d\.meituan\.net\/(bizad|wmbanner)\/\w+\.jpg url reject
+^https?:\/\/p\d\.meituan\.net\/movie\/\w+\.jpg\?may_covertWebp url reject
+^https?:\/\/img\.meituan\.net\/(bizad|brandCpt)\/\w+\.(png|jpg) url reject
+^https?:\/\/wmapi\.meituan\.com\/api\/v\d+\/loadInfo\? url reject
+^https?:\/\/wmapi\.meituan\.com\/api\/v\d\/startpicture url reject
+^https?:\/\/www\.meituan\.com\/api\/v\d\/appstatus\?ad url reject
+
+## zhihu
+# api.zhihu.com | www.zhihu.com | zhuanlan.zhihu.com | static.zhihu.com
+^https:\/\/api\.zhihu\.com\/unlimited\/go\/my_card url reject
+^https:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config url reject
+^https:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation url reject
+^https:\/\/www\.zhihu\.com\/api\/v4\/mcn\/v2\/linkcards\? url reject
+^https:\/\/www\.zhihu\.com\/api\/v4/(answers|questions)\/\d+/related-readings url reject
+^https:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner url reject
+^https:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation url reject
+^https?:\/\/static\.zhihu\.com\/[^\/]+\/(main|column)\.signflow\.[^.]+.js url reject
+
+## amap
+# *.amap.com
+^https?:\/\/.*\.amap\.com\/ws\/asa\/ads_attribution url reject
+
+## baidu
+# mime.baidu.com | appwk.baidu.com | pan.baidu.com
+^https?:\/\/mime\.baidu\.com\/v\d\/IosStart\/getStartInfo url reject
+^https?:\/\/mime\.baidu\.com\/v\d\/activity\/advertisement url reject
+^https?:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad url reject
+^https?:\/\/pan\.baidu\.com\/act\/v\d\/(bchannel|welfare)\/list url reject
+^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/ad url reject
+^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry url reject
+
+## douban
+# api.douban.com
+^https?:\/\/api\.douban\.com\/v2\/app_ads\/splash url reject
+^https?:\/\/api\.douban\.com\/b.*\/common_ads\?.* url reject
+
+## dewu
+# app.dewu.com
+^https?:\/\/app\.dewu\.com\/api\/v1\/app\/advertisement\/ url reject
+
+## dongfangcaifu
+^https?:\/\/emdcadvertise\.eastmoney\.com\/infoService\/v2 url reject
+
 # [MITM]
-hostname = %APPEND% d.url.cn,dl.url.cn,*.dldir1.qq.com, ad.com, h5.qzone.qq.com, i.gtimg.cn, livemsgconnect.taobao.com, live-spare.alicdn.com, alive-interact.alicdn.com, videotool.ossgw.alicdn.com, fe.m.taobao.com, loggw-ex.alipay.com, datagw-edge.alipay.com, loggw.alipay.com.cn, amdc-sibling.alipay.com.cn, amdc.alipay.com, mdn.alipayobjects.com, live-spare.alicdn.com, gw.alipayobjects.com, umdc.alibabachengdun.net, impaas.alicdn.com, api.bilibili.com, data.bilibili.com, skynet.bilivideo.com, minor-api.mihoyo.com, bbs-api.miyoushe.com, cup.com.cn
+hostname = %APPEND% d.url.cn,dl.url.cn,*.dldir1.qq.com, ad.com, h5.qzone.qq.com, i.gtimg.cn, livemsgconnect.taobao.com, live-spare.alicdn.com, alive-interact.alicdn.com, videotool.ossgw.alicdn.com, fe.m.taobao.com, loggw-ex.alipay.com, datagw-edge.alipay.com, loggw.alipay.com.cn, amdc-sibling.alipay.com.cn, amdc.alipay.com, mdn.alipayobjects.com, live-spare.alicdn.com, gw.alipayobjects.com, umdc.alibabachengdun.net, acs.m.taobao.com, api.m.jd.com, impaas.alicdn.com, api.bilibili.com, data.bilibili.com, skynet.bilivideo.com, minor-api.mihoyo.com, bbs-api.miyoushe.com, cup.com.cn, peisongapi.meituan.com, *.meituan.net, wmapi.meituan.com, www.meituan.com, api.zhihu.com, www.zhihu.com, zhuanlan.zhihu.com, static.zhihu.com, *.amap.com, mime.baidu.com, appwk.baidu.com, pan.baidu.com, api.douban.com

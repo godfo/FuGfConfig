@@ -22,6 +22,8 @@
 
 .nuget.org
 
+.maven.apache.org
+
 ## Debian 仓库
 .debian.org
 
