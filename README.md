@@ -6,13 +6,11 @@
 
 ## 支持
 
-本项目对 Loon、QuantumultX、AdGuard Home 提供完全支持
+本项目对 Loon、QuantumultX、AdGuard Home、Surge 提供完全支持
 
-对 Surge、Shadowrocket 提供不完全支持
+优先级：Loon = QuantumultX = AdGuard Home = Surge
 
-优先级：Loon = QuantumultX = AdGuard Home
-
-> 经过鄙人的重构，现在提供 Host,DomainSet,Clash,Loon,QuantumultX 的支持，各位可以按需引用
+> 经过鄙人的重构，现在提供 Host,DomainSet,Loon,QuantumultX 的支持，各位可以按需引用
 
 > 被迫修改了一些规则的路径和名字，我尽量争取此类事件不再发生
 
@@ -133,12 +131,12 @@ https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/main/ConfigFile/Loon
 
 ```
 # loon
-AppleUpdate = select,REJECT-DROP,AppleAll,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_Update.png
+AppleUpdate = select,REJECT-DROP,DIRECT,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_Update.png
 
 https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/main/ConfigFile/Loon/LoonRemoteRule/Apple/AppleUpdateRules.conf, policy=REJECT ,tag=AppleUpdate, enable=true
 
 # qx
-static= AppleUpdate, reject, AppleAll, img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_Update.png
+static= AppleUpdate, reject, direct, img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_Update.png
 
 https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/main/ConfigFile/QuantumultX/Apple/AppleUpdateRules.conf, force-policy=AppleUpdate, tag=AppleUpdateRules, enabled=true
 ```
