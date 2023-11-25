@@ -780,3 +780,5 @@ metrics.icloud.com
 pcapp-data-collect.youku.com
 .videotool.ossgw.alicdn.com
 111.206.149.168
+et.tanx.com
+api.meishesdk.com

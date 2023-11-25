@@ -10,6 +10,10 @@
 ^https?:\/\/h5\.qzone\.qq\.com/log.*$ - reject
 ^https?:\/\/i\.gtimg\.cn/qqshow/admindata/comdata/vipData_url_to_api/ios.json - reject
 
+## 腾讯会议
+# rmonitor.qq.com
+^https?:\/\/rmonitor\.qq\.com/appconfig.*$ url reject
+
 ## alibaba
 # live-spare.alicdn.com | alive-interact.alicdn.com | livemsgconnect.taobao.com | videotool.ossgw.alicdn.com | fe.m.taobao.com | loggw-ex.alipay.com | datagw-edge.alipay.com | loggw.alipay.com.cn | amdc-sibling.alipay.com.cn | amdc.alipay.com | live-spare.alicdn.com | gw.alipayobjects.com | umdc.alibabachengdun.net | acs.m.taobao.com
 # taobao
@@ -52,9 +56,10 @@
 ^https?:\/\/skynet\.bilivideo\.com/t1000/log.*$ - reject
 
 ## mihoyo
-# minor-api.mihoyo.com | bbs-api.miyoushe.com
+# minor-api.mihoyo.com | bbs-api.miyoushe.com | ug-data.mihoyo.com
 ^https?:\/\/minor-api\.mihoyo\.com/common/h5log/log.*$ - reject
-^https?:\/\/bbs-api\.miyoushe\.com/apihub/api/getAppSplash - reject
+^https?:\/\/bbs-api\.miyoushe\.com/apihub/api/getAppSplash$ - reject
+^https?:\/\/ug-data\.mihoyo\.com/ads-track.*$ - reject
 
 ## yunshanfu
 # cup.com.cn
@@ -76,8 +81,10 @@
 
 ## zhihu
 # api.zhihu.com | www.zhihu.com | zhuanlan.zhihu.com | static.zhihu.com
-^https:\/\/api\.zhihu\.com\/unlimited\/go\/my_card - reject
-^https:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config - reject
+^https?:\/\/api\.zhihu\.com\/unlimited\/go\/my_card - reject
+^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config.*$ - reject
+^https?:\/\/api\.zhihu\.com\/message-push\/event.*$ - reject
+^https?:\/\/api\.zhihu\.com\/check_health.*$ - reject
 ^https:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation - reject
 ^https:\/\/www\.zhihu\.com\/api\/v4\/mcn\/v2\/linkcards\? - reject
 ^https:\/\/www\.zhihu\.com\/api\/v4/(answers|questions)\/\d+/related-readings - reject
@@ -110,5 +117,13 @@
 ## dongfangcaifu
 ^https?:\/\/emdcadvertise\.eastmoney\.com\/infoService\/v2 - reject
 
+## 12306
+# mobile.12306.cn
+^https?:\/\/mobile\.12306\.cn\/otsmobile\/app\/mas\/loggw\/logUpload\.do$ - reject
+
+## xiaohongshu
+# as.xiaohongshu.com
+^https?:\/\/as\.xiaohongshu\.com/api/v1/d/upload.*$ - reject
+
 [MITM]
-hostname = %APPEND% d.url.cn,dl.url.cn,*.dldir1.qq.com, ad.com, h5.qzone.qq.com, i.gtimg.cn, livemsgconnect.taobao.com, live-spare.alicdn.com, alive-interact.alicdn.com, videotool.ossgw.alicdn.com, fe.m.taobao.com, loggw-ex.alipay.com, datagw-edge.alipay.com, loggw.alipay.com.cn, amdc-sibling.alipay.com.cn, amdc.alipay.com, mdn.alipayobjects.com, live-spare.alicdn.com, gw.alipayobjects.com, umdc.alibabachengdun.net, acs.m.taobao.com, api.m.jd.com, impaas.alicdn.com, api.bilibili.com, data.bilibili.com, skynet.bilivideo.com, minor-api.mihoyo.com, bbs-api.miyoushe.com, cup.com.cn, peisongapi.meituan.com, *.meituan.net, wmapi.meituan.com, www.meituan.com, api.zhihu.com, www.zhihu.com, zhuanlan.zhihu.com, static.zhihu.com, *.amap.com, mime.baidu.com, appwk.baidu.com, pan.baidu.com, api.douban.com
+hostname = %APPEND% d.url.cn,dl.url.cn,*.dldir1.qq.com, ad.com, h5.qzone.qq.com, i.gtimg.cn, rmonitor.qq.com, livemsgconnect.taobao.com, live-spare.alicdn.com, alive-interact.alicdn.com, videotool.ossgw.alicdn.com, fe.m.taobao.com, loggw-ex.alipay.com, datagw-edge.alipay.com, loggw.alipay.com.cn, amdc-sibling.alipay.com.cn, amdc.alipay.com, mdn.alipayobjects.com, live-spare.alicdn.com, gw.alipayobjects.com, umdc.alibabachengdun.net, acs.m.taobao.com, api.m.jd.com, impaas.alicdn.com, api.bilibili.com, data.bilibili.com, skynet.bilivideo.com, minor-api.mihoyo.com, bbs-api.miyoushe.com, ug-data.mihoyo.com, cup.com.cn, peisongapi.meituan.com, *.meituan.net, wmapi.meituan.com, www.meituan.com, api.zhihu.com, www.zhihu.com, zhuanlan.zhihu.com, static.zhihu.com, *.amap.com, mime.baidu.com, appwk.baidu.com, pan.baidu.com, api.douban.com, mobile.12306.cn, as.xiaohongshu.com
