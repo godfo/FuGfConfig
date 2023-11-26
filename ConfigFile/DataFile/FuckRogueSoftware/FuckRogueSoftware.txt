@@ -1516,6 +1516,9 @@ az.appstore.vivo.com.cn
 .log-upload-eur.mihoyo.com
 .hkrpg-log-upload.mihoyo.com
 .ys-log-upload.mihoyo.com
+.apm-log-upload.mihoyo.com
+.cnuspider.yuanshen.com
+.h5collector.mihoyo.com
 
 
 ## zhihu 知乎

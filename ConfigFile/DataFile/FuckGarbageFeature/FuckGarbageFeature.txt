@@ -210,6 +210,10 @@ httpdns.meituan.com
 timeservice.meituan.com
 w.meituan.net
 .data-sdk-uuid-log.d.meituan.net
+.d.meituan.net
+.catdot.dianping.com
+.hlx.meituan.com
+.gaea.meituan.com
 
 ## 网易
 .mail.163.com
@@ -782,3 +786,4 @@ pcapp-data-collect.youku.com
 111.206.149.168
 et.tanx.com
 api.meishesdk.com
+122.9.123.90
