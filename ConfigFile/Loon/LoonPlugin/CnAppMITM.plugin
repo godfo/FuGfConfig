@@ -96,6 +96,11 @@
 ^https:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation - reject
 ^https?:\/\/static\.zhihu\.com\/[^\/]+\/(main|column)\.signflow\.[^.]+.js - reject
 
+^https?:\/\/www\.zhihu\.com\/api\/v\d+\/entity_word.*$ - reject
+^https?:\/\/www\.zhihu\.com\/api\/v\d+\/answers\/\d+\/relationship.*$ - reject
+^https?:\/\/api\.zhihu\.com\/v\d+\/topics\/question\/\d+\/relation.*$ - reject
+^https?:\/\/www\.zhihu\.com\/commercial_api\/banners_v\d+\/answer(down_sticky|up).*$ - reject
+
 ## amap
 # *.amap.com
 ^https?:\/\/.*\.amap\.com\/ws\/asa\/ads_attribution - reject

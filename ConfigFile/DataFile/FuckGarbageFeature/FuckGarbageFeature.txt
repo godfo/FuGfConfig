@@ -27,6 +27,8 @@ big.bilibili.com
 .bilicomic.com
 110.18.32.79
 223.167.229.82
+ali-web-player-tracker.biliapi.net
+hw-v2-web-player-tracker.biliapi.net
 
 ## qq
 # 不是 443 端口，屏蔽，无法 MITM

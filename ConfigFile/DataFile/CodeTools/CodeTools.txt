@@ -21,7 +21,7 @@
 .githubusercontent.com
 
 .nuget.org
-
+.tensorflow.org
 .maven.apache.org
 
 ## Debian 仓库
