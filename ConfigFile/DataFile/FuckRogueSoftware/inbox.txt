@@ -72204,7 +72204,6 @@ ade.googlesyndication.com
 tpc.googlesyndication.com
 pagead46.googlesyndication.com
 page2.googlesyndication.com
-pagead2.googlesyndication.com
 cdn.taboolasyndication.com
 trc.taboolasyndication.com
 www.monasterymedication.com
@@ -86314,7 +86313,6 @@ gb.pwrgrowthapi.com
 appapi.inspsearchapi.com
 analytics.proofapi.com
 httpdns.volcengineapi.com
-mon.zijieapi.com
 log.zijieapi.com
 tigershark.oilpriceapi.com
 tracker.unbxdapi.com
@@ -106675,7 +106673,6 @@ www.resistabundance.com
 www.jobsjollyattendance.com
 www.clashguidance.com
 www.explosionsubdueguidance.com
-mssdk.bytedance.com
 location-traceroute-sg.bytedance.com
 ad.bytedance.com
 www.foamlifeboatriddance.com

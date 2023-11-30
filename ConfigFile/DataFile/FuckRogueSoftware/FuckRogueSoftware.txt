@@ -964,6 +964,8 @@ v*-be-pack.pglstatp-toutiao.com
 .minigame5-normal.zijieapi.com
 .minigame3-normal.zijieapi.com
 .mssdk.zijieapi.com
+.mssdk.bytedance.com
+.mon.zijieapi.com
 .ads5-normal-lf.zijieapi.com
 .ads3-normal-lf.zijieapi.com
 .mssdk3-normal-lf.zijieapi.com
@@ -2136,6 +2138,7 @@ firebaselogging-pa.googleapis.com
 www-google-analytics.l.google.com
 ssl-google-analytics.l.google.com
 adservice.google.com
+.pagead2.googlesyndication.com
 
 ## crashlytics
 settings.crashlytics.com
@@ -2277,6 +2280,9 @@ e-p*p.163.com
 
 ## CSDN
 .event.csdn.net
+.eva2.csdn.net
+.mp-activity.csdn.net
+.devpress-api.csdn.net
 .kunyu.csdn.net
 .adaccount.csdn.net
 .ads.csdn.net

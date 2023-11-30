@@ -789,3 +789,4 @@ pcapp-data-collect.youku.com
 et.tanx.com
 api.meishesdk.com
 122.9.123.90
+.byted-static.com
