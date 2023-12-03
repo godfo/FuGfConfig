@@ -141,8 +141,6 @@ torrents.artixlinux.org
 tracker.artixlinux.org
 mail.artixlinux.org
 .torrent.eu.org
-www.torrent.eu.org
-tracker.torrent.eu.org
 .libtorrent.org
 tracker.lilithraws.org
 cutscloud.duckdns.org

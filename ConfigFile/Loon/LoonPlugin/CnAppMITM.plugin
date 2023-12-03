@@ -15,7 +15,7 @@
 ^https?:\/\/rmonitor\.qq\.com/appconfig.*$ - reject
 
 ## alibaba
-# live-spare.alicdn.com | alive-interact.alicdn.com | livemsgconnect.taobao.com | videotool.ossgw.alicdn.com | fe.m.taobao.com | loggw-ex.alipay.com | datagw-edge.alipay.com | loggw.alipay.com.cn | amdc-sibling.alipay.com.cn | amdc.alipay.com | live-spare.alicdn.com | gw.alipayobjects.com | umdc.alibabachengdun.net | acs.m.taobao.com | impaas.alicdn.com | mum.alibabachengdun.net
+# live-spare.alicdn.com | alive-interact.alicdn.com | livemsgconnect.taobao.com | videotool.ossgw.alicdn.com | fe.m.taobao.com | loggw-ex.alipay.com | datagw-edge.alipay.com | loggw.alipay.com.cn | amdc-sibling.alipay.com.cn | amdc.alipay.com | live-spare.alicdn.com | gw.alipayobjects.com | umdc.alibabachengdun.net | acs.m.taobao.com | impaas.alicdn.com | mum.alibabachengdun.net | log.mmstat.com | amdc.m.taobao.com | audid-api.taobao.com | h-adashx.ut.hzshudian.com
 # taobao
 ^https?:\/\/live-spare\.alicdn\.com/message.*$ - reject
 ^https?:\/\/alive-interact\.alicdn\.com/livedetail/common.*$ - reject
@@ -40,6 +40,10 @@
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv\/$ - reject
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.allresource$ - reject
 ^https?:\/\/mum\.alibabachengdun\.net/sg/data.json.*$ - reject
+^https?:\/\/log\.mmstat\.com/.*$ - reject
+^https?:\/\/amdc\.m\.taobao\.com/amdc/mobileDispatch.*$ - reject
+^https?:\/\/audid-api\.taobao\.com/v[\d.]+/i/audid/req.*$ - reject
+^https?:\/\/h-adashx\.ut\.hzshudian\.com/upload.*$ - reject
 
 ## jd
 # api.m.jd.com | perf.m.jd.com | waapdg.jd.com
@@ -143,4 +147,4 @@
 ^https?:\/\/as\.xiaohongshu\.com/api/v1/d/upload.*$ - reject
 
 [MITM]
-hostname = %APPEND% d.url.cn,dl.url.cn,*.dldir1.qq.com, ad.com, h5.qzone.qq.com, i.gtimg.cn, rmonitor.qq.com, livemsgconnect.taobao.com, live-spare.alicdn.com, alive-interact.alicdn.com, videotool.ossgw.alicdn.com, fe.m.taobao.com, loggw-ex.alipay.com, datagw-edge.alipay.com, loggw.alipay.com.cn, amdc-sibling.alipay.com.cn, amdc.alipay.com, mdn.alipayobjects.com, live-spare.alicdn.com, gw.alipayobjects.com, umdc.alibabachengdun.net, acs.m.taobao.com, impaas.alicdn.com, mum.alibabachengdun.net, api.m.jd.com, perf.m.jd.com, waapdg.jd.com, api.bilibili.com, data.bilibili.com, skynet.bilivideo.com, app.bilibili.com, minor-api.mihoyo.com, bbs-api.miyoushe.com, ug-data.mihoyo.com, h5collector.mihoyo.com, public-data-api.mihoyo.com, cup.com.cn, peisongapi.meituan.com, *.meituan.net, wmapi.meituan.com, www.meituan.com, api.zhihu.com, www.zhihu.com, zhuanlan.zhihu.com, static.zhihu.com, unpkg.zhimg.com, *.amap.com, mime.baidu.com, appwk.baidu.com, pan.baidu.com, api.douban.com, mobile.12306.cn, mum.hzchengdun.com, as.xiaohongshu.com
+hostname = %APPEND% d.url.cn,dl.url.cn,*.dldir1.qq.com, ad.com, h5.qzone.qq.com, i.gtimg.cn, rmonitor.qq.com, livemsgconnect.taobao.com, live-spare.alicdn.com, alive-interact.alicdn.com, videotool.ossgw.alicdn.com, fe.m.taobao.com, loggw-ex.alipay.com, datagw-edge.alipay.com, loggw.alipay.com.cn, amdc-sibling.alipay.com.cn, amdc.alipay.com, mdn.alipayobjects.com, live-spare.alicdn.com, gw.alipayobjects.com, umdc.alibabachengdun.net, acs.m.taobao.com, impaas.alicdn.com, mum.alibabachengdun.net, log.mmstat.com, amdc.m.taobao.com, audid-api.taobao.com, h-adashx.ut.hzshudian.com, api.m.jd.com, perf.m.jd.com, waapdg.jd.com, api.bilibili.com, data.bilibili.com, skynet.bilivideo.com, app.bilibili.com, minor-api.mihoyo.com, bbs-api.miyoushe.com, ug-data.mihoyo.com, h5collector.mihoyo.com, public-data-api.mihoyo.com, cup.com.cn, peisongapi.meituan.com, *.meituan.net, wmapi.meituan.com, www.meituan.com, api.zhihu.com, www.zhihu.com, zhuanlan.zhihu.com, static.zhihu.com, unpkg.zhimg.com, *.amap.com, mime.baidu.com, appwk.baidu.com, pan.baidu.com, api.douban.com, mobile.12306.cn, mum.hzchengdun.com, as.xiaohongshu.com

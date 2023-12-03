@@ -790,3 +790,4 @@ et.tanx.com
 api.meishesdk.com
 122.9.123.90
 .byted-static.com
+59.82.33.225
