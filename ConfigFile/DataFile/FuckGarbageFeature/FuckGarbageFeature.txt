@@ -780,7 +780,6 @@ pr.map.qq.com
 .hismarttv.com
 mobile-data.onetrust.io
 tidal-privacy.my.onetrust.com
-
 .sdk.yiigle.com
 metrics.icloud.com
 pcapp-data-collect.youku.com
@@ -791,3 +790,8 @@ api.meishesdk.com
 122.9.123.90
 .byted-static.com
 59.82.33.225
+.errortrace.dev
+.pixon.ads-pixiv.net
+.cloudvideocdn.taobao.com
+.imageadv.ccb.com
+.adv.ccb.com
