@@ -1942,6 +1942,7 @@ col.eum-appdynamics.com
 ## apple
 .iadsdk.apple.com
 metrics.apple.com
+metrics.icloud.com
 
 
 
@@ -3911,3 +3912,4 @@ ad.parkvv.com
 .go.xhamsterlive.com
 .syndication.twitter.com
 .xhamsterpremium.com
+.shift.is.autonavi.com

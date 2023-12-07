@@ -108745,7 +108745,6 @@ httpdns.huaweicloud.com
 bi.huaweicloud.com
 feedbackws.icloud.com
 acfeedbackws.icloud.com
-metrics.icloud.com
 metrics-config.icloud.com
 capi.samsungcloud.com
 analytic.xingcloud.com
