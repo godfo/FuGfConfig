@@ -3913,3 +3913,7 @@ ad.parkvv.com
 .syndication.twitter.com
 .xhamsterpremium.com
 .shift.is.autonavi.com
+.g.doubleclick.net
+.amazon-adsystem.com
+.xlirdr.com
+video.ktkjmp.com
