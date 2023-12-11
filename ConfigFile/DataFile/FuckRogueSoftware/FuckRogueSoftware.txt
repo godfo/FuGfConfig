@@ -3062,6 +3062,7 @@ upgrade-backup.hismarttv.com
 api.globalphone.hismarttv.com
 api.sa.hismarttv.com
 .neo-nlp.hismarttv.com
+api-dynhost.hismarttv.com
 
 
 ## CIBN 互联网电视

@@ -621,9 +621,18 @@ wf.vivo.com.cn
 main.gamecenter.vivo.com.cn
 .sysupgrade.vivo.com.cn
 fastonrt-stsdk.vivo.com.cn
+appupgrade.vivo.com.cn
+wifi.vivo.com.cn
+moni-onrt-stsdk.vivo.com.cn
+vmcs-lb.vivo.com.cn
+vbw.vivo.com.cn
+appstoreonrt-stsdk.vivo.com.cn
+browserplat.vivo.com.cn
 
 ## 美的IoT开发者平台
+iot.midea.com.cn
 iot1.midea.com.cn
+iot.smartmidea.net
 
 ## 学习强国
 .xuexi.cn
@@ -970,7 +979,7 @@ askshda.iot.gz.baidubce.com
 
 mdap.alipay.com
 
-moni-onrt-stsdk.vivo.com.cn
+
 
 acs.m.taobao.com
 
@@ -1074,3 +1083,4 @@ api.meishesdk.com
 .imageadv.ccb.com
 .adv.ccb.com
 .wwads.cn
+apilocate.amap.com
