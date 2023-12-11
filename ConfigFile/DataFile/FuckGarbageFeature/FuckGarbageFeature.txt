@@ -664,6 +664,11 @@ report.meeting.tencent.com
 .cdn.walkme.com
 .papi.walkme.com
 
+## icbc
+pageviewp.icbc.com.cn
+devreaf.icbc.com.cn
+mobileapm.icbc.com.cn
+
 ## other
 #.ocsp.trust-provider.cn
 .crt.trust-provider.cn
