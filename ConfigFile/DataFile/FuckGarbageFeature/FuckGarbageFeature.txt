@@ -668,6 +668,12 @@ report.meeting.tencent.com
 pageviewp.icbc.com.cn
 devreaf.icbc.com.cn
 mobileapm.icbc.com.cn
+oisc.icbc.com.cn
+mimscmp.icbc.com.cn
+
+## boc
+iisp-oidea.mbs.boc.cn
+iisp.mbs.boc.cn
 
 ## other
 #.ocsp.trust-provider.cn
@@ -1089,3 +1095,5 @@ api.meishesdk.com
 .adv.ccb.com
 .wwads.cn
 apilocate.amap.com
+sdkfp.jd.com
+rjsb-token-m.jd.com
