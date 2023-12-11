@@ -77,6 +77,9 @@
 ^https?:\/\/skynet\.bilivideo\.com/.*?/log.*$ - reject
 ^https?:\/\/app\.bilibili\.com/x/v[\d.]+/dataflow/report.*$ - reject
 
+^https?:\/\/app\.bilibili\.com/bilibili\.app\.interface\.v[\d.]+\.Search/DefaultWords.*$ - reject
+^https?:\/\/app\.bilibili\.com/bilibili\.account\.fission\.v[\d.]\.Fission/Window.*$ - reject
+
 ## mihoyo
 # minor-api.mihoyo.com | bbs-api.miyoushe.com | ug-data.mihoyo.com | cnuspider.yuanshen.com | h5collector.mihoyo.com | public-data-api.mihoyo.com
 ^https?:\/\/minor-api\.mihoyo\.com/common/h5log/log.*$ - reject
@@ -90,7 +93,7 @@
 # cup.com.cn
 ^https?:\/\/openysf\.cup\.com\.cn\/s\/open/js.*$ - reject
 ^https?:\/\/device\.cup\.com\.cn\/dcs_svc\/rest\/outer/devinfo.*$ - reject
-^https?:\/\/antifraud\.cup\.com\.cn\/v3/profile.*$ - reject
+^https?:\/\/antifraud\.cup\.com\.cn\/v[\d.]+/profile.*$ - reject
 
 ## MeiTuan
 # peisongapi.meituan.com | *.meituan.net | wmapi.meituan.com | www.meituan.com
@@ -107,7 +110,7 @@
 ## zhihu
 # api.zhihu.com | www.zhihu.com | zhuanlan.zhihu.com | static.zhihu.com | unpkg.zhimg.com
 ^https?:\/\/api\.zhihu\.com\/unlimited\/go\/my_card - reject
-^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config.*$ - reject
+^https?:\/\/api\.zhihu\.com\/ab\/api\/v[\d.]+\/products\/zhihu\/platforms\/ios\/config.*$ - reject
 ^https?:\/\/api\.zhihu\.com\/message-push\/event.*$ - reject
 ^https?:\/\/api\.zhihu\.com\/check_health.*$ - reject
 ^https:\/\/www\.zhihu\.com\/api\/v[\d.]+\/hot_recommendation - reject
@@ -140,7 +143,7 @@
 
 ## douban
 # api.douban.com
-^https?:\/\/api\.douban\.com\/v2\/app_ads\/splash - reject
+^https?:\/\/api\.douban\.com\/v[\d.]+\/app_ads\/splash - reject
 ^https?:\/\/api\.douban\.com\/b.*\/common_ads\?.* - reject
 
 ## dewu
@@ -157,7 +160,7 @@
 
 ## xiaohongshu
 # as.xiaohongshu.com
-^https?:\/\/as\.xiaohongshu\.com/api/v1/d/upload.*$ - reject
+^https?:\/\/as\.xiaohongshu\.com/api/v[\d.]+/d/upload.*$ - reject
 
 ## jiansheyinhang
 # imageadv.ccb.com ｜ dvfp.ftss.ccb.com | adv.ccb.com
@@ -166,9 +169,19 @@
 ^https?:\/\/adv\.ccb\.com/advall.*$ - reject
 ^https?:\/\/adv\.ccb\.com/ebda/ctm_adv.*$ - reject
 
+## yinhang
+# devreaf.icbc.com.cn:8098 | mims.icbc.com.cn | iisp.mbs.boc.cn | mywap2.icbc.com.cn | mobileapm.icbc.com.cn:443
+^https?:\/\/devreaf\.icbc\.com\.cn:8098/devaccess/access/raw/profile.json$ - reject
+^https?:\/\/mims\.icbc\.com\.cn/IMServiceServer/servlet/ThirdPartyServlet.*$ - reject
+^https?:\/\/devreaf\.icbc\.com\.cn:8098/devcollect/ios3/profile.json$ - reject
+^https?:\/\/iisp\.mbs\.boc\.cn/Mgmt-Oida-Mgateway-Web/ubas[\d.]+$ - reject
+^https?:\/\/mywap2\.icbc\.com\.cn/ICBCWAPBank/WapConfigServlet.*$ - reject
+^https?:\/\/mobileapm\.icbc\.com\.cn:443/config.*$ - reject
+^https?:\/\/oisc\.icbc\.com\.cn/ServiceServer/servlet/ThirdPartyServlet.*$ - reject
+
 ## other
 # scripts.mediavine.com
 ^https?:\/\/scripts\.mediavine\.com/flooring/countryLookup.*$ - reject
 
 [MITM]
-hostname = %APPEND% d.url.cn,dl.url.cn,*.dldir1.qq.com, ad.com, h5.qzone.qq.com, i.gtimg.cn, mp.weixin.qq.com, badjs.weixinbridge.com, rmonitor.qq.com, livemsgconnect.taobao.com, live-spare.alicdn.com, alive-interact.alicdn.com, videotool.ossgw.alicdn.com, fe.m.taobao.com, loggw-ex.alipay.com, datagw-edge.alipay.com, loggw.alipay.com.cn, amdc-sibling.alipay.com.cn, amdc.alipay.com, mdn.alipayobjects.com, live-spare.alicdn.com, gw.alipayobjects.com, umdc.alibabachengdun.net, acs.m.taobao.com, impaas.alicdn.com, mum.alibabachengdun.net, log.mmstat.com, amdc.m.taobao.com, audid-api.taobao.com, h-adashx.ut.hzshudian.com, api.m.jd.com, perf.m.jd.com, waapdg.jd.com, api.bilibili.com, data.bilibili.com, skynet.bilivideo.com, app.bilibili.com, minor-api.mihoyo.com, bbs-api.miyoushe.com, ug-data.mihoyo.com, h5collector.mihoyo.com, public-data-api.mihoyo.com, cup.com.cn, peisongapi.meituan.com, *.meituan.net, wmapi.meituan.com, www.meituan.com, api.zhihu.com, www.zhihu.com, zhuanlan.zhihu.com, static.zhihu.com, unpkg.zhimg.com, *.amap.com, mime.baidu.com, appwk.baidu.com, pan.baidu.com, api.douban.com, mobile.12306.cn, mum.hzchengdun.com, as.xiaohongshu.com, imageadv.ccb.com, dvfp.ftss.ccb.com, adv.ccb.com, scripts.mediavine.com
+hostname = %APPEND% d.url.cn,dl.url.cn,*.dldir1.qq.com, ad.com, h5.qzone.qq.com, i.gtimg.cn, mp.weixin.qq.com, badjs.weixinbridge.com, rmonitor.qq.com, livemsgconnect.taobao.com, live-spare.alicdn.com, alive-interact.alicdn.com, videotool.ossgw.alicdn.com, fe.m.taobao.com, loggw-ex.alipay.com, datagw-edge.alipay.com, loggw.alipay.com.cn, amdc-sibling.alipay.com.cn, amdc.alipay.com, mdn.alipayobjects.com, live-spare.alicdn.com, gw.alipayobjects.com, umdc.alibabachengdun.net, acs.m.taobao.com, impaas.alicdn.com, mum.alibabachengdun.net, log.mmstat.com, amdc.m.taobao.com, audid-api.taobao.com, h-adashx.ut.hzshudian.com, api.m.jd.com, perf.m.jd.com, waapdg.jd.com, api.bilibili.com, data.bilibili.com, skynet.bilivideo.com, app.bilibili.com, minor-api.mihoyo.com, bbs-api.miyoushe.com, ug-data.mihoyo.com, h5collector.mihoyo.com, public-data-api.mihoyo.com, cup.com.cn, peisongapi.meituan.com, *.meituan.net, wmapi.meituan.com, www.meituan.com, api.zhihu.com, www.zhihu.com, zhuanlan.zhihu.com, static.zhihu.com, unpkg.zhimg.com, *.amap.com, mime.baidu.com, appwk.baidu.com, pan.baidu.com, api.douban.com, mobile.12306.cn, mum.hzchengdun.com, as.xiaohongshu.com, imageadv.ccb.com, dvfp.ftss.ccb.com, adv.ccb.com, devreaf.icbc.com.cn:8098, mims.icbc.com.cn, iisp.mbs.boc.cn, mywap2.icbc.com.cn, mobileapm.icbc.com.cn:443, scripts.mediavine.com

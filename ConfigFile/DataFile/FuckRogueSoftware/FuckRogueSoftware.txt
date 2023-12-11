@@ -1121,7 +1121,7 @@ reader.browser.miui.com
 webapp.browser.miui.com
 spd.browser.miui.com
 app.miui.com
-web.vip.miui.com
+.web.vip.miui.com
 api.comm.miui.com
 .ad.pandora.xiaomi.com
 
