@@ -191,18 +191,7 @@
 ^https?:\/\/adv\.ccb\.com/advall.*$ url reject
 ^https?:\/\/adv\.ccb\.com/ebda/ctm_adv.*$ url reject
 
-## yinhang
-# devreaf.icbc.com.cn:8098 | mims.icbc.com.cn | iisp.mbs.boc.cn | mobileapm.icbc.com.cn:443 | pageviewp.icbc.com.cn
-# mywap2.icbc.com.cn, epass.icbc.com.cn 屏蔽之后无法登录
-^https?:\/\/devreaf\.icbc\.com\.cn(:[\d.]+)?/devaccess/access/raw/profile.json$ url reject
-^https?:\/\/mims\.icbc\.com\.cn/IMServiceServer/servlet/ThirdPartyServlet.*$ url reject
-^https?:\/\/devreaf\.icbc\.com\.cn(:[\d.]+)?/devcollect/ios3/profile.json$ url reject
-^https?:\/\/iisp\.mbs\.boc\.cn/Mgmt-Oida-Mgateway-Web/ubas[\d.]+$ url reject
-# ^https?:\/\/mywap2\.icbc\.com\.cn/ICBCWAPBank/WapConfigServlet.*$ url reject
-^https?:\/\/mobileapm\.icbc\.com\.cn(:[\d.]+)?/config.*$ url reject
-^https?:\/\/mobileapm\.icbc\.com\.cn(:[\d.]+)?/grip.*$ url reject
-^https?:\/\/oisc\.icbc\.com\.cn/ServiceServer/servlet/ThirdPartyServlet.*$ url reject
-^https?:\/\/pageviewp\.icbc\.com\.cn/wapb/image/wapb.gif.*$ url reject
+## zhongguoyinhang
 
 ## other
 # scripts.mediavine.com
@@ -210,4 +199,4 @@
 
 
 # [MITM]
-hostname = %APPEND% d.url.cn,dl.url.cn,*.dldir1.qq.com, h5.qzone.qq.com, i.gtimg.cn, mp.weixin.qq.com, badjs.weixinbridge.com, rmonitor.qq.com, livemsgconnect.taobao.com, live-spare.alicdn.com, alive-interact.alicdn.com, videotool.ossgw.alicdn.com, fe.m.taobao.com, loggw-ex.alipay.com, datagw-edge.alipay.com, loggw.alipay.com.cn, amdc-sibling.alipay.com.cn, amdc.alipay.com, mdn.alipayobjects.com, live-spare.alicdn.com, gw.alipayobjects.com, umdc.alibabachengdun.net, acs.m.taobao.com, impaas.alicdn.com, mum.alibabachengdun.net, log.mmstat.com, amdc.m.taobao.com, audid-api.taobao.com, h-adashx.ut.hzshudian.com, wgo.mmstat.com, market.m.taobao.com, g.alicdn.com, orange-dc.alibaba.com, mobilegw.alipay.com, vip.dingtalk.com, d.alicdn.com, api.m.jd.com, perf.m.jd.com, waapdg.jd.com, storage.360buyimg.com, jdpull.jd.com, aks.jdpay.com, ccflbs.m.jd.com, wlmonitor.m.jd.com, heracles.jd.com, api.bilibili.com, data.bilibili.com, skynet.bilivideo.com, app.bilibili.com, minor-api.mihoyo.com, bbs-api.miyoushe.com, ug-data.mihoyo.com, h5collector.mihoyo.com, public-data-api.mihoyo.com, cup.com.cn, peisongapi.meituan.com, *.meituan.net, wmapi.meituan.com, www.meituan.com, api.zhihu.com, www.zhihu.com, zhuanlan.zhihu.com, static.zhihu.com, unpkg.zhimg.com, *.amap.com, mime.baidu.com, appwk.baidu.com, pan.baidu.com, api.douban.com, mobile.12306.cn, mum.hzchengdun.com, as.xiaohongshu.com, imageadv.ccb.com, dvfp.ftss.ccb.com, adv.ccb.com, devreaf.icbc.com.cn:8098, mims.icbc.com.cn, iisp.mbs.boc.cn, mobileapm.icbc.com.cn:443, pageviewp.icbc.com.cn, scripts.mediavine.com
+hostname = %APPEND% d.url.cn,dl.url.cn,*.dldir1.qq.com, h5.qzone.qq.com, i.gtimg.cn, mp.weixin.qq.com, badjs.weixinbridge.com, rmonitor.qq.com, livemsgconnect.taobao.com, live-spare.alicdn.com, alive-interact.alicdn.com, videotool.ossgw.alicdn.com, fe.m.taobao.com, loggw-ex.alipay.com, datagw-edge.alipay.com, loggw.alipay.com.cn, amdc-sibling.alipay.com.cn, amdc.alipay.com, mdn.alipayobjects.com, live-spare.alicdn.com, gw.alipayobjects.com, umdc.alibabachengdun.net, acs.m.taobao.com, impaas.alicdn.com, mum.alibabachengdun.net, log.mmstat.com, amdc.m.taobao.com, audid-api.taobao.com, h-adashx.ut.hzshudian.com, wgo.mmstat.com, market.m.taobao.com, g.alicdn.com, orange-dc.alibaba.com, mobilegw.alipay.com, vip.dingtalk.com, d.alicdn.com, api.m.jd.com, perf.m.jd.com, waapdg.jd.com, storage.360buyimg.com, jdpull.jd.com, aks.jdpay.com, ccflbs.m.jd.com, wlmonitor.m.jd.com, heracles.jd.com, api.bilibili.com, data.bilibili.com, skynet.bilivideo.com, app.bilibili.com, minor-api.mihoyo.com, bbs-api.miyoushe.com, ug-data.mihoyo.com, h5collector.mihoyo.com, public-data-api.mihoyo.com, cup.com.cn, peisongapi.meituan.com, *.meituan.net, wmapi.meituan.com, www.meituan.com, api.zhihu.com, www.zhihu.com, zhuanlan.zhihu.com, static.zhihu.com, unpkg.zhimg.com, *.amap.com, mime.baidu.com, appwk.baidu.com, pan.baidu.com, api.douban.com, mobile.12306.cn, mum.hzchengdun.com, as.xiaohongshu.com, imageadv.ccb.com, dvfp.ftss.ccb.com, adv.ccb.com, scripts.mediavine.com

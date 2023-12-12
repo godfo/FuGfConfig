@@ -664,19 +664,6 @@ report.meeting.tencent.com
 .cdn.walkme.com
 .papi.walkme.com
 
-## icbc
-pageviewp.icbc.com.cn
-devreaf.icbc.com.cn
-mobileapm.icbc.com.cn
-oisc.icbc.com.cn
-mimscmp.icbc.com.cn
-
-## boc
-iisp-oidea.mbs.boc.cn
-iisp.mbs.boc.cn
-watcher.boc.cn
-mbs.boc.cn
-
 ## dingding
 http2lwp.dingtalk.com
 lws.dingtalk.com
@@ -1097,8 +1084,7 @@ api.meishesdk.com
 .errortrace.dev
 .pixon.ads-pixiv.net
 .cloudvideocdn.taobao.com
-.imageadv.ccb.com
-.adv.ccb.com
+
 .wwads.cn
 apilocate.amap.com
 sdkfp.jd.com
