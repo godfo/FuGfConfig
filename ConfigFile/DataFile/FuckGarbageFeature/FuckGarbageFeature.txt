@@ -674,6 +674,12 @@ mimscmp.icbc.com.cn
 ## boc
 iisp-oidea.mbs.boc.cn
 iisp.mbs.boc.cn
+watcher.boc.cn
+mbs.boc.cn
+
+## dingding
+http2lwp.dingtalk.com
+lws.dingtalk.com
 
 ## other
 #.ocsp.trust-provider.cn
