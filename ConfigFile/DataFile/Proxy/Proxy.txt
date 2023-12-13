@@ -279,6 +279,11 @@ onedrive.live.com
 ## 多邻国 duolingo
 .duolingo.com
 
+## ubnt
+.ui.com
+.ubnt.com
+.ui.direct
+
 ## 存疑
 .vscode-sync.trafficmanager.net
 .monitor.firefox.com
