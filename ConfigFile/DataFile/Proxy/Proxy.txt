@@ -325,6 +325,7 @@ calibre-ebook.com
 .eggnsemulator.com
 .tii.la
 .archive.org
+.annas-archive.org
 .openwrt.org
 .sublimetext.com
 .rfi.fr

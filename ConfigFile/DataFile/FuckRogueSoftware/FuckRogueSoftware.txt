@@ -1121,7 +1121,6 @@ reader.browser.miui.com
 webapp.browser.miui.com
 spd.browser.miui.com
 app.miui.com
-.web.vip.miui.com
 api.comm.miui.com
 .ad.pandora.xiaomi.com
 
@@ -2251,8 +2250,6 @@ iisp-oidea.mbs.boc.cn
 iisp.mbs.boc.cn
 watcher.boc.cn
 mbs.boc.cn
-ebsnew.boc.cn
-
 
 ## 网易
 g*.163.com
@@ -2671,10 +2668,8 @@ api.253.com
 sy.cl2009.com
 fs.cl2009.com
 
-
 ## Point SDK
 pointsdk.vivo.com.cn
-
 
 ## chinanetcenter.com
 mauth.chinanetcenter.com
@@ -2692,7 +2687,6 @@ vivomaa.chinanetcenter.com
 
 ## 神策数据分析
 .cloud.sensorsdata.cn
-
 
 ## 友盟
 .errlog.umeng.com
@@ -3198,15 +3192,12 @@ adsmind.gdtimg.com
 
 oss.chanct.cn
 sdk.open.talk.gepush.com
-
 sdk.open.talk.igexin.com
-
 at-img1.tdimg.com
 at-img2.tdimg.com
 at-img3.tdimg.com
 397c0.admaster.com.cn
 tyaqy.m.cn.miaozhen.com
-
 log.cs.pp.cn
 patriot.cs.pp.cn
 huichuan.sm.cn
@@ -3942,3 +3933,4 @@ ad.parkvv.com
 .amazon-adsystem.com
 .xlirdr.com
 video.ktkjmp.com
+.alphonso.tv
