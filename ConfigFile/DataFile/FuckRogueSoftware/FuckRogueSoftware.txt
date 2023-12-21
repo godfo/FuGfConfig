@@ -913,6 +913,8 @@ v*-be-pack.pglstatp-toutiao.com
 .vas-hl-x.snssdk.com
 .mssdk-bu.snssdk.com
 .mcs.snssdk.com
+.vcs.zijieapi.com
+.mcs.zijieapi.com
 .toutiao-frontier.snssdk.com
 .gecko-lq.snssdk.com
 .haohuo.snssdk.com

@@ -960,7 +960,6 @@ api.sobot.com
 60.19.29.16/28
 60.190.139.164/32
 60.191.124.196/32
-60.210.17.0/24
 61.129.70.132/32
 61.132.216.232/32
 61.132.221.146/32
@@ -1088,7 +1087,7 @@ api.meishesdk.com
 .errortrace.dev
 .pixon.ads-pixiv.net
 .cloudvideocdn.taobao.com
-
+lf3-config.bytetcc.com
 .wwads.cn
 apilocate.amap.com
 sdkfp.jd.com
