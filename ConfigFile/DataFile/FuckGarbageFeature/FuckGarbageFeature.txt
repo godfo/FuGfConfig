@@ -223,8 +223,14 @@ w.meituan.net
 .mapi.m.jd.com
 .mllog.jd.com
 
+## moomoo
+report.moomoo.com
+162.14.3.250
+
+## apple
+api-adservices.apple.com
+
 ## zhihu
-103.41.167.237
 imagex-settings.volcimagex.net
 appcloud.zhihu.com
 appcloud2.zhihu.com

@@ -1532,6 +1532,7 @@ az.appstore.vivo.com.cn
 .crash2.zhihu.com
 .log-sdk.ksapisrv.com
 118.89.204.198/23
+103.41.167.237
 ;2402:4e00:1200:ed00:0:9089:6dac:96b6/40
 # 强制跳转 app 下载页面
 .oia.zhihu.com
