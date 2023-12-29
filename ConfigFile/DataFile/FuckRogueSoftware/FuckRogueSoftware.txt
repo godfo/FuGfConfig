@@ -1125,7 +1125,6 @@ spd.browser.miui.com
 app.miui.com
 api.comm.miui.com
 .ad.pandora.xiaomi.com
-
 .zhuti.xiaomi.com
 ## 来自 https://raw.githubusercontent.com/LoopDns/Fuck-you-MIUI/main/MIhosts
 #此处主要屏蔽小米云扫描组件

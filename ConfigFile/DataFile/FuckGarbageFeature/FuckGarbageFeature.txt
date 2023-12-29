@@ -225,7 +225,11 @@ w.meituan.net
 
 ## moomoo
 report.moomoo.com
+collect.sg.moomoo.com
+collect.moomoo.com
 162.14.3.250
+shortsgp.im.qcloud.com
+update.moomoo.com
 
 ## apple
 api-adservices.apple.com
@@ -1099,3 +1103,15 @@ apilocate.amap.com
 sdkfp.jd.com
 rjsb-token-m.jd.com
 brssp.ibreader.com
+.us-central1-adaptive-growth.cloudfunctions.net
+.cis.sohu.com
+.uis.mp.sohu.com
+.gk.sina.cn
+.mfejs.sina.cn
+.feeds.sina.cn
+.datagw-edge.alipay.com
+.loggw.alipay.com.cn
+.edgegw.alipay.com
+162.14.19.114/32
+20000170l4s.my-imcloud.com
+collect.moomoo.com
