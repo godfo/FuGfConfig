@@ -2142,6 +2142,7 @@ www-google-analytics.l.google.com
 ssl-google-analytics.l.google.com
 adservice.google.com
 .pagead2.googlesyndication.com
+crashlyticsreports-pa.googleapis.com
 
 ## crashlytics
 settings.crashlytics.com
@@ -3959,3 +3960,5 @@ video.ktkjmp.com
 .alphonso.tv
 cors.sentcss.com
 res.sentcss.com
+api-fd.dutils.com
+st-sentinel.vivo.com.cn

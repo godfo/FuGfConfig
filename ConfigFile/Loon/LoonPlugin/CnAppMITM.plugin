@@ -92,7 +92,7 @@
 ^https?:\/\/heracles\.jd\.com/download/policy_eids.*$ - reject
 
 ## bilibili
-# api.bilibili.com, data.bilibili.com, skynet.bilivideo.com, app.bilibili.com, i0.hdslb.com, api.live.bilibili.com
+# api.bilibili.com, data.bilibili.com, skynet.bilivideo.com, app.bilibili.com, i0.hdslb.com, api.live.bilibili.com, s1.hdslb.com
 ^https?:\/\/api\.bilibili\.com/x/push/report.*$ - reject
 ^https?:\/\/api\.bilibili\.com/x/v[\d.]+/dataflow/report.*$ - reject
 ^https?:\/\/api\.bilibili\.com/x/report.*$ - reject
@@ -124,6 +124,27 @@
 # 存疑 去掉播放页广告
 ^https?:\/\/api\.bilibili\.com/x/v[\d.]+/dm/web/view.*$ - reject
 ^https?:\/\/api\.bilibili\.com/x/v[\d.]+/dm/wbi/web/seg.so.*$ - reject
+# ^https?:\/\/api\.bilibili\.com/x/web-interface/view/(cards|uplikeimg).*$ - reject
+# ^https?:\/\/api\.bilibili\.com/x/web-interface/(archive\/)?relation.*$ - reject
+# ^https?:\/\/api\.bilibili\.com/x/web-interface/broadcast/servers.*$ - reject
+# ^https?:\/\/api\.bilibili\.com/x/click-interface/click/web/h5.*$ - reject
+# ^https?:\/\/api\.bilibili\.com/x/web-interface/view/conclusion/judge.*$ - reject
+# ^https?:\/\/api\.bilibili\.com/x/note/(publish\/)?list/archive.*$ - reject
+# ^https?:\/\/api\.bilibili\.com/x/msgfeed/unread.*$ - reject
+^https?:\/\/api\.bilibili\.com/x/player/videoshot.*$ - reject
+# ^https?:\/\/api\.bilibili\.com/session_svr/v[\d.]+/session_svr/single_unread.*$ - reject
+# ^https?:\/\/api\.bilibili\.com/x/click-interface/click/(now|heartbeat).*$ - reject
+# ^https?:\/\/api\.bilibili\.com/x/web-interface/nav.*$ - reject
+# ^https?:\/\/api\.live\.bilibili\.com/xlive/web-room/v[\d.]+/index/getRoomBaseInfo.*$ - reject
+# ^https?:\/\/api\.bilibili\.com/x/web-interface/dynamic/entrance.*$ - reject
+# ^https?:\/\/api\.bilibili\.com/x/note/is_forbid.*$ - reject
+# ^https?:\/\/api\.bilibili\.com/x/click-interface/web/heartbeat.*$ - reject
+
+^https?:\/\/s1\.hdslb\.com/bfs/seed/log.*$ - reject
+^https?:\/\/s1\.hdslb\.com/bfs/seed/jinkela/short/reporter-pb.*$ - reject
+^https?:\/\/i0\.hdslb\.com/bfs/sycp/creative_img/202302/fed5a4ff7ba226dcfeb00166f3ca3a26.jpg.*$ - reject
+^https?:\/\/s1\.hdslb\.com/bfs/static/jinkela/video/stardust-video.11c6843c46ffff1ae6986d146cca86454d220a88.js$ - reject
+^https?:\/\/s1\.hdslb\.com/bfs/static/jinkela/long/js/sentry.*$ - reject
 
 ## mihoyo
 # minor-api.mihoyo.com, bbs-api.miyoushe.com, ug-data.mihoyo.com, cnuspider.yuanshen.com, h5collector.mihoyo.com, public-data-api.mihoyo.com
@@ -160,7 +181,7 @@
 ^https:\/\/www\.zhihu\.com\/api\/v[\d.]+\/hot_recommendation - reject
 ^https:\/\/www\.zhihu\.com\/api\/v[\d.]+\/mcn\/v[\d.]+\/linkcards\? - reject
 ^https:\/\/www\.zhihu\.com\/api\/v[\d.]+/(answers|questions)\/\d+/related-readings - reject
-^https:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner - reject
+^https:\/\/www\.zhihu\.com/commercial_api/banners_v[\d.]+/(mobile_banner|question_down_sticky|question_up).*$ - reject
 ^https:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation - reject
 ^https?:\/\/static\.zhihu\.com\/[^\/]+\/(main|column)\.signflow\.[^.]+.js - reject
 ^https?:\/\/www\.zhihu\.com/api/v[\d.]+/entity_word.*$ - reject
@@ -169,7 +190,8 @@
 ^https?:\/\/www\.zhihu\.com/commercial_api/.*?/answer_(down_sticky|up)(\?|$) - reject
 ^https?:\/\/unpkg\.zhimg\.com/@cfe/sentry-script@[\d.]+/dist/init.js$ - reject
 ^https?:\/\/static\.zhihu\.com/heifetz/report_modals.*$ - reject
-^https?:\/\/www\.zhihu\.com/api/.*?/search/preset_words$ - reject
+^https?:\/\/www\.zhihu\.com/api/.*?/search/preset_words.*$ - reject
+^https?:\/\/www\.zhihu\.com/sc-profiler.*$ - reject
 
 ## amap
 # *.amap.com
@@ -253,7 +275,8 @@
 ^https?:\/\/w3-reporting\.reddit\.com/reports.*$ - reject
 ^https?:\/\/www\.jianshu\.com/shakespeare/v[\d.]+/notes/recommend.*$ - reject
 ^https?:\/\/www\.jianshu\.com/shakespeare/notes/([^\/]+)/(reward_section|user_notes|mark_viewed).*$ - reject
+^https?:\/\/qdfront\.pcauto\.com\.cn/qd/common/intf/getCityByCode.*$ - reject
 
 
 [MITM]
-hostname = %APPEND% d.url.cn,dl.url.cn,*.dldir1.qq.com, h5.qzone.qq.com, i.gtimg.cn, mp.weixin.qq.com, badjs.weixinbridge.com, rmonitor.qq.com, livemsgconnect.taobao.com, live-spare.alicdn.com, alive-interact.alicdn.com, videotool.ossgw.alicdn.com, fe.m.taobao.com, loggw-ex.alipay.com, datagw-edge.alipay.com, loggw.alipay.com.cn, amdc-sibling.alipay.com.cn, amdc.alipay.com, mdn.alipayobjects.com, live-spare.alicdn.com, gw.alipayobjects.com, umdc.alibabachengdun.net, acs.m.taobao.com, impaas.alicdn.com, mum.alibabachengdun.net, log.mmstat.com, amdc.m.taobao.com, audid-api.taobao.com, h-adashx.ut.hzshudian.com, wgo.mmstat.com, market.m.taobao.com, g.alicdn.com, www.aliyundrive.com, ynuf.aliapp.org, api.alipan.com, member.aliyundrive.com, orange-dc.alibaba.com, mobilegw.alipay.com, vip.dingtalk.com, d.alicdn.com, api.m.jd.com, perf.m.jd.com, waapdg.jd.com, storage.360buyimg.com, jdpull.jd.com, aks.jdpay.com, ccflbs.m.jd.com, wlmonitor.m.jd.com, heracles.jd.com, api.bilibili.com, data.bilibili.com, skynet.bilivideo.com, app.bilibili.com, i0.hdslb.com, api.live.bilibili.com, minor-api.mihoyo.com, bbs-api.miyoushe.com, ug-data.mihoyo.com, h5collector.mihoyo.com, public-data-api.mihoyo.com, cup.com.cn, peisongapi.meituan.com, *.meituan.net, wmapi.meituan.com, www.meituan.com, api.zhihu.com, www.zhihu.com, zhuanlan.zhihu.com, static.zhihu.com, unpkg.zhimg.com, *.amap.com, mime.baidu.com, appwk.baidu.com, pan.baidu.com, api.douban.com, api.weibo.com, weibo.com, mobile.12306.cn, mum.hzchengdun.com, as.xiaohongshu.com, imageadv.ccb.com, dvfp.ftss.ccb.com, adv.ccb.com, intl-api.iq.com, pcw-api.iq.com, mesh.if.iqiyi.com, pcw-api.iqiyi.com, youku.com, play.google.com, dedog-server-sec.moomoo.com, sdauth.moomoo.com, api.moomoo.com, scripts.mediavine.com, api.juejin.cn, w3-reporting.reddit.com, www.jianshu.com
+hostname = %APPEND% d.url.cn,dl.url.cn,*.dldir1.qq.com, h5.qzone.qq.com, i.gtimg.cn, mp.weixin.qq.com, badjs.weixinbridge.com, rmonitor.qq.com, livemsgconnect.taobao.com, live-spare.alicdn.com, alive-interact.alicdn.com, videotool.ossgw.alicdn.com, fe.m.taobao.com, loggw-ex.alipay.com, datagw-edge.alipay.com, loggw.alipay.com.cn, amdc-sibling.alipay.com.cn, amdc.alipay.com, mdn.alipayobjects.com, live-spare.alicdn.com, gw.alipayobjects.com, umdc.alibabachengdun.net, acs.m.taobao.com, impaas.alicdn.com, mum.alibabachengdun.net, log.mmstat.com, amdc.m.taobao.com, audid-api.taobao.com, h-adashx.ut.hzshudian.com, wgo.mmstat.com, market.m.taobao.com, g.alicdn.com, www.aliyundrive.com, ynuf.aliapp.org, api.alipan.com, member.aliyundrive.com, orange-dc.alibaba.com, mobilegw.alipay.com, vip.dingtalk.com, d.alicdn.com, api.m.jd.com, perf.m.jd.com, waapdg.jd.com, storage.360buyimg.com, jdpull.jd.com, aks.jdpay.com, ccflbs.m.jd.com, wlmonitor.m.jd.com, heracles.jd.com, api.bilibili.com, data.bilibili.com, skynet.bilivideo.com, app.bilibili.com, i0.hdslb.com, api.live.bilibili.com, s1.hdslb.com, minor-api.mihoyo.com, bbs-api.miyoushe.com, ug-data.mihoyo.com, h5collector.mihoyo.com, public-data-api.mihoyo.com, cup.com.cn, peisongapi.meituan.com, *.meituan.net, wmapi.meituan.com, www.meituan.com, api.zhihu.com, www.zhihu.com, zhuanlan.zhihu.com, static.zhihu.com, unpkg.zhimg.com, *.amap.com, mime.baidu.com, appwk.baidu.com, pan.baidu.com, api.douban.com, api.weibo.com, weibo.com, mobile.12306.cn, mum.hzchengdun.com, as.xiaohongshu.com, imageadv.ccb.com, dvfp.ftss.ccb.com, adv.ccb.com, intl-api.iq.com, pcw-api.iq.com, mesh.if.iqiyi.com, pcw-api.iqiyi.com, youku.com, play.google.com, dedog-server-sec.moomoo.com, sdauth.moomoo.com, api.moomoo.com, scripts.mediavine.com, api.juejin.cn, w3-reporting.reddit.com, www.jianshu.com

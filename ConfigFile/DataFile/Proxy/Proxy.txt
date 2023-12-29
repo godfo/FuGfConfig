@@ -331,3 +331,4 @@ calibre-ebook.com
 .rfi.fr
 .surge-activation.com
 .hlj.fun
+.authy.com
