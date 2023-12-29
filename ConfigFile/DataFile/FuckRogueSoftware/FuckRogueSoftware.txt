@@ -11,6 +11,7 @@
 # https://raw.githubusercontent.com/Code-Dramatist/Rule_Actions/main/Reject_Rule/Reject_Rule.rule
 # https://github.com/ftpmorph/ftprivacy
 # https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
+# https://github.com/StevenBlack/hosts
 
 ## 对于小厂 DNS 封杀，以防
 .opendns.com
@@ -2465,6 +2466,7 @@ sdkapp.mobile.sina.cn
 wbapp.mobile.sina.cn
 sdkclick.mobile.sina.cn
 u1.img.mobile.sina.cn
+.newspush.sinajs.cn
 
 
 ## truste
@@ -2728,6 +2730,7 @@ vivomaa.chinanetcenter.com
 .audid.umeng.com
 .pslog.umeng.com
 .sss.umeng.com
+.au.umeng.co
 
 
 ## AppsFlyer
@@ -2817,6 +2820,25 @@ onelink.appsflyer.com
 ## flurry
 .data.flurry.com
 
+
+## singular
+sdk-api-v1.singular.net
+.t.singular.net
+.i.singular.net
+.s2s.singular.net
+
+## braze
+.iad-01.braze.com
+.iad-02.braze.com
+.iad-03.braze.com
+.iad-04.braze.com
+.iad-05.braze.com
+.iad-06.braze.com
+.iad-07.braze.com
+.iad-08.braze.com
+.fra-01.braze.eu
+.fra-02.braze.eu
+.cdn.braze.eu
 
 ## branch
 api2.branch.io
@@ -3642,7 +3664,6 @@ counter*.sextracker.be
 .fota5s.adups.cn
 .appswitch.adups.cn
 .fota5.adups.cn
-.newspush.sinajs.cn
 .adsclick.yx.js.cn
 .rtb-useast.superads.cn
 .cpm.superads.cn
