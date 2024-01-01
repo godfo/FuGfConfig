@@ -231,9 +231,6 @@ collect.moomoo.com
 shortsgp.im.qcloud.com
 update.moomoo.com
 
-## apple
-api-adservices.apple.com
-
 ## zhihu
 imagex-settings.volcimagex.net
 appcloud.zhihu.com
@@ -293,7 +290,7 @@ click.baijiayun.com
 conf.lebo.cn
 192.168.124.6
 data-dre.push.dbankcloud.com
-wgo.mmstat.com
+
 test.hpplay.cn
 vipimdns.hpplay.cn
 zeus.csslcloud.net
@@ -2291,10 +2288,6 @@ codepush.appcenter.ms
 .stats.abbi.io
 .rtapi.abbi.io
 .sdk.api.qgraph.io
-.branch.io
-.cdn.branch.io
-.vulcan.branch.io
-.api.branch.io
 .api-gdpr.voodoo-tech.io
 .extremereach.io
 .vast.extremereach.io
@@ -2529,9 +2522,7 @@ codepush.appcenter.ms
 .folder.adfuture.cn
 .fotacontrol.adfuture.cn
 .rebootv5.adfuture.cn
-.applogios.uc.cn
-.gjapplog.uc.cn
-.mparticle.uc.cn
+.uc.cn
 .advmob.cn
 .folder.advmob.cn
 .fota.advmob.cn
@@ -3343,26 +3334,6 @@ codepush.appcenter.ms
 .optimized-by-1.rubiconproject.com
 .casmp.adperfect.com
 .track.mobile-bt.com
-.dz.mmstat.com
-.yt.mmstat.com
-.ws.mmstat.com
-.res.mmstat.com
-.gds.mmstat.com
-.gm.gds.mmstat.com
-.gj.gds.mmstat.com
-.log.gds.mmstat.com
-.wgo.mmstat.com
-.go.mmstat.com
-.gj.mmstat.com
-.sg.mmstat.com
-.perf.mmstat.com
-.oneid.mmstat.com
-.hd.mmstat.com
-.gcd.mmstat.com
-.ac.mmstat.com
-.gxb.mmstat.com
-.yt1.mmstat.com
-.gdsns1.mmstat.com
 .moat.com
 .panel.moat.com
 .hook.integromat.com
@@ -4082,12 +4053,7 @@ codepush.appcenter.ms
 .ww3050.smartadserver.com
 .oclaserver.com
 .realclever.com
-.ads.twitter.com
-.analytics.twitter.com
-.ads-api.twitter.com
-.ads-bidder-api.twitter.com
-.ads-twitter.com
-.static.ads-twitter.com
+
 .p102-clb.allstarcluster.com
 .app.optinmonster.com
 .api.optinmonster.com
@@ -6195,9 +6161,6 @@ codepush.appcenter.ms
 .revid.centech.glulive.com
 .prd1.revid.centech.glulive.com
 .sb.voicefive.com
-.adtrue.com
-.cdn.adtrue.com
-.exchange.adtrue.com
 .visualrevenue.com
 .sstats.teenvogue.com
 .ad.jorte.com
@@ -7918,3 +7881,8 @@ brssp.ibreader.com
 162.14.19.114/32
 20000170l4s.my-imcloud.com
 collect.moomoo.com
+lf1-cdn-tos.bytegoofy.com
+.afcdn.net
+.trackwilltrk.com
+.a.magsrv.com
+.s.magsrv.com

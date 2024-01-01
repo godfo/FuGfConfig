@@ -12,6 +12,7 @@
 # https://github.com/ftpmorph/ftprivacy
 # https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
 # https://github.com/StevenBlack/hosts
+# https://github.com/bigdargon/hostsVN/blob/1e3fcd9dd21db43a5cdc48441450aac2b4620b09/source/hosts-group.txt#L11471
 
 ## 对于小厂 DNS 封杀，以防
 .opendns.com
@@ -514,11 +515,29 @@ log-v6.mmstat.com.gds.alibabadns.com
 loggw.alipay.com
 loggw-ex.alipay.com
 agoo-report.m.taobao.com
-gm.mmstat.com
-d-gm.mmstat.com
-s-gm.mmstat.com
+.gm.mmstat.com
+.d-gm.mmstat.com
+.s-gm.mmstat.com
 .log.mmstat.com
-cnzz.mmstat.com
+.cnzz.mmstat.com
+.wgo.mmstat.com
+.dz.mmstat.com
+.yt.mmstat.com
+.ws.mmstat.com
+.res.mmstat.com
+.gds.mmstat.com
+.wgo.mmstat.com
+.go.mmstat.com
+.gj.mmstat.com
+.sg.mmstat.com
+.perf.mmstat.com
+.oneid.mmstat.com
+.hd.mmstat.com
+.gcd.mmstat.com
+.ac.mmstat.com
+.gxb.mmstat.com
+.yt1.mmstat.com
+.gdsns1.mmstat.com
 .applog.uc.cn
 tui.taobao.com
 .fourier.taobao.com
@@ -748,6 +767,9 @@ adsz.wagbridge.tanx.alimama.com.gds.alibabadns.com
 .ads.uc.cn
 .applog.ucdns.uc.cn
 .applog-perf.uc.cn
+.applogios.uc.cn
+.gjapplog.uc.cn
+.mparticle.uc.cn
 .wvcfg.alicdn.com
 .px.ucweb.com
 zconfig.alibabausercontent.com.w.cdngslb.com
@@ -1010,7 +1032,7 @@ f2.market.xiaomi.com
 f3.market.xiaomi.com
 f4.market.xiaomi.com
 f5.market.xiaomi.com
-ad.doubleclick.net
+.doubleclick.net
 v.admaster.com.cn
 f1.market.mi-img.com
 f2.market.mi-img.com
@@ -1651,16 +1673,20 @@ log.ergeduoduo.com
 .2345.com
 .2345.cn
 
+
 ## 慢慢买
 applog.manmanbuy.com
+
 
 ## 高德地图
 dualstack-logs.amap.com
 .logs.amap.com
 .cgicol.amap.com
 
+
 ## 各种银行
 log.cmbchina.com
+
 
 ## 移动认证
 .log*.cmpassport.com
@@ -1668,8 +1694,10 @@ log.cmbchina.com
 .log2.cmpassport.com
 .log1.cmpassport.com
 
+
 ## 彩云
 .ad.caiyunapp.com
+
 
 ## baidu 百度
 .httpsdns.baidu.com
@@ -1943,10 +1971,11 @@ col.eum-appdynamics.com
 
 ## apple
 .iadsdk.apple.com
-metrics.apple.com
-metrics.icloud.com
-
-
+.metrics.apple.com
+.metrics.icloud.com
+.advertising.apple.com
+.api-adservices.apple.com
+.securemetrics.apple.com
 
 ## 微软 Microsoft
 ## 主要来自 https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt ，在此表示感谢
@@ -1960,7 +1989,7 @@ metrics.icloud.com
 .preview.msn.com
 .rad.live.com
 c.*.msn.com
-.0.r.msn.com
+.r.msn.com
 .ads.eu.msn.com
 .ads2.msn.com
 .adsyndication.msn.com
@@ -2128,6 +2157,14 @@ bn3sch020010558.wns.windows.com
 bn2wns1.wns.windows.com
 hk2sch130021334.wns.windows.com
 bn4sch101120814.wns.windows.com
+.target.microsoft.com
+.reports.wes.df.telemetry.microsoft.com
+.responses.df.telemetry.microsoft.com
+.bingads.microsoft.com
+.analytics.live.com
+.measure.office.com
+.ads.bing.com
+.adserver.bing.com
 
 ## Facebook
 graph.facebook.com
@@ -2140,9 +2177,45 @@ firebaselogging-pa.googleapis.com
 .googleadservices.com
 www-google-analytics.l.google.com
 ssl-google-analytics.l.google.com
-adservice.google.com
+.adservice.google.com
+.googlesyndication.com
 .pagead2.googlesyndication.com
 crashlyticsreports-pa.googleapis.com
+
+## amazon
+.aan.amazon.com
+.aax-us-east-retail-direct.amazon.com
+.advertising-api-eu.amazon.com
+.fls-na.amazon.com
+.rcm-images.amazon.com
+.rcm.amazon.com
+.uedata.amazon.com
+.device-metrics-us-2.amazon.com
+.device-metrics-us.amazon.com
+.assoc-amazon.com
+.amazon-adsystem.amazon.com
+.amazon-adsystem.com
+.amazon-adsystems.com
+.analytics.s3.amazonaws.com
+.analyticsengine.s3.amazonaws.com
+.advice-ads.s3.amazonaws.com
+
+## yahoo
+.adserver.yahoo.com
+.analytics.yahoo.com
+.ads.yahoo.com
+.advertising.yahoo.com
+
+## twitter
+.ads-twitter.com
+.static.ads-twitter.com
+.syndication.twitter.com
+.ads.twitter.com
+.analytics.twitter.com
+.ads-api.twitter.com
+.ads-bidder-api.twitter.com
+.ads-twitter.com
+.static.ads-twitter.com
 
 ## crashlytics
 settings.crashlytics.com
@@ -2232,8 +2305,6 @@ analytics.95516.com
 # 存疑
 tysdk.95516.com
 
-## 银行
-
 ## ccb jiansheyinhang
 .imageadv.ccb.com
 .adv.ccb.com
@@ -2250,8 +2321,8 @@ image.mybank.icbc.com.cn
 iisp.mbs.boc.cn
 
 ## boc
-iisp-oidea.mbs.boc.cn
-iisp.mbs.boc.cn
+; iisp-oidea.mbs.boc.cn
+; iisp.mbs.boc.cn
 watcher.boc.cn
 mbs.boc.cn
 
@@ -2415,7 +2486,6 @@ ulogs2.gifshow.com
 .gdfp.gifshow.com
 
 
-
 ## Oracle
 tms.oracle.com
 
@@ -2505,6 +2575,33 @@ preferences-mgr.truste.com
 
 ## 其他推送平台
 
+## adtrue
+.exchange.adtrue.com
+.cdn.adtrue.com
+.track.adtrue.com
+.publishers.adtrue.com
+
+## amung
+.assets.amung.us
+.graphs.amung.us
+.whos.amung.us
+.maps.amung.us
+.widgets.amung.us
+
+
+## persona
+.sdk.persona.ly
+.dsp.persona.ly
+.dev-api.persona.ly
+.dev.persona.ly
+
+## trackjs
+.capture.trackjs.com
+.cdn.trackjs.com
+.my.trackjs.com
+.usage.trackjs.com
+
+
 ## 数美
 # https://help.ishumei.com
 fp-*it*.fengkongcloud.com
@@ -2567,6 +2664,25 @@ ac*.*cloud.net.cn
 .s1.cloud.net.cn
 .ac1.dcloud.net.cn
 .ac1.cloud.net.cn
+
+
+## juicyads
+.ads.juicyads.com
+.ads-a.juicyads.com
+.adserver.juicyads.com
+.adserver-a.juicyads.com
+.adserver-b.juicyads.com
+.api.juicyads.com
+.ck.juicyads.com
+.js.juicyads.com
+.manage.juicyads.com
+.mobile.juicyads.com
+.px.juicyads.com
+.redir.juicyads.com
+.secure.juicyads.com
+.static.juicyads.com
+.stats.juicyads.com
+.xapi.juicyads.com
 
 
 ## 极光推送
@@ -2654,7 +2770,6 @@ api.applink.mob.com
 .testad.hot-mob.com
 
 
-
 ## 基调听云
 # https://doc.tingyun.com/index.html
 # 听云小程序
@@ -2732,7 +2847,7 @@ vivomaa.chinanetcenter.com
 .pslog.umeng.com
 .sss.umeng.com
 .au.umeng.co
-
+.api.umeng.com
 
 ## AppsFlyer
 .launches.appsflyer.com
@@ -2842,7 +2957,59 @@ sdk-api-v1.singular.net
 .cdn.braze.eu
 
 ## branch
-api2.branch.io
+.api.branch.io
+.api.branch.io
+.api2.branch.io
+.branch.io
+.cdn.branch.io
+.gdpr.branch.io
+.go.branch.io
+.growth.branch.io
+.start.branch.io
+.video.branch.io
+.vulcan.branch.io
+.vulcan2.branch.io
+.vulcan3.branch.io
+.www.branch.io
+
+
+## adspruce
+.ani.adspruce.com
+.api3.adspruce.com
+.assets.adspruce.com
+.cdn-assets.adspruce.com
+.cdn-vast.adspruce.com
+.cdn-video.adspruce.com
+.clients.adspruce.com
+.info.adspruce.com
+.publishers.adspruce.com
+.queue.adspruce.com
+.sdk.adspruce.com
+.serve.adspruce.com
+.sync.adspruce.com
+.track.adspruce.com
+.vast.adspruce.com
+.video.adspruce.com
+.vod.adspruce.com
+
+## taplytics
+.academy.taplytics.com
+.api.taplytics.com
+.cdn.taplytics.com
+.cdn-config.taplytics.com
+.dev.taplytics.com
+.info.taplytics.com
+.js.taplytics.com
+.labs.taplytics.com
+.media.taplytics.com
+.metabase.taplytics.com
+.ping.taplytics.com
+.socketio.taplytics.com
+.socketio-dev.taplytics.com
+.socketio-staging.taplytics.com
+.staging.taplytics.com
+.switch.taplytics.com
+.wpengine.taplytics.com
 
 
 ## adjust
@@ -3718,7 +3885,6 @@ ad.kissasian.nz
 .sdkoptedge.chinanetcenter.com
 .report.binance.im
 .jpush.binance.im
-.googleads.g.doubleclick.net
 apple-finance.query.yahoo.com
 
 api.v1.dailypad.cn
@@ -3950,10 +4116,9 @@ ad.parkvv.com
 .st.stripcdn.com
 .go.xlivesex.com
 .go.xhamsterlive.com
-.syndication.twitter.com
+
 .xhamsterpremium.com
 .shift.is.autonavi.com
-.g.doubleclick.net
 .amazon-adsystem.com
 .xlirdr.com
 video.ktkjmp.com
