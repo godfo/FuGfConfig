@@ -7886,9 +7886,11 @@ lf1-cdn-tos.bytegoofy.com
 .trackwilltrk.com
 .a.magsrv.com
 .s.magsrv.com
+.creative.xlivrdr.com
 .analytics.yicai.com
 .ad.yicai.com
 luckbagstock.hwwt8.com
 trackingprd.hwwt8.com
 dataservice.alipayobjects.com
 bs2.yumchina.com
+.appcashier.kfc.com.cn

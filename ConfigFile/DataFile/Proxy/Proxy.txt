@@ -1,37 +1,5 @@
 # 此规则存放对代理 IP 频繁变化不敏感的需要走代理的服务
 
-## Github
-.atom.io
-.dependabot.com
-.ghcr.io
-.git.io
-.github-atom-io-herokuapp-com.freetls.fastly.net
-.github-avatars.oss-cn-hongkong.aliyuncs.com
-.github-cloud.s3.amazonaws.com
-.github.blog
-.github.com
-.github.community
-.github.dev
-.github.io
-.githubapp.com
-.githubassets.com
-.githubhackathon.com
-.githubpreview.dev
-.githubstatus.com
-.githubuniverse.com
-.githubusercontent.com
-.myoctocat.com
-.npm.community
-.npmjs.com
-.npmjs.org
-.opensource.guide
-.rawgit.com
-.rawgithub.com
-.thegithubshop.com
-.gitbook.com
-.gitbook.io
-.gitbook.zendesk.com
-.exp-tas.com
 
 ## vscode
 .vscode-unpkg.net
@@ -45,19 +13,6 @@
 ## vscodium
 vscodium.now.sh
 .vscodium.com
-
-## Gitlab
-.gitlab-static.net
-.gitlab.com
-.gitlab.io
-.gitlab.net
-.gitlab-assets.oss-cn-hongkong.aliyuncs.com
-.gitter-static.net
-.gitter.im
-
-## docker
-.docker.io
-.docker.com
 
 ## code docs
 .vuejs.org
@@ -320,7 +275,6 @@ calibre-ebook.com
 .arc.net
 .deepl.com
 .edu.tw
-.huggingface.co
 .prodkeys.net
 .eggnsemulator.com
 .tii.la

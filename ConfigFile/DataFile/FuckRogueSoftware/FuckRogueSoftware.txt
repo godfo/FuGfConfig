@@ -1541,7 +1541,6 @@ az.appstore.vivo.com.cn
 .log-upload-eur.mihoyo.com
 .hkrpg-log-upload.mihoyo.com
 .ys-log-upload.mihoyo.com
-.apm-log-upload.mihoyo.com
 .cnuspider.yuanshen.com
 .h5collector.mihoyo.com
 
@@ -2310,7 +2309,6 @@ tysdk.95516.com
 .adv.ccb.com
 
 ## icbc
-pageviewp.icbc.com.cn
 devreaf.icbc.com.cn
 mobileapm.icbc.com.cn
 oisc.icbc.com.cn
@@ -2321,8 +2319,6 @@ image.mybank.icbc.com.cn
 iisp.mbs.boc.cn
 
 ## boc
-; iisp-oidea.mbs.boc.cn
-; iisp.mbs.boc.cn
 watcher.boc.cn
 mbs.boc.cn
 
