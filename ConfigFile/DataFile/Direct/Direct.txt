@@ -162,3 +162,5 @@ test-ipv6.com
 .cloudfront.net
 .liveperson.net
 .lpsnmedia.net
+.saxyit.com
+.eccdnx.com

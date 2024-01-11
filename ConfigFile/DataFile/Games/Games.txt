@@ -65,6 +65,14 @@ overseauspider.yuanshen.com
 ## gameloft
 .gameloft.com
 .wshtgame.com
+.steamstatic.com
+steammobile.akamaized.net
+steamcdn-a.akamaihd.net
+# 网宿(国际)
+steam.apac.qtlglb.com
+steam.eca.qtlglb.com
+steam.naeu.qtlglb.com
+steam.ru.qtlglb.com
 
 ## Others
 .fandom.com
