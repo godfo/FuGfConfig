@@ -5522,8 +5522,7 @@ codepush.appcenter.ms
 .bttrack.com
 .video.bttrack.com
 .api.bttrack.com
-.umtrack.com
-.at.umtrack.com
+
 .itm.ivitrack.com
 .matching.ivitrack.com
 .fizzylabs.afftrack.com
@@ -5798,7 +5797,7 @@ codepush.appcenter.ms
 .blueserving.com
 .images.perf-serving.com
 .ads.creative-serving.com
-.wrating.com
+
 .crispadvertising.com
 .dts.crispadvertising.com
 .api.crispadvertising.com
@@ -6151,7 +6150,6 @@ codepush.appcenter.ms
 .worker20.advertnative.com
 .cdn.indicative.com
 .api.indicative.com
-.ads.adthrive.com
 .logger.adthrive.com
 .track.adthrive.com
 .dev-track.adthrive.com
@@ -7852,7 +7850,7 @@ mobile-data.onetrust.io
 tidal-privacy.my.onetrust.com
 .sdk.yiigle.com
 metrics.icloud.com
-pcapp-data-collect.youku.com
+
 .videotool.ossgw.alicdn.com
 111.206.149.168
 et.tanx.com
@@ -7896,3 +7894,5 @@ bs2.yumchina.com
 .appcashier.kfc.com.cn
 .aqkkoalfpz.com
 .rxeosevsso.com
+# https://ynuf.aliapp.org/repEd.json?
+.ynuf.aliapp.org

@@ -515,6 +515,7 @@ log-v6.mmstat.com.gds.alibabadns.com
 loggw.alipay.com
 loggw-ex.alipay.com
 agoo-report.m.taobao.com
+.h-adashx.ut.taobao.com
 .gm.mmstat.com
 .d-gm.mmstat.com
 .s-gm.mmstat.com
@@ -1391,6 +1392,7 @@ passport-log.youku.com
 ad.api.mobile.youku.com
 guanggaoad.youku.com
 irs01.youku.com
+pcapp-data-collect.youku.com
 
 
 ## sohu.com
@@ -1677,6 +1679,12 @@ log.ergeduoduo.com
 applog.manmanbuy.com
 
 
+## 什么值得买
+.sentry-monitor-new.zdmimg.com
+.shence-import.smzdm.com
+.analytics-api.smzdm.com
+
+
 ## 高德地图
 dualstack-logs.amap.com
 .logs.amap.com
@@ -1946,6 +1954,9 @@ antivirus.baidu.com
 .analytics.facebook.com
 .platform.facebook.com
 
+## nvidia
+.events.gfe.nvidia.com
+
 ## we-stats
 us.v2.we-stats.com
 eu.v2.we-stats.com
@@ -1975,6 +1986,7 @@ col.eum-appdynamics.com
 .advertising.apple.com
 .api-adservices.apple.com
 .securemetrics.apple.com
+.xp.apple.com
 
 ## 微软 Microsoft
 ## 主要来自 https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt ，在此表示感谢
@@ -2726,6 +2738,10 @@ fcapi-ipv6.jpush.cn
 121.36.6.165
 139.9.141.89
 114.132.165.205
+.japps.cn
+.aurorapush.cn
+.aurorapush.com
+.pushcfg.com
 
 
 ## MobTech 袤博
@@ -2770,6 +2786,34 @@ api.applink.mob.com
 # https://doc.tingyun.com/index.html
 # 听云小程序
 .report.tingyun.com
+
+
+## talkingdata
+.cpatrk.net
+.lnk0.com
+.adnet.com
+.udrig.com
+.tendata.com
+.talkinggame.com
+.talkingnews.net
+.tendcloud.cn
+.xdrig.com
+.3edc.cn
+.jielou.net
+.appcpa.net
+.lnk8.cn
+.tddmp.com
+.mpush.cn
+.doudouknot.com
+.myzhongguojie.cn
+.talkingdata.com.cn
+.edutalkingdata.cn
+.edutalkingdata.com
+.api.talkingdata.com
+.h5.talkingdata.com
+.jic.talkingdata.com
+.sdk.talkingdata.com
+116.196.84.232
 
 
 ## 热云
@@ -2844,6 +2888,13 @@ vivomaa.chinanetcenter.com
 .sss.umeng.com
 .au.umeng.co
 .api.umeng.com
+.umtrack.com
+.umtrack0.com
+.umtrack1.com
+.umtrack2.com
+.umv0.com
+.umv5.com
+.wrating.com
 
 ## AppsFlyer
 .launches.appsflyer.com
@@ -3083,6 +3134,13 @@ dnms.getui.com
 .b-gtc.getui.com
 .cnaac.getui.com
 .d-gt.getui.com
+.geatmap.com
+.applk.cn
+.cooltui.com
+.geindex.com
+.igehuo.com
+.igetui.com
+.igexin.com
 
 
 ## 数字联盟
@@ -3092,7 +3150,6 @@ dnms.getui.com
 .iudd.shuzilm.cn
 .ipv4.shuzilm.cn
 .ipv6.shuzilm.cn
-.www.shuzilm.cn
 .api.shuzilm.cn
 .daa.shuzilm.cn
 .ipi.shuzilm.cn
@@ -3109,6 +3166,13 @@ dnms.getui.com
 .stream.shuzilm.cn
 .telecom.shuzilm.cn
 .unicom.shuzilm.cn
+.shuzilm.com
+.shuzhundsj.cn
+.cnadid.cn
+.cnadid.com
+.digitalunion.cn
+.kxid.cn
+.mobid.cn
 
 
 ## 数据收集，详见 https://tech.sina.com.cn/i/2019-03-25/doc-ihsxncvh5289363.shtml
@@ -3390,7 +3454,6 @@ log.cs.pp.cn
 patriot.cs.pp.cn
 huichuan.sm.cn
 u.ucfly.com
-cntv.wrating.com
 
 71.am
 msg.71.am
@@ -4112,10 +4175,9 @@ ad.parkvv.com
 .st.stripcdn.com
 .go.xlivesex.com
 .go.xhamsterlive.com
-
+.ads.adthrive.com
 .xhamsterpremium.com
 .shift.is.autonavi.com
-.amazon-adsystem.com
 .xlirdr.com
 video.ktkjmp.com
 .alphonso.tv
@@ -4124,3 +4186,4 @@ res.sentcss.com
 api-fd.dutils.com
 st-sentinel.vivo.com.cn
 .fp.hwwt8.com
+.pubsub02.oray.net
