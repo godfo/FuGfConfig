@@ -30,7 +30,7 @@ func main() {
 	var ans []model.Pair
 
 	// names := []string{"ChinaASN"}
-	names := []string{"AI", "Bank", "Direct", "Cryptocurrency", "Telegram", "Proxy", "CodeTools", "Microsoft", "Tracker", "FuckGarbageFeature", "FuckRogueSoftware", "CnAppRule"}
+	names := []string{"AI", "Bank", "Direct", "Cryptocurrency", "Telegram", "Proxy", "CodeTools", "Microsoft", "Tracker", "FuckGarbageFeature", "FuckRogueSoftware", "CnAppRule", "Games"}
 	for _, name := range names {
 		//  清空残留的数据
 		base, inbox, inboxResult = []string{}, []string{}, []string{}
@@ -63,9 +63,9 @@ func main() {
 		}
 
 		if name == "CnAppRule" {
-			data:=util.ReadFile("../ConfigFile/DataFile/CnAppRule/CnAppRule.txt")
-			util.QuantumultXMITMWriteFile(data ,"../ConfigFile/QuantumultX/RewriteRemote/MITM.conf")
-			util.LoonMITMWriteFile(data ,"../ConfigFile/Loon/LoonPlugin/MITM.plugin")
+			data := util.ReadFile("../ConfigFile/DataFile/CnAppRule/CnAppRule.txt")
+			util.QuantumultXMITMWriteFile(data, "../ConfigFile/QuantumultX/RewriteRemote/MITM.conf")
+			util.LoonMITMWriteFile(data, "../ConfigFile/Loon/LoonPlugin/MITM.plugin")
 		}
 
 		if len(inboxResult) != 0 {

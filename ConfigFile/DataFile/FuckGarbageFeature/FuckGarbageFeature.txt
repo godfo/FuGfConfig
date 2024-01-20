@@ -7896,3 +7896,4 @@ bs2.yumchina.com
 .rxeosevsso.com
 # https://ynuf.aliapp.org/repEd.json?
 .ynuf.aliapp.org
+.ads.servenobid.com
