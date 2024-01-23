@@ -7897,3 +7897,6 @@ bs2.yumchina.com
 # https://ynuf.aliapp.org/repEd.json?
 .ynuf.aliapp.org
 .ads.servenobid.com
+.shark-tracer.netease.com
+.api.youke.co
+.static.cdn.youke.co
