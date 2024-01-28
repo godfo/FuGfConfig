@@ -259,3 +259,5 @@ https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/main/ConfigFile/Loon
 [BlueSkyXN-AdGuardHomeRules](https://github.com/BlueSkyXN/AdGuardHomeRules)
 
 [WindowsSpyBlocker](https://github.com/crazy-max/WindowsSpyBlocker)
+
+[hoshsadiq/adblock-nocoin-list](https://github.com/hoshsadiq/adblock-nocoin-list/)
