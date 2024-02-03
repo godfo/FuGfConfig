@@ -1,0 +1,14 @@
+! 本规则适用于 AdGuard
+! update: 2024-02-03
+
+! bilibili
+t.bilibili.com##.bili-dyn-ads
+t.bilibili.com##.bili-dyn-version-control
+t.bilibili.com##.download-client-trigger
+bilibili.com##.ad-report
+bilibili.com##.download-client-trigger
+
+! csdn
+blog.csdn.net###asideWriteGuide
+blog.csdn.net###csdn-toolbar
+blog.csdn.net##.csdn-side-toolbar

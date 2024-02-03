@@ -33,7 +33,6 @@
 .gitbook.zendesk.com
 .exp-tas.com
 
-
 ## Gitlab
 .gitlab-static.net
 .gitlab.com
@@ -95,3 +94,7 @@
 .pypi.org
 .pythonhosted.org
 .python.org
+
+## other
+.orbstack.dev
+.remix.run

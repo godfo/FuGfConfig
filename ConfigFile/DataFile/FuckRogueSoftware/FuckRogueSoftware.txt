@@ -2842,6 +2842,8 @@ vivomaa.chinanetcenter.com
 .onepass.geetest.com
 .static.geetest.com
 .onelogin.geetest.com
+.log.geetest.com
+monitor.geetest.com
 
 
 ## 神策数据分析
@@ -4030,7 +4032,6 @@ ad.cyapi.cn
 .log.flight.qunar.com
 .log.g-enews.com
 .log.game.qcplay.com
-.log.geetest.com
 .log.genyt.net
 .log.giacngo.vn
 .log.giaoduc.net.vn
@@ -4603,3 +4604,5 @@ api-fd.dutils.com
 st-sentinel.vivo.com.cn
 .fp.hwwt8.com
 .pubsub02.oray.net
+.tracking.mcdonalds.com.cn
+.c.mcd.cn
