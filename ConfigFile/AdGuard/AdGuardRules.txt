@@ -4,11 +4,18 @@
 ! bilibili
 t.bilibili.com##.bili-dyn-ads
 t.bilibili.com##.bili-dyn-version-control
-t.bilibili.com##.download-client-trigger
-bilibili.com##.ad-report
-bilibili.com##.download-client-trigger
+*.bilibili.com##.download-client-trigger
+*.bilibili.com##.ad-report
+! bilibili.com##.download-client-trigger
 
 ! csdn
 blog.csdn.net###asideWriteGuide
 blog.csdn.net###csdn-toolbar
 blog.csdn.net##.csdn-side-toolbar
+
+! zhihu
+*.zhihu.com##.css-1wq6v87
+zhihu.com##.css-1q7njkh
+*.zhihu.com##.Modal-wrapper
+! zhuanlan.zhihu.com##.css-1wq6v87
+! zhuanlan.zhihu.com##.Modal-wrapper
