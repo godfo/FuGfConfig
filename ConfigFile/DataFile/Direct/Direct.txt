@@ -164,3 +164,4 @@ test-ipv6.com
 .lpsnmedia.net
 .saxyit.com
 .eccdnx.com
+.123pan.com

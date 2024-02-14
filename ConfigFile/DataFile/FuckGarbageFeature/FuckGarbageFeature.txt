@@ -7900,3 +7900,5 @@ bs2.yumchina.com
 .shark-tracer.netease.com
 .api.youke.co
 .static.cdn.youke.co
+.tongdun.net
+.enennsb.gushiwen.cn

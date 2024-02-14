@@ -239,6 +239,11 @@ onedrive.live.com
 .ubnt.com
 .ui.direct
 
+## resilio
+54.192.18.123
+31.13.67.41
+.resilio.com
+
 ## 存疑
 .vscode-sync.trafficmanager.net
 .monitor.firefox.com
@@ -287,3 +292,4 @@ calibre-ebook.com
 .hlj.fun
 .authy.com
 .feedburner.com
+.torproject.org
