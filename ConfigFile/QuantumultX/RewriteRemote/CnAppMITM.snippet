@@ -25,7 +25,7 @@
 ^https?:\/\/rmonitor\.qq\.com/appconfig.*$ url reject
 
 ## alibaba
-# live-spare.alicdn.com, alive-interact.alicdn.com, livemsgconnect.taobao.com, videotool.ossgw.alicdn.com, fe.m.taobao.com, loggw-ex.alipay.com, datagw-edge.alipay.com, loggw.alipay.com.cn, amdc-sibling.alipay.com.cn, amdc.alipay.com, live-spare.alicdn.com, gw.alipayobjects.com, umdc.alibabachengdun.net, acs.m.taobao.com, impaas.alicdn.com, mum.alibabachengdun.net, log.mmstat.com, amdc.m.taobao.com, audid-api.taobao.com, h-adashx.ut.hzshudian.com, wgo.mmstat.com, market.m.taobao.com, g.alicdn.com, guide-acs.m.taobao.com, entpsz.alipay.com
+# live-spare.alicdn.com, alive-interact.alicdn.com, livemsgconnect.taobao.com, videotool.ossgw.alicdn.com, fe.m.taobao.com, loggw-ex.alipay.com, datagw-edge.alipay.com, loggw.alipay.com.cn, amdc-sibling.alipay.com.cn, amdc.alipay.com, live-spare.alicdn.com, gw.alipayobjects.com, umdc.alibabachengdun.net, acs.m.taobao.com, impaas.alicdn.com, mum.alibabachengdun.net, log.mmstat.com, amdc.m.taobao.com, audid-api.taobao.com, h-adashx.ut.hzshudian.com, wgo.mmstat.com, market.m.taobao.com, guide-acs.m.taobao.com, entpsz.alipay.com
 # taobao
 ^https?:\/\/live-spare\.alicdn\.com/message.*$ url reject
 ^https?:\/\/alive-interact\.alicdn\.com/(livedetail|groupBuy)/common.*$ url reject
@@ -49,21 +49,21 @@
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv\/$ url reject
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.allresource$ url reject
 ^https?:\/\/mum\.alibabachengdun\.net/sg/data.json.*$ url reject
-^https?:\/\/mum\.alibabachengdun\.net/repEd.json.*$ url reject
 ^https?:\/\/log\.mmstat\.com/.*$ url reject
 ^https?:\/\/amdc\.m\.taobao\.com/amdc/mobileDispatch.*$ url reject
 ^https?:\/\/audid-api\.taobao\.com/v[\d.]+/i/audid/req.*$ url reject
 ^https?:\/\/h-adashx\.ut\.hzshudian\.com/upload.*$ url reject
 ^https?:\/\/wgo\.mmstat\.com/1688-CBU.FE.TRACKER.*$ url reject
 ^https?:\/\/market\.m\.taobao\.com/app/im/message-push-pop-v[\d.]+/logistic.*$ url reject
-^https?:\/\/g\.alicdn\.com/tb/tracker.*$ url reject
-^https?:\/\/g\.alicdn\.com/jstracker.*$ url reject
+# ^https?:\/\/g\.alicdn\.com/tb/tracker.*$ url reject
+# ^https?:\/\/g\.alicdn\.com/jstracker.*$ url reject
 # ^https?:\/\/g\.alicdn\.com/alilog.*$ url reject
-^https?:\/\/g\.alicdn\.com/code/npm/@ali/react-videox.*$ url reject
+# ^https?:\/\/g\.alicdn\.com/code/npm/@ali/react-videox.*$ url reject
 # https://atoken.m.taobao.com/api/updateZdata/v4
 ^https?:\/\/guide-acs\.m\.taobao\.com/gw/(mtop.tmall.fc.resource.popplayer.precheck|mtop.alibaba.tmall.app.ad.event.report|mtop.film.life.popup.report|mtop.film.mtoptinyvideoapi.reportplay).*$ url reject
 # zhifubao 存疑
 ^https?:\/\/entpsz\.alipay\.com/postToken.json.*$ url reject
+# ^https?:\/\/mum\.alibabachengdun\.net/repEd.json.*$ url reject
 
 # 阿里云盘
 # www.aliyundrive.com, ynuf.aliapp.org, api.alipan.com, member.aliyundrive.com
@@ -387,4 +387,4 @@
 
 
 # [MITM]
-hostname = %APPEND% d.url.cn,dl.url.cn,*.dldir1.qq.com, h5.qzone.qq.com, i.gtimg.cn, mp.weixin.qq.com, badjs.weixinbridge.com, rmonitor.qq.com, livemsgconnect.taobao.com, live-spare.alicdn.com, alive-interact.alicdn.com, videotool.ossgw.alicdn.com, fe.m.taobao.com, loggw-ex.alipay.com, datagw-edge.alipay.com, loggw.alipay.com.cn, amdc-sibling.alipay.com.cn, amdc.alipay.com, mdn.alipayobjects.com, live-spare.alicdn.com, gw.alipayobjects.com, umdc.alibabachengdun.net, acs.m.taobao.com, impaas.alicdn.com, mum.alibabachengdun.net, log.mmstat.com, amdc.m.taobao.com, audid-api.taobao.com, h-adashx.ut.hzshudian.com, wgo.mmstat.com, market.m.taobao.com, g.alicdn.com, guide-acs.m.taobao.com, entpsz.alipay.com, www.aliyundrive.com, ynuf.aliapp.org, api.alipan.com, member.aliyundrive.com, orange-dc.alibaba.com, mobilegw.alipay.com, vip.dingtalk.com, d.alicdn.com, api.m.jd.com, perf.m.jd.com, waapdg.jd.com, storage.360buyimg.com, jdpull.jd.com, aks.jdpay.com, ccflbs.m.jd.com, wlmonitor.m.jd.com, heracles.jd.com, api.bilibili.com, data.bilibili.com, skynet.bilivideo.com, app.bilibili.com, *.hdslb.com, api.live.bilibili.com, minor-api.mihoyo.com, bbs-api.miyoushe.com, ug-data.mihoyo.com, h5collector.mihoyo.com, public-data-api.mihoyo.com, apm-log-upload.mihoyo.com, abtest-api-data.mihoyo.com, sdk-common-api.mihoyo.com, sentry-inc.ssr.mihoyo.com, apm-api.mihoyo.com, api-mall.mihoyogift.com, cup.com.cn, *.meituan.net, *.meituan.com, *.dianping.com, api.zhihu.com, www.zhihu.com, zhuanlan.zhihu.com, static.zhihu.com, unpkg.zhimg.com, *.amap.com, mime.baidu.com, appwk.baidu.com, pan.baidu.com, api.douban.com, api.weibo.com, weibo.com, mobile.12306.cn, mum.hzchengdun.com, mum.hzchengdun.net, exservice.12306.cn, as.xiaohongshu.com, imageadv.ccb.com, dvfp.ftss.ccb.com, adv.ccb.com, intl-api.iq.com, pcw-api.iq.com, mesh.if.iqiyi.com, pcw-api.iqiyi.com, youku.com, play.google.com, dedog-server-sec.moomoo.com, sdauth.moomoo.com, api.moomoo.com, m.etax.chinatax.gov.cn, gdm.etax.chinatax.gov.cn, emas.etax.chinatax.gov.cn, aliorders.kfc.com.cn, abplatform.yumchina.com, *.music.163.com, scripts.mediavine.com, api.juejin.cn, w3-reporting.reddit.com, www.jianshu.com, a.magsrv.com, api.vvhan.com, icloudnative.io, htr4n1.laf.run, s.linear.app, apapia-sqk.manmanbuy.com, mypikpak.com, res.smzdm.com, c-ztuni.tec73.com
+hostname = %APPEND% d.url.cn,dl.url.cn,*.dldir1.qq.com, h5.qzone.qq.com, i.gtimg.cn, mp.weixin.qq.com, badjs.weixinbridge.com, rmonitor.qq.com, livemsgconnect.taobao.com, live-spare.alicdn.com, alive-interact.alicdn.com, videotool.ossgw.alicdn.com, fe.m.taobao.com, loggw-ex.alipay.com, datagw-edge.alipay.com, loggw.alipay.com.cn, amdc-sibling.alipay.com.cn, amdc.alipay.com, mdn.alipayobjects.com, live-spare.alicdn.com, gw.alipayobjects.com, umdc.alibabachengdun.net, acs.m.taobao.com, impaas.alicdn.com, mum.alibabachengdun.net, log.mmstat.com, amdc.m.taobao.com, audid-api.taobao.com, h-adashx.ut.hzshudian.com, wgo.mmstat.com, market.m.taobao.com, guide-acs.m.taobao.com, entpsz.alipay.com, www.aliyundrive.com, ynuf.aliapp.org, api.alipan.com, member.aliyundrive.com, orange-dc.alibaba.com, mobilegw.alipay.com, vip.dingtalk.com, d.alicdn.com, api.m.jd.com, perf.m.jd.com, waapdg.jd.com, storage.360buyimg.com, jdpull.jd.com, aks.jdpay.com, ccflbs.m.jd.com, wlmonitor.m.jd.com, heracles.jd.com, api.bilibili.com, data.bilibili.com, skynet.bilivideo.com, app.bilibili.com, *.hdslb.com, api.live.bilibili.com, minor-api.mihoyo.com, bbs-api.miyoushe.com, ug-data.mihoyo.com, h5collector.mihoyo.com, public-data-api.mihoyo.com, apm-log-upload.mihoyo.com, abtest-api-data.mihoyo.com, sdk-common-api.mihoyo.com, sentry-inc.ssr.mihoyo.com, apm-api.mihoyo.com, api-mall.mihoyogift.com, cup.com.cn, *.meituan.net, *.meituan.com, *.dianping.com, api.zhihu.com, www.zhihu.com, zhuanlan.zhihu.com, static.zhihu.com, unpkg.zhimg.com, *.amap.com, mime.baidu.com, appwk.baidu.com, pan.baidu.com, api.douban.com, api.weibo.com, weibo.com, mobile.12306.cn, mum.hzchengdun.com, mum.hzchengdun.net, exservice.12306.cn, as.xiaohongshu.com, imageadv.ccb.com, dvfp.ftss.ccb.com, adv.ccb.com, intl-api.iq.com, pcw-api.iq.com, mesh.if.iqiyi.com, pcw-api.iqiyi.com, youku.com, play.google.com, dedog-server-sec.moomoo.com, sdauth.moomoo.com, api.moomoo.com, m.etax.chinatax.gov.cn, gdm.etax.chinatax.gov.cn, emas.etax.chinatax.gov.cn, aliorders.kfc.com.cn, abplatform.yumchina.com, *.music.163.com, scripts.mediavine.com, api.juejin.cn, w3-reporting.reddit.com, www.jianshu.com, a.magsrv.com, api.vvhan.com, icloudnative.io, htr4n1.laf.run, s.linear.app, apapia-sqk.manmanbuy.com, mypikpak.com, res.smzdm.com, c-ztuni.tec73.com

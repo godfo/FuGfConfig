@@ -93,3 +93,4 @@
 ## other
 .orbstack.dev
 .remix.run
+.wireshark.org

@@ -7902,3 +7902,4 @@ bs2.yumchina.com
 .static.cdn.youke.co
 .tongdun.net
 .enennsb.gushiwen.cn
+.ads.cup.com.cn
