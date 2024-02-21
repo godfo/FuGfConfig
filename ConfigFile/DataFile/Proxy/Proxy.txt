@@ -293,3 +293,6 @@ calibre-ebook.com
 .authy.com
 .feedburner.com
 .torproject.org
+.apkpure.com
+.apkpure.net
+.cdnpure.com

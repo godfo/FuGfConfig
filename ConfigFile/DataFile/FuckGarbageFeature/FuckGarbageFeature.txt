@@ -7903,3 +7903,5 @@ bs2.yumchina.com
 .tongdun.net
 .enennsb.gushiwen.cn
 .ads.cup.com.cn
+.inkiwike.com
+.tapi.pureapk.com

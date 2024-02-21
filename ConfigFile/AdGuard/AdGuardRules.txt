@@ -28,3 +28,21 @@ zhuanlan.zhihu.com##.Modal-wrapper
 post.smzdm.com##.side-stuff
 post.smzdm.com##.z-stuff-bar
 post.smzdm.com##.z-stuff-bar-footer
+
+! 51cto
+blog.51cto.com##.ac-box
+blog.51cto.com##.minmenu
+blog.51cto.com##.creative
+blog.51cto.com##.commonhide
+blog.51cto.com##.action-aside-left
+
+! apkpure.net
+apkpure.net##.ad-adsense
+apkpure.net##.ad-box
+apkpure.net##.debut-game
+apkpure.net##.share-fixed
+
+! other
+tool.oschina.net##.ad-wrap
+juejin.cn##.wechat-ad
+www.jianshu.com##._3Pnjry
